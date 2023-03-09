@@ -1,0 +1,164 @@
+project:
+  type: website
+  preview:
+    port: 7633
+    browser: true
+
+website:
+  site-url: http://dfolio.free.fr
+  title: "dfolio(at)free"
+  description: "dfolio@free' personal website"
+  favicon: favicon.svg
+
+  cookie-consent:
+    style: simple
+    type: implied
+    palette: dark
+  google-analytics:
+    tracking-id: 'G-P49B92C60B'
+    version: 4
+    anonymize-ip: true
+
+  open-graph:
+    locale: en_US
+    site-name: "dfolio(at)free"
+
+  reader-mode: true
+  page-navigation: true
+
+  page-footer:
+    left:
+      - aria-label: copyright
+        text: '&copy; 2004&ndash;2023, <i class="bi bi-at" role="img" aria-label="copyright"></i> Folio David. '
+      - aria-label: license
+        text: |
+          Except where otherwise noted, all text and images licensed
+          <a rel="license" class="url" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International (CC BY 4.0)"><i class="fab fa-creative-commons" aria-hidden="true"></i> BY 4.0</a>.
+    center:
+      - aria-label: "Dfolio GitHub Page"
+        icon: github
+        href:  https://dfolio.github.io
+      - aria-label: "Orcid"
+        text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0001-9430-6091
+      - aria-label: "clarivate (webofscience)"
+        text: "{{< ai clarivate >}}"
+        href: https://www.webofscience.com/wos/author/record/D-5808-2013
+      - aria-label: "Scopus"
+        text: "{{< ai scopus >}}"
+        href: https://www.scopus.com/authid/detail.uri?authorId=15924858900
+      - aria-label: "Google Scholar"
+        text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.fr/citations?user=XQVc6JMAAAAJ
+      - aria-label: "Academia"
+        text: "{{< ai academia >}}"
+        href: https://insa-centrevaldeloire.academia.edu/DavidFolio
+      - aria-label: "ResearchGate"
+        text: "{{< ai researchgate >}}"
+        href: https://www.researchgate.net/profile/David_Folio
+      - aria-label: "LinkedIn"
+        icon: linkedin
+        href: https://www.linkedin.com/in/david-folio/
+      - aria-label: "Viadeo"
+        icon: link-45deg
+        href: https://viadeo.com/fr/profile/david.folio
+      - aria-label: "HAL"
+        text: "{{< ai open-access >}}"
+        href: https://hal.archives-ouvertes.fr/aut/David+Folio/
+      - aria-label: "Website"
+        icon: link-45deg
+        href:  http://dfolio.free.fr
+
+  navbar:
+    logo: favicon.webp
+    logo-alt: "dfolio(at)free logo"
+    left:
+      - about.qmd
+      #- sidebar:teaching
+      - text: "Teaching"
+        href: /teaching/
+      #- sidebar:research
+      - text: "Research"
+        href: /research/
+      - text: "References"
+        href: /research/references/
+  sidebar:
+    - id: teaching
+      #collapse-level: 1
+      title: "Teaching"
+      style: "docked"
+      #style: "floating"
+      contents:
+        - /teaching/
+        - text: "L'option SFEN"
+          href: /teaching/SFEN/
+        - text: "Électronique Analogique"
+          href: /teaching/ELAN/
+        - text: "Composants Électroniques"
+          href: /teaching/composants-electroniques/
+        - text: "Electricité-Électrotechnique"
+          href: /teaching/genie-electrique/
+        - text: "Signaux et Systemes"
+          href: /teaching/signaux-systemes/
+        - text: "Diagnostic des systèmes industriels"
+          href: /teaching/diagnostic-systemes/
+        - text: "Advanced Robotic"
+          href: /teaching/advanced-robotic/
+
+    - id: research
+      title: "Research"
+      collapse-level: 2
+      align: left
+      contents:
+        - research/index.qmd
+        - text: "Thesis"
+          href: /research/thesis/
+        - text: "HDR"
+          href: /research/hdr/
+        - text: "Supervisions"
+          href: /research/supervisions/
+        - section: "Projects"
+          contents:
+          - text: "Overview"
+            href: /research/projects/
+          - text: BUBBLEBOT
+            href: /research/projects/bubblebot/
+          - text: MTG
+            href: /research/projects/MTG/
+
+        - section: "Microrobotics"
+          contents:
+          - text: "Overview"
+            href: /research/microrobotics/
+          - text: "Biomedical applications"
+            href: /research/microrobotics/biomedical/
+
+        - text: "References"
+          href: /research/references/
+
+format:
+  html:
+#    author: "David FOLIO"
+    theme:
+      light: [cerulean, theme.scss]
+      dark: [theme-dark.scss]
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    citations-hover: true
+    link-citations: true
+    link-external-newwindow: true
+    footnotes-hover: true
+    reference-location: document
+    strip-comments: true
+    grid:
+      sidebar-width: 500px
+      grid-body-width: 900px
+
+page-layout: full
+bibliography: [research/references.bib]
+csl: research/Thesis-ieee-style.csl
+
+freeze: auto
+

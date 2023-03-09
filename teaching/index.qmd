@@ -1,0 +1,70 @@
+---
+dateCreated: 2018-03-27 16:56:05.1522162565 +0200
+#aliases: 
+#  - /teaching/
+lang: en
+title: Teaching activities
+keywords: [dfolio, teach, activities]
+description: >
+  As senior lecturer, my overall teaching activities is solely related with the
+  61st  CNU section. I am mainly involved in the development of electronics and
+  electrical sciences teaching activities of the INSA Centre Val de Loire.
+image: /images/logo-teach.svg 
+toc: false
+anchor-sections: false
+---
+
+My overall teaching activities have been solely related with the 61^st^
+CNU[^1] section which regroups scientific disciplines from control,
+computer engineering and signal processing. I taught these teaching,
+first, as a temporary teacher (3 years, 2003-2006), teaching assistant
+(ATER, 1 year, 2007), and then as associate professor (10 years).
+
+[^1]: The National Council of Universities, that is from French
+    "[Conseil national des universités]{.fr lang="fr"}" (CNU),
+    comprises 57 sections covering different scientific disciplines.
+    <http://www.cpcnu.fr>
+
+Since 2008, as member of the teaching team on the campus in Bourges of
+the INSA [Centre Val de Loire]{.fr lang="fr"}, I am mainly involved in
+the students formation of the Industrial Risk Control[^2] (MRI), of the
+Energy, Risk and the Environment[^3] (ERE), and of the Sciences and
+Techniques for Engineers[^4] (STPI) departments. Specifically, after
+having started with teaching of electronics and electrical engineering,
+I have participated or organized lessons on signal processing, sensors,
+control and robotics. These various teaching experiences imply very
+different pedagogical tasks. Especially, those tasks are depending on
+the type of intervention: courses (C), tutorials (TD), practical works
+(TP), tutored projects (P), long-term project team work (BE); but also
+according to the different degrees of scientific maturity and
+specialization of the concerned students, from bachelor's to master's
+degrees level. In particular, I am especially involved in the
+implementation of the teachings materials, and to support the teaching
+assistants for the disciplines for which I am in charge.
+
+[^2]: From French "[Maîtrise des Risques Industriels]{.fr
+    lang="fr"}" (MRI). The MRI speciality is defined by a systemic risk
+    approach (cindynics, or risk analysis).
+    <http://www.insa-centrevaldeloire.fr/en/training/industrial-risk-control>
+
+[^3]: Energy, Risk and the Environment (ERE) is a joint formation with
+    Cher Chamber of Commerce and Industry (CCI) Hubert Curien CFSA
+    (Apprentice Further Training Centre) in Bourges. The ERE department
+    trains engineers through apprenticeship training.
+    <http://www.insa-centrevaldeloire.fr/en/training/energy-risks-and%E2%88%92the-environment>
+
+[^4]: From French "[Science et Technique pour l'Ingénieur]{.fr
+    lang="fr"}" (STPI). The STPI department teaches a core syllabus for
+    the first two years so as to equip future engineering students with
+    the necessary fundamentals for continuing their studies.
+    <http://www.insa-centrevaldeloire.fr/en/training/engineering-science-and-technology>
+
+::: callout-note
+Notice that some parts of my site are available in both English and
+French. However, as my [teaching activities](/teaching/) are done only
+in French, the rest of this part of [dfolio(at)free](/)' website will be
+available mainly in French.
+
+If you want to get some translations of a not translated page
+[contact](/about/#contact) me to get further informations.
+:::

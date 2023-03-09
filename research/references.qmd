@@ -1,0 +1,139 @@
+---
+lang: en-US
+title: D. Folio References
+keywords: dfolio, bibliography, references, research, activities
+description: >
+  My research activities have led to scientific publications that are listed on
+  the references page.
+bibliography: dfolio.bib
+#biblio-style: authoryear
+csl: Thesis-ieee-style.csl
+aliases: 
+  - /research/references/
+link-external-icon: true
+---
+
+```{r}
+#| echo: false
+#| warning: false
+if(!require(RefManageR))
+  remotes::install_github("ropensci/RefManageR")
+
+RefManageR::BibOptions(check.entries = FALSE, style = "markdown", cite.style = "authoryear",
+           bib.style = "numeric")
+#Sys.setlocale(category = "LC_TIME", locale="en_US.UTF-8")
+bib <- RefManageR::ReadBib("dfolio.bib", .Encoding = "UTF-8", check = 'warn')
+bibACL<-bib[c(bibtype="Article",entrysubtype="!ACLN")]
+bibDO<-bib[entrysubtype="DO"]
+bibOS<-bib[entrysubtype="OS"]
+bibACT<-bib[bibtype="InProceedings"] 
+```
+ 
+My scientific activities have led to `r length(bib)` publications,
+including <a href="#ACL">`r length(bibACL)` articles</a> (ACL), 
+<a href="#DO">`r length(bibDO)` guest editorial</a> (DO), 
+<a href="#OS">`r length(bibOS)`  books chapter</a> (OS) and 
+<a href="#ACT">`r length(bibACT)` proceedings</a> (ACT).
+
+:::{.callout-tip}
+- The publications list here follows the Hcéres[^1] proposed nomenclature.
+- Two journal metrics are reported here: journal quartile (Qn) and impact factor (IF).
+:::
+
+[^1]: From French "*[Haut Conseil de l’évaluation de la recherche et de l'enseignement supérieur]{.fr lang="fr"}*" (Hcéres) which is the High Council for Evaluation of Research and Higher Education an independent administrative authority. <https://www.hceres.fr>
+
+Most of the documents below are also shared or listed on academic social networks and scholarly literature databases with the following profiles:
+
+- Orcid {{< ai orcid >}}: [0000-0001-9430-6091](https://orcid.org/0000-0001-9430-6091){rel="noopener noreferrer"}
+- Clarivate (webofscience) {{< ai clarivate >}}: [D-5808-2013](https://www.webofscience.com/wos/author/record/D-5808-2013){rel="noopener noreferrer"}
+     [    (replaces [Publons](https://publons.com/a/1136300/){rel="noopener noreferrer"} {{< ai publons >}} and 
+    [ResearcherId](https://www.researcherid.com/rid/D-5808-2013){rel="noopener noreferrer"} {{< ai researcherid >}})]{.text-right .text-muted .small}
+- Scopus {{< ai scopus >}}: <https://www.scopus.com/authid/detail.uri?authorId=15924858900>{rel="noopener noreferrer"}
+- Google Scholar {{< ai google-scholar >}}: <https://scholar.google.fr/citations?user=XQVc6JMAAAAJ>{rel="noopener noreferrer"}
+- Academia  {{< ai academia >}}: <https://insa-centrevaldeloire.academia.edu/DavidFolio>{rel="noopener noreferrer"}
+- ResearchGate  {{< ai researchgate >}}: <https://www.researchgate.net/profile/David_Folio>{rel="noopener noreferrer"}
+- LinkedIn {{< fa brands linkedin >}}: <https://www.linkedin.com/in/david-folio/>{rel="noopener noreferrer"}
+- [HAL] {{< ai open-access >}}: <https://hal.archives-ouvertes.fr/aut/David+Folio/>{rel="noopener noreferrer"}
+
+[HAL]: <https://hal.archives-ouvertes.fr> "Hyper Articles en Ligne"
+
+              
+## Articles
+
+### Articles in referenced journals (ACL) {#ACL}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bibACL, .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+###   Articles in unreferenced journals (ACLN) {#ACLN}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bib[entrysubtype="ACLN"], .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+## Books 
+
+### Guest Editor (DO) {#DO}
+```{r}
+#| results: asis
+#| echo: false
+print(bibDO, .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+###  Book Chapter (OS) {#OS}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bibOS, .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+## Proceedings (ACT) {#ACT}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bibACT, .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+## Oral Communications {#sec:ORAL}
+
+
+### Invited Speaker in Conferences (INV) {#INV}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bib[entrysubtype="INV"], .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+### Communications in Conferences (COM) {#COM}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bib[entrysubtype="COM"], .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+
+## Thesis dissertation {#THESIS}
+
+```{r}
+#| results: asis
+#| echo: false
+print(bib[bibtype="thesis"], .opts = list(check.entries = FALSE, sorting = "ydnt"))
+```
+:::{.callout-warning}
+The documents contained in this page are included to
+ensure timely dissemination of scholarly and technical work on a non-commercial
+basis. Copyright and all rights therein are maintained by the authors or by
+other copyright holders, notwithstanding that they have offered their works here
+electronically. It is understood that all persons copying this information will
+adhere to the terms and constraints invoked by each author's copyright. These
+works may not be reposted without the explicit permission of the copyright
+holder.
+:::

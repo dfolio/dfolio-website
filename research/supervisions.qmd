@@ -1,0 +1,241 @@
+---
+dateCreated: 2018-03-28 13:07:13.1522235233 +0200
+aliases: [/research/supervisions/]
+title: Supervisions
+keywords: [dfolio, supervisions, research, activities]
+description: >
+  My research work was carried out with the contributions of young researchers whose works I supervised.
+toc: true
+bibliography: [dfolio.bib]
+---
+
+I had directly supervised 5 Master (M2) and 6 PhD students.
+In addition, I also had the opportunity to follow the research works of 3 externals doctoral students.
+These different students are listed hereafter, as well as the joint publications.
+
+## On going {#sec-supervisions-ongoing}
+
+Karim Botros
+
+:    
+
+    Date
+
+    :   04/2021 -- 03/2024
+
+    Title
+
+    :   Magnetic Micro-robotic Platform Guided by Robotic Ultrasound for Brain Tumor Targeting.
+        Thesis of INSA Centre Val de Loire
+
+### Previous supervisions {#sec-supervisions-old}
+
+### Doctoral students {#sec-research-PhD}
+
+Ruipeng Chen
+
+:    
+
+    Date
+
+    :   11/2016 -- 07/2020
+
+    Title
+
+    :   Design Methodology for Electromagnetic Microrobotic Platforms.
+        Thesis of INSA Centre Val de Loire.
+
+    Supervision
+
+    :   50% with Prof. Antoine Ferreira
+
+    References
+
+    :   [@chen2019iccem; @chen2019icra; @chen2019ismr; @chen2021mathematical; @chen2022electromagnetic; @chen2022analysis; @chen2023optimal]
+
+    Situation
+
+    :   Post Doctorate, INSA CVL, Bourges, France.
+
+Lyès Mellal
+
+:    
+
+    Date
+
+    :   10/2013 -- 12/2016
+
+    Title
+
+    :   Modélisation et commande de microrobots magnétiques pour le traitement ciblé du cancer.
+        Thesis of university of Orléans.
+
+    Supervision
+
+    :   40% with Prof. Antoine Ferreira (30%) and Karim Belharet (30%)
+
+    References
+
+    :   [@mellal2015iros; @mellal2015jnr; @mellal2016icra; @mellal2016marss; @mellal2016tnb; @mellal2017marss; @mellal2018modeling; @mellal2021modeling]
+
+    Situation
+
+    :   Associate Professor at INSA Centre Val de Loire, France
+
+Nabil Amari
+
+:    
+
+    Date
+
+    :   10/2011 -- 07/2016
+
+    Title
+
+    :   Développement et Commande d'une Plateforme Microrobotique pour la Synchronisation d'un Faisceau de Lumière.
+        Thesis of university of Orléans
+
+    Supervision
+
+    :   30% with Prof. Antoine Ferreira
+
+    References
+
+    :   [@amari2014ijo; @amari2016encyclo; @amari2014acc; @amari2014iros; @amari2013iros; @amari2013isot]
+
+    Situation
+
+    :   Associate Professor HEI, Châteauroux, France
+
+Karim Belharet
+
+:    
+
+    Date
+
+    :   10/2009 -- 07/2013
+
+    Title
+
+    :   Navigation prédictive d'un microrobot magnétique : Instrumentation, commande et validation.
+        Thesis of university of Orléans
+
+    Supervision
+
+    :   50% with Prof. Antoine Ferreira
+
+    References
+
+    :   [@belharet2010mitat; @belharet2011advrob; @folio2013tbme; @belharet2012book; @belharet2010biorob; @belharet2010iros; @belharet2012iros; @belharet2012isot; @belharet2013isot; @belharet2014icra; @belharet2014iros]
+
+    Situation
+
+    :   Associate Professor HEI, Châteauroux, France
+
+Tao Li
+
+:    
+
+    Date
+
+    :   03/2009 -- 02/2013
+
+    Title
+
+    :   Commande d'un robot de télé-échographie par asservissement visuel.
+        Thesis of university of Rennes 1
+
+    Supervision
+
+    :   37.5% with Prof. Pierre Vieyres (12.5%), François Chaumette (12.5%) and Alexandre Krupa (37.5%)
+
+    References
+
+    :   [@tao2014isj]
+
+    Situation
+
+    :   Engineer at Another Brain, Paris, France
+
+### Master students (M2) {#chap-research-Master}
+
+Oumarou HABOU SOULE
+
+:    
+
+    Date
+
+    :   03/2019 -- 09/2019
+
+    Title
+
+    :   Suivi de Microrobot par Imagerie Echographique
+
+Hadjila Mahfoufi
+
+:    
+
+    Date
+
+    :   03/2018 -- 08/2018
+
+    Title
+
+    :   Modélisation, Simulation et Commande de Microrobot Catalytique
+
+    Situation
+
+    :   Engineer at Alstom, Paris, France
+
+Bruno Sarkis
+
+:    
+
+    Date
+
+    :   03/2015 -- 08/2015
+
+    Title
+
+    :   Modélisation des microjets catalytiques dans des canaux micro-fluidiques
+
+    References
+
+    :   [@sarkis2015icra; @sarkis2018jmems]
+
+Nabil Amari
+
+:    
+
+    Date
+
+    :   03/2011 -- 08/2011
+
+    Title
+
+    :   Modélisation et Commande d'une plateforme de nano positionnement
+
+    Situation
+
+    :   Associate Professor HEI, Châteauroux, France
+
+Kamel Ncir
+
+:    
+
+    Date
+
+    :   03/2010 -- 08/2010
+
+    Title
+
+    :   Commande robuste pour le nano-positionnement d'une plateforme instrumentale.
+
+    Situation
+
+    :   Technician at Jubilant HollisterStier LLC, Montréal, Québec, Canada
+
+## References
+
+::: {#refs}
+:::

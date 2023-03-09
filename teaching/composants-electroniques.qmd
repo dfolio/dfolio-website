@@ -1,0 +1,70 @@
+---
+dateCreated: 2018-03-30 14:16:55.1522412215 +0200
+aliases: 
+  - /teaching/composants-electroniques/
+lang: fr
+title: Composants électroniques
+keywords: composants électroniques, électronique analogique, cours, david folio, INSA
+description: >
+  L'objectif de cet enseignement avancé est de s'interesser au fonctionnement et
+  aux technologies des composants de l'électroniques analogique.
+
+toc: true
+images: /images/teaching/electronic-analog.svg
+---
+
+:::{.grid}
+:::{.g-col-12 .g-col-xl-7 .teaching rules="groups"}
++----------------------+--------------------------------------------------+
+| **MRI** _3A_         | **UE**: _SCIENCES DE L'INGÉNIEUR 5_              |
++----------------------+--------------------------------------------------+
+| **Semestre** _S5_    | **EC**: _Composants électroniques_               |
++----------------------+--------------------------------------------------+
+| **Crédits ECTS**: 10 | _Tronc commun TC_                                |
++----------------------+--------------------------------------------------+
+| **Coefficient**: 2   |                                                  |
++----------------------+--------------------------------------------------+
+:::
+:::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
+![](/images/teaching/electronic-analog.svg "electronique analogique")
+:::
+:::
+
+## Objectifs pédagogiques {#objectif}
+
+Comprendre le fonctionnement des composants électroniques analogiques élémentaires, de leurs spécificités technologiques et de leurs caractéristiques _réelles_.
+En particulier, il s'agit de pouvoir (re)connaître l'emploi de ces composants électroniques et de savoir les dimensionner.
+
+## Pré-requis
+
+Cet enseignement d'électronique analogique est un cours d'**électronique
+avancée**. Il est donc important d'avoir certaines notions d'électronique
+analogique. Afin de pouvoir appréhender le cours d'électronique analogique, il
+faut donc au préalable avoir maîtrisé les [enseignement d'électronique
+analogique](teaching/ELAN/) ([ELAN](teaching/ELAN/)) au programme
+pédagogique de la 2^nde^ année STPI. Ces pré-requis comprennent, entre
+autre:
+
+-   Les lois de Kirchoff (e.g. lois des nœuds, lois des mailles), les théorèmes _simplificateurs_ (e.g. principe de superposition, théorèmes de Thévenin/Norton…);
+-   Le comportement "_idéalisé_" des composants de base de l'électronique analogique, dont en particulier :
+    -   les dipôles passifs linéaires (e.g. résistances, condensateurs, inductances);
+    -   les bases des composants constitués de semi-conducteurs (e.g. diodes et transistors).
+-   Circuits linéaires en régime continu, transitoire et harmonique;
+-   L'amplificateur électronique, et en particulier l'amplificateur opérationnel (AOP) idéal, etc.
+
+## Programme du cours
+
+-   Technologies des composants électroniques passifs: linéaire (résistances, capacités, inductances) et non linéaire (les diodes)
+-   Les transistors : caractéristiques et fonctionnement en régime statique – polarisation
+    -   les transistors bipolaires,
+    -   les transistors à effet de champs.
+-   Technologies des composants numériques ;
+-   Introductions aux composants de l'électronique de puissances.
+
+## Supports {#supports}
+
+Vous avez ci-dessous les supports des cours et TD de composants électroniques  au format {{< fa file-pdf >}}:
+
+-   Support de [cours de composants électroniques](/pdf/teaching/compElect-book.pdf "Click to download"){.download-link download="compElect-book.pdf"} {{< fa file-pdf >}}
+-   Support de [TD de composants électroniques](/pdf/teaching/compElect-TD.pdf "Click to download"){.download-link download="compElect-TD.pdf"} {{< fa file-pdf >}}
+-   Ces supports sont également disponible sur Célène: <https://celene.insa-cvl.fr/course/view.php?id=203>

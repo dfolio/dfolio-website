@@ -1,0 +1,289 @@
+---
+dateCreated: 2018-03-30 06:57:45.1522385865 +0200
+title: Projects
+keywords: [dfolio, projects, research, activities]
+description: >
+  My research activities regularly lead me to collaborate in various scientific
+  projects that is listed here.
+toc: true
+---
+
+Scientific projects aim to obtain funds to either recruit students, to
+design or improve experimental testbeds, as well as to help some
+scientific cooperation. The different projects in which I have been
+involved are listed below, specifying my role and the obtained funding.
+Let us notice that all of these projects have been subject to a process
+with a deep scientific reviews.
+
+## Current Projets {#sec-project-current}
+
+-   [[**BUBBLEBOT**](BUBBLEBOT)]{#BUBBLEBOT}: Magnetic microbubbles for the targeted
+    delivery of therapeutic agent in the brain
+
+    Date
+
+    :   10/2020 -- 10/2023
+
+    Funding
+
+    :   210k€, supported by [Région Centre Val de Loire]{.french
+        lang="fr"} (APR-IR)
+
+    Summary
+
+    :   The aim is to combine the progress made in microrobotics with
+        those linked to the original microbubbles developed in order to
+        improve the therapeutic targeting of glioblastoma.
+
+    Role
+
+    :   **Principal Investigator** (PI).
+
+[^1]: from French: [Institut national de la santé et de la recherche
+    médicale]{.french lang="fr"} (INSERM), <https://www.inserm.fr>
+
+[^2]: NeuroFilament Light subunit that is binding Tubulin (NFL peptide)
+    is capable to penetrate in GBM, block and inhibit cell division.
+
+## Old projects {#sec-project-old}
+
+### European Union (EU) and National Funding ({{< var ANR >}}) Projects
+
+-   [[**MTG**](MTG)]{#MTG}: Microrobots Targeting Glioblastoma
+
+    Date
+
+    :   03/2019 -- 03/2022
+
+    Funding
+
+    :   511.4k€, supported by French National Institute of Health and
+        Medical Research[^1] (Inserm)
+
+    Summary
+
+    :   The MTG project is an Inserm, "plan cancer" project. The
+        objective is to functionalize magnetic microrobot with NFL
+        peptide[^2] to target glioblastoma (GBM).
+
+    Role
+
+    :   co-responsible of the workpackage WP3: "*in vitro* and *in vivo*
+        distribution and tracking studies using IVIS imaging system to
+        test the capacity of MTG to target glioblastoma cells versus
+        healthy cells of the nervous system".
+      
+-   [**PIANHO**]{#PIANHO}: Innovative Haptic Instrumental platform for
+    3D Nano-manipulation
+
+    Date
+
+    :   03/2010 -- 03/2014
+
+    Funding
+
+    :   761k€, supported by French national funding ({{< var ANR >}})
+
+    Summary
+
+    :   The PIANHO project is an {{< var ANR >}} P3N (2009) project. <br/> The
+        motivation of this project is to create a nanomanipulation
+        platform capable of pick, hold and place nano-objects in the
+        synchrotron radiation beam of the ESRF (Grenoble, France) via
+        customizable tool-object interaction.
+
+    Role
+
+    :   co-responsible of the workpackage: "Control of a Two-Fingered
+        AFM-based Nano-manipulation System".
+  
+-   [**PROTEUS**]{#PROTEUS}: Robotic Platform to facilitate transfer
+    between industries
+
+    Date
+
+    :   12/2009 -- 12/2013
+
+    Funding
+
+    :   2.1M€, supported by French national funding ({{< var ANR >}})
+
+    Summary
+
+    :   The PROTEUS project is an {{< var ANR >}} ARPEGE program (2009) project.
+        <br/> This project motivation was to help organizing
+        interactions between academic and industrial partners of the
+        french robotic community by providing suitable tools and models.
+        Especially, one goal is to create a portal for the French
+        robotic community as embodied by the GDR Robotique and its
+        affiliated industrial partners, in order to facilitate transfer
+        of knowledge and problems among this community. To achieve the
+        PROTEUS project 12 partners have been involved.
+
+    Role
+
+    :   co-responsible of the workpackage: "Young Challenge".
+
+-   [**PROSIT**]{#PROSIT} : Robotic Platform for an Interactive
+    Tele-echographic Systems
+
+    Date
+
+    :   01/2009 -- 09/2012
+
+    Funding
+
+    :   230k€, supported by French national funding ({{< var ANR >}})
+
+    Summary
+
+    :   The PROSIT project is an {{< var ANR >}}[^3] Contint program (2008) project,
+        coordinated by Professor Pierre Vieyres, University of Orléans,
+        PRISME Laboratory.\
+        The goal is to develop an interactive and complex master-slave
+        robotic platform for a medical diagnosis application (i.e.,
+        tele-echography) based on a well-defined modular control
+        architecture.
+
+    Role
+
+    :   co-responsible of the workpackage WP5: "Visual Servoing".
+
+-   [**NANOMA**]{#NANOMA} : Nano-Actuators and Nano-Sensors for Medical
+    Applications
+
+    Date
+
+    :   06/2008 -- 10/2011
+
+    Funding
+
+    :   3.3M€, supported by the European Commission
+
+    Summary
+
+    :   The NANOMA project is an European project funded under FP7 ICT
+        2007.3.6, Micro/nanosystems, coordinated by Professor Antoine
+        Ferreira, University of Orléans, PRISME Laboratory. The NANOMA
+        project aims at proposing novel controlled nanorobotic delivery
+        systems which will be designed to improve the administration of
+        drugs in the treatment and diagnosis of breast cancer.
+
+    Role
+
+    :   co-responsible of the workpackage WP4: "Object Tracking,
+        Planning and Control in MRI".
+
+[^3]: From French "Agence Nationale de la Recherche" ({{< var ANR >}}), which is the
+    French National Agency for Research.
+    <http://www.agence-nationale-recherche.fr>
+
+
+### Partnership
+
+-   PHC[^5] cooperation program [**PROCORE**]{#PROCORE} between France
+    and Hong Kong
+
+    Date
+
+    :   2014 -- 2015
+
+    Summary
+
+    :   Supervision and control of an improved platform for targeted administration of therapeutic Nanorobots.
+    
+    Partnership
+    
+    :   Cooperative research work with Prof. Li Zhang of the [Department
+        of Mechanical and Automation Engineering](http://www.mae.cuhk.edu.hk) (MAE) du Chinese
+        University of Hong Kong (CUHK), Hong-Kong
+
+-   PHC cooperation program [**PROCOPE**]{#PROCOPE} between France
+    and Germany
+
+    Date
+
+    :   2010 -- 2011
+
+    Summary
+
+    :   Design, fabrication and characterization of the swim of enhanced helical microrobots.
+    
+    Partnership
+    
+    :   Cooperative research work with Prof. Dr.-Ing. Sergej Fatikov of
+        the [Division Microrobotics and Control
+        Engineering](http://www.amir.uni-oldenburg.de) (AMiR[^7]) of the
+        University of Oldenburg, Germany
+
+[^5]: PHC, from French "Partenariats Hubert Curien", provides support
+    for international scientific and technological exchange of the
+    Ministry of Foreign Affairs. <https://www.campusfrance.org>
+
+[^7]: AMiR, that is from German "Abteilung für Mikrorobotik und
+    Regelungstechnik", is a department of the University of Oldenburg,
+    Germany, headed by Prof. Dr.-Ing. Sergej Fatikov.
+    <http://www.amir.uni-oldenburg.de>
+
+### Local Project
+
+-   Nano-IRM:
+
+    Date
+
+    :   09/2009 -- 08/2012
+
+    Funding
+
+    :   110k€, supported by Région Centre-Val de Loire, the Cher (18)
+        departmental councils and the agglomeration comity of Bourges.
+
+    Summary
+
+    :   Supervision and Control of an Improved Platform for Targeted
+        Administration of Therapeutic Nanorobots. This project supports
+        the above project [NANOMA](#NANOMA), by providing the funding
+        for the PhD thesis of Karim Belharet.
+
+    Role
+
+    :   co-supervision of the PhD thesis of Karim Belharet.
+
+-   MicroRob:
+
+    Date
+
+    :   10/2013 -- 09/2016
+
+    Funding
+
+    :   110k€, supported by Région Centre-Val de Loire and the
+        agglomeration comity of Bourges.
+
+    Summary
+
+    :   Modeling and control of magnetic microcarrier for targeted
+        cancer therapy.
+
+    Role
+
+    :   co-supervision of the PhD thesis of Lyes Mellal.
+
+-   US-Probe: High Definition Echograph
+
+    Date
+
+    :   03/2017 -- 03/2018
+
+    Funding
+
+    :   50k€, supported by Région Centre Val de Loire
+
+    Summary
+
+    :   Design of novel microrobotic platform with ultrasound probe
+        vision.
+
+    Role
+
+    :   **Principal Investigator** (PI).

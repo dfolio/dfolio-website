@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 80" preserveAspectRatio="xMidYMid meet">
+ <g transform="translate(-6.4505 -8.329)">
+  <path d="m189.48 10.587h13.651l-0.18201 54.786z" fill="#595a5c"/>
+  <path d="m219.6 10.86-0.091 74.08" fill="none" stroke="#595a5c" stroke-width="1px"/>
+  <text transform="scale(.88199 1.1338)" x="266.81796" y="20.442732" fill="#595a5c" font-family="Arial" font-size="14.588px" letter-spacing="0px" word-spacing="0px" style="line-height:0%" xml:space="preserve"><tspan x="266.81796" y="20.442732" style="line-height:1.25">INSTITUT NATIONAL</tspan><tspan x="266.81796" y="38.677513" style="line-height:1.25">DES SCIENCES</tspan><tspan x="266.81796" y="56.912292" style="line-height:1.25">APPLIQUÉES</tspan></text>
+  <text transform="scale(.88754 1.1267)" x="265.55029" y="75.762291" fill="#595a5c" font-family="Arial" font-weight="bold" letter-spacing="0px" word-spacing="0px" style="line-height:0%" xml:space="preserve"><tspan x="265.55029" y="75.762291" font-size="14.68px" style="line-height:1.25">CENTRE VAL DE LOIRE</tspan></text>
+ </g>
+ <g transform="translate(-6.4505 -8.329)">
+  <text transform="scale(.83665 1.1952)" x="242.28531" y="71.58284" fill="#f03427" font-family="'Arial Black'" font-weight="bold" letter-spacing="0px" text-align="end" text-anchor="end" word-spacing="0px" style="line-height:0%" xml:space="preserve"><tspan x="242.28529" y="71.58284" font-size="87.023px" style="line-height:1.25">INSA</tspan></text>
+ </g>
+</svg>
+<!-- width="380" height="80"-->

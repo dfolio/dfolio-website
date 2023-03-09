@@ -1,0 +1,8 @@
+
+<!-- [GBM]: <https://en.wikipedia.org/wiki/Glioblastoma> "glioblastoma multiforme (GBM)" -->
+
+
+[ANR]: <http://www.agence-nationale-recherche.fr> ["Agence Nationale de la Recherche"]{lang='fr' .french}. 
+[INSA]: <https://www.groupe-insa.fr/> "[Institut National des Sciences Appliquée]{lang='fr' .french}"
+[INSA-CVL]: <https://www.insa-centrevaldeloire.fr/> "INSA [Centre Val de Loire]{.fr lang='fr'} (INSA CVL)"
+[PRISME Laboratory]: <https://www.univ-orleans.fr/fr/prisme> "[Laboratoire Pluridisciplinaire de Recherche en Ingénierie des Systèmes, Mécanique, Énergétique]{.fr  lang='fr'}"

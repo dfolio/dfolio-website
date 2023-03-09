@@ -1,0 +1,51 @@
+---
+lang: en-US
+date: 2023-02-24 13:35:12.1522179552 +0200
+date-modified: 2023-02-24 13:35:12.1522179552 +0200
+pagetitle: 'dfolio(at)free website'
+description: 'dfolio(at)free website is for sharing my projects, activities and others...'
+keywords: dfolio, dfolio.free.fr, David FOLIO, dfolio(at)free
+image: logo-df.svg
+section-divs: false
+toc: false
+comments: false
+about:
+  template: trestles
+  links:
+    - aria-label: "Dfolio GitHub Page"
+      icon: github
+      href:  https://dfolio.github.io
+    - aria-label: "Orcid"
+      text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-9430-6091
+    - aria-label: "clarivate (webofscience)"
+      text: "{{< ai clarivate >}}"
+      href: https://www.webofscience.com/wos/author/record/D-5808-2013
+    - aria-label: "Google Scholar"
+      text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.fr/citations?user=XQVc6JMAAAAJ
+    - aria-label: "ResearchGate"
+      text: "{{< ai researchgate >}}"
+      href: https://www.researchgate.net/profile/David_Folio
+    - aria-label: "LinkedIn"
+      icon: linkedin
+      href: https://www.linkedin.com/in/david-folio-5b8b43a7/
+    - aria-label: "Viadeo"
+      icon: link-45deg
+      href: https://viadeo.com/fr/profile/david.folio
+    - aria-label: "HAL"
+      text: "{{< ai open-access >}}"
+      href: https://hal.archives-ouvertes.fr/aut/David+Folio/
+---
+::: {when-profile="english"}
+::: {.column-page}
+
+# Welcome to dfolio<i class="bi bi-at" role="img" aria-label="copyright"></i>free website
+
+You can find on this site an overview of my activities as Associate Professor at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
+These activities include my [researches](/research/) and [teaching](/teach/).
+
+You may also find some more personal (public) stuff that I would share on a regular basis.
+
+:::
+:::

@@ -1,0 +1,65 @@
+<svg version="1.1" viewBox="0 0 355 128" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="Arrow1Send" overflow="visible" orient="auto">
+   <path transform="matrix(-.2 0 0 -.2 -1.2 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow1Mend" overflow="visible" orient="auto">
+   <path transform="matrix(-.4 0 0 -.4 -4 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(5.7437 6.879)">
+  <path transform="matrix(.84858 .24043 -.19228 .67865 36.359 -31.891)" d="m74.045 114.44-23.788 19.925-7.402 30.134-26.3-16.467-30.947 2.2722 7.5333-30.102-11.724-28.73 30.956-2.1373 23.701-20.028 11.599 28.781z" color="#000000" fill="#fff" stroke="#000" stroke-width="1.5"/>
+  <rect x="71.521" y="-5.629" width="72" height="30" color="#000000" fill="#fff" stroke="#00f" stroke-width="1.5"/>
+  <text x="107.41386" y="5.7919006" fill="#000000" font-family="serif" font-size="10px" text-align="center" text-anchor="middle">
+   <tspan x="107.41386" y="5.7919006" style="line-height:1.25">Capteurs</tspan>
+   <tspan x="107.41386" y="18.291901" style="line-height:1.25">d'acquisition</tspan>
+  </text>
+  <rect x="161.52" y="-5.629" width="96" height="30" color="#000000" fill="#fff" stroke="#00f" stroke-width="1.5"/>
+  <text x="209.28203" y="13.09903" fill="#000000" font-family="serif" text-align="center" text-anchor="middle">
+   <tspan x="209.28203" y="13.09903" font-family="serif" font-size="10px" style="line-height:1.25">Conditionnement</tspan>
+  </text>
+  <rect x="275.52" y="-5.629" width="72" height="30" color="#000000" fill="#fff" stroke="#f0f" stroke-width="1.5"/>
+  <text x="311.38214" y="6.0531311" fill="#000000" font-family="serif" font-size="10px" text-align="center" text-anchor="middle">
+   <tspan x="311.38214" y="6.0531311" style="line-height:1.25">Conversion</tspan>
+   <tspan x="311.38214" y="18.553131" style="line-height:1.25">(A/N)</tspan>
+  </text>
+  <rect x="173.66" y="42.689" width="72" height="30" color="#000000" fill="#fff" stroke="#0080ff" stroke-width="1.5"/>
+  <text x="209.52129" y="54.371002" fill="#000000" font-family="serif" font-size="10px" text-align="center" text-anchor="middle">
+   <tspan x="209.52129" y="54.371002" style="line-height:1.25">Traitement</tspan>
+   <tspan x="209.52129" y="66.871002" style="line-height:1.25">analogique</tspan>
+  </text>
+  <rect x="275.52" y="42.371" width="72" height="30" color="#000000" fill="#fff" stroke="#f00" stroke-width="1.5"/>
+  <text x="311.51398" y="54.371002" fill="#000000" font-family="serif" font-size="10px" text-align="center" text-anchor="middle">
+   <tspan x="311.51398" y="54.371002" style="line-height:1.25">Traitement</tspan>
+   <tspan x="311.51398" y="66.871002" style="line-height:1.25">numérique</tspan>
+  </text>
+  <rect x="275.52" y="90.371" width="72" height="30" color="#000000" fill="#fff" stroke="#ff0" stroke-width="1.5"/>
+  <text x="311.38214" y="102.05313" fill="#000000" font-family="serif" font-size="10px" text-align="center" text-anchor="middle">
+   <tspan x="311.38214" y="102.05313" style="line-height:1.25">Conversion</tspan>
+   <tspan x="311.38214" y="114.55313" style="line-height:1.25">(N/A)</tspan>
+  </text>
+  <rect x="161.52" y="90.371" width="96" height="30" color="#000000" fill="#fff" stroke="#0f0" stroke-width="1.5"/>
+  <text x="209.28203" y="109.09903" fill="#000000" font-family="serif" text-align="center" text-anchor="middle">
+   <tspan x="209.28203" y="109.09903" font-family="serif" font-size="10px" style="line-height:1.25">Conditionnement</tspan>
+  </text>
+  <rect x="71.629" y="90.371" width="72" height="30" color="#000000" fill="#fff" stroke="#0f0" stroke-width="1.5"/>
+  <text x="107.52129" y="108.9794" fill="#000000" font-family="serif" text-align="center" text-anchor="middle">
+   <tspan x="107.52129" y="108.9794" font-family="serif" font-size="10px" style="line-height:1.25">Actionneurs</tspan>
+  </text>
+ </g>
+ <path d="m63.698 53.014 32.303-20.864" color="#000000" fill="none" marker="none" marker-end="url(#Arrow1Send)" stroke="#000" stroke-width="2.5"/>
+ <path d="m96.001 98.15-36-18" color="#000000" fill="none" marker="none" marker-end="url(#Arrow1Send)" stroke="#000" stroke-width="2.5"/>
+ <text x="12.562458" y="66.637299" fill="#000000" font-family="sans-serif" font-size="12.934px" font-weight="bold" stroke-width="1.0779">
+  <tspan x="12.562458" y="66.637299" font-family="sans-serif" font-size="10.779px" stroke-width="1.0779" style="line-height:1.25">Systèmes</tspan>
+ </text>
+ <g transform="translate(5.7437 6.879)" fill="none" stroke="#000">
+  <path d="m143.52 9.371h18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m163.49 105.37h-18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m277.49 105.37h-18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m211.52 24.371v18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m211.52 72.371v18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m257.52 9.371h18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m311.52 24.371v18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+  <path d="m311.52 72.371v18" color="#000000" marker="none" marker-end="url(#Arrow1Mend)"/>
+ </g>
+</svg>

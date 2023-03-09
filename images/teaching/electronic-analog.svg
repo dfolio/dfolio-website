@@ -1,0 +1,442 @@
+<svg version="1.0" viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="TriangleOutS" overflow="visible" orient="auto">
+   <path transform="scale(.2)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="a" overflow="visible" orient="auto">
+   <path transform="scale(.2)" d="m5.77 0-8.65 5v-10z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(.4882 -630.01)">
+  <rect x="774.65" y="633.91" width="0" height="5.9584" ry="0" color="#000000" fill="#666" stroke="#000" stroke-linejoin="round" stroke-width="2.9841"/>
+  <g transform="matrix(.73216 0 0 .73006 -1.5951 249.07)">
+   <rect transform="rotate(-90)" x="-904.32" y="2.5045" width="188.62" height="277.96" rx="16.876" ry="16.876" color="#000000" fill="none" stroke="#d40000" stroke-width="3.4195"/>
+   <g transform="matrix(1.9855 0 0 1.9855 118.91 515.33)" fill="none" stroke="#000" stroke-linecap="square">
+    <path d="m56.205 134 14.173 0.0184" stroke-width="3.5433"/>
+    <path d="m63.291 134-8e-5 -7.0682" stroke-width="1.7717"/>
+   </g>
+   <g transform="matrix(.99273 0 0 .99273 -161.79 727.58)" fill="none" stroke="#000">
+    <g>
+     <path d="m203.34 109.31v56.693" stroke-linecap="square" stroke-width="3.5433"/>
+     <path d="m212.2 123.48v28.346" stroke-linecap="square" stroke-width="7.0866"/>
+     <path d="m190.94 137.65h14.173" stroke-width="3.5433"/>
+     <path d="m212.2 137.65h14.173" stroke-linecap="square" stroke-width="3.5433"/>
+    </g>
+    <g transform="matrix(2 0 0 2 -258.79 -56.483)" stroke-width="1px">
+     <path d="m224.86 82.894v7.0866"/>
+     <path d="m228.41 86.437h-7.0866"/>
+    </g>
+   </g>
+   <g transform="matrix(0 -.99273 .99273 0 -6.174 1124.3)" fill="none" stroke="#000">
+    <g>
+     <circle transform="matrix(2.2857 0 0 2.2857 -2.4263 27.595)" cx="118.7" cy="72.953" r="12.402" color="#000000" stroke-linejoin="round" stroke-width="1.5502"/>
+     <g>
+      <path d="m240.54 194.34h-7.0866" stroke-linecap="square" stroke-width="3.5433"/>
+      <path d="m297.24 194.34h7.0866" stroke-linecap="square" stroke-width="3.5433"/>
+      <path d="m254.72 194.34h21.26" marker-end="url(#TriangleOutS)" stroke-width="3.5433"/>
+     </g>
+    </g>
+    <g transform="matrix(2 0 0 2 -145.4 7.2966)" stroke-width="1px">
+     <path d="m224.86 82.894v7.0866"/>
+     <path d="m228.41 86.437h-7.0866"/>
+    </g>
+   </g>
+   <g transform="matrix(0 -.99273 .99273 0 -6.174 1124.3)" fill="none" stroke="#000">
+    <circle transform="matrix(2.2857 0 0 2.2857 82.613 -43.271)" cx="118.7" cy="72.953" r="12.402" color="#000000" stroke-linejoin="round" stroke-width="1.5502"/>
+    <g stroke-linecap="square">
+     <path d="m325.58 123.48h-7.0866" stroke-width="3.5433"/>
+     <path d="m382.28 123.48h7.0866" stroke-width="3.5433"/>
+     <path d="m353.93 109.31c28.346 14.173-28.346 14.173 0 28.346" stroke-width="3.5433"/>
+    </g>
+   </g>
+   <g transform="matrix(0 -.99273 .99273 0 -6.174 1124.3)" fill="none" stroke="#000">
+    <g stroke-linecap="square">
+     <ellipse transform="matrix(2 0 0 2.6667 -574.42 -145.5)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-width="1.5343"/>
+     <path d="m297.24 123.48h7.0866" stroke-width="3.5433"/>
+     <path d="m233.46 123.48h7.0866" stroke-width="3.5433"/>
+    </g>
+    <g transform="rotate(90 268.89 123.48)" stroke-linecap="square" stroke-width="3.5433">
+     <path d="m254.72 116.39h28.346"/>
+     <path d="m254.72 130.56h28.346"/>
+    </g>
+    <g transform="matrix(2 0 0 2 -145.4 -63.57)" stroke-width="1px">
+     <path d="m224.86 82.894v7.0866"/>
+     <path d="m228.41 86.437h-7.0866"/>
+    </g>
+   </g>
+   <g transform="matrix(.99273 0 0 .99273 61.138 664.65)" fill="none" stroke="#000">
+    <path d="m212.2 201.43h-42.52" stroke-linecap="square" stroke-width="3.5433"/>
+    <path d="m190.94 187.26v14.173" stroke-width="3.5433"/>
+    <path d="m205.11 208.52h-28.346" stroke-linecap="square" stroke-width="3.5433"/>
+    <path d="m198.02 215.6h-14.173" stroke-linecap="square" stroke-width="3.5433"/>
+   </g>
+   <g transform="matrix(0 -.99273 .99273 0 -6.174 1124.3)">
+    <g fill="none" stroke="#000">
+     <circle transform="matrix(2.2857 0 0 2.2857 82.613 27.595)" cx="118.7" cy="72.953" r="12.402" color="#000000" stroke-linejoin="round" stroke-width="1.5502"/>
+     <path d="m325.58 194.34h-7.0866" stroke-linecap="square" stroke-width="3.5433"/>
+     <path d="m382.28 194.34h7.0866" stroke-linecap="square" stroke-width="3.5433"/>
+    </g>
+    <g transform="matrix(2 0 0 2 7.748 -52.352)" fill-rule="evenodd">
+     <path d="m166 122.47v1.75h10.625v-1.75z"/>
+     <path d="m178.68 123.35-3.065 1.7716v-3.5433z" stroke="#000" stroke-width=".2pt"/>
+    </g>
+    <path d="m396.45 180.17c-7.0866 14.173-7.0866-14.173-14.173 0" fill="none" stroke="#000" stroke-width="2px"/>
+    <path d="m339.76 194.34h21.26" fill="none" marker-end="url(#TriangleOutS)" stroke="#000" stroke-width="3.5433"/>
+   </g>
+   <g transform="matrix(.99273 0 0 .99273 -625.72 272.79)" stroke-width="2px">
+    <path d="m644.48 484.9h14.173v42.52h28.346v-42.52h14.173" fill="none" stroke="#013397"/>
+    <path d="m644.48 527.42v-42.52" fill="none" stroke="#000"/>
+    <path d="m637.39 506.16h70.866" fill="#015a01" fill-opacity=".75" fill-rule="evenodd" stroke="#000"/>
+    <path d="m644.48 506.16s7.0866-21.26 14.173-21.26 14.173 21.26 14.173 21.26 7.0866 21.26 14.173 21.26 14.173-21.26 14.173-21.26" fill="none" stroke="#015a01"/>
+    <path d="m644.48 506.16 14.173-21.26 28.346 42.52 14.173-21.26" fill="none" stroke="#980101"/>
+   </g>
+  </g>
+  <g transform="matrix(.77119 0 0 .76897 -28.019 332.51)">
+   <rect transform="translate(102.22 62.797)" x="217.29" y="507.21" width="340" height="180" rx="17" ry="17" color="#000000" fill="none" stroke="#f0f" stroke-width="6.4929"/>
+   <g transform="matrix(2 0 0 2 -573.81 430.44)" stroke="#000">
+    <g fill="none">
+     <ellipse transform="matrix(-1 0 0 1.3333 895.97 -4.0097)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-linecap="square" stroke-width="1.5343"/>
+     <path d="m471.25 130.48h-14.647" stroke-width="1.7717"/>
+     <path d="m470.77 137.57v-14.173" stroke-linecap="square" stroke-width="2.4803"/>
+     <path d="m470.73 126.89 10.673-7.0433v-7.0866" stroke-width="1.7717"/>
+     <path d="m470.73 133.98 10.673 7.1299v7.0866" stroke-width="1.7717"/>
+    </g>
+    <path transform="matrix(.29664 .4453 .70658 -.47141 288.32 9.3495)" d="m374.56 109.37-5.0035 0.0549 2.4542-4.3606z" color="#000000" stroke-linecap="square" stroke-width="2.628"/>
+   </g>
+   <g transform="matrix(2 0 0 2 -573.81 430.44)" stroke="#000">
+    <g fill="none">
+     <ellipse transform="matrix(-1 0 0 -1.3333 895.97 225.99)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-linecap="square" stroke-width="1.5343"/>
+     <path d="m470.77 91.502h-14.173" stroke-width="1.7717"/>
+     <path d="m470.77 84.415v14.173" stroke-linecap="square" stroke-width="2.4803"/>
+     <path d="m481.4 109.22-0.0432-7.1299-10.63-7.0866" stroke-width="1.7717"/>
+     <path d="m470.73 87.915 10.673-7.0433v-7.0866" stroke-width="1.7717"/>
+    </g>
+    <path d="m476.24 100.38 1.4898-2.2249 1.8176 2.7543z" color="#000000" stroke-linecap="square" stroke-width="1.7717"/>
+   </g>
+   <g transform="translate(-581.39 482.96)" stroke="#000">
+    <ellipse transform="matrix(-2 0 0 -2.6667 1955.4 399.46)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" fill="none" stroke-linecap="square" stroke-width="1.5343"/>
+    <path d="m1105 116.31v28.346h-35.433" fill="none" stroke-linecap="square" stroke-width="3.5433"/>
+    <g transform="matrix(2 0 0 2 -117.86 -211.89)" stroke-width="1.063">
+     <path d="m621.59 176.5-3.065 1.7716v-3.5433z" fill-rule="evenodd" stroke="#000" stroke-width="1.063"/>
+    </g>
+    <g fill="none" stroke-linecap="square">
+     <path d="m1126.3 165.91 2e-4 -24.803h-14.173" stroke-width="3.5433"/>
+     <path d="m1112.1 119.85h14.173v-24.803" stroke-width="3.5433"/>
+     <path d="m1112.1 116.31v28.346" stroke-width="4.9606"/>
+    </g>
+   </g>
+   <g transform="translate(-581.39 482.96)" stroke="#000">
+    <g fill="none" stroke-linecap="square">
+     <ellipse transform="matrix(-2 0 0 -2.6667 1955.4 477.41)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-width="1.5343"/>
+     <path d="m1105 194.26v28.346h-35.433" stroke-width="3.5433"/>
+     <g>
+      <path d="m1126.3 243.86 3e-4 -24.803h-14.173" stroke-width="3.5433"/>
+      <path d="m1112.1 197.8h14.173v-24.803" stroke-width="3.5433"/>
+      <path d="m1112.1 194.26v28.346" stroke-width="4.9606"/>
+     </g>
+    </g>
+    <g transform="matrix(2 0 0 2 -36.899 -133.94)" stroke-width="1.063">
+     <path d="m574.98 176.5 3.065-1.7716v3.5433z" fill-rule="evenodd" stroke="#000" stroke-width="1.063"/>
+    </g>
+   </g>
+   <g transform="matrix(2 0 0 2 -573.81 430.44)" stroke="#000">
+    <g fill="none">
+     <ellipse transform="matrix(-1 0 0 -1.3333 1012.9 225.99)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-linecap="square" stroke-width="1.5343"/>
+     <path d="m587.7 84.415v14.173h-17.717" stroke-linecap="square" stroke-width="1.7717"/>
+     <g stroke-linecap="square" stroke-width="1.7717">
+      <path d="m591.24 91.502h3.5433"/>
+      <path d="m598.33 109.22 1.3e-4 -10.63h-7.0866"/>
+      <path d="m591.24 84.415h7.0866l1e-5 -10.63"/>
+     </g>
+     <path d="m591.24 80.872v21.26" stroke-dasharray="4.96062994, 2.48031497" stroke-dashoffset="6.6969" stroke-width="2.4803"/>
+     <path d="m598.33 98.589v-7.0866h-3.5433" stroke-linecap="square" stroke-width="1.7717"/>
+    </g>
+    <g transform="translate(-23.739 -120.43)" stroke-width="1.063">
+     <path d="m621.59 211.93-3.065 1.7716v-3.5433z" fill-rule="evenodd" stroke="#000" stroke-width="1.063"/>
+    </g>
+   </g>
+   <g transform="translate(-581.39 482.96)" stroke="#000">
+    <g fill="none">
+     <ellipse transform="matrix(-2 0 0 -2.6667 1877.5 477.41)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-linecap="square" stroke-width="1.5343"/>
+     <path d="m991.64 219.06h31.89" stroke-width="3.5433"/>
+     <g stroke-linecap="square">
+      <path d="m1030.6 194.26v28.346" stroke-width="4.9606"/>
+      <path d="m1048.3 243.86 3e-4 -24.803h-17.716" stroke-width="3.5433"/>
+      <path d="m1030.6 197.8h17.716v-24.803" stroke-width="3.5433"/>
+     </g>
+    </g>
+    <g transform="matrix(2 0 0 2 -201.39 -59.526)" stroke-width="1.063">
+     <path d="m614.23 139.29-3.065 1.7716v-3.5433z" fill-rule="evenodd" stroke="#000" stroke-width="1.063"/>
+    </g>
+   </g>
+   <g transform="matrix(2 0 0 2 -573.81 430.44)" stroke="#000">
+    <g fill="none">
+     <ellipse transform="matrix(-1 0 0 -1.3333 1012.9 264.97)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-linecap="square" stroke-width="1.5343"/>
+     <path d="m587.7 123.39v14.173h-17.717" stroke-linecap="square" stroke-width="1.7717"/>
+     <g stroke-linecap="square" stroke-width="1.7717">
+      <path d="m591.24 130.48h3.5433"/>
+      <path d="m598.33 148.19 1.3e-4 -10.63h-7.0866"/>
+      <path d="m591.24 123.39h7.0866l1e-5 -10.63"/>
+     </g>
+     <path d="m591.24 119.85v21.26" stroke-dasharray="4.96062994, 2.48031497" stroke-dashoffset="6.6969" stroke-width="2.4803"/>
+    </g>
+    <g transform="translate(16.739 -81.453)" stroke-width="1.063">
+     <path d="m574.98 211.93 3.065-1.7716v3.5433z" fill-rule="evenodd" stroke="#000" stroke-width="1.063"/>
+    </g>
+    <path d="m598.33 137.57v-7.0866h-3.5433" fill="none" stroke-linecap="square" stroke-width="1.7717"/>
+   </g>
+   <g transform="translate(-581.39 482.96)" stroke="#000">
+    <ellipse transform="matrix(-2 0 0 -2.6667 1877.5 399.46)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" fill="none" stroke-linecap="square" stroke-width="1.5343"/>
+    <path d="m991.64 141.11 16.404 2e-5" fill="none" stroke-width="3.5433"/>
+    <g transform="matrix(2 0 0 2 -111.85 -137.48)" stroke-width="1.063">
+     <path d="m561.08 139.29 3.065-1.7716v3.5433z" fill-rule="evenodd" stroke="#000" stroke-width="1.063"/>
+    </g>
+    <g fill="none">
+     <g stroke-linecap="square">
+      <path d="m1048.3 165.91 3e-4 -24.803h-17.716" stroke-width="3.5433"/>
+      <path d="m1030.6 119.85h17.716v-24.803" stroke-width="3.5433"/>
+      <path d="m1030.6 116.31v28.346" stroke-width="4.9606"/>
+     </g>
+     <path d="m1030.6 141.11h-14.173" stroke-width="3.5433"/>
+    </g>
+   </g>
+  </g>
+  <g stroke="#000">
+   <rect x="-402.54" y="619.31" width="0" height="5.9584" ry="0" color="#000000" fill="#666" stroke-linejoin="round" stroke-width="2.9841"/>
+   <rect x="-97.784" y="154.55" width="0" height="5.9584" ry="0" color="#000000" fill="#666" stroke-linejoin="round" stroke-width="2.9841"/>
+   <circle cx="-620.65" cy="-176.14" r="0" stroke-linecap="round" stroke-width="2.9835"/>
+  </g>
+  <g transform="matrix(.84322 0 0 .8408 258.02 156.59)">
+   <rect transform="translate(102.22 62.797)" x="162.27" y="501.04" width="187.15" height="93.575" rx="13.257" ry="13.257" fill="none" stroke="#f44800" stroke-width="2.9691"/>
+   <g transform="matrix(.7798 0 0 .7798 133.84 203.64)" fill="none" stroke="#000">
+    <path d="m212.42 484.87-0.21864 70.859" stroke-width="5.2"/>
+    <path d="m190.94 562.81v-7.0866c16.399-0.0421 16.399-14.194 0-14.173 16.399-0.021 16.341-14.215 0-14.173 16.457-2.6e-4 16.457-14.216 0-14.173 16.341 2.8e-4 16.399-14.131 0-14.152 16.399-0.0631 0-0.021 0-0.021 16.399-0.0421 16.399-14.173 0-14.173v-7.0866" stroke-linecap="square" stroke-linejoin="round" stroke-width="3.046"/>
+    <path d="m233.46 562.81v-7.0866c-16.399-0.0421-16.399-14.194 0-14.173-16.399-0.021-16.341-14.215 0-14.173-16.457-2.6e-4 -16.457-14.216 0-14.173-16.341 2.8e-4 -16.399-14.131 0-14.152-16.399-0.0631 0-0.021 0-0.021-16.399-0.0421-16.399-14.173 0-14.173v-7.0866" stroke-linecap="square" stroke-linejoin="round" stroke-width="3.046"/>
+   </g>
+   <g transform="matrix(.7798 0 0 .7798 133.84 203.64)" fill="none" stroke="#000">
+    <path d="m276.19 484.87-0.21864 70.859" stroke-width="5.2"/>
+    <path d="m254.72 562.81v-7.0866c16.399-0.0421 16.399-14.194 0-14.173 16.399-0.021 16.341-14.215 0-14.173 16.457-2.6e-4 16.457-14.216 0-14.173 16.341 2.8e-4 16.399-14.131 0-14.152 16.399-0.0631 0-0.021 0-0.021 16.399-0.0421 16.399-14.173 0-14.173v-7.0866" stroke-linecap="square" stroke-linejoin="round" stroke-width="3.046"/>
+    <path d="m297.24 477.77 0.0137 19.488c-16.524 0.0421-16.583 14.174 0 14.173-16.465 0.0418-16.465 14.257 0 14.215-16.583 2.6e-4 0-0.0418 0-0.0418-16.524 0.0421-16.524 14.173 0 14.173l-0.0137 23.032" stroke-linecap="square" stroke-linejoin="round" stroke-width="3.046"/>
+   </g>
+   <g transform="matrix(.7798 0 0 .7798 133.84 203.64)" stroke="#000">
+    <g fill="none">
+     <path d="m354.15 484.9-0.21864 70.859" stroke-width="5.2"/>
+     <g stroke-linecap="square">
+      <path d="m332.67 562.85v-7.0866c16.399-0.0421 16.399-14.194 0-14.173 16.399-0.021 16.341-14.215 0-14.173 16.457-2.6e-4 16.457-14.216 0-14.173 16.341 2.8e-4 16.399-14.131 0-14.152 16.399-0.0631 0-0.021 0-0.021 16.399-0.0421 16.399-14.173 0-14.173v-7.0866" stroke-linejoin="round" stroke-width="3.046"/>
+      <path d="m375.19 562.85v-14.173c-16.399-0.0421-16.399-14.194 0-14.173-16.399-0.021-16.341-14.215 0-14.173-16.457-2.6e-4 -16.457-14.216 0-14.173-16.341 2.8e-4 -16.399-14.131 0-14.152v-14.194l14.173 2e-5" stroke-linejoin="round" stroke-width="3.046"/>
+      <path d="m375.19 520.33h14.173" stroke-width="3.5433"/>
+      <path d="m375.19 562.85h14.173" stroke-width="3.5433"/>
+     </g>
+    </g>
+    <g stroke-linecap="square" stroke-width="2.6469">
+     <circle transform="matrix(1.3387 0 0 1.3387 19.243 397.16)" cx="265.9" cy="92.008" r="1.7717"/>
+     <circle transform="matrix(1.3387 0 0 1.3387 12.07 361.6)" cx="265.9" cy="92.008" r="1.7717"/>
+     <circle transform="matrix(1.3387 0 0 1.3387 -16.276 354.52)" cx="265.9" cy="92.008" r="1.7717"/>
+    </g>
+   </g>
+  </g>
+  <g fill="none">
+   <rect x=".60515" y="631.76" width="295.2" height="130.82" rx="18.587" ry="18.533" stroke="#390" stroke-width="5"/>
+   <g transform="matrix(1.0933 0 0 1.0902 -88.323 332.68)" stroke="#000" stroke-linecap="square" stroke-width="1.8319">
+    <path d="m98.811 293.56h14.173"/>
+    <path d="m148.42 293.56 14.173 2e-5"/>
+    <rect x="112.98" y="286.47" width="35.433" height="14.173" color="#000000" stroke-linejoin="round"/>
+   </g>
+   <path d="m207.91 675.37h-7.7481c-0.046-17.878-15.519-17.878-15.496 0-0.0229-17.878-15.542-17.815-15.496 0-2.2e-4 -17.942-15.543-17.942-15.496 0 3.3e-4 -17.815-15.45-17.878-15.473 0-0.0689-17.878-0.0229 0-0.0229 0-0.0459-17.878-15.496-17.878-15.496 0h-7.7482" stroke="#000" stroke-linecap="square" stroke-linejoin="round" stroke-width="2"/>
+   <g stroke="#000" stroke-width=".91594">
+    <g transform="matrix(0 -2.1804 2.1867 0 -227.26 1000.1)" stroke-linecap="square">
+     <g transform="translate(-56.019 133.62)">
+      <path d="m204.31 90.582h7.0866"/>
+      <path d="m214.94 90.582h7.0866"/>
+     </g>
+     <path d="m155.37 217.12v14.173"/>
+     <path d="m158.92 217.12v14.173"/>
+    </g>
+    <g transform="matrix(2.1867 0 0 2.1804 -171.45 312.34)">
+     <path d="m84.508 172.95h5.315"/>
+     <path d="m111.08 172.95 5.315 1e-5"/>
+     <path d="m111.08 172.95-1.7716-3.5433-3.5433 7.0866-3.5433-7.0866-3.5433 7.0866-3.5433-7.0866-3.5433 7.0866-1.7716-3.5433" stroke-linecap="round" stroke-linejoin="bevel"/>
+    </g>
+    <g transform="matrix(2.1867 0 0 2.1804 -261.54 329.09)">
+     <path d="m212.6 178.84h-3.5433c-0.021-8.2328-7.1077-8.2328-7.0971 0-0.0105-8.2328-7.0971-8.2328-7.0762-0.0293-1.3e-4 -8.262-7.0868-8.262-7.0656 0 1.4e-4 -8.2035-7.0865-8.2035-7.097 0.0293-0.0316-8.2328-0.0105 0-0.0105 0-0.021-8.2328-7.1077-8.2328-7.1077 0h-3.5223" stroke-linecap="square" stroke-linejoin="round"/>
+     <path d="m173.63 168.19 35.429 0.10932"/>
+    </g>
+    <g transform="matrix(0 2.1804 2.1867 0 -227.26 337.02)">
+     <g transform="translate(-34.759 133.62)" stroke-linecap="square">
+      <path d="m204.31 90.582h7.0866"/>
+      <path d="m214.94 90.582h7.0866"/>
+     </g>
+     <path d="m176.63 217.12-6e-5 14.173" stroke-linecap="square"/>
+     <path d="m181.95 217.12c-1.1249 0.88585-1.7716 1.7716-1.7716 3.5433v7.0866c0 1.7716 0.64671 2.6575 1.7716 3.5433" stroke-linecap="square" stroke-linejoin="round"/>
+     <g transform="translate(-54.181 132.58)">
+      <path d="m226.07 82.894v5.1878"/>
+      <path d="m228.41 85.488h-4.679"/>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1.0933 0 0 1.0902 -29.327 267.01)" stroke="#000" stroke-width="1.8319">
+    <g stroke-linecap="square">
+     <path d="m43.203 431.66h14.173"/>
+     <path d="m92.809 431.66h14.173"/>
+     <rect transform="scale(1,-1)" x="57.376" y="-438.75" width="35.433" height="14.173" stroke-linejoin="round"/>
+    </g>
+    <path d="m58.661 449.38 35.433-35.433" marker-end="url(#a)"/>
+   </g>
+   <rect x="309.62" y="630.89" width="159.53" height="132.56" rx="15.067" ry="15.024" color="#000000" stroke="#ff0" stroke-width="5"/>
+   <g stroke="#000" stroke-width="1.9028">
+    <g transform="matrix(.8863 0 0 .88375 -131.29 388.44)" stroke-linecap="square">
+     <g stroke-width="1.9028">
+      <path d="m594.79 300.56h21.26"/>
+      <path d="m644.39 300.59h14.173"/>
+      <path d="m644.39 300.56-28.346 14.173v-28.346z"/>
+     </g>
+     <path d="m647.94 286.38c-10.63-10.63 3.5433 38.976-7.0866 28.346" stroke-width="4.5196"/>
+    </g>
+    <g transform="matrix(.8863 0 0 .88375 -131.29 388.44)">
+     <g transform="matrix(1.4142 1.4142 -1.4142 1.4142 166.74 -193.53)" stroke-width=".9514">
+      <path d="m336.61 65.433v7.0866"/>
+      <path d="m335.31 68.976 1.3003-3.5433 1.2145 3.5433"/>
+     </g>
+     <g transform="matrix(1.4142 1.4142 -1.4142 1.4142 175.93 -193.53)" stroke-width=".9514">
+      <path d="m336.61 65.433v7.0866"/>
+      <path d="m335.31 68.976 1.3003-3.5433 1.2145 3.5433"/>
+     </g>
+     <g stroke-linecap="square">
+      <g stroke-width="1.9028">
+       <path d="m509.83 398.08h21.26"/>
+       <path d="m559.44 398.08h14.173"/>
+       <path d="m559.44 398.08-28.346 14.173v-28.346z"/>
+      </g>
+      <path d="m559.44 383.91v28.346" stroke-width="4.5196"/>
+     </g>
+    </g>
+    <g transform="matrix(.8863 0 0 .88375 -131.29 388.44)" stroke-linecap="square">
+     <g stroke-width="1.9028">
+      <path d="m509.83 300.64h21.26"/>
+      <path d="m559.44 300.64h14.173"/>
+      <path d="m559.44 300.64-28.346 14.173v-28.346z"/>
+     </g>
+     <path d="m559.44 286.47v28.346" stroke-width="4.5196"/>
+    </g>
+    <g transform="matrix(.8863 0 0 .88375 -131.29 388.44)" stroke-linecap="square">
+     <g stroke-width="1.9028">
+      <path d="m509.83 350.25h21.26"/>
+      <path d="m559.44 350.29h14.173"/>
+      <path d="m559.44 350.25-28.346 14.173v-28.346z"/>
+     </g>
+     <path d="m559.44 336.11 1.4e-4 28.31h-7.0866" stroke-width="4.5196"/>
+    </g>
+    <g transform="matrix(.8863 0 0 .88375 -132.48 346.05)">
+     <g transform="translate(85.849 47.726)" stroke-linecap="square">
+      <g stroke-width="1.9028">
+       <path d="m509.83 350.25h21.26"/>
+       <path d="m559.44 350.29h14.173"/>
+       <path d="m559.44 350.25-28.346 14.173v-28.346z"/>
+      </g>
+      <path d="m559.44 336.11 1.4e-4 28.31h-7.0866" stroke-width="4.5196"/>
+     </g>
+     <path d="m647.07 383.1-10.561 0.11208" stroke-width="4.5196"/>
+    </g>
+    <g transform="matrix(.8863 0 0 .88375 -53.979 387.21)">
+     <g transform="matrix(-1.4142 -1.4142 1.4142 -1.4142 923.42 949.77)" stroke-width=".9514">
+      <path d="m336.61 65.433v7.0866"/>
+      <path d="m335.31 68.976 1.3003-3.5433 1.2145 3.5433"/>
+     </g>
+     <g transform="matrix(-1.4142 -1.4142 1.4142 -1.4142 931.49 953.81)" stroke-width=".9514">
+      <path d="m336.61 65.433v7.0866"/>
+      <path d="m335.31 68.976 1.3003-3.5433 1.2145 3.5433"/>
+     </g>
+     <g stroke-linecap="square">
+      <g stroke-width="1.9028">
+       <path d="m509.83 398.08h21.26"/>
+       <path d="m559.44 398.08h14.173"/>
+       <path d="m559.44 398.08-28.346 14.173v-28.346z"/>
+      </g>
+      <path d="m559.44 383.91v28.346" stroke-width="4.5196"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(.51133 0 0 .50986 468.99 565.67)">
+   <rect transform="translate(102.22 62.797)" x="7.287" y="227.21" width="190" height="160" rx="17.155" ry="16.997" color="#000000" fill="none" stroke="#60c" stroke-width="4.8963"/>
+   <g transform="translate(-339.4 -286.49)">
+    <text transform="scale(.97386 1.0268)" x="581.87616" y="607.10541" fill="#000000" font-family="'Bitstream Vera Sans'" font-weight="bold" style="line-height:0%" xml:space="preserve"><tspan x="581.87616" y="607.10541" font-family="FreeSerif" font-size="37.709px" font-weight="normal" style="line-height:1.25">A</tspan></text>
+    <g fill="none" stroke="#000" stroke-linecap="square">
+     <ellipse transform="matrix(2 0 0 2.6667 -262.69 343.43)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-width="1.6961"/>
+     <path d="m608.96 612.4h7.0866" stroke-width="3.917"/>
+     <path d="m545.18 612.4h7.0866" stroke-width="3.5433"/>
+    </g>
+   </g>
+   <g transform="translate(-339.4 -286.49)">
+    <text transform="scale(.97386 1.0268)" x="494.55402" y="610.16168" color="#000000" fill="#000000" font-family="FreeSerif" stroke-width="1px" style="line-height:0%;text-decoration-line:none;text-indent:0;text-transform:none" xml:space="preserve"><tspan x="494.55402" y="610.16168" font-size="37.709px" style="line-height:1.25">V</tspan></text>
+    <g fill="none" stroke="#000" stroke-linecap="square">
+     <ellipse transform="matrix(2 0 0 2.6667 -347.73 343.39)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-width="1.6961"/>
+     <path d="m523.92 612.37h7.0866" stroke-width="3.917"/>
+     <path d="m460.14 612.37h7.0866" stroke-width="3.917"/>
+    </g>
+   </g>
+   <g transform="translate(-342.11 -206.53)">
+    <text transform="scale(.97386 1.0268)" x="494.55402" y="610.16168" color="#000000" fill="#000000" font-family="FreeSerif" stroke-width="1px" style="line-height:0%;text-decoration-line:none;text-indent:0;text-transform:none" xml:space="preserve"><tspan x="494.55402" y="610.16168" font-size="37.709px" style="line-height:1.25">G</tspan></text>
+    <g fill="none" stroke="#000" stroke-linecap="square">
+     <ellipse transform="matrix(2 0 0 2.6667 -347.73 343.39)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-width="1.6961"/>
+     <path d="m523.92 612.37h7.0866" stroke-width="3.5433"/>
+     <path d="m460.14 612.37h7.0866" stroke-width="3.917"/>
+    </g>
+   </g>
+   <g transform="translate(-333.9 -206.49)">
+    <text transform="scale(.97386 1.0268)" x="578.53259" y="610.11688" fill="#000000" font-family="'Bitstream Vera Sans'" font-weight="bold" style="line-height:0%" xml:space="preserve"><tspan x="578.53259" y="610.11688" font-family="FreeSerif" font-size="37.709px" font-weight="normal" style="line-height:1.25">W</tspan></text>
+    <g fill="none" stroke="#000" stroke-linecap="square">
+     <ellipse transform="matrix(2 0 0 2.6667 -262.69 343.43)" cx="421.65" cy="100.87" rx="14.173" ry="10.63" color="#000000" stroke-width="1.6961"/>
+     <g stroke-width="3.917">
+      <path d="m608.91 601.49h7.0866"/>
+      <path d="m546.83 601.49h7.0866"/>
+      <path d="m608.91 626.49h7.0866"/>
+      <path d="m546.83 626.49h7.0866"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g transform="matrix(.84322 0 0 .8408 -27.06 144.04)">
+   <rect transform="translate(102.22 62.797)" x="517.29" y="717.21" width="170" height="130" rx="16.876" ry="16.876" color="#000000" fill="none" stroke="#013397" stroke-width="5.9382"/>
+   <g transform="matrix(.99273 0 0 .99273 -370.58 342.54)">
+    <g fill="none" stroke="#000">
+     <g stroke-linecap="square" stroke-width="2.3927">
+      <path d="m1090.9 527.42-70.866 35.433v-70.866z"/>
+      <g>
+       <path d="m1013 513.24h7.0866"/>
+       <path d="m1013 541.59h7.0866"/>
+       <path d="m1090.9 527.42h7.0866"/>
+      </g>
+     </g>
+     <g stroke-width="2px">
+      <path d="m1034.2 507.91v10.668"/>
+      <path d="m1039.6 513.24h-10.668"/>
+      <path d="m1039.6 541.59h-10.668"/>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(.85091 0 0 .85091 -376.04 380.97)" fill="none" stroke="#000">
+    <g stroke-width="2.7914">
+     <path d="m1197.2 491.9v28.346l28.346-14.173z" color="#000000" stroke-linecap="round" stroke-linejoin="bevel"/>
+     <path d="m1183.1 506.07h14.173" color="#000000" stroke-linecap="round"/>
+     <path d="m1232.7 506.07h7.0866" color="#000000" stroke-linecap="square"/>
+    </g>
+    <circle transform="matrix(1.1533 0 0 1.1533 1134.6 350.78)" cx="81.496" cy="134.65" r="3.5433" color="#000000" stroke-linecap="round" stroke-linejoin="bevel" stroke-width="2.4203"/>
+    <g transform="matrix(2 0 0 2 1086 290)" stroke-linecap="square" stroke-linejoin="bevel" stroke-width=".5143">
+     <path d="m58.518 109.84h1.7538l1.7538-3.6196h1.0038" color="#000000"/>
+     <path d="m62.026 106.22h-1.7538l-1.7538 3.6196h-1.2538" color="#000000" style="font-variant-east_asian:normal"/>
+    </g>
+   </g>
+   <g transform="translate(-12.276 23.579)">
+    <path d="m728.54 774.16h49.91v41.842h-49.91z" color="#000000" fill="none" stroke="#000" stroke-linecap="square" stroke-width="2.3753"/>
+    <g stroke="#000" stroke-linejoin="bevel" stroke-width="2.3753">
+     <path d="m728.54 780.14h-11.953" color="#000000"/>
+     <path d="m778.42 780.14h11.953" color="#000000"/>
+     <path d="m778.42 810.02h11.953" color="#000000"/>
+     <path d="m728.54 810.02h-11.953" color="#000000"/>
+    </g>
+    <text x="753.49146" y="803.30273" fill="#000000" font-family="sans-serif" font-size="26.811px" letter-spacing="0px" stroke-width="2.6811px" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:125%" xml:space="preserve"><tspan x="753.49146" y="803.30273" stroke-width="2.6811px" text-align="center" text-anchor="middle">Q</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>

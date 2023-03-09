@@ -1,0 +1,62 @@
+---
+dateCreated: 2019-11-02 07:43:20.1572677000 +0100
+aliases: 
+  - /teaching/advanced-robotic/
+lang: en
+title: Advanced Robotic
+keywords: [robotic, mobile robot, control, systems, teach, activities]
+description: >
+  This course will enable the students to control robots in
+  industrial applications and to discover new fields of research
+  on humanoids and biorobotics
+toc: true
+images: /images/teaching/robotic.svg
+---
+
+:::{.grid}
+:::{.g-col-12 .g-col-xl-7 .teaching rules="groups"}
++----------------------+--------------------------------------------------+
+| **MRI** _5A_         | **UE**: _Vision et mécatronique_                 |
++----------------------+--------------------------------------------------+
+| **Semestre** _S6_    | **EC**: _Robotique avancée_                      |
++----------------------+--------------------------------------------------+
+| **Crédits ECTS**: 10 | Option RSI et STLR                               |
++----------------------+--------------------------------------------------+
+| **Coefficient**: 1   |                                                  |
++----------------------+--------------------------------------------------+
+:::
+:::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
+![](/images/teaching/robotic.svg)
+:::
+:::
+
+
+## Objectives {#sec-obj}
+
+The topic of this course would address the understanding of _advanced robotic_ with a particular attention to mobile robots, their structures and applications.
+To do so, the parametric identification and the modeling (e.g. kinematics models) of robots are presented.
+Next, their main mechatronic components (e.g. sensors and actuators) are described.
+In a second part, the navigation and control of an autonomous mobile robot will be addressed.
+
+## Skills to be achieved
+
+- Being able to use the methods of dynamic modeling of robotics systems.
+- Being able to identify and control an industrial robot and/or servicing robot.
+- Being able to mobile robots, develop planning and localization algorithms.
+- Being able to discover new fields of research on humanoids and biorobotics.
+
+## Outline {#sec-prog}
+
+-  Preliminaries/Introduction:
+   -  what is a robot?
+   -  from industrial robotic to intelligent autonomous robots...
+-  mobile robotics (focus on wheeled robots);
+-  modeling and kinematics;
+-  sensor and actuators in robotics...
+
+## Supports {#sec-support}
+
+The course [handout material](/pdf/teaching/AdvancedRobotics.pdf "Click to download"){.download-link download="AdvancedRobotics.pdf"} of "**Advanced Robotic**" is available [here](/pdf/teaching/AdvancedRobotics.pdf "Click to download"){.download-link download="AdvancedRobotics.pdf"}, and the [tutorial materials](/pdf/teaching/AdvancedRobotics-TD.pdf "Click to download"){.download-link download="AdvancedRobotics-TD.pdf"} (TD) is available [here](/pdf/teaching/AdvancedRobotics-TD.pdf "Click to download"){.download-link download="AdvancedRobotics-TD.pdf"} {{< fa file-pdf >}}.
+
+
+
