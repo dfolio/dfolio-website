@@ -8,7 +8,7 @@ website:
   site-url: http://dfolio.free.fr
   title: "dfolio(at)free"
   description: "dfolio@free' personal website"
-  favicon: favicon.svg
+  favicon: favicon.webp
 
   cookie-consent:
     style: simple

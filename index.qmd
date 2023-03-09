@@ -5,7 +5,7 @@ date-modified: 2023-02-24 13:35:12.1522179552 +0200
 pagetitle: 'dfolio(at)free website'
 description: 'dfolio(at)free website is for sharing my projects, activities and others...'
 keywords: dfolio, dfolio.free.fr, David FOLIO, dfolio(at)free
-image: logo-df.svg
+image: /images/logo-df.webp
 section-divs: false
 toc: false
 comments: false
