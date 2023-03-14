@@ -1,8 +1,8 @@
 ---
-dateCreated: 2019-11-02 07:43:20.1572677000 +0100
+date: 2019-11-02 07:43:20.1572677000 +0100
 aliases: 
   - /teaching/advanced-robotic/
-lang: en
+lang: en-US
 title: Advanced Robotic
 keywords: [robotic, mobile robot, control, systems, teach, activities]
 description: >
@@ -10,7 +10,7 @@ description: >
   industrial applications and to discover new fields of research
   on humanoids and biorobotics
 toc: true
-images: /images/teaching/robotic.svg
+images: /images/teaching/robotic.webp
 ---
 
 :::{.grid}
@@ -26,12 +26,12 @@ images: /images/teaching/robotic.svg
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/robotic.svg)
+![](/images/teaching/robotic.webp)
 :::
 :::
 
 
-## Objectives {#sec-obj}
+## Objectives {#sec-objectif}
 
 The topic of this course would address the understanding of _advanced robotic_ with a particular attention to mobile robots, their structures and applications.
 To do so, the parametric identification and the modeling (e.g. kinematics models) of robots are presented.
@@ -47,12 +47,12 @@ In a second part, the navigation and control of an autonomous mobile robot will 
 
 ## Outline {#sec-prog}
 
--  Preliminaries/Introduction:
-   -  what is a robot?
-   -  from industrial robotic to intelligent autonomous robots...
--  mobile robotics (focus on wheeled robots);
--  modeling and kinematics;
--  sensor and actuators in robotics...
+-  Introduction to mobile robotics
+-  Modeling and kinematics;
+-  Sensors and actuators for mobile robots
+-  Localization and mapping
+-  Autonomous navigation
+-  Introduction to robots control
 
 ## Supports {#sec-support}
 

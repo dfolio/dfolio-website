@@ -1,5 +1,5 @@
 ---
-dateCreated: 2018-03-30 13:40:03.1522410003 +0200
+date: 2018-03-30 13:40:03.1522410003 +0200
 aliases: 
   - /teaching/ELAN/
 lang: fr
@@ -11,7 +11,7 @@ description: >
   transistors), de leurs montages classiques (eg. les étages amplificateurs en
   particulier).
 toc: true
-images: /images/teaching/electronic-analog.svg
+images: /images/teaching/electronic-analog.webp
 ---
 
 :::{.grid}
@@ -21,17 +21,17 @@ images: /images/teaching/electronic-analog.svg
 +----------------------+--------------------------------------------------+
 | **Semestre** _S4_    | **EC**: _Électronique analogique_                |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 6  | _Tronc commun TC_                                | +----------------------+--------------------------------------------------+
+| **Crédits ECTS**: 6  | _Tronc commun (TC)_                              | +----------------------+--------------------------------------------------+
 | **Coefficient**: 2   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/electronic-analog.svg "electronique analogique")
+![](/images/teaching/electronic-analog.webp "electronique analogique")
 :::
 :::
 
 
-## Objectifs pédagogiques {#objectif}
+## Objectifs pédagogiques {#sec-objectif}
 
 Comprendre le fonctionnement des composants électroniques élémentaires à base de
 semi-conducteurs, de leurs montages classiques, les étages amplificateurs en
@@ -62,7 +62,7 @@ entre autre:
 Le cours et les TD sont communs aux deux campus (de Blois et de Bourges) de
 l'INSA Centre Val de Loire.
 
-## Supports {#supports}
+## Supports {#sec-supports}
 
 Vous avez ci-dessous les supports des cours et TD d'électronique analogique au format {{< fa file-pdf >}}:
 

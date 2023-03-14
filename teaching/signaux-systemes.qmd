@@ -1,5 +1,5 @@
 ---
-dateCreated: 2018-03-30 14:19:07.1522412347 +0200
+date: 2018-03-30 14:19:07.1522412347 +0200
 aliases:
   - /teaching/signaux-systemes/
 lang: fr
@@ -10,20 +10,21 @@ description: >
   l'information à travers l'étude la génération des signaux et des composants de
   base pour leurs traitements élémentaires.
 toc: true
+images: /images/teaching/signaux-system.webp
 ---
 
 :::{.grid}
 :::{.g-col-12 .g-col-xl-7 .teaching rules="groups"}
-+---------------------+--------------------------------------------------+
-| **MRI** _4A_        | **EA**: _Systèmes avancés 2_                     |
-+---------------------+--------------------------------------------------+
-| **Semestre** _S8_   | **EC**: _Signaux et Systèmes_                    |
-+---------------------+--------------------------------------------------+
-| **Crédits ECTS**: 8 | _Parcours 4A MRI Systèmes Avancés_               |
-+---------------------+--------------------------------------------------+
++--------------------+-+--------------------------------------------------+
+| **MRI** _4A_         | **EA**: _Systèmes avancés 1_                     |
++----------------------+--------------------------------------------------+
+| **Semestre** _S7_    | **EC**: _Signaux et Systèmes_                    |
++----------------------+--------------------------------------------------+
+| **Crédits ECTS**: 10 | _EA Systèmes avancés_                            |
++----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/signaux-system.svg)
+![](/images/teaching/signaux-system.webp)
 :::
 :::
 
@@ -40,19 +41,11 @@ Cet enseignement fait appel à la fois aux connaissance relatifs aux signaux (e.
 
 ## Programme du cours {#prog}
 
--   Le filtrage analogique, avec:
-   -   la synthèse des filtres passifs,
-   -   la synthèse des filtres actifs,
--   Les oscillateurs :
-   -   généralités et les oscillateurs sinusoïdaux (eg. principe de fonctionnement, critère de
-Barkhausen, etc.),
-   -   les oscillateurs à résistances négatives,
-   -   les oscillateurs à réaction positives
-   -   les résonateurs
--   Boucles à verrouillage de phase (PLL):
-   -   généralité et principe de fonctionnement des PLL,
-   -   le comparateur de phase,
-   -   analyse dynamique de la PLL
+- Rappel des principes de base sur les signaux et les systèmes
+-   Le filtrage analogique:
+   -   la synthèse des filtres passifs et  actifs,
+-   Les oscillateurs 
+-   Boucles à verrouillage de phase (PLL)
 
 
 ## Supports {#supports}

@@ -1,28 +1,32 @@
 ---
-dateCreated: 2018-09-14 14:50:43 +0200
+date: 2018-09-14 14:50:43 +0200
 aliases: 
   - /teaching/SFEN/
 lang: fr 
-title: Sûreté et Fonctionnement en Énergie Nucléaire (SFEN)
+title: L'option SFEN
+title-meta: L'option Sûreté et Fonctionnement en Énergie Nucléaire (SFEN)
+subtitle: '{{< meta title-meta >}}'
 keywords: énergie nucléaire, formation, David Folio, INSA
 description: >
   David FOLIO est le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire (SFEN) de la 5^ème^ année MRI de l'INSA Centre Val de Loire.
 
-image: /images/logo-teach.svg
+image: /images/logo-teach.webp
 toc: true
 ---
 
 
 ## Présentation
 
-Je suis le responsable de l'option [Sûreté de Fonctionnement en Énergie Nucléaire (SFEN)](/teaching/SFEN/) de la 5^ème^ année du département MRI de l'INSA Centre Val de Loire.
-L'option SFEN à pour ambition de:
+Je suis le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire ([SFEN]) de la 5^ème^ année du département MRI de l'{{< var INSA-CVL >}}.
+L'option [SFEN] à pour ambition de:
 
 -   Mettre en œuvre les outils de la maîtrise des [risques nucléaires](#RN) au niveau des réacteurs, des installations nucléaires et du transport de matières radioactives.
 -   Définir et mettre en place des mesures de radioprotection.
 -   Appréhender et gérer les situations d'accidents et de crises suivant les méthodologies référencées.
 -   Déployer et utiliser les outils de contrôle et d'évaluation de sûreté des installations nucléaires.
 -   Evaluer la fiabilité mécanique de structures industrielles contre les risques majeurs.
+
+[SFEN]: /teaching/SFEN.qmd  "Sûreté de Fonctionnement en Énergie Nucléaire"
 
 ## Le risque nucléaire {#RN}
 
@@ -34,8 +38,21 @@ La sûreté nucléaire
 
 ## Les enseignements spécifiques
 
-Les enseignements spécifiques de l'option SFEN s'articulent autour de 3 thèmes
+Les enseignements spécifiques de l'option [SFEN] s'articulent autour de 2 modules pédagogiques
 
+1. Structure: **comportement [(mécanique)]{.smaller} non linéaire et physique nucléaire** (5xUE: 110h)
+   - Enseignement de mécanique orienté vers les applications d’études de structures dans toutes les phases de leurs comportements, jusqu’à leurs destructions totales. (en commun avec l’option RAI)
+   - Développer les connaissances de base sur l'énergie nucléaire, l'étude du cycle du combustible, et des modes de fonctionnement normaux ou accidentels des centrales.
+
+2. **Sécurité, sûreté et environnement**
+   - Thèmes: radioprotection, crise et gestion, traitement des situations radiologiques anormales, de sûreté des matières nucléaires dans les domaines du transport et dans l'amont du cycle, retraitement/recyclage, démentellement…
+
+Possibilité de double diplômes:
+
+- MASTER Mécanique (Univ. Orléans, Univ. Tours)
+- Ingénieur spécialisé en Génie Atomique avec l’INSTN
+
+<!--
 -  **Les technologies impliquées**:
     l'objectif est de développer les connaissances nécessaires à l'étude du cycle du combustible, et des modes de fonctionnement normaux ou accidentels des centres nucléaires de production d'énergie.
 
@@ -44,12 +61,12 @@ Les enseignements spécifiques de l'option SFEN s'articulent autour de 3 thèmes
 
 -  **Mécanique** (en commun avec l'option RAI):
     l'enseignement de la mécanique est orienté vers les applications d'études de structures dans toutes les phases de leurs comportements, jusqu'à leurs destructions totales
+-->
 
 ## Insertion professionnelle
 
-- Diplomés 2014 : <6 mois 10% en recherche d'activités
-- Diplomés 2015, 2016, 2017 : <6 mois 0% en recherche d'activités
-- Salaire moyen : 36.5k€ , principalement en CDI
+-  <6 mois 0 à 10% de l'effectif est en recherche d'activités
+- Rémunération débutant: 40k€ , principalement en CDI
 - Répartition géographique: Île de France : 40-50%; Province : 30-35%; Étranger : 20%
 - Types de fonctions :
   -  Chargé d'évaluation de la maîtrise des risques radiologiques et nucléaires
@@ -58,4 +75,9 @@ Les enseignements spécifiques de l'option SFEN s'articulent autour de 3 thèmes
   -  Ingénieur projet Nucléaire,
   -  Formateur protection nucléaire, etc.
 
+## Voir aussi
+
+- Groupe des Industriels Français de l’Énergie Nucléaire (GIFEN): <https://www.gifen.fr>
+- Société Française d'Énergie Nucléaire (SFEN): <http://www.sfen.org>
+- Institut International de l'Énergie Nucléaire (I2EN): <https://i2en.fr>
 

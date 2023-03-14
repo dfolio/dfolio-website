@@ -1,5 +1,5 @@
 ---
-dateCreated: 2018-03-30 14:20:43.1522412443 +0200
+date: 2018-03-30 14:20:43.1522412443 +0200
 aliases: 
   - /teaching/genie-electrique/
 lang: fr
@@ -10,7 +10,7 @@ description: >
   applications pratiques, notamment à travers les systèmes électriques de
   puissances.
 toc: true
-images: /images/teaching/cycles-energies.svg
+images: /images/teaching/cycles-energies.webp
 ---
 
 :::{.grid}
@@ -20,17 +20,17 @@ images: /images/teaching/cycles-energies.svg
 +----------------------+--------------------------------------------------+
 | **Semestre** _S6_    | **EC**: _Electricité - Électrotechnique_         |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 5  | _Tronc commun TC_                                |
+| **Crédits ECTS**: 5  | _Tronc commun (TC)_                              |
 +----------------------+--------------------------------------------------+
 | **Coefficient**: 2   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/cycles-energies.svg)
+![](/images/teaching/cycles-energies.webp "Maîtriser l'énergie électrique")
 :::
 :::
 
-## Objectifs pédagogiques {#sec:obj}
+## Objectifs pédagogiques {#sec-objectif}
 
 Explorer les notions de base liées à l'électricité, à l'électrotechnique
 (parfois appelé "_génie électrique_") et aux systèmes électriques de puissance.
@@ -55,9 +55,9 @@ meilleur suivi de cet enseignement.
 -   Le transformateur monophasé;
 -   Les machines électriques tournantes: à courant continu, asynchrone, synchrone
 
-## Supports {#sec-support}
+## Supports {#sec-supports}
 
-Vous avez ci-dessous les supports des cours et TD d'électronique analogique au format  {{< fa file-pdf >}}:
+Vous avez ci-dessous les supports  au format  {{< fa file-pdf >}}:
 
 -   Support de [cours d'électricité - électrotechnique](/pdf/teaching/electricite-book.pdf "Click to download"){.download-link download="electricite-book.pdf"} {{< fa file-pdf >}}
 -   Support de [TD d'électricité - électrotechnique](/pdf/teaching/electricite-TD.pdf "Click to download"){.download-link download="electricite-TD.pdf"} {{< fa file-pdf >}}

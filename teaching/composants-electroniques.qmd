@@ -1,16 +1,16 @@
 ---
-dateCreated: 2018-03-30 14:16:55.1522412215 +0200
+date: 2018-03-30 14:16:55.1522412215 +0200
 aliases: 
   - /teaching/composants-electroniques/
 lang: fr
-title: Composants électroniques
+title: Composants Électroniques
 keywords: composants électroniques, électronique analogique, cours, david folio, INSA
 description: >
   L'objectif de cet enseignement avancé est de s'interesser au fonctionnement et
   aux technologies des composants de l'électroniques analogique.
 
 toc: true
-images: /images/teaching/electronic-analog.svg
+images: /images/teaching/electronic-analog.webp
 ---
 
 :::{.grid}
@@ -20,17 +20,17 @@ images: /images/teaching/electronic-analog.svg
 +----------------------+--------------------------------------------------+
 | **Semestre** _S5_    | **EC**: _Composants électroniques_               |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 10 | _Tronc commun TC_                                |
+| **Crédits ECTS**: 10 | _Tronc commun (TC)_                              |
 +----------------------+--------------------------------------------------+
 | **Coefficient**: 2   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/electronic-analog.svg "electronique analogique")
+![](/images/teaching/electronic-analog.webp "electronique analogique")
 :::
 :::
 
-## Objectifs pédagogiques {#objectif}
+## Objectifs pédagogiques {#sec-objectif}
 
 Comprendre le fonctionnement des composants électroniques analogiques élémentaires, de leurs spécificités technologiques et de leurs caractéristiques _réelles_.
 En particulier, il s'agit de pouvoir (re)connaître l'emploi de ces composants électroniques et de savoir les dimensionner.
@@ -61,7 +61,7 @@ autre:
 -   Technologies des composants numériques ;
 -   Introductions aux composants de l'électronique de puissances.
 
-## Supports {#supports}
+## Supports {#sec-supports}
 
 Vous avez ci-dessous les supports des cours et TD de composants électroniques  au format {{< fa file-pdf >}}:
 

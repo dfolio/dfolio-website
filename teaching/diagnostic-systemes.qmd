@@ -1,5 +1,5 @@
 ---
-dateCreated: 2018-03-30 15:10:21.1522415421 +0200
+date: 2018-03-30 15:10:21.1522415421 +0200
 aliases: 
   - /teaching/diagnostic-systemes/
 lang: fr
@@ -9,7 +9,7 @@ description: >
   modèles pour l'amélioration de la fiabilité des processus technologiques.
 
 toc: true
-images: /images/teaching/commande-diagnostic.svg
+images: /images/teaching/commande-diagnostic.webp
 ---
 
 
@@ -24,7 +24,7 @@ images: /images/teaching/commande-diagnostic.svg
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/commande-diagnostic.svg)
+![](/images/teaching/commande-diagnostic.webp)
 :::
 :::
 
@@ -61,4 +61,4 @@ d'état**" (4A-S8) sont également exploités.
 
 ## Supports {#sec-support}
 
-Le [cours de diagnostic des systèmes industriels](/pdf/teaching/diagSys-book.pdf "Click to download"){.download-link download="diagSys-book.pdf"} est accessible [ici](/pdf/teaching/diagSys-book.pdf "Click to download"){.download-link download="diagSys-book.pdf"} au format {{< fa file-pdf >}}.
+Le [support cours](/pdf/teaching/diagSys-book.pdf "Click to download"){.download-link download="diagSys-book.pdf"}  de diagnostic des systèmes industriels est accessible [ici](/pdf/teaching/diagSys-book.pdf "Click to download"){.download-link download="diagSys-book.pdf"} au format {{< fa file-pdf >}}.

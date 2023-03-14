@@ -1,9 +1,11 @@
 ---
-dateCreated: 2018-03-27 16:56:05.1522162565 +0200
+order: 1
+date: 2018-03-27 16:56:05.1522162565 +0200
 #aliases: 
 #  - /teaching/
-lang: en
 title: Teaching activities
+title-meta: "David FOLIO research activities"
+#subtitle: '{{< meta title-meta >}}'
 keywords: [dfolio, teach, activities]
 description: >
   As senior lecturer, my overall teaching activities is solely related with the
@@ -12,6 +14,8 @@ description: >
 image: /images/logo-teach.svg 
 toc: false
 anchor-sections: false
+categories: [dfolio, teaching]
+  
 ---
 
 My overall teaching activities have been solely related with the 61^st^
