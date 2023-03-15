@@ -1,0 +1,159 @@
+---
+aliases: 
+  - /research/hdr/
+type: thesis
+date: 2021-12-03
+title: Magnetic Microrobotics for Biomedical Applications
+title-meta: D. Folio Habilitation
+keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
+description: >
+  Some informations on the Habilitation of David FOLIO
+bibliography: [../dfolio.bib]
+image: /images/research/targeting.webp
+author:
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+url: http://dfolio.free.fr/research/hdr/
+hal_id: "tel-03483203"
+citation: 
+  citation-key: folio2021hdr
+  language: en-US
+  type: thesis
+  genre: Habilitation
+  author:
+  - Folio, David 
+  publisher: University of Orleans
+  publisher-place: Bourges, France
+  abstract: |
+    This research work mainly focuses on the study of the
+    modeling and control of microrobotic systems in a biomedical
+    context. So far, the use of magnetic actuation has been regarded as
+    the most convenient approach for such achievements. Besides, the
+    cardiovascular system allows to reach most parts of the human body
+    and is then chosen as the main navigation route. This original topic
+    is a rapidly expanding field whose ambition is to modernize current
+    therapies by trying to improve therapeutic targeting while improving
+    patient comfort. To achieve this goal, a good understanding of how
+    microrobots evolve in the human body is an important step. The
+    theoretical foundations and the physical laws that make it possible
+    to describe the various phenomena which act on magnetic microrobots
+    in vascular-like environments have thus been deeply studied.
+    Methodologies for dealing with multiphysics approaches combining
+    different sources of hypotheses and uncertainties have been
+    developed. Great care has been taken in their validations by
+    experimentation when possible, otherwise by numerical analysis. This
+    helps to better understand the dominant dynamics, as well as the
+    predominant parameters in the description of magnetic microrobots in
+    a vascular-like environment. This makes it possible to efficiently
+    characterize and predict their behaviors in a viscous flow and their
+    responses to magnetic fields. On this basis, advanced navigation
+    strategies have been developed. The navigation process can be
+    divided into two stages. First, safe and efficient navigation paths
+    are planned (off-line) based on the fast marching method (FMM). With
+    the proposed navigation planning framework, different constraints
+    and objectives can then be taken into account to obtain a truly
+    feasible reference path. Second, control schemes that drive the
+    magnetic microrobots along the planned reference path to the
+    targeted location are synthesized. To do so, predictive and optimal
+    control laws have been implemented. All the proposed models and
+    navigation strategies have been evaluated through various
+    experiments under different conditions with the platforms developed
+    at the PRISME Laboratory.
+categories: 
+  - Modeling
+  - Control
+  - Optimization
+  - Catalytic micromotors
+  - Microrobots
+  - EMA
+  - Biomedical application
+---
+
+
+## Habilitation degree 
+ 
+I have defended my Habilitation in microrobotics in 2021, which was entitled "_Magnetic Microrobotics for Biomedical Applications_".
+In this work, I have provided a summary of my teaching and research activities since my recruitment as associate professor in 2008.
+\
+To resume thirteen years of hard work is a very interesting exercise. 
+This allows to take a step back and try to isolate the common thread that has motivated my activities through personal initiatives or opportunities that have arisen.
+It is important to remember that all these activities are the result of collective work, either with my colleagues and co-authors, or with [students](/research/supervision/)  I supervised.
+The works described through my Habilitation manuscript inextricably reflects  this joint contributions.
+\
+Nevertheless, it is difficult to  account for all that has been achieved so far and some choices had to be made to write my dissertation.
+Not that the other works have less appeal, but I have tried to maintain consistency on what is reported in the manuscript.
+In particular, in the second part, I chose to focus on my main scientific contributions regarding **magnetic microrobots** that have to _navigate through the cardiovascular system for targeted therapy_.
+
+
+![Representation of the navigation of a magnetic microrobot (TMMC) navigating in a cardio‐vascular system. Microrobots are injected via a catheter into the arterial network to reach deep location.](/images/research/targeting.webp){width=80% #fig-targeting}
+
+My research has led me to mainly study modeling and control of microrobotic systems in a biomedical context, as illustrated in @fig-targeting.
+Different research groups aim to design appropriate solutions that could be applied to the human body.
+So far, the use of magnetic actuation appears to be the most convenient approach for such realizations [@folio2012iros; @mellal2015iros; @chen2022analysis].
+This original theme is a field still in progress with the ambition to modernize current therapies by seeking to improve therapeutic targeting while enhancing patient comfort.
+To achieve this goal, a good understanding of the microrobots evolving in the human body is an important step [@belharet2010iros; @folio2012iros].
+We have thus studied the theoretical foundation and the physical laws allowing to describe the various phenomena which act on magnetic microrobots in vascular-like environment [ @sarkis2015icra;@acsnano2016; @sarkis2018jmems; @belharet2013isot; @folio2022modeling; @mellal2016tnb; @mellal2018modeling; @mellal2021modeling; @wu2022motion].
+We have developed a methodology allowing us to deal with multiphysics approaches combining different sources of uncertainties and hypotheses [@folio2013tbme].
+Great care has been taken in their validations through experiments when it is possible, otherwise with numerical analysis.
+This help us  to better understand the overriding dynamics, as well as the predominant parameters in the description of magnetic microrobots in a vascular-like environment.
+This makes  possible to fully characterize their behaviors in  a viscous flow  and their responses to magnetic fields.
+\
+All of these helped us to propose advanced navigation strategies for our microrobots [@belharet2010biorob; @belharet2011advrob; @belharet2012iros; @belharet2012isot; @dahmen2012iros; @mellal2016icra].
+Our navigation process can be divided in two levels. 
+First, we plan (off-line) really feasible navigation paths based on the FMM. 
+With the proposed navigation planning framework, we can take into account different constraints and objectives to get _a really feasible_ reference path.
+Second, we synthesized control schemes that drive the magnetic microrobots along the reference to the targeted location.
+To this aim, we have chosen to implement  predictive control  and optimal control laws.
+\
+All of our proposed models and navigation strategies were then evaluated through various experiments in different conditions.
+To do so, various  proof-of-concept platforms were developed within the PRISME Laboratory and through our collaborations. 
+To further extend the magnetic actuation capability, we have also extensively studied the design of  electromagnetic systems.
+These EMA   platforms that meet properly the specifications of the biomedical operation would produce  magnetic fields and gradients more suited to the needs.
+This knowledge allowed us to build the OctoRob platform.
+
+
+## Habilitation Details {#sec-details}
+
+I obtained my Habilitation in Robots Control from University of Orleans (France) on December 3, 2021, which was entitled: “_Magnetic Microrobotics for Biomedical Applications: Modeling, Simulation, Control and Validations_" [@folio2021magnetic].
+
+Manuscript
+:   [D. Folio Habilitation thesis](/pdf/folio2021hdr.pdf "Click to download"){.download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
+    ([view](/pdf/folio2021hdr.pdf "Click to download"){.download-link})
+
+Defended
+: the 3^rd^ December 2021
+ 
+Committee
+:   
+    +-----------+------------------------------------------------------------------------------+
+    | President | Chantal Pichon (Prof. des Université, Orléans)                               |
+    +-----------+------------------------------------------------------------------------------+
+    | Reviewers | Michaël Gauthier (DR, CNRS, FEMTO-ST, Besançon)                              |
+    |           |                                                                              |
+    |           | Sylvain Martel (Prof. Polytechnique Montréal, Canada)                        |
+    |           |                                                                              |
+    |           | Philippe Poignet (Prof. des Universités, Univ. Montpellier)                  |
+    +-----------+------------------------------------------------------------------------------+
+    | Examiners | Christine Prelle (Prof. des  Universités, UTC)                               |
+    |           |                                                                              |
+    |           | Mohammed Samer (Prof. des Universités, Univ. Paris-Est Créteil Val de Marne) |
+    |           |                                                                              |
+    |           | Li Zhang (Prof., Dept. MAE, CUHK, Hong Kong)                                 |
+    +-----------+------------------------------------------------------------------------------+
+    | Guarantor | Antoine Ferreira (Prof. des  Universités, INSA Centre Val de Loire)          |
+    +-----------+------------------------------------------------------------------------------+
+
+
+## References
+
+::: {#refs}
+:::

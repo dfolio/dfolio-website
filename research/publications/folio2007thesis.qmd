@@ -1,0 +1,169 @@
+---
+date: 2007-07
+type: thesis
+#lang: fr-FR
+title: Stratégies de commande référencées multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile
+title-meta: D. Folio PhD. Thesis
+keywords: [dfolio, PhD, thesis, visual servoing, sensor based control]
+description: >
+  Some informations on the doctorate degree of David FOLIO
+#css: /assets/css/references.css
+#critical-css: references
+
+bibliography: [../references.bib, ../dfolio.bib]
+aliases: 
+  - /research/thesis/
+
+author:
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+url: http://dfolio.free.fr/research/thesis/
+hal_id: "tel-00172507"  
+citation: 
+  citation-key: folio2007thesis
+  language: fr-FR
+  type: thesis
+  genre: PhD.
+  publisher: Université Paul Sabatier, LAAS
+  publisher-place: Toulouse, France
+  author:
+  - Folio, David 
+  abstract: |
+    The literature provides many techniques to design efficient control laws
+    to realize robotic navigation tasks. In recent years, the sensors
+    improvement gave rise to the sensor-based control which allows to define
+    the robotic task in the sensor space rather than in the configuration
+    space. In this context, as cameras provide high-rate meaningful data,
+    visual servoing has been particularly investigated, and can be used to
+    perform various and accurate navigation tasks. This method, which relies
+    on the interaction between the camera and the visual features motions,
+    consists in regulating an error in the image plane. Nonetheless,
+    vision-based navigation tasks in cluttered environment cannot be
+    expressed as a sole regulation of visual data. Indeed, in this case, it
+    is necessary to preserve not only the robot safety (i.e. non-collision)
+    but also the visual features visibility. This thesis addresses this
+    issue and aims at developing sensor-based control laws allowing a mobile
+    robot to perform vision-based tasks amidst possibly occluding obstacles.
+    We have first proposed techniques able to fulfill simultaneously the two
+    previously mentioned objectives. However, avoiding both collisions and
+    occlusions often over-strained the robotic navigation task, reducing the
+    range of realizable missions. This is the reason why we have developed a
+    second approach which lets the visual features loss occurs if it is
+    necessary for the task realization. Using the link between vision and
+    motion, we have proposed different methods (analytical and numerical) to
+    compute the visual signal as soon it becomes unavailable. We have then
+    applied them to perform vision-based tasks in cluttered environments,
+    before highlighting their interest to deal with a camera failure during
+    the mission.
+categories: 
+  - Control
+  - Visual servoing
+  - Mobile robots
+  - Obstacle avoidance
+---
+
+## Doctorate degree
+
+I have defended my PhD in Robotics in 2007 within the Robotics, Action,
+and Perception (RAP) group of the Laboratory for Analysis and
+Architecture of Systems[^1] (LAAS), CNRS[^2], under the supervision of
+Viviane Cadenat, Associate Professor at Paul Sabatier University of
+Toulouse, France. Specifically, my PhD thesis was entitled
+["*Multi-sensor-based control strategies and visual signal loss
+management for mobile robots navigation*"](#details). The subject was to
+design multi-sensor-based control strategies allowing a mobile robot to
+perform vision-based tasks amidst possibly occluding obstacles.
+Actually, the sensors' improvement gave rise to the sensor-based control
+which allows defining the robotic task in the sensor space rather than
+in the configuration space. As cameras provide high-rate meaningful
+data, visual servoing has been particularly investigated, and can be
+used to perform various and accurate navigation tasks
+[@hutchinson1996tutorial; @chaumette2006visual; @chaumette2007visual].
+The objectives are then to perform reliable navigation tasks, despite
+the presence of obstacles. Thereby, it is necessary to preserve not only
+the robot safety (i.e. ensuring non-collision) but also the visual
+features' visibility to ensure the vision-based task feasibility. To
+achieve these aims we have first proposed techniques able to fulfill
+simultaneously the mentioned objectives [@folio2005ecmr; @folio2005ecc].
+However, avoiding both collisions and occlusions often over-strained the
+robotic navigation task, reducing the range of realizable missions. This
+is the reason why we have developed a second approach which let occurs
+the loss of the visual features if it is necessary for the success of
+the task. Using the link between vision and motion, we have proposed
+different methods (analytical and numerical) to compute the visual
+signal as soon it becomes unavailable [@folio2007ecc]. We have
+then applied them to perform vision-based tasks in cluttered
+environments, before highlighting their interest to deal with a camera
+failure during the mission [@folio2007icinco; @folio2008iros].
+
+[^1]: In French [*Laboratoire d'Analyse et d'Architecture des Systèmes*]{.fr lang="fr" custom-style="French"}. 
+      LAAS is a laboratory depending on the CNRS. <http://www.laas.fr>
+
+[^2]: Form French National Center for Scientific Research, from French
+    [*Centre National de la Recherche Scientifique*]{.fr lang="fr" custom-style="French"} (CNRS), is the largest governmental research
+    organization in France. <http://www.cnrs.fr>
+
+In addition, during my doctorate degree, I also had the opportunity to
+perform teaching activities, first as temporary teacher (3 years), and
+then as teaching assistant, specifically in French "[Attaché Temporaire d'Enseignement et de Recherche]{.fr lang="fr"}" (ATER,1 year, both for
+the Paul Sabatier University of Toulouse. These global teaching
+experiences have led to a total volume of 308 hETD[^3].
+
+[^3]: "[Equivalent TD hours]{.em .enquote}" that is in French "[*heures équivalentes TD*]{.fr lang="fr" custom-style="French"}"
+    ([hETD]{.unit}), are the reference hours to calculate the teaching
+    duties. The rules for a tenured teacher are as follows:
+    [1]{.number}[h]{.unit} of course = [1.5]{.number}[hETD]{.unit},
+    while the others, e.g. [1]{.number}[h]{.unit} of tutorial (TD) =
+    [1]{.number}[h]{.unit} of practical work (TP) =
+    [1]{.number}[hETD]{.unit}.
+
+## Thesis Details {#details}
+
+I obtained a PhD thesis in Robots Control from Paul Sabatier University
+of Toulouse (France), that was entitled: "*Multi-sensor-based control
+strategies and visual signal loss management for mobile robots
+navigation*" [@folio2007thesis].
+
+Manuscript
+:   [D. Folio PhD thesis](/pdf/folio2007thesis.pdf "Click to download"){.download-link download="folio2007thesis.pdf"} {{< fa file-pdf >}}
+    ([view](/pdf/folio2007thesis.pdf "Click to download"){.download-link})
+
+Defended
+:   the 11^th^ July 2007
+
+Committee
+:   
+    +-----------+-----------------------------------------------------+
+    | President | Michel Devy (DR LAAS)                               |
+    +-----------+-----------------------------------------------------+
+    | Reviewers | François Chaumette (DR IRISA/INRIA)                 |
+    |           |                                                     |
+    |           | Seth Hutchinson (Prof. University of Illinois, USA) |
+    +-----------+-----------------------------------------------------+
+    | Examiners | Bernard Bayle (MdC Université de Strasbourg)        |
+    |           |                                                     |
+    |           | Michel Courdesses (Prof. Universités de Toulouse)   |
+    +-----------+-----------------------------------------------------+
+    | Director  | Viviane Cadenat (MdC Université de Toulouse)        |
+    +-----------+-----------------------------------------------------+
+    | Guess     | Philippe Souères (Prof. Universités de Toulouse)    |
+    +-----------+-----------------------------------------------------+
+
+## Abstract
+
+
+{{< meta citation.abstract >}}
+
+## References
+
+::: {#refs}
+:::

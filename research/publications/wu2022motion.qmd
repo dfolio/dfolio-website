@@ -1,0 +1,144 @@
+---
+type: journal
+date: 2022-09-21
+title: Motion Analysis and Real-Time Trajectory Prediction of Magnetically Steerable Catalytic Janus Micromotors
+description: | 
+  This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
+author:
+  - name:
+      family: Wu
+      given: Jiaen
+    affiliations:
+      - ref: MSRL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name:
+      family: Zhu
+      given: Jiawei
+    affiliations:
+      - ref: MSRL
+  - name:
+      family: Jang
+      given: Bumjin
+    affiliations:
+      - ref: korea
+  - name:
+      family: Chen
+      given: Xiangzhong
+    affiliations:
+      - ref: MSRL
+  - name:
+      family: Feng
+      given: Junxiao
+    affiliations:
+      - ref: Mat-ETH
+  - name:
+      family: Gambardella
+      given: Pietro
+    affiliations:
+      - ref: Mat-ETH
+  - name:
+      family: Sort
+      given: Jordi
+    affiliations:
+      - ref: fisica
+  - name:
+      family: Puigmarti-Luis
+      given: Josep
+    affiliations:
+      - ref: icrea
+  - name:
+      family: Ergeneman
+      given: Olgac
+    affiliations:
+      - ref: MSRL
+  - name:
+      family: Ferreira
+      given: Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+  - name:
+      family:  Pane
+      given: Salvador
+    affiliations:
+      - ref: MSRL
+    attributes:
+      equal-contributor: true
+    
+doi: 10.1002/aisy.202200192
+url: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
+hal_id: "hal-03783339"
+citation: 
+  citation-key: wu2022motion
+  language: en-US
+  container-title: Advanced Intelligent Systems
+  type: article-journal
+  genre: ACL
+  author: "Wu, Jiaen and Folio, David and Zhu, Jiawei and Jang, Bumjin and Chen, Xiangzhong and Feng, Junxiao and Gambardella, Pietro and Sort, Jordi and Puigmarti-Luis, Josep and Ergeneman, Olgac and Ferreira, Antoine and Pane, Salvador"
+  publisher: Wiley
+  issn: 2640-4567
+  issue: 11
+  volume: 4
+  submitted: 2022-07
+  issued: 2022-09-21
+  keyword: bubble recoil propulsion,catalytic swimmers,directionality
+    control,magnetic Janus particles,real-time trajectory prediction
+  abstract: |
+    Chemically driven micromotors display unpredictable
+    trajectories due to the rotational Brownian motion interacting with
+    the surrounding fluid molecules. This hampers the practical
+    applications of these tiny robots, particularly where precise
+    control is a requisite. To overcome the rotational Brownian motion
+    and increase motion directionality, robots are often decorated with
+    a magnetic composition and guided by an external magnetic field.
+    However, despite the straightforward method, explicit analysis and
+    modeling of their motion have been limited. Here, catalytic Janus
+    micromotors are fabricated with distinct magnetizations and a
+    controlled self-propelled motion with magnetic steering is shown. To
+    analyze their dynamic behavior, a dynamic model that can
+    successfully predict the trajectory of micromotors in uniform
+    viscous flows in real time by incorporating a form of
+    state-dependent-coefficient with a robust two-stage Kalman filter is
+    theoretically developed. A good agreement is observed between the
+    theoretically predicted dynamics and experimental observations over
+    a wide range of model parameter variations. The developed model can
+    be universally adopted to various designs of catalytic
+    micro-/nanomotors with different sizes, geometries, and materials,
+    even in diverse fuel solutions. Finally, the proposed model can be
+    used as a platform for biosensing, detecting fuel concentration, or
+    determining small-scale motors' propulsion mechanisms in an unknown
+    environment.
+impact-factor: "7.29"
+categories: 
+  - Modeling
+  - Motion analysis
+  - Catalytic micromotors
+  - Magnetic Janus particles
+  - Kalman filter
+---
+
+##  Abstract
+
+{{< meta citation.abstract >}}
+
+## Acknowledgements
+J.W. and D.F. contributed equally to this work. This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No. 764977, the Spanish (PID2020-116844RB-C2 and PID2020-116844RB-C21) and Catalan (2017-SGR-0292) research administrations, and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2022R1C1C1007338).
+
+## Supporting Information
+
+[Supplementary material](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Faisy.202200192&file=aisy202200192-sup-0001-SuppData-S1.zip)
+is available on the editor website.

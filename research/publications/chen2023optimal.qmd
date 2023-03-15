@@ -1,0 +1,85 @@
+---
+type: journal
+date: 2023-01
+title: Optimal Design of a Multipole-Electromagnet Robotic Platform for Ophthalmic Surgery
+description: | 
+  This paper address the design a multipole-electromagnet robotic platform named **OctoRob**.
+author:
+  - name:
+      family: Chen
+      given: Ruipeng
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name:
+      family: Ferreira
+      given: Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+doi: 10.3390/mi14010091
+url: "https://www.mdpi.com/2072-666X/14/1/91"
+hal_id: "hal-03919809"
+citation: 
+  citation-key: chen2023optimal
+  language: en-US
+  type: article-journal
+  container-title: Micromachines
+  genre: ACL
+  author:
+  - Chen, Ruipeng 
+  - Folio, David 
+  - Ferreira, Antoine
+  publisher: Multidisciplinary Digital Publishing Institute
+  issn: 2072-666X
+  issue: 1
+  volume: 14
+  volume-title: "Recent Advances in Microrobotics"
+  submitted: 2022-11-25
+  issued: 2023-01
+  keyword: electromagnetic actuation system,microrobotic surgery
+    platform,microrobots,ophthalmic surgery,optimization of magnetic
+    systems
+  abstract: |
+    The aim of this study was to design a multipole-electromagnet robotic platform named OctoRob. This
+    platform provides a minimally invasive means for targeted
+    therapeutic interventions in specific intraocular areas. OctoRob is
+    capable of generating both appropriate magnetic fields and
+    gradients. The main scientific objectives were: (i) To propose an
+    optimal reconfigurable arrangement of electromagnets suitable for
+    ophthalmic interventions. (ii) To model, design and implement a
+    one-degree-of-freedom robotic arm connected with an electromagnet in
+    order to optimize the generation of magnetic fields and gradients.
+    (iii) To evaluate the magnetic performances of the OctoRob platform,
+    including different tilted angles. The results show that OctoRob
+    platform has great potential to be applied for ophthalmic surgery.
+impact-factor: "3.52"
+quartile: "Q2"
+categories: 
+  - EMA
+  - Optimization
+  - Biomedical application
+---
+
+##  Abstract
+
+{{< meta citation.abstract >}}
+
+## Funding 
+This work was supported by the French National Institute
+of Health and Medical Research (Inserm) “Plan Cancer” 2014–2019
+program, Project: Microrobots Targeting Glioblastoma (MTG).

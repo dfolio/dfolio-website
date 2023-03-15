@@ -1,0 +1,68 @@
+---
+type: journal
+date: 2022-08
+title: Electromagnetic Actuation Microrobotic Systems
+description: | 
+  This review presents different types of electromagnetic actuation (EMA) microrobotic systems that have
+  been designed for various principles of magnetic microrobot locomotion for any given tasks.
+author:
+  - name:
+      family: Chen
+      given: Ruipeng
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+doi: 10.1007/s43154-022-00081-w
+url: "https://link.springer.com/article/10.1007/s43154-022-00081-w"
+hal_id: "hal-03758932"
+citation: 
+  citation-key: chen2023optimal
+  language: en-US
+  type: article-journal
+  container-title: Current Robotics Reports
+  genre: ACL
+  author:
+  - Chen, Ruipeng 
+  - Folio, David 
+  publisher: Springer
+  issn: 2662-4087
+  issue: 3
+  volume: 3
+  volume-title: "Recent Advances in Microrobotics"
+  submitted: 2022-11-25
+  issued: 2022-08
+  keyword: electromagnetic actuation system, microrobots, optimization of magnetic systems
+  abstract: |
+    To manipulate untethered microrobots the EMA system has to be designed properly to provide sufficient propulsion with respect to application objectives. Great care must be taken in developing an efficient EMA setup, with sufficient
+    degrees of freedom (DOF) and without singularity. Hence, the magnetic microrobotic system must be further investigated
+    to be able to fully comprehend either their capabilities or limitations. Both specifications of the applications and the general design of EMA systems will be comprehensively discussed and analyzed in terms of requirements on the number of
+    electromagnets used, the size of the workspace, the number of degrees of freedom for the locomotion, the manipulability of
+    the control, the unexpected singularities, system stabilization, etc. Therefore, through the similar investigation in the characteristics of the application, the suitable EMA microrobotic system can be designed with respect to the desired movement
+    task with given type of the microrobot.
+quartile: "Q2"
+categories: 
+  - EMA
+  - Review
+---
+
+##  Abstract
+
+{{< meta citation.abstract >}}
+
+## Funding 
+This work was supported by the French National Institute
+of Health and Medical Research (Inserm) “Plan Cancer” 2014–2019
+program, Project: Microrobots Targeting Glioblastoma (MTG).

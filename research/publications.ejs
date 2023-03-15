@@ -1,0 +1,53 @@
+<ul class="list publication-list" reversed>
+  <% for (const item of items) { %>
+    <li <%=metadataAttrs(item) %>>
+      <span class="listing-date">(<%= item.date %>)</span>
+      <span class="listing-author fst-italic"><%= item.citation.author %></span>:
+      <a href="<%= item.path %>"><span class="listing-title fw-bold"><%= item.title %></span></a>,
+      <% if (item.citation["container-title"]) { %>
+        <span class="listing-publication fst-italic"><%= item.citation["container-title"] %></span>.
+      <% } %>
+      <% if (item.citation.type == "thesis") { %>
+        <span class="listing-publication fst-italic">
+        <% if (item.citation.genre) { %> <%= item.citation.genre %> <% } %> <%= item.citation.type %>,
+         <%= item.citation.publisher %><% if (item.citation["publisher-place"]) { %>, <%= item.citation["publisher-place"] %> <% } %>.
+         </span>
+      <% } %>
+      <span class="listing-metrics">
+      <% if (item.quartile) { %>
+        <span><%= item.quartile %></span>
+      <% } %>
+      <% if (item['impact-factor']) { %>
+        <span>IF: <%= item['impact-factor'] %></span>
+      <% } %>
+      </span>
+      <p>
+        <a href="<%= item.path %>" class="btn btn-primary btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a>
+        <% if (item.doi) { %>
+          <a href="https://doi.org/<%= item.doi %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi"></i>&nbsp;DOI</a>
+        <% } %>
+        <% if (item.ieeexplore) { %>
+          <a href="<%= item.ieeexplore %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer" title="See document on ieeexplore"><i class="ai ai-ieee"></i>&nbsp;IEEE</a>
+        <% } %>
+        <% if (item.url) { %>
+          <a href="<%= item.url %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>&nbsp;URL</a>
+        <% } %>
+        <% if (item.arxiv) { %><a href="https://arxiv.org/abs/<%= item.arxiv %>" class="btn btn-danger btn-sm" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv"></i>&nbsp;arXiv</a>
+        <% } %>
+        <% if (item.hal_id) { %>
+          <a href="https://hal.archives-ouvertes.fr/<%= item.hal_id %>" class="btn btn-danger btn-sm" target="_blank" rel="noopener noreferrer" title="See document on HAL"><i class="ai ai-hal"></i>&nbsp;HAL</a>
+        <% } %>
+        <% if (item.github) { %>
+          <a href="https://github.com/<%= item.github %>" class="btn btn-dark btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i>&nbsp;Code</a>
+        <% } %>
+        <% if (item.preprint) { %>
+          <a href="<%= item.preprint %>" class="btn btn-light btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-pdf"></i>&nbsp;preprint</a>
+        <% } %>
+        <% if (item.pdf) { %>
+          <a href="<%= item.pdf %>" class="btn btn-light btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i>&nbsp;PDF</a>
+        <% } %>
+      </p>
+    </li>
+  <% } %>
+</ul>
+</span>
