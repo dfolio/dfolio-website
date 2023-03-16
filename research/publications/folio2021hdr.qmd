@@ -24,6 +24,7 @@ author:
       - ref: INSA-CVL
 url: http://dfolio.free.fr/research/hdr/
 hal_id: "tel-03483203"
+pdf: /pdf/folio2021hdr.pdf
 citation: 
   citation-key: folio2021hdr
   language: en-US

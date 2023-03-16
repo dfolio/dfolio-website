@@ -28,6 +28,7 @@ author:
       - ref: INSA-CVL
 url: http://dfolio.free.fr/research/thesis/
 hal_id: "tel-00172507"  
+pdf: /pdf/folio2007thesis.pdf 
 citation: 
   citation-key: folio2007thesis
   language: fr-FR

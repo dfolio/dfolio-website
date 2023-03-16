@@ -1,0 +1,89 @@
+---
+type: journal
+date: 2021-10
+title: Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy
+description: | 
+  This letter discusses of the modeling and the characterization of
+  deformable soft magnetic microrobots, under various magnetic field
+  conditions. The microrobots considered consist of  therapeutic
+  magnetic microcarriers (TMMC) immersed in different carrier fluids, and the
+  behavior of which has been characterized experimentally under weak
+  magnetic fields.
+author:
+  - name:
+      family: Mellal
+      given: Lyès
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name:
+      family: Ferreira
+      given: Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+doi: 10.1109/LRA.2021.3107102
+ieeexplore: 9521741
+hal_id: "hal-03416758"
+citation: 
+  citation-key: mellal2021modeling
+  language: en-US
+  type: article-journal
+  genre: ACL
+  author:
+  - Mellal, Lyès
+  - Folio, David
+  - Belharet, Karim
+  - Ferreira, Antoine
+  publisher: IEEE
+  container-title: IEEE Robotics and Automation Letters
+  issued: 4
+  number: 3
+  volume: 6
+  page: 8293-8300
+  abstract: |
+    Magnetic nanoparticles (MNPs) are very attractive components
+    in many biomedical applications, particularly as therapeutic
+    magnetic microcarriers (TMMC) for targeted therapy. Although MNPs
+    can be effectively gathered and transported using external magnetic
+    fields, the optimal delivery is yet to be fully investigated. In
+    this letter, we discuss the modeling and the characterization of
+    deformable soft magnetic microrobots under various magnetic field
+    conditions. The microrobots considered consist of superparamagnetic
+    iron oxide (SPIO) immersed in different carrier fluids, and the
+    behavior of which has been characterized experimentally under weak
+    magnetic fields. The experimental results clearly show that the
+    observations properly follow the model prediction. Soft magnetic
+    microrobots with controllable shape deformation have great potential
+    for targeted drug delivery due to the adaptability of their
+    characteristics to environmental conditions (e.g. vessel size,
+    velocity, shear stress).
+impact-factor: "3.74"
+quartile: "Q1"
+categories: 
+  - Modeling
+  - TMMC
+---
+
+##  Abstract
+
+{{< meta citation.abstract >}}
+
+## Funding 
+This work was supported by the French National Institute
+of Health and Medical Research (Inserm) “Plan Cancer” 2014–2019
+program, Project: [Microrobots Targeting Glioblastoma](/research/projects/MTG.qmd).

@@ -80,4 +80,4 @@ categories:
 {{< meta citation.abstract >}}
 
 ## Funding
-This work was supported by the Region Centre Val de Loire Fund with the BUBBLEBOT project.
+This work was supported by the Region Centre Val de Loire Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.

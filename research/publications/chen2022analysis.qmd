@@ -91,4 +91,4 @@ categories:
 ## Funding 
 This work was supported by the French National Institute
 of Health and Medical Research (Inserm) “Plan Cancer” 2014–2019
-program, Project: Microrobots Targeting Glioblastoma (MTG).
+program, Project: [Microrobots Targeting Glioblastoma](/research/projects/MTG.qmd).

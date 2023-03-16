@@ -78,7 +78,7 @@ author:
       - ref: MSRL
     attributes:
       equal-contributor: true
-    
+materials: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Faisy.202200192&file=aisy202200192-sup-0001-SuppData-S1.zip"    
 doi: 10.1002/aisy.202200192
 url: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
 hal_id: "hal-03783339"
