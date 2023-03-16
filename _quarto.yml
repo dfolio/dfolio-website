@@ -3,12 +3,23 @@ project:
   preview:
     port: 7633
     browser: true
+  resources:
+    - "images/favicons/*"
+    - "images/index.html"
+    - "pdf/index.html"
+    - "pdf/teaching/index.html"
+    - "pdf/research/index.html"
+    - "site.webmanifest"
+    - "browserconfig.xml"
 
 website:
-  site-url: http://dfolio.free.fr
-  title: "dfolio(at)free"
-  description: "dfolio@free' personal website"
+  title: "dfolio website"
+  description: "dfolio' personal website"
   favicon: favicon.webp
+  #site-url: http://dfolio.free.fr
+  site-url: https://dfolio.quarto.pub
+  repo-url: https://github.com/dfolio/dfolio-free-website
+  search: true
 
   cookie-consent:
     style: simple
@@ -21,7 +32,7 @@ website:
 
   open-graph:
     locale: en_US
-    site-name: "dfolio(at)free"
+    site-name: "dfolio website"
 
   reader-mode: true
   page-navigation: true
@@ -33,8 +44,10 @@ website:
       - aria-label: license
         text: |
           Except where otherwise noted, all text and images licensed
+          <span class="site-license" aria-label="license"
           <a rel="license" class="url" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International (CC BY 4.0)"><i class="fab fa-creative-commons" aria-hidden="true"></i> BY 4.0</a>.
-    center:
+          </span>
+    right:
       - aria-label: "Dfolio GitHub Page"
         icon: github
         href:  https://dfolio.github.io
@@ -63,25 +76,25 @@ website:
         icon: link-45deg
         href: https://viadeo.com/fr/profile/david.folio
       - aria-label: "HAL"
-        text: "{{< ai open-access >}}"
-        href: https://hal.archives-ouvertes.fr/aut/David+Folio/
+        text: "{{< ai hal >}}"
+        href: https://cv.hal.science/david-folio
       - aria-label: "Website"
         icon: link-45deg
         href:  http://dfolio.free.fr
 
   navbar:
     logo: favicon.webp
-    logo-alt: "dfolio(at)free logo"
+    logo-alt: "dfolio website logo"
     left:
       - about.qmd
       #- sidebar:teaching
       - text: "Teaching"
-        href: /teaching/
+        href: teaching.qmd
       #- sidebar:research
       - text: "Research"
-        href: /research/
+        href: research.qmd
       - text: "References"
-        href: /research/references/
+        href: research/references.qmd
   sidebar:
     - id: teaching
       #collapse-level: 1
@@ -89,66 +102,68 @@ website:
       style: "docked"
       #style: "floating"
       contents:
-        - /teaching/
-        - text: "L'option SFEN"
-          href: /teaching/SFEN/
-        - text: "Électronique Analogique"
-          href: /teaching/ELAN/
-        - text: "Composants Électroniques"
-          href: /teaching/composants-electroniques/
-        - text: "Electricité-Électrotechnique"
-          href: /teaching/genie-electrique/
-        - text: "Signaux et Systemes"
-          href: /teaching/signaux-systemes/
-        - text: "Diagnostic des systèmes industriels"
-          href: /teaching/diagnostic-systemes/
-        - text: "Advanced Robotic"
-          href: /teaching/advanced-robotic/
+        - teaching.qmd
+        - teaching/SFEN.qmd
+        - teaching/ELAN.qmd
+        - teaching/composants-electroniques.qmd
+        - teaching/genie-electrique.qmd
+        - teaching/signaux-systemes.qmd
+        - teaching/diagnostic-systemes.qmd
+        - teaching/advanced-robotic.qmd
 
     - id: research
       title: "Research"
       collapse-level: 2
       align: left
       contents:
-        - research/index.qmd
-        - text: "Thesis"
-          href: /research/thesis/
-        - text: "HDR"
-          href: /research/hdr/
-        - text: "Supervisions"
-          href: /research/supervisions/
+        - text: "Research activities"
+          href: research.qmd
+        - research/supervisions.qmd
         - section: "Projects"
           contents:
           - text: "Overview"
-            href: /research/projects/
-          - text: BUBBLEBOT
-            href: /research/projects/bubblebot/
-          - text: MTG
-            href: /research/projects/MTG/
-
+            href: research/projects/
+          - research/projects/BUBBLEBOT.qmd
+          - research/projects/MTG.qmd
         - section: "Microrobotics"
           contents:
           - text: "Overview"
-            href: /research/microrobotics/
-          - text: "Biomedical applications"
-            href: /research/microrobotics/biomedical/
-
-        - text: "References"
-          href: /research/references/
+            href: research/microrobotics/
+          - research/microrobotics/biomedical.qmd
+        - section: Bibliography
+          contents:
+            - research/references.qmd
+            - research/publications.qmd
 
 format:
   html:
-#    author: "David FOLIO"
+    author: "David FOLIO"
+#      - name: "David FOLIO"
+#      - email: dfolio@gmail.com
+#      - url: http://dfolio.free.fr
+#      - affiliation: "INSA Centre Val de Loire"
+#      - affiliation-url: https://www.insa-centrevaldeloire.fr/
+    date-modified: last-modified
+    #license: "CC BY"
+    highlight: null
+    mathjax: null
     theme:
       light: [cerulean, theme.scss]
       dark: [theme-dark.scss]
     css: styles.css
+
+    template: template.html
+    template-partials:
+      - metadata.html
+      - title-block.html
+      - after-body.html
     toc: true
     code-copy: true
     code-overflow: wrap
     citations-hover: true
     link-citations: true
     link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/dfolio.(?:quarto.pub|free.fr)'
     footnotes-hover: true
     reference-location: document
     strip-comments: true
@@ -157,8 +172,9 @@ format:
       grid-body-width: 900px
 
 page-layout: full
-bibliography: [research/references.bib]
+#bibliography: [research/references.bib]
 csl: research/Thesis-ieee-style.csl
 
-freeze: auto
+execute:
+  freeze: auto
 

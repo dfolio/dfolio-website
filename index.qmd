@@ -1,9 +1,8 @@
 ---
 lang: en-US
 date: 2023-02-24 13:35:12.1522179552 +0200
-date-modified: 2023-02-24 13:35:12.1522179552 +0200
-pagetitle: 'dfolio(at)free website'
-description: 'dfolio(at)free website is for sharing my projects, activities and others...'
+pagetitle: 'dfolio website'
+description: 'dfolio website is for sharing my projects, activities and others...'
 keywords: dfolio, dfolio.free.fr, David FOLIO, dfolio(at)free
 image: /images/logo-df.webp
 section-divs: false
@@ -29,23 +28,36 @@ about:
       href: https://www.researchgate.net/profile/David_Folio
     - aria-label: "LinkedIn"
       icon: linkedin
-      href: https://www.linkedin.com/in/david-folio-5b8b43a7/
+      href: https://www.linkedin.com/in/david-folio/
     - aria-label: "Viadeo"
       icon: link-45deg
       href: https://viadeo.com/fr/profile/david.folio
     - aria-label: "HAL"
       text: "{{< ai open-access >}}"
       href: https://hal.archives-ouvertes.fr/aut/David+Folio/
----
-::: {when-profile="english"}
-::: {.column-page}
 
-# Welcome to dfolio<i class="bi bi-at" role="img" aria-label="copyright"></i>free website
+anchor-sections: false
+search: false
+listing:
+  id: index-links
+  #categories: true
+  type: grid
+  fields: [image, title, subtitle, categories, description, author, date]
+  contents: 
+    - teaching/index.qmd
+    - research/index.qmd
+    - research/references.qmd
+---
+::: {.column-page}
+# Welcome to dfolio' website
 
 You can find on this site an overview of my activities as Associate Professor at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
-These activities include my [researches](/research/) and [teaching](/teach/).
+These activities include my [researches](/research/) and [teaching](/teaching/).
 
 You may also find some more personal (public) stuff that I would share on a regular basis.
-
 :::
+
+
+
+::: {#index-links .column-screen-inset-right style="max-width: 850px;"}
 :::
