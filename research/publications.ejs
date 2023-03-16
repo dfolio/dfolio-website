@@ -1,4 +1,4 @@
-<ul class="list publication-list" reversed>
+<ol class="list publication-list" reversed>
   <% for (const item of items) { %>
     <li <%=metadataAttrs(item) %>>
       <span class="listing-date">(<%= item.date %>)</span>
@@ -41,13 +41,16 @@
           <a href="https://github.com/<%= item.github %>" class="btn btn-dark btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i>&nbsp;Code</a>
         <% } %>
         <% if (item.preprint) { %>
-          <a href="<%= item.preprint %>" class="btn btn-light btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-pdf"></i>&nbsp;preprint</a>
+          <a href="<%= item.preprint %>" class="btn btn-dark btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i>&nbsp;preprint</a>
         <% } %>
         <% if (item.pdf) { %>
-          <a href="<%= item.pdf %>" class="btn btn-light btn-sm" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i>&nbsp;PDF</a>
+          <a href="<%= item.pdf %>" class="btn btn-dark btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-pdf"></i>&nbsp;PDF</a>
+        <% } %>
+         <% if (item.materials) { %>
+          <a href="<%- item.materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-zip"></i>&nbsp;Materials</a>
         <% } %>
       </p>
     </li>
   <% } %>
-</ul>
+</ol>
 </span>

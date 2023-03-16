@@ -1,10 +1,12 @@
 ---
-dateCreated: 2021-12-07 14:05:22 +0100
+date: 2021-12-07 14:05:22 +0100
 title: Microrobotics
 kaeywords: [dfolio, microrobotics, research, activities]
 description: >
   Lets discuss about mirorobotics...
 #toc: false
+images: /images/research/microrobotics-scales.webp
+bibliography: [../references.bib]
 format:
   html:
     include-in-header: 

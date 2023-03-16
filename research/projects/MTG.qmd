@@ -1,11 +1,14 @@
 ---
-dateCreated: 2019-12-03 10:06:23.1575363983 +0100
+date: 2019-12-03 10:06:23.1575363983 +0100
 aliases: [/research/projects/MTG/]
-title: Microrobots Targeting Glioblastoma (MTG)
+title: MTG
+title-meta: Microrobots Targeting Glioblastoma (MTG)
+subtitle:  '{{< meta title-meta >}}'
 keywords: [dfolio, projects, research, activities, microrobot]
 description: >
   Understand the Glioblastoma, to allow its destruction with magnetic microbots loaded with NFL peptide...
 toc: false
+bibliography: [../references.bib]
 ---
 
 # Microbots to kill Glioblastoma 
@@ -17,29 +20,25 @@ radiotherapy (Stupp protocol), but the average survival is limited to 15 months.
 Classical anti-cancer therapies show poor efficacy for [GBM] because of their
 low specificity and toxic effect on healthy cells.
 The [MINT] unit, headed by Dr. Joël Eyer, has identified a peptide[^2] ([NFL
-peptide](NFL)), which : 
-1.  enters specifically in all GBM tested (rat, mouse and
+peptide][NFL]), which : 
+
+1.  enters specifically in all [GBM] tested (rat, mouse and
     human), 
 2.  targets the entry of lipid nanocaspules into [GBM] cells, 
 3.  inhibits [GBM] cell division in vitro and in vivo on rats with a [GBM] tumor 
     implanted in the brain [@bocquet2009neurofilaments; @berges2012tubulin; @balzeau2012vimentin].
  
-Our goal is then to mix the [NFL peptide](NFL) with magnetic particle to design
+Our goal is then to mix the [NFL peptide][NFL] with magnetic particle to design
 a magnetic microrobot. This strategy provides a minimally invasive surgery
 together with an optimized concentration and delivery of therapeutic principle
 to the tumor, consequently lowering the toxic effects on healthy cells.
-We will synergize our expertise to functionalize microrobots with the NFL
+We will synergize our expertise to functionalize microrobots with the [NFL]
 peptide in order to develop Microrobots Targeting Glioblastoma (MTG). These MTG
 filled with a fluorochrome will be tested in vitro for their capacity to target
-GBM versus healthy cells. Then, they will be injected intravenously in rats
-bearing a GBM tumor to evaluate their capacity to cross the blood-brain-barrier,
+[GBM] versus healthy cells. Then, they will be injected intravenously in rats
+bearing a [GBM] tumor to evaluate their capacity to cross the blood-brain-barrier,
 to target the tumor, and to reduce its development when filled with cytotoxic
 products.
-
-{% comment %}
-travaillent à la mise au point de micro-robots capables de cibler le glioblastome, le plus fréquent des cancers du cerveau. Ce programme de recherche a reçu le soutien du Plan Cancer Inserm.
-{% endcomment %}
-
 
 ## References
 

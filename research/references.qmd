@@ -1,16 +1,20 @@
 ---
 lang: en-US
-title: D. Folio References
-keywords: dfolio, bibliography, references, research, activities
+order: 3
+date: 2018-03-30 06:55:35.1522385735 +0200
+title: References
+title-meta: David Folio References
+keywords: [dfolio, bibliography, references, research, activities]
 description: >
   My research activities have led to scientific publications that are listed on
   the references page.
+image: /images/logo-df.webp
 bibliography: dfolio.bib
 #biblio-style: authoryear
-csl: Thesis-ieee-style.csl
 aliases: 
   - /research/references/
 link-external-icon: true
+categories: [dfolio, bibliography, research]
 ---
 
 ```{r}
@@ -53,7 +57,8 @@ Most of the documents below are also shared or listed on academic social network
 - Academia  {{< ai academia >}}: <https://insa-centrevaldeloire.academia.edu/DavidFolio>{rel="noopener noreferrer"}
 - ResearchGate  {{< ai researchgate >}}: <https://www.researchgate.net/profile/David_Folio>{rel="noopener noreferrer"}
 - LinkedIn {{< fa brands linkedin >}}: <https://www.linkedin.com/in/david-folio/>{rel="noopener noreferrer"}
-- [HAL] {{< ai open-access >}}: <https://hal.archives-ouvertes.fr/aut/David+Folio/>{rel="noopener noreferrer"}
+- [HAL] {{< ai hal >}}: <https://hal.archives-ouvertes.fr/aut/David+Folio/>{rel="noopener noreferrer"} \
+  See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
 
 [HAL]: <https://hal.archives-ouvertes.fr> "Hyper Articles en Ligne"
 
@@ -127,13 +132,3 @@ print(bib[entrysubtype="COM"], .opts = list(check.entries = FALSE, sorting = "yd
 #| echo: false
 print(bib[bibtype="thesis"], .opts = list(check.entries = FALSE, sorting = "ydnt"))
 ```
-:::{.callout-warning}
-The documents contained in this page are included to
-ensure timely dissemination of scholarly and technical work on a non-commercial
-basis. Copyright and all rights therein are maintained by the authors or by
-other copyright holders, notwithstanding that they have offered their works here
-electronically. It is understood that all persons copying this information will
-adhere to the terms and constraints invoked by each author's copyright. These
-works may not be reposted without the explicit permission of the copyright
-holder.
-:::
