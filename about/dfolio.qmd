@@ -1,0 +1,136 @@
+---
+date: 2018-04-07 18:21:40.1523118100 +0200
+aliases: [/about/dfolio/]
+keywords: [dfolio, about]
+title: "About David Folio"
+description: Some information on the author of this site, that is on D.Folio.
+bibliography: [../research/dfolio.bib,../research/references.bib]
+---
+
+## Overview
+
+:::{.grid}
+:::{#INSA-CVL .d-none .d-md-block .g-col-md-8}
+
+##### **David Folio** {-}
+
+> Born September 17, 1979; 
+> French nationality
+
+##### Associate Professor (Dr. Habil) {-}
+
+> **Main topic**:  [Microrobotics](/research/microrobotics/microrobotics.qmd) for [biomedical applications](/research/microrobotics/biomedical.qmd).
+
+- [English version](/pdf/CV-dfolio-en.pdf "Click to download"){.download-link download="CV-dfolio-en.pdf"} {{< fa file-pdf >}}
+  of D. Folio' CV
+- [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
+  of D. Folio' CV (dating from 2018)
+- See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
+:::
+:::{.d-none .d-md-block .g-col-md-4 }
+![](/images/david-folio.webp  "David Folio photo")
+:::
+:::
+
+## Background and Career Overview {#chap-resume-career}
+
+### Doctorate degree and post-doctorate {#chap-resume-career-PhD}
+
+I have defended [my PhD](/research/thesis/folio2007thesis.qmd) in Robotics in 2007 within the Robotics, Action, and
+Perception (<abbr lang="en" title="Robotics, Action, and Perception">RAP</abbr>)
+group of the Laboratory for Analysis and Architecture of Systems[^laas] 
+(<abbr lang="en" title="Laboratory for Analysis and Architecture of Systems">LAAS</abbr>), 
+<abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr>[^cnrs], 
+under the supervision of Viviane Cadenat,
+Associate Professor at the Paul Sabatier University of Toulouse, France.
+Specifically, my PhD thesis was entitled 
+["*Multi-sensor-based control strategies and visual signal loss management for mobile robots navigation*"](/research/thesis/folio2007thesis.qmd#sec-details) [@folio2007thesis].
+My thesis subject was to design multi-sensor-based control strategies allowing a mobile
+robot to perform vision-based tasks amidst possibly occluding obstacles. Indeed,
+the improvement of sensors gave rise to the sensor-based control which allows
+defining the robotic task in the sensor space rather than in the configuration
+space. 
+\
+In addition, during my doctorate degree, I also had the opportunity to perform
+teaching activities, first as temporary teacher (3 years), and then as teaching
+assistant, specifically in French as ["Attaché Temporaire d'Enseignement et de Recherche"]{.french lang="fr"}
+(<abbr lang="fr" title="Attaché Temporaire d'Enseignement de Recherche">ATER</abbr>, 1 year),
+both for the Paul Sabatier University of Toulouse. These global teaching
+experiences have led to a total volume of 308 hETD[^hETD].
+
+
+Between 2007 and 2008, I joined the Lagadic team at Inria[^Inria]
+Rennes-Bretagne Atlantique as a post-doctoral fellow on sensory control
+for unmanned aerial vehicles. My postdoctoral fellow has been supported
+by _Sensory Control for Unmanned Aerial Vehicles_
+(<abbr lang="en" title="Sensory Control for Unmanned Aerial Vehicles">SCUAV</abbr>)
+<abbr lang='fr' title='Agence Nationale de la Recherche'>ANR</abbr>
+project[^ANR]. The main objective was to improve multi-sensor-based
+servoing tasks for unmanned aerial vehicles. The idea was to design
+robust control law that combine different sensory data directly at the
+control level. Especially, I have contributed to the design of a new
+online sensor self-calibration based on the sensor/robot interaction links [@kermorgant2010icra].
+
+
+### Tenured as associate professor {#resume-career-tenure}
+
+[^laas]: LAAS is a laboratory depending on the CNRS, <http://www.laas.fr>
+
+[^cnrs]: CNRS is the French National Center for Scientific Research, <http://www.cnrs.fr>
+
+[^hETD]: Equivalent TD hours that is in French  [heures équivalentes TD]{.french lang="fr" custom-style="French"}
+         (hETD), are the reference hours to calculate the teaching duties. 
+
+<!-- (see also the [index of terms and notations](#glossary))-->
+
+[^Inria]: From French: [Institut national de recherche en informatique et en automatique]{.french lang="fr" custom-style="French"}. \linebreak    <https://www.inria.fr/centre/rennes>
+
+[^ANR]: From French ["Agence Nationale de la Recherche"]{.french lang="fr" custom-style="French"} ([ANR](#glos-ANR)), which is the French National Research Agency, <http://www.agence-nationale-recherche.fr>
+
+[^CNU]: From French ["Conseil National des Université"]{.french lang="fr" custom-style="French"} ([CNU](#glos-CNU)), comprises 57 sections covering different scientific disciplines. The 61^st^ section involves IT engineering, automation and signal processing. \linebreak <https://www.conseil-national-des-universites.fr>
+
+In 2008, I was recruited as Associate Professor for the 61^st^ 
+<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr> section[^CNU] at the
+Graduate Engineering School
+(<abbr lang="fr" title="École Nationale Supérieur d'Ingénieurs">ENSI</abbr>)
+of Bourges, which is since 2014 the {{< var INSA-CVL >}}.
+Since my tenure, I have been regularly involved in the life of the Institute. I contribute at a local
+level to the scientific animations (e.g. organization of laboratory visits),
+transfer and training-research relationship. For instance, I regularly attend the
+international relations division by accompanying the different
+delegations of schools and universities partners during their visits. In March
+2017, the direction of the {{< var INSA-CVL >}} given to me the mission of referent _racism and antisemitism_.
+
+As a [lecturer](//teaching/teaching.qmd), I am involved, among others, in the development of
+electronics and electrical sciences teaching activities within the Institute. 
+Since tenured as associate professor, my average teaching load is about 270 hETD per year.
+<!-- Figure \@ref(fig:chapI-teach-load) presents the evolution  of my teaching duty since 2008. -->
+Similarly, various responsibilities entrusted to me have also influenced my teaching duties.
+Since September 2014, I am in
+charge of the option entitled [_Nuclear Energy_](/teaching/SFEN.qmd) of the 5^th^ year (engineer's
+degree, M2) of the Industrial Risk Control 
+(<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>) department. 
+Between  2017 and 2020, I have been elected as member of the council department of the Energy, Risks and
+Environment (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>);
+and since November 2020 I am an elected member of the council department of Industrial Risk Control
+(<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>).
+
+
+Furthermore, I carry out my research activities with the {{< var PRISME-Laboratory >}}[^PRISME]
+in the Robotics team belonging to the Images, Robotics, Automatic control and Signal 
+(<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>) department. 
+Since I have been an associate professor, my
+field of scientific research mainly focused on the 
+_modeling and control for [nano and micro-robots](/research/microrobotics/microrobotics.qmd) in a [biomedical](/research/microrobotics/biomedical.qmd) context_. 
+Globally, my main contributions focus on the study of **magnetic medical microrobots** for targeted therapies.
+\
+Meanwhile, I have also contributed to the development of
+micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase].
+
+Finally, on December 3, 2021, I defended [my habilitation](/research/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR) which I entitled 
+["_Magnetic Microrobotics for Biomedical Applications_"](/research/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
+
+
+
+[^PRISME]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de
+    Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>

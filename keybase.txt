@@ -1,0 +1,62 @@
+==================================================================
+https://keybase.io/dfolio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dfolio.quarto.pub
+  * I am dfolio (https://keybase.io/dfolio) on keybase.
+  * I have a public key with fingerprint 0122 FD48 C40D 5E73 D068  0B82 2A13 7F09 C373 0CFC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a9d51741960869de525a350dec1828082609ba7a6688f03ec039ed7cfea974430a",
+      "fingerprint": "0122fd48c40d5e73d0680b822a137f09c3730cfc",
+      "host": "keybase.io",
+      "key_id": "2a137f09c3730cfc",
+      "kid": "0111691dc36403d729ae65f0fe2137643958851e19b44631734de840c24da694641b0a",
+      "uid": "a5105c78cdbc9616e337914c9b185819",
+      "username": "dfolio"
+    },
+    "service": {
+      "hostname": "dfolio.quarto.pub",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1679053740,
+  "expire_in": 157680000,
+  "prev": "12bf0365066c95311a092a7ab0f175bad5b8a1f9ac302366576b2c0c36f93330",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtkr1rFEEYxjcahTsNGAyCoIVTynG88z1z+AdoqVaCes5nsibZvezunYYYRCst
+hIBYioViE6zUIo2Ndjax0E4Eu4B/goKzpykEpxnmnef5zTPvzNbcwaw7f/b43c77
++ujPmY97NvMLl3c3kC39OhpsoOUwncKKD3UzXM49GiDABIz2HEuGtQAltA+ccEM5
++OCwIgoUEaCtkUYIpSLQ4IDq4KWLwWjJGAWDeijmxWKoRlVeNH+wJHqmHAPPg6Qe
+hAKrCDGYygjaUUnBRZeMS2XdOlI4a+rQz8tUS4vhNN5/9Pu5MRYae0cFA+ol0SYI
+HiEGkhyCUc2V4jhgbRkTFEvKfFAMHGHeCM0Ew3aaezzFGY6BO6mct04LLAKlUmPm
+tMWKK6xbYR2qwqyGpPaxXEk5N3so1Sa5C21b23v8s99fG5uqKfujsU32UVU2pStX
+0vZS04zqQWtv1ket/laww7+koc0Ln1qZHJNQ1XlZoAFOStfkLRoLqYFTyaCHwu1R
+XoVh3iq4TP1Noz0nTBISExuvAhUchHCaU4wNaJIe0ULEklvjuVUGR20cBUKFSARL
+HKR+Rk0pBdRebq0oEzxRG7OYoHW+WJhmXAW02X1wbTab72anT5yZnUG/zn+Yu17v
+Lh25v//9Dh1o/17W7Rzbr7z9mj2zF77svXr8/F1v68a5Fzd/XNn5/Gg7e3pq9fCd
+S51PD1+inTev732/uP3k28nf
+=ZMRZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dfolio
+
+==================================================================

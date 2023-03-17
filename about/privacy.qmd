@@ -1,0 +1,99 @@
+---
+date: 2019-01-09 07:22:00 +0100
+alliases: [/about/privacy/]
+keywords: [legal, privacy, policy, cookie, cookie consent, about, webpage ]
+title: Privacy Policy
+description: >
+  This page provides information about the _privacy policy_ on the dfolio' website.
+#toc: false
+link-external-icon: true
+---
+
+:::{.callout-warning }
+This policy is subject to change at any time and without notice.
+:::
+
+## About privacy
+
+The privacy of my visitors is extremely important.
+This privacy policy outlines the types of personal information that is received and collected and how it is used.
+\
+First and foremost, I will [**never share your email address or any other personal information**]{.text-danger} to anyone.
+
+If you are visiting this site from the European Union (EU), please check your [Cookie Preferences](#){id="open_preferences_center"} for this site. 
+
+## Cookie {#cookie}
+
+The "_[Privacy and Electronic Communications Directive](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:32002L0058:en:HTML "Full text of the EU Directive")_"
+is an European Union (EU) directive  on data protection and privacy.
+This EU Directive applies to all use of _[HTTP cookie][HTTP_cookie]_ usage.
+
+## What are cookie?
+
+> An HTTP cookie (also called web cookie, Internet cookie, browser cookie, or
+> simply cookie) is a small piece of data sent from a website and stored on the
+> user’s computer by the user’s web browser while the user is browsing.
+>  <footer class="blockquote-footer"> Definition from <cite>[Wikipedia][HTTP_cookie].
+
+
+Basically, a cookie is a data stored in **your** web browser and allows the service or
+a third party (here this site) to recognize you and make your next visit easier
+and the service more useful to you. The cookies data can be "*persistent*” or
+"*session*” (e.g. deleted when you close your web browser).
+
+You can learn more about cookies and the following third­party websites:
+
+* [AllAboutCookies](http://www.allaboutcookies.org/)
+* [Network Advertising Initiative](http://www.networkadvertising.org/)
+
+### The use of HTTP cookie on this webpages {#cookie-usage}
+
+[dfolio'](/) website  use (a very few) cookies to track site usage (aka [Google Analytics][GA]). 
+By reading this website, and unless you instruct your browser to block cookies, you consent to the use of cookies.
+\
+The different pages should work perfectly fine without cookies. 
+Thus, you are free to disable cookies usage or delete them from your computer.
+
+<!--
+## Comments
+
+By posting, you are declaring that you understand this policy:
+
+-   Your name, rating, website address, location and comment will be publicly displayed if entered.
+-   Aside from the data entered into these form fields, other stored data about your comment will include:
+-   Your IP address (not displayed)
+-   The time/date of your submission (displayed)
+-   Your email address will not be shared.
+    It is collected for only two reasons:
+    -   Administrative purposes, should a need to contact you arise.
+    -   To inform you of new comments, if you have subscribed to receive notifications.
+-   A cookie may be set on your computer. This is used to remember your inputs. It will expire by itself.
+-->
+
+[HTTP_cookie]: https://en.wikipedia.org/wiki/HTTP_cookie "Show more on Wikipedia, the free encyclopedia"
+[GA]: https://analytics.google.com/analytics/web/ "Google Analytics is a freemium web analytics service offered by Google"
+
+### Google Analytics {#GA}
+
+[Google Analytics][GA] is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookie and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+
+## Disclosure Policy
+
+I (try) make (very few) money on this website through affiliate programs. 
+If you click an affiliate link or ads banner and buy the product, you help support this website because I'll get a percentage of that sale.
+
+
+## License
+
+Any content on this website are licensed under a
+[Creative Commons Attribution License][cc-by-3] ([{{< fa brands creative-commons-by >}} CC-BY 4.0][cc-by-3]),  unless where otherwise noted.
+\
+More information about this [website license][license] terms are available [here][license].
+
+
+
+[cc-by-3]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+
+[GA]: https://analytics.google.com/analytics/web/ "Google Analytics is a freemium web analytics service offered by Google"
+
+[license]: /about/license.qmd "License and term of use of the content of  the content of dfolio' website."

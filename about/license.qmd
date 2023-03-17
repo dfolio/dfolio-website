@@ -1,0 +1,53 @@
+---
+date: 2018-03-31 23:52:06.1522533126 +0200
+aliases: [/about/license/]
+keywords: [legal, license, about, webpage]
+title: License
+description: >
+  License and term of use of the content on the dfolio' website.
+toc: false  
+---
+
+Unless otherwise stated, all content, text, images, etc. on the dfolio' website is licensed under a
+[Creative Commons Attribution License][cc-by-4] ([{{< fa brands creative-commons-by >}} CC-BY 4.0][cc-by-4]).
+See below for further information on the  BY 4.0 license.
+
+The dfolio' website also use open-source materials with different license terms, such as:
+
+- This site is powered by [Quarto], and its code is freely available on [{{< fa brands github >}} github](https://github.com/quarto-dev/quarto-cli). \
+  [Quarto] is open source software licensed under the
+  [GNU GPL v2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+  [more info...](https://quarto.org/license.html){.btn .btn-info .btn-sm}
+
+
+[cc-by-4]: https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)"
+
+[Quarto]: <https://quarto.org/> "Open source tools for scientific and technical publishing"
+
+:::{.callout-note}
+You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+:::
+
+## License summary
+
+This site is licensed under a
+[Creative Commons Attribution License][cc-by-4] ([{{< fa brands creative-commons-by >}} CC-BY 4.0][cc-by-4]), 
+that is with the **Attribution 4.0 International** ([{{< fa brands creative-commons-by >}} CC-BY 4.0][cc-by-4]):
+
+- You are free to:
+  - **Share** -- copy and redistribute the material in any medium or format
+  - **Adapt** -- remix, transform, and build upon the material for any purpose, even commercially.
+
+- We do not revoke these freedoms as long as you follow the license terms:
+
+  - **Attribution** -- You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+    You may do so in any reasonable manner, but not in any way that suggests the _we_ endorses you or your use.
+  
+  - **No additional restrictions** -- You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+
+:::{.callout-warning}
+#### Notices
+No warranties are given. The license may not give you all of the permissions necessary for your intended use. 
+For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+:::
