@@ -1,13 +1,14 @@
----
-sitemap: false
----
-<!DOCTYPE html>
-<html lang="en-US">
-  <meta charset="utf-8">
-  <title>Redirecting&hellip;</title>
-  <link rel="canonical" href="{{'/' | relative_url}}">
-  <meta http-equiv="refresh" content="0; url={{'/' | relative_url}}">
-  <h1>Redirecting&hellip;</h1>
-  <a href="{{'/' | relative_url}}">Click here if you are not redirected.</a>
-  <script>location="{{'/' | relative_url}}"</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Redirect</title>
+  <script type="text/javascript">
+    var redirects = {"":"/index.html"};
+    var hash = window.location.hash.startsWith('#') ? window.location.hash.slice(1) : window.location.hash;
+    var redirect = redirects[hash] || redirects[""] || "/";
+    window.document.title = 'Redirect to  ' +  redirect;
+    window.location.replace(redirect);
+  </script>
+</head>
+<body>
+</body>
 </html>

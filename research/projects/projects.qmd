@@ -1,9 +1,10 @@
 ---
-dateCreated: 2018-03-30 06:57:45.1522385865 +0200
-title: Projects
+aliases:  [/research/projects/]
+date: 2018-03-30 06:57:45.1522385865 +0200
+title: "List of D. FOLIO's projects"
 keywords: [dfolio, projects, research, activities]
 description: >
-  My research activities regularly lead me to collaborate in various scientific
+  David FOLIO's research activities regularly lead him to collaborate in various scientific
   projects that is listed here.
 toc: true
 ---
@@ -26,8 +27,7 @@ with a deep scientific reviews.
 
     Funding
 
-    :   210k€, supported by [Région Centre Val de Loire]{.french
-        lang="fr"} (APR-IR)
+    :   210k€, supported by [Région Centre Val de Loire]{.french lang="fr"} (APR-IR)
 
     Summary
 
@@ -39,8 +39,7 @@ with a deep scientific reviews.
 
     :   **Principal Investigator** (PI).
 
-[^1]: from French: [Institut national de la santé et de la recherche
-    médicale]{.french lang="fr"} (INSERM), <https://www.inserm.fr>
+[^1]: from French: [Institut national de la santé et de la recherche médicale]{.french lang="fr"} (INSERM), <https://www.inserm.fr>
 
 [^2]: NeuroFilament Light subunit that is binding Tubulin (NFL peptide)
     is capable to penetrate in GBM, block and inhibit cell division.
@@ -49,7 +48,7 @@ with a deep scientific reviews.
 
 ### European Union (EU) and National Funding ({{< var ANR >}}) Projects
 
--   [[**MTG**](MTG)]{#MTG}: Microrobots Targeting Glioblastoma
+-   [[**MTG**](MTG.qmd)]{#MTG}: Microrobots Targeting Glioblastoma
 
     Date
 
@@ -58,19 +57,20 @@ with a deep scientific reviews.
     Funding
 
     :   511.4k€, supported by French National Institute of Health and
-        Medical Research[^1] (Inserm)
+        Medical Research[^1] (<abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>)
 
     Summary
 
-    :   The MTG project is an Inserm, "plan cancer" project. The
+    :   The [MTG](MTG.qmd) project is an <abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>,
+        "plan cancer" project. The
         objective is to functionalize magnetic microrobot with NFL
-        peptide[^2] to target glioblastoma (GBM).
+        peptide[^2] to target glioblastoma (<abbr title="glioblastoma">GBM</abbr>).
 
     Role
 
     :   co-responsible of the workpackage WP3: "*in vitro* and *in vivo*
         distribution and tracking studies using IVIS imaging system to
-        test the capacity of MTG to target glioblastoma cells versus
+        test the capacity of  [MTG](MTG.qmd) to target glioblastoma cells versus
         healthy cells of the nervous system".
       
 -   [**PIANHO**]{#PIANHO}: Innovative Haptic Instrumental platform for

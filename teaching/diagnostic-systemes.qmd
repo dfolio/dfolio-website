@@ -7,8 +7,6 @@ title: Diagnostic des systèmes industriels
 description: >
   Cet enseignement a pour but d'appréhender les méthodes de diagnostic basées
   modèles pour l'amélioration de la fiabilité des processus technologiques.
-
-toc: true
 images: /images/teaching/commande-diagnostic.webp
 ---
 

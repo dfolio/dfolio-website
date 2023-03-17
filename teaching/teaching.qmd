@@ -1,14 +1,12 @@
 ---
 order: 1
 date: 2018-03-27 16:56:05.1522162565 +0200
-#aliases: 
-#  - /teaching/
+aliases:  [/teaching/]
 title: Teaching activities
-title-meta: "David FOLIO research activities"
-#subtitle: '{{< meta title-meta >}}'
+#subtitle: '{{< meta pagetitle >}}'
 keywords: [dfolio, teach, activities]
 description: >
-  As senior lecturer, my overall teaching activities is solely related with the
+  As senior lecturer, D. Folio overall teaching activities is solely related with the
   61st  CNU section. I am mainly involved in the development of electronics and
   electrical sciences teaching activities of the INSA Centre Val de Loire.
 image: /images/logo-teach.svg 
@@ -19,7 +17,7 @@ categories: [dfolio, teaching]
 ---
 
 My overall teaching activities have been solely related with the 61^st^
-CNU[^1] section which regroups scientific disciplines from control,
+<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>[^1] section which regroups scientific disciplines from control,
 computer engineering and signal processing. I taught these teaching,
 first, as a temporary teacher (3 years, 2003-2006), teaching assistant
 (ATER, 1 year, 2007), and then as associate professor (10 years).
@@ -31,9 +29,9 @@ first, as a temporary teacher (3 years, 2003-2006), teaching assistant
 
 Since 2008, as member of the teaching team on the campus in Bourges of
 the INSA [Centre Val de Loire]{.fr lang="fr"}, I am mainly involved in
-the students formation of the Industrial Risk Control[^2] (MRI), of the
-Energy, Risk and the Environment[^3] (ERE), and of the Sciences and
-Techniques for Engineers[^4] (STPI) departments. Specifically, after
+the students formation of the Industrial Risk Control[^2] (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>), of the
+Energy, Risk and the Environment[^3] (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>), and of the Sciences and
+Techniques for Engineers[^4] (<abbr lang="fr" title="Science et Technique pour l'Ingénieur">STPI</abbr>) departments. Specifically, after
 having started with teaching of electronics and electrical engineering,
 I have participated or organized lessons on signal processing, sensors,
 control and robotics. These various teaching experiences imply very
@@ -66,9 +64,9 @@ assistants for the disciplines for which I am in charge.
 ::: callout-note
 Notice that some parts of my site are available in both English and
 French. However, as my [teaching activities](/teaching/) are done only
-in French, the rest of this part of [dfolio(at)free](/)' website will be
+in French, the rest of this part of [dfolio](/)' website will be
 available mainly in French.
 
 If you want to get some translations of a not translated page
-[contact](/about/#contact) me to get further informations.
+[contact](/about/about.qmd#contact) me to get further information.
 :::

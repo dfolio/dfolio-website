@@ -1,12 +1,26 @@
 ---
-dateCreated: 2018-03-28 13:07:13.1522235233 +0200
+date: 2018-03-28 13:07:13.1522235233 +0200
 aliases: [/research/supervisions/]
 title: Supervisions
+pagetitle: "List of students supervion of David FOLIO"
 keywords: [dfolio, supervisions, research, activities]
 description: >
-  My research work was carried out with the contributions of young researchers whose works I supervised.
+  David FOLIO's research work was carried out with the contributions of young researchers whose names are reported here.
 toc: true
 bibliography: [dfolio.bib]
+
+author:
+  - name:
+      family: Folio
+      given: David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
 ---
 
 I had directly supervised 5 Master (M2) and 6 PhD students.
@@ -26,7 +40,7 @@ Karim Botros
     Title
 
     :   Magnetic Micro-robotic Platform Guided by Robotic Ultrasound for Brain Tumor Targeting.
-        Thesis of INSA Centre Val de Loire
+        Thesis of {{< var INSA-CVL >}}
 
 ### Previous supervisions {#sec-supervisions-old}
 
@@ -43,7 +57,7 @@ Ruipeng Chen
     Title
 
     :   Design Methodology for Electromagnetic Microrobotic Platforms.
-        Thesis of INSA Centre Val de Loire.
+        Thesis of {{< var INSA-CVL >}}.
 
     Supervision
 
@@ -55,7 +69,7 @@ Ruipeng Chen
 
     Situation
 
-    :   Post Doctorate, INSA CVL, Bourges, France.
+    :   Post Doctorate,  {{< var INSA-CVL >}}, Bourges, France.
 
 Lyès Mellal
 
@@ -80,9 +94,9 @@ Lyès Mellal
 
     Situation
 
-    :   Associate Professor at INSA Centre Val de Loire, France
+    :   Associate Professor at {{< var INSA-CVL >}}, France
 
-Nabil Amari
+[Nabil Amari]{#Nabil-Amari}
 
 :    
 

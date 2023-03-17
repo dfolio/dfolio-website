@@ -1,9 +1,9 @@
 ---
 lang: en-US
 date: 2023-02-24 13:35:12.1522179552 +0200
-pagetitle: 'dfolio website'
+pagetitle: "dfolio' website homepage"
 description: 'dfolio website is for sharing my projects, activities and others...'
-keywords: dfolio, dfolio.free.fr, David FOLIO, dfolio(at)free
+keywords: [dfolio, D. Folio, David FOLIO, dfolio website]
 image: /images/logo-df.webp
 section-divs: false
 toc: false
@@ -11,9 +11,9 @@ comments: false
 about:
   template: trestles
   links:
-    - aria-label: "Dfolio GitHub Page"
+    - aria-label: "gitHub"
       icon: github
-      href:  https://dfolio.github.io
+      href:  https://github.com/dfolio
     - aria-label: "Orcid"
       text: "{{< ai orcid >}}"
       href: https://orcid.org/0000-0001-9430-6091
@@ -33,7 +33,7 @@ about:
       icon: link-45deg
       href: https://viadeo.com/fr/profile/david.folio
     - aria-label: "HAL"
-      text: "{{< ai open-access >}}"
+      text: "{{< ai hal >}}"
       href: https://hal.archives-ouvertes.fr/aut/David+Folio/
 
 anchor-sections: false
@@ -42,21 +42,20 @@ listing:
   id: index-links
   #categories: true
   type: grid
-  fields: [image, title, subtitle, categories, description, author, date]
+  fields: [image, title, subtitle, categories, description,  date]
   contents: 
-    - teaching/index.qmd
-    - research/index.qmd
+    - /teaching/teaching.qmd
+    - /research/research.qmd
     - research/references.qmd
 ---
 ::: {.column-page}
 # Welcome to dfolio' website
 
-You can find on this site an overview of my activities as Associate Professor at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
-These activities include my [researches](/research/) and [teaching](/teaching/).
+You can find on this site an overview of my activities as Associate Professor (with [HDR](research/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
+These activities include my [researches](//research/research.qmd) and [teaching](//teaching/teaching.qmd).
 
 You may also find some more personal (public) stuff that I would share on a regular basis.
 :::
-
 
 
 ::: {#index-links .column-screen-inset-right style="max-width: 850px;"}

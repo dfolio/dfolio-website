@@ -7,9 +7,8 @@ title: Signaux et systemes
 keywords: Signaux et systèmes, traitement signal, filtrage, électronique, cours, david folio, INSA
 description: >
   Cet enseignement a pour but d'appréhender la chaîne de transmission de
-  l'information à travers l'étude la génération des signaux et des composants de
+  l'information à travers l'étude de la génération des signaux et des composants de
   base pour leurs traitements élémentaires.
-toc: true
 images: /images/teaching/signaux-system.webp
 ---
 
@@ -29,7 +28,7 @@ images: /images/teaching/signaux-system.webp
 :::
 
 
-## Objectifs pédagogiques {#objectif}
+## Objectifs pédagogiques {#sec-objectif}
 
 Cet enseignement fait le point sur différentes notions fondamentales concernant
 le traitement des signaux analogiques. Il présente les systèmes utilisés pour la

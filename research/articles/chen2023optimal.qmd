@@ -4,6 +4,7 @@ date: 2023-01
 title: Optimal Design of a Multipole-Electromagnet Robotic Platform for Ophthalmic Surgery
 description: | 
   This paper address the design a multipole-electromagnet robotic platform named **OctoRob**.
+cite-author: "<span class='supervised'>Chen, Ruipeng</span>, <strong>David, Folio</strong> and Ferreira, Antoine"
 author:
   - name:
       family: Chen

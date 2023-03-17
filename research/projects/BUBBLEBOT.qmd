@@ -2,8 +2,8 @@
 dateCreated: 2021-03-02 12:19:25.1614683965 +0100
 aliases: [/research/projects/bubblebot/]
 title: BUBBLEBOT
-title-meta: Magnetic microbubbles for the targeted delivery of therapeutic agent in the brain
-subtitle: '{{< meta title-meta >}}'
+pagetitle: Magnetic microbubbles for the targeted delivery of therapeutic agent in the brain
+subtitle: '{{< meta pagetitle >}}'
 keywords: [dfolio, projects, research, activities, microrobot]
 description: >
   Design of magnetic microbubble (the "bubblebot") for targeted drug delivery

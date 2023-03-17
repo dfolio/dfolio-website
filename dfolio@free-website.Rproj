@@ -14,6 +14,10 @@ LaTeX: XeLaTeX
 
 StripTrailingWhitespace: Yes
 
-MarkdownWrap: None
+MarkdownWrap: Sentence
 MarkdownReferences: Document
 MarkdownCanonical: No
+
+ZoteroLibraries: "My Library"
+
+SpellingDictionary: en_US

@@ -13,6 +13,7 @@ $elseif(description)$
   <div class="quarto-description"><div class="description p-summary lead">$description$</div></div>
 $endif$
 
+$if(author-block)$
 $if(by-affiliation/first)$
 <div class="quarto-title-meta-author by-affiliation">
   <div class="quarto-title-meta-heading">$labels.authors$</div>
@@ -41,8 +42,9 @@ $if(by-affiliation/first)$
   $endfor$
 </div>
 $endif$
+$endif$
 <div class="quarto-title-meta">
-$if(title-block)$
+$if(author-block)$
 $if(by-affiliation)$
 $elseif(by-author)$
   <div class="quarto-title-meta-author by-author">
@@ -55,13 +57,19 @@ $elseif(by-author)$
   </div>
 $endif$
 $endif$
+
+$if(links)$
+<div class="quarto-title-links">
+$for(links)$
+  <a href="$links.href$" class="$links.class$"><i class="$links.icon$" rel="img" aria-label="$links.aria-label$"></i> $links.name$</a>
+$endfor$
+</div>
+$else$
 $if(doi)$
   <div class="quarto-title-meta-doi">
-    <div class="quarto-title-meta-heading">$labels.doi$</div>
-    <div class="quarto-title-meta-contents">
-      <span class="doi"><a href="https://doi.org/$doi$">$doi$</a></span>
-    </div>
+    <i class="ai ai-doi"></i>&nbsp;$labels.doi$:      <span class="doi"><a href="https://doi.org/$doi$">$doi$</a></span>
   </div>
+$endif$
 $endif$
 $if(abstract)$
   <div class="abstract">

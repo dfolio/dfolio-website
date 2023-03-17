@@ -1,9 +1,10 @@
 ---
+aliases:  [/research/microrobotics/]
 date: 2021-12-07 14:05:22 +0100
-title: Microrobotics
+title: "About microrobotics"
 kaeywords: [dfolio, microrobotics, research, activities]
 description: >
-  Lets discuss about mirorobotics...
+  Discussion by David FOLIO about microrobotics
 #toc: false
 images: /images/research/microrobotics-scales.webp
 bibliography: [../references.bib]
@@ -13,7 +14,9 @@ format:
       text: |
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js" id=""></script>
     include-after-body: 
-      - siunitx.html
+      - ../../html/siunitx.html
+
+author-block: true
 ---
 ::: {.callout-note}
 **Microbotics** is commonly referred to the branch of robotics, which
@@ -97,7 +100,7 @@ and features allowing manipulating and interacting directly with the microworld.
 These various challenges associated with the lack of knowledge and tools are the main motivations of my research
 works towards the realization of _advanced microrobotic tasks_. 
 Our original approach aims to propose a framework spanning from the understanding of the microrobotic system and its environment, to the definition of their navigation strategies. 
-Especially, we  focus mainly on **biomedical applications**.
+Especially, we  focus mainly on [**biomedical applications**](biomedical.qmd).
 
 
 ## References

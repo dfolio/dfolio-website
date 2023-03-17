@@ -7,9 +7,7 @@ title: Electricité - Électrotechnique
 keywords: électronique analogique, cours, david folio, INSA
 description: >
   Le but de cet enseignement est de s'interesser à l'électricité et à leurs
-  applications pratiques, notamment à travers les systèmes électriques de
-  puissances.
-toc: true
+  applications pratiques, notamment à travers l'étude de machines électriques.
 images: /images/teaching/cycles-energies.webp
 ---
 
@@ -50,8 +48,8 @@ meilleur suivi de cet enseignement.
 
 ## Programme du cours {#sec-prog}
 
--   Notions de base de l'électricité (impédance complexe, puissance électrique, etc.);
--   Le régime monophasé, triphasé;
+-   Notions de base de l'électricité (e.g. impédance complexe, puissance électrique, etc.);
+-   Le régime monophasé et triphasé;
 -   Le transformateur monophasé;
 -   Les machines électriques tournantes: à courant continu, asynchrone, synchrone
 

@@ -6,10 +6,7 @@ lang: en-US
 title: Advanced Robotic
 keywords: [robotic, mobile robot, control, systems, teach, activities]
 description: >
-  This course will enable the students to control robots in
-  industrial applications and to discover new fields of research
-  on humanoids and biorobotics
-toc: true
+  This course provides an understanding of the basic notions of mobile robotics from modeling to autonomous navigation.
 images: /images/teaching/robotic.webp
 ---
 
@@ -40,10 +37,10 @@ In a second part, the navigation and control of an autonomous mobile robot will 
 
 ## Skills to be achieved
 
-- Being able to use the methods of dynamic modeling of robotics systems.
+- Being able to establish the kinematic modeling of robotics systems.
 - Being able to identify and control an industrial robot and/or servicing robot.
-- Being able to mobile robots, develop planning and localization algorithms.
-- Being able to discover new fields of research on humanoids and biorobotics.
+- Being able to develop planning and localization algorithms.
+- Being able to design autonomous robots.
 
 ## Outline {#sec-prog}
 

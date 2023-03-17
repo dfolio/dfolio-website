@@ -4,7 +4,7 @@ aliases:
 type: thesis
 date: 2021-12-03
 title: Magnetic Microrobotics for Biomedical Applications
-title-meta: D. Folio Habilitation
+pagetitle: D. Folio Habilitation
 keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
 description: >
   Some informations on the Habilitation of David FOLIO
@@ -82,13 +82,13 @@ categories:
 
 ## Habilitation degree 
  
-I have defended my Habilitation in microrobotics in 2021, which was entitled "_Magnetic Microrobotics for Biomedical Applications_".
+I have defended my Habilitation in microrobotics in 2021, which was entitled 
+["_Magnetic Microrobotics for Biomedical Applications_"](/research/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
 In this work, I have provided a summary of my teaching and research activities since my recruitment as associate professor in 2008.
 \
 To resume thirteen years of hard work is a very interesting exercise. 
 This allows to take a step back and try to isolate the common thread that has motivated my activities through personal initiatives or opportunities that have arisen.
 It is important to remember that all these activities are the result of collective work, either with my colleagues and co-authors, or with [students](/research/supervision/)  I supervised.
-The works described through my Habilitation manuscript inextricably reflects  this joint contributions.
 \
 Nevertheless, it is difficult to  account for all that has been achieved so far and some choices had to be made to write my dissertation.
 Not that the other works have less appeal, but I have tried to maintain consistency on what is reported in the manuscript.
@@ -110,25 +110,25 @@ This makes  possible to fully characterize their behaviors in  a viscous flow  a
 \
 All of these helped us to propose advanced navigation strategies for our microrobots [@belharet2010biorob; @belharet2011advrob; @belharet2012iros; @belharet2012isot; @dahmen2012iros; @mellal2016icra].
 Our navigation process can be divided in two levels. 
-First, we plan (off-line) really feasible navigation paths based on the FMM. 
+First, we plan (off-line) really feasible navigation paths based on the <abbr title="Fast Marching Method">FMM</abbr>. 
 With the proposed navigation planning framework, we can take into account different constraints and objectives to get _a really feasible_ reference path.
 Second, we synthesized control schemes that drive the magnetic microrobots along the reference to the targeted location.
 To this aim, we have chosen to implement  predictive control  and optimal control laws.
 \
 All of our proposed models and navigation strategies were then evaluated through various experiments in different conditions.
-To do so, various  proof-of-concept platforms were developed within the PRISME Laboratory and through our collaborations. 
+To do so, various  proof-of-concept platforms were developed within the {{< var PRISME-Laboratory >}} and through our collaborations. 
 To further extend the magnetic actuation capability, we have also extensively studied the design of  electromagnetic systems.
-These EMA   platforms that meet properly the specifications of the biomedical operation would produce  magnetic fields and gradients more suited to the needs.
+These <abbr title="Electromagnetic Actuation">EMA</abbr> platforms that meet properly the specifications of the biomedical operation would produce  magnetic fields and gradients more suited to the needs.
 This knowledge allowed us to build the OctoRob platform.
 
 
 ## Habilitation Details {#sec-details}
 
-I obtained my Habilitation in Robots Control from University of Orleans (France) on December 3, 2021, which was entitled: “_Magnetic Microrobotics for Biomedical Applications: Modeling, Simulation, Control and Validations_" [@folio2021magnetic].
+I obtained my Habilitation in Robots Control from University of Orleans (France) on December 3, 2021, which was entitled: “_Magnetic Microrobotics for Biomedical Applications: Modeling, Simulation, Control and Validations_" [@folio2021hdr].
 
 Manuscript
 :   [D. Folio Habilitation thesis](/pdf/folio2021hdr.pdf "Click to download"){.download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
-    ([view](/pdf/folio2021hdr.pdf "Click to download"){.download-link})
+    ([view](/pdf/folio2021hdr.pdf "Click to view"){.download-link})
 
 Defended
 : the 3^rd^ December 2021

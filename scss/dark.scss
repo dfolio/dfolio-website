@@ -34,3 +34,9 @@ $dropdown-link-hover-bg: $gray-600;
 $dropdown-link-hover-color: white;
 /*-- scss:mixins --*/
 /*-- scss:rules --*/
+
+.fa-solid {
+    color: #9ea1a8;
+}
+.dark-mode { display: block; }
+.light-mode { display: none; }

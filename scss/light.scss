@@ -3,15 +3,129 @@
 /*-- scss:uses --*/
 /*-- scss:functions --*/
 /*-- scss:defaults --*/
-// The main body
-$sidebar-width: 500px !default;
-$grid-body-width: 900px !default;
+$theme: "dfolio" !default;
+
+:root {
+  color-scheme: light;
+}
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-caret:              true !default;
+$enable-rounded:            true;
+$enable-shadows:            true;
+$enable-gradients:          true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;// Deprecated, no longer affects any compiled CSS
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+$enable-print-dark:         true;
+$enable-responsive-font-sizes: true!default;
+
+// Color system
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #033c73 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #c71c22 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #dd5600 !default;
+$green:   #73a839 !default;
+$teal:    #20c997 !default;
+$cyan:    #2fa4e7 !default;
+
+$primary:       $cyan !default;
+$secondary:     $gray-200 !default;
+$success:       $green !default;
+$info:          rgba($teal,0.8);
+$warning:       $orange !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$min-contrast-ratio:   2.75 !default;
+
+
+// Body
+$body-bg:               #fdfdfd !default;
+$body-color:            $gray-900;
+$sidebar-width:         500px !default;
+//$grid-body-width:       900px !default;
+// Fonts
+// stylelint-enable value-keyword-case
+$font-size-base:        1rem !default; // Assumes the browser default, typically `16px`
+$font-size-min:          0.75rem;
+$font-size-foot:        max(($font-size-base * .875), $font-size-min);
+$font-size-footnote:    max(($font-size-base * .75),$font-size-min);
+
+$line-height-base:      1.5 !default;
+
+$headings-color:        darken($primary,25%);
+
+// Links
+// Style anchor elements.
+$link-color:            rgba(darken($primary,15%), .8);
+$link-decoration:       none;
+$link-shade-percentage: 30% !default;
+$link-hover-color:      shift-color($link-color, $link-shade-percentage) !default;
+//$link-hover-color:      darken($link-color, 15%) !default;
+$link-transition:       color 0.5s;
+
+// Buttons
+
+$input-btn-padding-y:         .15rem ;
+$input-btn-padding-x:         .25rem ;
+$input-btn-line-height:       $line-height-base * 0.66;
+
+// Dropdowns
+$dropdown-link-color:           $body-color !default;
+$dropdown-link-hover-color:     $white !default;
+$dropdown-link-hover-bg:        $primary !default;
+
+// Navbar
+$navbar-fg:      rgba($white, .8);
+$navbar-hl:      rgba($white, .9);
+
+// Sidebar
+$sidebar-fg:      rgba($body-color, .8);
+$sidebar-hl:      rgba($body-color, .6);
+
+// Footer
+$footer-bg:       rgba($gray-900,0.6) !default;
+$footer-fg:       rgba($gray-300,0.8) !default;
+
+//
+$text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 /*-- scss:mixins --*/
+
+@mixin text-shadow($color) {
+  text-shadow: 0 0 1px rgba($color, .6), 0 0 3px rgba($color, .5), 0 0 .5rem rgba($color, .3), 0 0 2rem rgba($color, .2);
+}
+
+@mixin text-shadow-sm($color) {
+  text-shadow: 0 0 1px rgba($color, .3), 0 0 2px rgba($color, .3), 0 0 5px rgba($color, .2);
+}
+
+@mixin btn-shadow($color){
+  @include gradient-y-three-colors(tint-color($color, 16%), $color, 60%, shade-color($color, 6%));
+}
+
 /*-- scss:rules --*/
 
-.nav-footer{
-  font-size: 16px;
-}
+
+.light-mode { display: block; }
+.dark-mode { display: none; }
 
 main.content{
   dl {
@@ -40,5 +154,112 @@ main.content{
     text-align: right;
     padding-right: 1em;
   }
+}
 
+
+#title-block-header.quarto-title-block.default,
+#footer-block.quarto-footer-block.default{
+  @include media-breakpoint-up(sm) {
+    max-width: 90%;
+    margin-bottom: $spacer;
+    .lead{font-size: $lead-font-size*1.25;}
+  }
+}
+#title-block-header.quarto-title-block.default{}
+#footer-block.quarto-footer-block.default {
+  font-size: $font-size-min;
+  opacity: 0.6;
+
+  .quarto-footer-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quarto-footer-meta-contents,
+  .quarto-footer-authors,
+  .quarto-footer-affiliations{
+    margin-bottom: 0.1em;
+  }
+
+  .quarto-footer-meta-heading {
+    //text-transform: uppercase;
+    margin-top: 1em;
+    font-weight: 400;
+  }
+
+  .quarto-footer-meta-contents {
+    a {
+      color: $body-color;
+    }
+  }
+  .quarto-footer-meta-author {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+// Navbar
+
+.navbar {
+  @each $color, $value in $theme-colors {
+    &.bg-#{$color} {
+      @include btn-shadow($value);
+    }
+  }
+}
+.navbar-brand,
+.navbar-dark,
+.sidebar{
+  font-weight: $font-weight-bold;
+}
+.navbar-brand {
+  @include text-shadow-sm($body-color)
+}
+
+.nav-footer {
+  font-size: $font-size-foot;
+}
+// Buttons
+
+.btn {
+  text-shadow: $text-shadow;
+}
+
+.btn-secondary,
+.btn-outline-secondary {
+  color: $gray-700;
+}
+
+
+// Typography
+
+.text-secondary {
+  color: $gray-500 !important;
+}
+
+.bg-primary,
+.bg-success,
+.bg-info,
+.bg-warning,
+.bg-danger,
+.bg-dark {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $white;
+  }
+}
+.text-secondary {
+  color: $gray-500 !important;
+}
+
+.supervised{
+  text-decoration: underline;
+}
+.references{
+  font-size: $font-size-sm;
+  color: rgba($body-color, .6);
 }

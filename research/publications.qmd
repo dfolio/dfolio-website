@@ -1,36 +1,58 @@
 ---
 date: 2023-03-14 
-author: "David FOLIO"
-title: Publications
-subtitle: A selection of academic publications that I have co-authored
+title: "Selected publications"
 description: |
-  Please see the [references](/research/references.qmd) page for a complete and formal list of D. Folio publications.
+  A selection of academic publications that  D. Folio has co-authored.
 listing:
-  id: publications-list
-  #contents: publications.yml
-  #type: table
+  - id: articles-list
+    contents: articles/*.qmd
+    template: publications.ejs
+    sort: 'date desc'
+    categories: true
+    sort-ui: [date, author]
+    date-format: "YYYY"
   
-  contents: publications/*.qmd
-  template: publications.ejs
-  sort: 
-    - 'date desc'
-    - author
-  categories: true
-  sort-ui: [date, author, type]
-  filter-ui: [date, author, type]
-  date-format: "YYYY"
-  #fields: [issued, title, container-title]
-  field-display-names:
-    type: "Type"
-  page-size: 10
+  - id: conferences-list
+    contents: conferences/*.qmd
+    template: publications.ejs
+    sort: 'date desc'
+    categories: true
+    sort-ui: [date, author]
+    date-format: "YYYY"
+  
+  - id: thesis-list
+    contents: thesis/*.qmd
+    template: publications.ejs
+    sort: 'date desc'
+    categories: true
+    sort-ui: [date, author]
+    date-format: "YYYY"
+  
 #sidebar: false
 page-layout: full
-title-block-banner: false
+author-block: false
 ---
 
-
-::: {#publications-list }
+:::{.callout-note}
+A more complete and formal list of D. Folio publications is available on the [references](/research/references.qmd) page.
 :::
+
+## Journal articles
+
+::: {#articles-list }
+:::
+
+## Conferences papers
+
+::: {#conferences-list }
+:::
+
+## Thesis
+
+::: {#thesis-list }
+:::
+
+## Notice {#notice}
 
 :::{.callout-warning}
 The documents contained in this page are included to

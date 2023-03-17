@@ -3,18 +3,17 @@ lang: en-US
 order: 3
 date: 2018-03-30 06:55:35.1522385735 +0200
 title: References
-title-meta: David Folio References
 keywords: [dfolio, bibliography, references, research, activities]
 description: >
-  My research activities have led to scientific publications that are listed on
-  the references page.
-image: /images/logo-df.webp
+  D. FOLIO research activities have given rise to scientific publications which are 
+  listed on this page of bibliographical references.
 bibliography: dfolio.bib
 #biblio-style: authoryear
 aliases: 
   - /research/references/
 link-external-icon: true
 categories: [dfolio, bibliography, research]
+image: /images/logo-df.webp
 ---
 
 ```{r}
@@ -44,25 +43,24 @@ including <a href="#ACL">`r length(bibACL)` articles</a> (ACL),
 - Two journal metrics are reported here: journal quartile (Qn) and impact factor (IF).
 :::
 
-[^1]: From French "*[Haut Conseil de l’évaluation de la recherche et de l'enseignement supérieur]{.fr lang="fr"}*" (Hcéres) which is the High Council for Evaluation of Research and Higher Education an independent administrative authority. <https://www.hceres.fr>
+[^1]: From French "*[Haut Conseil de l'évaluation de la recherche et de l'enseignement supérieur]{.fr lang="fr"}*" (Hcéres) which is the High Council for Evaluation of Research and Higher Education an independent administrative authority. <https://www.hceres.fr>
 
-Most of the documents below are also shared or listed on academic social networks and scholarly literature databases with the following profiles:
+Most of the documents hereafter are also shared or listed on the following academic social networks and scholarly literature databases:
 
-- Orcid {{< ai orcid >}}: [0000-0001-9430-6091](https://orcid.org/0000-0001-9430-6091){rel="noopener noreferrer"}
-- Clarivate (webofscience) {{< ai clarivate >}}: [D-5808-2013](https://www.webofscience.com/wos/author/record/D-5808-2013){rel="noopener noreferrer"}
-     [    (replaces [Publons](https://publons.com/a/1136300/){rel="noopener noreferrer"} {{< ai publons >}} and 
-    [ResearcherId](https://www.researcherid.com/rid/D-5808-2013){rel="noopener noreferrer"} {{< ai researcherid >}})]{.text-right .text-muted .small}
-- Scopus {{< ai scopus >}}: <https://www.scopus.com/authid/detail.uri?authorId=15924858900>{rel="noopener noreferrer"}
-- Google Scholar {{< ai google-scholar >}}: <https://scholar.google.fr/citations?user=XQVc6JMAAAAJ>{rel="noopener noreferrer"}
-- Academia  {{< ai academia >}}: <https://insa-centrevaldeloire.academia.edu/DavidFolio>{rel="noopener noreferrer"}
-- ResearchGate  {{< ai researchgate >}}: <https://www.researchgate.net/profile/David_Folio>{rel="noopener noreferrer"}
-- LinkedIn {{< fa brands linkedin >}}: <https://www.linkedin.com/in/david-folio/>{rel="noopener noreferrer"}
-- [HAL] {{< ai hal >}}: <https://hal.archives-ouvertes.fr/aut/David+Folio/>{rel="noopener noreferrer"} \
-  See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
+- [{{< ai orcid >}} Orcid](https://orcid.org/0000-0001-9430-6091){rel="noopener noreferrer"}
+- [{{< ai clarivate >}} Clarivate](https://www.webofscience.com/wos/author/record/D-5808-2013){rel="noopener noreferrer"} (webofscience)
+  [ --- replaces [Publons](https://publons.com/a/1136300/){rel="noopener noreferrer"} {{< ai publons >}} and 
+  [ResearcherId](https://www.researcherid.com/rid/D-5808-2013){rel="noopener noreferrer"} {{< ai researcherid >}}]{.text-right .text-muted .small}
+- [{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=15924858900){rel="noopener noreferrer"}
+- [{{< ai google-scholar >}} Google Scholar](https://scholar.google.fr/citations?user=XQVc6JMAAAAJ){rel="noopener noreferrer"}
+- [{{< ai academia >}} Academia](https://insa-centrevaldeloire.academia.edu/DavidFolio){rel="noopener noreferrer"}
+- [{{< ai researchgate >}} ResearchGate](https://www.researchgate.net/profile/David_Folio){rel="noopener noreferrer"}
+- [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/david-folio/){rel="noopener noreferrer"}
+- [{{< ai hal >}} HAL](https://hal.archives-ouvertes.fr/aut/David+Folio/){rel="noopener noreferrer"} 
+  [ --- see also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}]{.text-right .text-muted .small}
 
-[HAL]: <https://hal.archives-ouvertes.fr> "Hyper Articles en Ligne"
+You may also interested in the [publications page](publications.qmd) where some of documents below are shared.
 
-              
 ## Articles
 
 ### Articles in referenced journals (ACL) {#ACL}

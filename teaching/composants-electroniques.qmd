@@ -3,13 +3,11 @@ date: 2018-03-30 14:16:55.1522412215 +0200
 aliases: 
   - /teaching/composants-electroniques/
 lang: fr
-title: Composants Électroniques
-keywords: composants électroniques, électronique analogique, cours, david folio, INSA
+title: Composants électroniques
+keywords: [composants électroniques, électronique analogique, cours, david folio, INSA]
 description: >
   L'objectif de cet enseignement avancé est de s'interesser au fonctionnement et
   aux technologies des composants de l'électroniques analogique.
-
-toc: true
 images: /images/teaching/electronic-analog.webp
 ---
 
@@ -40,10 +38,10 @@ En particulier, il s'agit de pouvoir (re)connaître l'emploi de ces composants �
 Cet enseignement d'électronique analogique est un cours d'**électronique
 avancée**. Il est donc important d'avoir certaines notions d'électronique
 analogique. Afin de pouvoir appréhender le cours d'électronique analogique, il
-faut donc au préalable avoir maîtrisé les [enseignement d'électronique
-analogique](teaching/ELAN/) ([ELAN](teaching/ELAN/)) au programme
-pédagogique de la 2^nde^ année STPI. Ces pré-requis comprennent, entre
-autre:
+faut donc au préalable avoir maîtrisé les
+[enseignement d'électronique analogique](/teaching/ELAN/) ([ELAN](/teaching/ELAN.qmd)) au programme
+pédagogique de la 2^nde^ année <abbr lang=fr title="Sciences et Technologies pour l'Ingénieur">STPI</abbr>. 
+Ces pré-requis comprennent, entre autre:
 
 -   Les lois de Kirchoff (e.g. lois des nœuds, lois des mailles), les théorèmes _simplificateurs_ (e.g. principe de superposition, théorèmes de Thévenin/Norton…);
 -   Le comportement "_idéalisé_" des composants de base de l'électronique analogique, dont en particulier :

@@ -4,20 +4,18 @@ aliases:
   - /teaching/SFEN/
 lang: fr 
 title: L'option SFEN
-title-meta: L'option Sûreté et Fonctionnement en Énergie Nucléaire (SFEN)
-subtitle: '{{< meta title-meta >}}'
-keywords: énergie nucléaire, formation, David Folio, INSA
+subtitle: Sûreté et Fonctionnement en Énergie Nucléaire (SFEN)
+keywords: [énergie nucléaire, formation, David Folio, INSA]
 description: >
   David FOLIO est le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire (SFEN) de la 5^ème^ année MRI de l'INSA Centre Val de Loire.
 
 image: /images/logo-teach.webp
-toc: true
 ---
 
 
 ## Présentation
 
-Je suis le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire ([SFEN]) de la 5^ème^ année du département MRI de l'{{< var INSA-CVL >}}.
+Je suis le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire ([SFEN]) de la 5^ème^ année du département <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> de l'{{< var INSA-CVL >}}.
 L'option [SFEN] à pour ambition de:
 
 -   Mettre en œuvre les outils de la maîtrise des [risques nucléaires](#RN) au niveau des réacteurs, des installations nucléaires et du transport de matières radioactives.
@@ -52,16 +50,6 @@ Possibilité de double diplômes:
 - MASTER Mécanique (Univ. Orléans, Univ. Tours)
 - Ingénieur spécialisé en Génie Atomique avec l’INSTN
 
-<!--
--  **Les technologies impliquées**:
-    l'objectif est de développer les connaissances nécessaires à l'étude du cycle du combustible, et des modes de fonctionnement normaux ou accidentels des centres nucléaires de production d'énergie.
-
-- **Sécurité et sûreté nucléaire**:
-    sont abordés les thèmes de radioprotection, crise et gestion, traitement des situations radiologiques anormales, de sûreté dans les domaines du transport, des matières nucléaires et dans l'amont du cycle...
-
--  **Mécanique** (en commun avec l'option RAI):
-    l'enseignement de la mécanique est orienté vers les applications d'études de structures dans toutes les phases de leurs comportements, jusqu'à leurs destructions totales
--->
 
 ## Insertion professionnelle
 

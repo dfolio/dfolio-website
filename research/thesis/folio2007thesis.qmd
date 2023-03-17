@@ -3,7 +3,7 @@ date: 2007-07
 type: thesis
 #lang: fr-FR
 title: Stratégies de commande référencées multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile
-title-meta: D. Folio PhD. Thesis
+pagetitle: D. Folio PhD. Thesis
 keywords: [dfolio, PhD, thesis, visual servoing, sensor based control]
 description: >
   Some informations on the doctorate degree of David FOLIO
@@ -127,7 +127,7 @@ experiences have led to a total volume of 308 hETD[^3].
     [1]{.number}[h]{.unit} of practical work (TP) =
     [1]{.number}[hETD]{.unit}.
 
-## Thesis Details {#details}
+## Thesis Details {#sec-details}
 
 I obtained a PhD thesis in Robots Control from Paul Sabatier University
 of Toulouse (France), that was entitled: "*Multi-sensor-based control
@@ -136,7 +136,7 @@ navigation*" [@folio2007thesis].
 
 Manuscript
 :   [D. Folio PhD thesis](/pdf/folio2007thesis.pdf "Click to download"){.download-link download="folio2007thesis.pdf"} {{< fa file-pdf >}}
-    ([view](/pdf/folio2007thesis.pdf "Click to download"){.download-link})
+    ([view](/pdf/folio2007thesis.pdf "Click to view"){.download-link})
 
 Defended
 :   the 11^th^ July 2007

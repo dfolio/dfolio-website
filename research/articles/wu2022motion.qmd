@@ -4,6 +4,7 @@ date: 2022-09-21
 title: Motion Analysis and Real-Time Trajectory Prediction of Magnetically Steerable Catalytic Janus Micromotors
 description: | 
   This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
+cite-author: "<span class='supervised'>Wu, Jiaen</span>, <strong>Folio, David</strong>, Zhu, Jiawei, Jang, Bumjin, Chen, Xiangzhong, Feng, Junxiao, Gambardella, Pietro, Sort, Jordi, Puigmarti-Luis, Josep, Ergeneman, Olgac, Ferreira, Antoine and Pane, Salvador"  
 author:
   - name:
       family: Wu
@@ -78,10 +79,24 @@ author:
       - ref: MSRL
     attributes:
       equal-contributor: true
-materials: "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Faisy.202200192&file=aisy202200192-sup-0001-SuppData-S1.zip"    
-doi: 10.1002/aisy.202200192
 url: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
-hal_id: "hal-03783339"
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1002/aisy.202200192
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03783339
+  - name: "Materials"
+    aria-label: "materials"
+    icon: "bi bi-file-earmark-zip"
+    class: "btn btn-light"
+    href: https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Faisy.202200192&file=aisy202200192-sup-0001-SuppData-S1.zip
+      
 citation: 
   citation-key: wu2022motion
   language: en-US

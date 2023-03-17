@@ -3,28 +3,34 @@ project:
   preview:
     port: 7633
     browser: true
+    watch-inputs: true
+    navigate: true
   resources:
     - "images/favicons/*"
     - "images/index.html"
     - "pdf/index.html"
     - "pdf/teaching/index.html"
     - "pdf/research/index.html"
+    # Things that need to be at the site root
     - "site.webmanifest"
     - "browserconfig.xml"
+    - "keybase.txt"
 
 website:
-  title: "dfolio website"
-  description: "dfolio' personal website"
+  title: "dfolio' website"
+  description: "D. Folio is an associate professor (HDR) at INSA Centre Val de Loire, researching in microrobotics."
   favicon: favicon.webp
   #site-url: http://dfolio.free.fr
   site-url: https://dfolio.quarto.pub
-  repo-url: https://github.com/dfolio/dfolio-free-website
+  repo-url: https://github.com/dfolio/dfolio-website
   search: true
 
   cookie-consent:
     style: simple
     type: implied
     palette: dark
+    policy-url: about/privacy.qmd
+
   google-analytics:
     tracking-id: 'G-P49B92C60B'
     version: 4
@@ -32,25 +38,24 @@ website:
 
   open-graph:
     locale: en_US
-    site-name: "dfolio website"
+    site-name: "{{< meta website.title >}}"
+    image: /images/logo-df.webp
 
   reader-mode: true
   page-navigation: true
 
   page-footer:
-    left:
-      - aria-label: copyright
-        text: '&copy; 2004&ndash;2023, <i class="bi bi-at" role="img" aria-label="copyright"></i> Folio David. '
-      - aria-label: license
-        text: |
-          Except where otherwise noted, all text and images licensed
-          <span class="site-license" aria-label="license"
-          <a rel="license" class="url" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International (CC BY 4.0)"><i class="fab fa-creative-commons" aria-hidden="true"></i> BY 4.0</a>.
-          </span>
+    border: false
+    left: |
+        [&copy; 2004&ndash;2023, {{< fa at >}} [Folio David](/about/about.qmd).]{.copyright aria-label="copyright"}
+        [![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
+        Site licensed under
+        [[{{< fa brands creative-commons-by >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
+
     right:
-      - aria-label: "Dfolio GitHub Page"
+      - aria-label: "GitHub"
         icon: github
-        href:  https://dfolio.github.io
+        href:  https://github.com/dfolio
       - aria-label: "Orcid"
         text: "{{< ai orcid >}}"
         href: https://orcid.org/0000-0001-9430-6091
@@ -78,31 +83,55 @@ website:
       - aria-label: "HAL"
         text: "{{< ai hal >}}"
         href: https://cv.hal.science/david-folio
-      - aria-label: "Website"
-        icon: link-45deg
-        href:  http://dfolio.free.fr
+#      - aria-label: "Website"
+#        icon: link-45deg
+#        href:  http://dfolio.free.fr
 
   navbar:
+    pinned: false
     logo: favicon.webp
     logo-alt: "dfolio website logo"
+    search: true
+    title: false
+    collapse-below: lg
     left:
-      - about.qmd
+      - text: "About"
+        href: about/
       #- sidebar:teaching
       - text: "Teaching"
-        href: teaching.qmd
+        href: teaching/teaching.qmd
       #- sidebar:research
       - text: "Research"
-        href: research.qmd
+        href: research/
       - text: "References"
         href: research/references.qmd
+    tools:
+      - icon: save
+        menu:
+          - text: ""
+            url:  "#"
+      - icon: github
+        href: https://github.com/dfolio
+        text: Dfolio GitHub
   sidebar:
-    - id: teaching
+    - id: about
       #collapse-level: 1
       title: "Teaching"
       style: "docked"
       #style: "floating"
       contents:
-        - teaching.qmd
+        - about/about.qmd
+        - about/dfolio.qmd
+        - about/history.qmd
+        - about/privacy.qmd
+        - about/license.qmd
+
+
+    - id: teaching
+      #collapse-level: 1
+      title: "Teaching"
+      contents:
+        - teaching/teaching.qmd
         - teaching/SFEN.qmd
         - teaching/ELAN.qmd
         - teaching/composants-electroniques.qmd
@@ -116,19 +145,17 @@ website:
       collapse-level: 2
       align: left
       contents:
-        - text: "Research activities"
-          href: research.qmd
+        - research/research.qmd
         - research/supervisions.qmd
         - section: "Projects"
           contents:
-          - text: "Overview"
-            href: research/projects/
+          - text: "Projects list"
+            href: research/projects/projects.qmd
           - research/projects/BUBBLEBOT.qmd
           - research/projects/MTG.qmd
         - section: "Microrobotics"
           contents:
-          - text: "Overview"
-            href: research/microrobotics/
+          -  research/microrobotics/microrobotics.qmd
           - research/microrobotics/biomedical.qmd
         - section: Bibliography
           contents:
@@ -137,28 +164,23 @@ website:
 
 format:
   html:
-    author: "David FOLIO"
-#      - name: "David FOLIO"
-#      - email: dfolio@gmail.com
-#      - url: http://dfolio.free.fr
-#      - affiliation: "INSA Centre Val de Loire"
-#      - affiliation-url: https://www.insa-centrevaldeloire.fr/
     date-modified: last-modified
-    #license: "CC BY"
     highlight: null
     mathjax: null
     theme:
-      light: [cerulean, theme.scss]
-      dark: [theme-dark.scss]
+      light: [scss/light.scss]
+      dark: [scss/dark.scss]
     css: styles.css
 
-    template: template.html
+    template: html/template.html
     template-partials:
-      - metadata.html
-      - title-block.html
-      - after-body.html
+      - html/metadata.html
+      - html/title-block.html
+      - html/after-body.html
     toc: true
+    anchor-sections: true
     code-copy: true
+    code-link: true
     code-overflow: wrap
     citations-hover: true
     link-citations: true
@@ -167,9 +189,6 @@ format:
     footnotes-hover: true
     reference-location: document
     strip-comments: true
-    grid:
-      sidebar-width: 500px
-      grid-body-width: 900px
 
 page-layout: full
 #bibliography: [research/references.bib]
@@ -177,4 +196,34 @@ csl: research/Thesis-ieee-style.csl
 
 execute:
   freeze: auto
+  echo: false
+  message: false
+  warning: false
 
+author:
+  name:
+    family: Folio
+    given: David
+  orcid: 0000-0001-9430-6091
+  email: david.folio@insa-cvl.fr
+  url: http://dfolio.free.fr
+  attributes:
+    corresponding: true
+    equal-contributor: true
+  affiliations:
+    - ref: INSA-CVL
+
+affiliations:
+  - id: INSA-CVL
+    name: "INSA Centre Val de Loire"
+    affiliation-url: https://www.insa-centrevaldeloire.fr/
+    address: "88 Boulevard Lahitolle"
+    postal-code: 18000
+    city: Bourges
+    country: France
+
+# Metadata stuff
+#pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
+title-prefix: "dfolio' website"
+description-meta: "{{< meta description >}}"
+author-meta: "D. FOLIO"

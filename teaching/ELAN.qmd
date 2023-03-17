@@ -4,13 +4,10 @@ aliases:
   - /teaching/ELAN/
 lang: fr
 title: Électronique Analogique
-keywords: électronique analogique, cours, David Folio, INSA
+keywords: [électronique analogique, cours, David Folio, INSA]
 description: >
   Le but de cet enseignement est de faire comprendre le fonctionnement des
-  composants électroniques élémentaires à base de semi-conducteurs (eg. diodes,
-  transistors), de leurs montages classiques (eg. les étages amplificateurs en
-  particulier).
-toc: true
+  composants électroniques élémentaires à base de semi-conducteurs et d'étudier les montages classiques.
 images: /images/teaching/electronic-analog.webp
 ---
 
@@ -41,8 +38,8 @@ particulier, et savoir dimensionner leurs éléments.
 
 Afin de pouvoir appréhender le cours d'électronique analogique, il faut au
 préalable maîtriser les enseignement d'électrocinétique 1 & 2 au programme
-pédagogique de la 1^ère^ année STPI. Ces pré-requis comprennent,
-entre autre:
+pédagogique de la 1^ère^ année <abbr lang=fr title="Sciences et Technologies pour l'Ingénieur">STPI</abbr>. 
+Ces pré-requis comprennent, entre autre:
 
 -   Les composants de base de l'électronique analogique:
     -   les dipôles passifs linéaires (e.g. résistances, condensateurs, inductances);
@@ -60,7 +57,7 @@ entre autre:
 -   Fonctionnement réel des amplificateurs opérationnels (AOP).
 
 Le cours et les TD sont communs aux deux campus (de Blois et de Bourges) de
-l'INSA Centre Val de Loire.
+l'{{< var INSA-CVL >}}.
 
 ## Supports {#sec-supports}
 

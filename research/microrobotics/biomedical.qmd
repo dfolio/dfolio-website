@@ -2,9 +2,10 @@
 date: 2022-01-04 16:05:33 +0100
 aliases: [/research/microrobotics/biomedical/]
 title: Biomedical applications
+pagetitle: "About biomedical applications of microrobots"
 keywords: [dfolio, projects, research, activities, microrobot,biomedical applications]
 description: >
-  Challenges and opportunities of microrobots for biomedical applications.
+  David Folio discuss here the challenges and opportunities of microrobots for biomedical applications.
 bibliography: [../references.bib,../dfolio.bib]
 ---
 
