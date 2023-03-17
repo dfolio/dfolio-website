@@ -1,0 +1,27 @@
+---
+title: "Posts and Articles"
+subtitle: "A few brief notes along the way"
+description: "Miscellaneous pages to share some various things that I am interested in :)"
+
+date-format: "MMMM D, YYYY"
+code-tools: false
+
+page-layout: full
+toc-title: Year
+listing: 
+  - id: posts-2018
+    contents:  "2018/*"
+    sort: "date desc"
+    fields: [image, date, title, reading-time, categories, description]
+    type: default
+    categories: true
+    
+---
+
+
+## Old stuffs
+
+### 2018
+
+:::{#posts-2018}
+:::

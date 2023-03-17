@@ -117,8 +117,8 @@ website:
     - id: about
       #collapse-level: 1
       title: "Teaching"
-      style: "docked"
-      #style: "floating"
+      #style: "docked"
+      style: "floating"
       contents:
         - about/about.qmd
         - about/dfolio.qmd
@@ -175,13 +175,15 @@ format:
     template: html/template.html
     template-partials:
       - html/metadata.html
-      - html/title-block.html
+      # - html/title-block.html
       - html/after-body.html
     toc: true
     anchor-sections: true
     code-copy: true
-    code-link: true
-    code-overflow: wrap
+    #code-fold: true
+    #code-line-numbers: true
+    #code-link: true
+    #code-overflow: wrap
     citations-hover: true
     link-citations: true
     link-external-newwindow: true
@@ -189,6 +191,7 @@ format:
     footnotes-hover: true
     reference-location: document
     strip-comments: true
+    smooth-scroll: true
 
 page-layout: full
 #bibliography: [research/references.bib]

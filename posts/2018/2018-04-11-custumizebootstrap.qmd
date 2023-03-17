@@ -1,0 +1,122 @@
+---
+title: Customize Bootstrap
+description: Should I let boostrap as it is, or customize it?
+date: "2018-04-11 07:34:55 +0200"
+image: https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg
+image-alt: "Bootstrap logo"
+image-width: 20%
+categories: [bootstrap]
+---
+
+> Customize Bootstrap's components, Less variables, and jQuery plugins to get your very own version.
+>
+> <footer class="blockquote-footer">
+>
+> From <cite>[getbootstrap.com](https://getbootstrap.com/docs/3.3/customize/).
+
+A question that can arise when someone intend to use [Bootstrap toolkit][bootstrap] is "*should I let boostrap as it is, or customize it?*".
+Or maybe you don't have this issue in mind.
+That is you have simply found it is suitable to use [Twiter Bootstrap][bootstrap] to improve the responsive aspect of your site by using a widely considered CSS/JS toolkit.
+Thus, you have solely embed the [Bootstrap toolkit][bootstrap] on your webpage template.
+
+Such behavior is only suitable for quick testing, designing and developing a new layout.
+But for a website in production, from my point of view, it is important to select from such toolkit only what you need for your website.
+Otherwise you will increase your website payload and downgrade your site performance.
+For example, do you use a [carroussel](https://getbootstrap.com/docs/4.2/components/carousel/) or [jumbotron](https://getbootstrap.com/docs/4.2/components/jumbotron/) in all your pages?
+Actually, [Bootstrap toolkit][bootstrap] file size is about 169 ko (minified: 138 ko).
+For my site, the sole [Bootstrap toolkit][bootstrap] part is of 116 ko (minified: 93 ko).
+As you see the payload is significantly reduced.
+Secondly, by editing the default [Bootstrap][bootstrap], you open a way to customization of the toolkit to fit your will.
+
+However, in some (few) cases, using the original bootstrap toolkit [Bootstrap toolkit][bootstrap] can be suitable.
+Basically, using the basic [Bootstrap toolkit][bootstrap] enable the possibility of using it through CDN to access to it, and improving the HTTP request.
+
+But in any case: **do not reinvent the wheel!** unless your a (great) web-developer (especially in CSS/JS design) I don't recommend to write a toolkit.
+Actually, by using a toolkit (such as [Bootstrap][bootstrap] or whatever) you can benefit of updates and bugs correction.
+
+## How to simplify Bootstrap usage
+
+If you have a look to `bootstrap.scss` from [Bootstrap][bootstrap] source or you can shown it on the [{{< fa brands github >}} Githup page](https://github.com/twbs/bootstrap/blob/v4-dev/scss/bootstrap.scss)
+
+:::{.collapsable #collapse-parent-1}
+:::{.collapse-head}
+<summary class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Toggle Code </summary>
+:::
+:::{.collapse #collapse-1}
+```sass
+/\*!
+
+-   Bootstrap v4.0.0 (<https://getbootstrap.com>)
+-   Copyright 2011-2018 The Bootstrap Authors
+-   Copyright 2011-2018 Twitter, Inc.
+-   Licensed under MIT (<https://github.com/twbs/bootstrap/blob/master/LICENSE>)
+    \*/
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "utilities";
+@import "print";
+```
+:::
+:::
+
+As you can see, many of the above default import are not necessary for all website, and not for all webpage.
+From [Bootstrap v4](https://getbootstrap.com/docs/4.0/getting-started/theming/) documentation you can get the "**minimal**" bootstrap components:
+
+:::{.collapsable #collapse-parent-1}
+:::{.collapse-head}
+<summary class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Toggle Code </summary>
+:::
+:::{.collapse #collapse-2}
+```sass
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";
+```
+
+:::
+:::
+
+Of course, if you would like to have special stuff from [Bootstrap][bootstrap] (such as button, alert, or whatever) you can add it to your customized theming.
+
+
+[bootstrap]: https://getbootstrap.com "One most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites."

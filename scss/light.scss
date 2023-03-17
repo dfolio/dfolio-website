@@ -157,7 +157,7 @@ main.content{
 }
 
 
-#title-block-header.quarto-title-block.default,
+#title-block-header.quarto-title-block.default{}
 #footer-block.quarto-footer-block.default{
   @include media-breakpoint-up(sm) {
     max-width: 90%;

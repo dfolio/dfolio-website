@@ -10,7 +10,7 @@ Long time no see!
 
 ## History
 
-Let me start with a brief history of [dfolio(at)free](/). I don't remember
+Let me show a brief history of [dfolio(at)free](/). I don't remember
 exactly when I have created an account on the
 [free.fr](http://pagesperso.free.fr/) hosting service, but it must have been in
 the early 2000's. This  was when I've started to discover the Internet and some
@@ -38,11 +38,11 @@ are made when I have time.
 ## 2008 -- 2018
 
 Nothing happened! I didn't update, neither posted anything on
-[dfolio(at)free](/). Why? Basically, because I had managed my personnal website
+[dfolio(at)free](/). Why? Basically, because I had managed my personal website
 with my Institute' hosting (former http://perso.ensi-bourge.fr/dfolio/). But
 this service is right now down, since autumn 2017.
 Thus, I came back to  [dfolio(at)free](/) =) …
-but, as you see, mainly in [English](/about.qmd#langage).
+but, as you see, mainly in [English](/about/about.qmd#langage).
 
 ## 2018 -- 2023
 
@@ -52,17 +52,18 @@ flat-system database, and thus [PmWiki](http://www.pmwiki.org) :/ That is why I
 have looked for a new website management system (but I still dislike SQL
 databases). Finally, I have discovered [Jekyll](https://jekyllrb.com) that is
 for *static* website, from plain-text (aka markdown based). This has lead to a
-totaly new [dfolio(at)free](/)  website. For now the previous
+totally new [dfolio(at)free](/)  website. For now the previous
 [dfolio(at)free](/) contents have been removed. But maybe, latter, I'd put back
 some of the previous contents. Come here again to see the evolution.
 
 ## Since 2023
 
 [Jekyll](https://jekyllrb.com) is really quite impressive for a website development.
-But, most of my regular works relies on the use of [Rmarkdown](https://rmarkdown.rstudio.com/), and now [Quarto](https://quarto.org/).
+But, most of my regular works relies on the use of [Rmarkdown], and now [Quarto].
 They both offer great features for developing website.
-So, since I don't want to spend a lot of time on effective design or to manage multiple template/layout languages, I switched to [Quarto](https://quarto.org/).
-Actually, for most of my document production (e.g. teaching materials, academic paper, presentation...), I first used Rmarkdown and now mostly Quarto (which is more versatile).
+So, since I don't want to spend a lot of time on effective design or to manage multiple template/layout languages, I switched to [Quarto]
+Actually, for most of my documents production (e.g. teaching materials, academic papers, presentations...), I first used [Rmarkdown] and now mostly [Quarto] (which is more versatile).
 
 [Rmarkdown]: <https://rmarkdown.rstudio.com/> "Make  high quality documents, reports, presentations and dashboards with R and Markdown." 
+[Quarto]: <https://quarto.org/> "Open-source scientific and technical publishing system built on Pandoc" 
 

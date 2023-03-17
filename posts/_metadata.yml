@@ -1,0 +1,33 @@
+# Date format
+date-format: "dddd, MMMM D, YYYY"
+
+# Enable banner style title blocks
+title-block-banner: true
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: left
+
+code-fold: show
+code-summary: "Toggle the code"
+code-tools: true
+
+freeze: true
+
+# Default knitr options
+execute:
+  echo: true
+  message: true
+  warning: true
+
+# Default author
+author:
+  name: David Folio
+  orcid: 0000-0001-9430-6091
+  email: david.folio@insa-cvl.fr
+  url: http://dfolio.free.fr
+
+
+format:
+  html:
+    code-tools: true
