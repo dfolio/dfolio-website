@@ -1,16 +1,20 @@
 # Date format
-date-format: "dddd, MMMM D, YYYY"
+date-format: "ddd., MMM. D, YYYY"
 
 # Enable banner style title blocks
 title-block-banner: true
+title-block-meta: true
 # Default for table of contents
 toc: true
 toc-title: Contents
 toc-location: left
 
-code-fold: show
-code-summary: "Toggle the code"
-code-tools: true
+#code-fold: show
+#code-summary: "Toggle the code"
+#code-tools: true
+#code-line-numbers: true
+#code-link: true
+#code-overflow: wrap
 
 freeze: true
 
