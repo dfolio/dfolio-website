@@ -1,0 +1,73 @@
+---
+type: conference
+date: 2019-03
+title: Computational Electromagnetics Performances of Magnetic Microrobotics Systems
+description: | 
+
+author:
+  - name: Chen, Ruipeng
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Folio, David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Ferreira, Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+
+doi: 10.1109/COMPEM.2019.8778897
+#url: https://www.sciencedirect.com/science/article/pii/S0921889020305145
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/COMPEM.2019.8778897
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/8778897
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03528531      
+citation: 
+  issued: 2019-03
+  container-title: IEEE International Conference on Computational
+    Electromagnetics (ICCEM'2019)
+  publisher: IEEE
+  type: paper-conference
+  event-place: Shanghai, China
+  page: 1-3
+  abstract: The magnetic microrobot have the potential to assist surgeon
+      to perform precision medical procedures by using electromagnetic
+      actuation (EMA) system. Various EMA system can provide desired
+      magnetic field and gradient for the locomotion control of magnetized
+      microrobot. Investigation of the performance of EMA system is
+      reported to effectively select specific application. The paper
+      evaluates EMA configurations consisting of the classical coils such
+      as Helmholtz coils, Maxwell coils and saddle coils; and also studies
+      systems with electromagnets. The considered EMA systems are
+      evaluated with respect to computational electromagnetics
+      performances and structure design. Applications for the suitable EMA
+      system are also discussed.
+categories: 
+  - EMA
+  - Modeling
+---
+##  Abstract
+
+{{< meta citation.abstract >}}

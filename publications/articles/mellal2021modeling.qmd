@@ -10,17 +10,13 @@ description: |
   behavior of which has been characterized experimentally under weak
   magnetic fields.
 author:
-  - name:
-      family: Mellal
-      given: Lyès
+  - name: Mellal, Lyès
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name:
-      family: Folio
-      given: David
+  - name: Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -29,26 +25,33 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name:
-      family: Ferreira
-      given: Antoine
+  - name: Ferreira, Antoine
     affiliations:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
 doi: 10.1109/LRA.2021.3107102
-ieeexplore: 9521741
-hal_id: "hal-03416758"
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1109/LRA.2021.3107102"
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/9521741
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03416758
 citation: 
   citation-key: mellal2021modeling
   language: en-US
   type: article-journal
   genre: ACL
-  author:
-  - Mellal, Lyès
-  - Folio, David
-  - Belharet, Karim
-  - Ferreira, Antoine
   publisher: IEEE
   container-title: IEEE Robotics and Automation Letters
   issued: 4

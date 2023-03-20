@@ -6,17 +6,13 @@ description: |
   This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
 cite-author: "<span class='supervised'>Wu, Jiaen</span>, <strong>Folio, David</strong>, Zhu, Jiawei, Jang, Bumjin, Chen, Xiangzhong, Feng, Junxiao, Gambardella, Pietro, Sort, Jordi, Puigmarti-Luis, Josep, Ergeneman, Olgac, Ferreira, Antoine and Pane, Salvador"  
 author:
-  - name:
-      family: Wu
-      given: Jiaen
+  - name: Wu, Jiaen
     affiliations:
       - ref: MSRL
     attributes:
       supervised: true
       equal-contributor: true
-  - name:
-      family: Folio
-      given: David
+  - name: Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -25,67 +21,53 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name:
-      family: Zhu
-      given: Jiawei
+  - name: Zhu, Jiawei
     affiliations:
       - ref: MSRL
-  - name:
-      family: Jang
-      given: Bumjin
+  - name: Jang, Bumjin
     affiliations:
       - ref: korea
-  - name:
-      family: Chen
-      given: Xiangzhong
+  - name: Chen, Xiangzhong
     affiliations:
       - ref: MSRL
-  - name:
-      family: Feng
-      given: Junxiao
+  - name: Feng, Junxiao
     affiliations:
       - ref: Mat-ETH
-  - name:
-      family: Gambardella
-      given: Pietro
+  - name: Gambardella, Pietro
     affiliations:
       - ref: Mat-ETH
-  - name:
-      family: Sort
-      given: Jordi
+  - name: Sort, Jordi
     affiliations:
       - ref: fisica
-  - name:
-      family: Puigmarti-Luis
-      given: Josep
+  - name: Puigmarti-Luis, Josep
     affiliations:
       - ref: icrea
-  - name:
-      family: Ergeneman
-      given: Olgac
+  - name: Ergeneman, Olgac
     affiliations:
       - ref: MSRL
-  - name:
-      family: Ferreira
-      given: Antoine
+  - name: Ferreira, Antoine
     affiliations:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
-  - name:
-      family:  Pane
-      given: Salvador
+  - name: Pané, Salvador
     affiliations:
       - ref: MSRL
     attributes:
       equal-contributor: true
 url: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
+doi: aisy.202200192
 links:
   - name: "DOI"
     aria-label: "DOI"
     icon: "ai ai-doi"
     class: "btn btn-success btn-sm"
-    href: https://doi.org/10.1002/aisy.202200192
+    href: https://doi.org/aisy.202200192
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"

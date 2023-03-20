@@ -1,8 +1,13 @@
 ---
+aliases:
+  - /research/publications/
+  - /publications/
 date: 2023-03-14 
 title: "Selected publications"
 description: |
   A selection of academic publications that  D. Folio has co-authored.
+
+toc-title: Publication type  
 listing:
   - id: articles-list
     contents: articles/*.qmd
@@ -30,7 +35,7 @@ listing:
   
 #sidebar: false
 page-layout: full
-author-block: false
+title-block-meta: false
 ---
 
 :::{.callout-note}
@@ -52,15 +57,5 @@ A more complete and formal list of D. Folio publications is available on the [re
 ::: {#thesis-list }
 :::
 
-## Notice {#notice}
 
-:::{.callout-warning}
-The documents contained in this page are included to
-ensure timely dissemination of scholarly and technical work on a non-commercial
-basis. Copyright and all rights therein are maintained by the authors or by
-other copyright holders, notwithstanding that they have offered their works here
-electronically. It is understood that all persons copying this information will
-adhere to the terms and constraints invoked by each author's copyright. These
-works may not be re-posted without the explicit permission of the copyright
-holder.
-:::
+{{< include _footer.qmd >}}

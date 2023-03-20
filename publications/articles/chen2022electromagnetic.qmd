@@ -6,17 +6,13 @@ description: |
   This review presents different types of electromagnetic actuation (EMA) microrobotic systems that have
   been designed for various principles of magnetic microrobot locomotion for any given tasks.
 author:
-  - name:
-      family: Chen
-      given: Ruipeng
+  - name:  Chen, Ruipeng
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name:
-      family: Folio
-      given: David
+  - name:  Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -27,16 +23,28 @@ author:
       - ref: INSA-CVL
 doi: 10.1007/s43154-022-00081-w
 url: "https://link.springer.com/article/10.1007/s43154-022-00081-w"
-hal_id: "hal-03758932"
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1007/s43154-022-00081-w"
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: https://link.springer.com/article/10.1007/s43154-022-00081-w
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03758932
 citation: 
   citation-key: chen2023optimal
   language: en-US
   type: article-journal
   container-title: Current Robotics Reports
   genre: ACL
-  author:
-  - Chen, Ruipeng 
-  - Folio, David 
   publisher: Springer
   issn: 2662-4087
   issue: 3

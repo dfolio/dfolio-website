@@ -10,14 +10,13 @@ description: >
 #css: /assets/css/references.css
 #critical-css: references
 
-bibliography: [../references.bib, ../dfolio.bib]
+bibliography: [../../research/references.bib, ../../research/dfolio.bib]
 aliases: 
   - /research/thesis/
+  - /publications/thesis/
 
 author:
-  - name:
-      family: Folio
-      given: David
+  - name: Folio,  David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -26,9 +25,24 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-url: http://dfolio.free.fr/research/thesis/
-hal_id: "tel-00172507"  
-pdf: /pdf/folio2007thesis.pdf 
+url: /research/thesis/
+links:
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: "/research/thesis/"
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/tel-00172507
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/folio2007thesis.pdf
+    
 citation: 
   citation-key: folio2007thesis
   language: fr-FR
@@ -36,8 +50,6 @@ citation:
   genre: PhD.
   publisher: Université Paul Sabatier, LAAS
   publisher-place: Toulouse, France
-  author:
-  - Folio, David 
   abstract: |
     The literature provides many techniques to design efficient control laws
     to realize robotic navigation tasks. In recent years, the sensors

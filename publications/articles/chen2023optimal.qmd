@@ -4,19 +4,14 @@ date: 2023-01
 title: Optimal Design of a Multipole-Electromagnet Robotic Platform for Ophthalmic Surgery
 description: | 
   This paper address the design a multipole-electromagnet robotic platform named **OctoRob**.
-cite-author: "<span class='supervised'>Chen, Ruipeng</span>, <strong>David, Folio</strong> and Ferreira, Antoine"
 author:
-  - name:
-      family: Chen
-      given: Ruipeng
+  - name: Chen,  Ruipeng
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name:
-      family: Folio
-      given: David
+  - name: Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -25,33 +20,41 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name:
-      family: Ferreira
-      given: Antoine
+  - name: Ferreira, Antoine
     affiliations:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
 doi: 10.3390/mi14010091
-url: "https://www.mdpi.com/2072-666X/14/1/91"
-hal_id: "hal-03919809"
+url: https://www.mdpi.com/2072-666X/14/1/91
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.3390/mi14010091
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: https://www.mdpi.com/2072-666X/14/1/91
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03919809
 citation: 
   citation-key: chen2023optimal
   language: en-US
   type: article-journal
   container-title: Micromachines
   genre: ACL
-  author:
-  - Chen, Ruipeng 
-  - Folio, David 
-  - Ferreira, Antoine
   publisher: Multidisciplinary Digital Publishing Institute
   issn: 2072-666X
   issue: 1
   volume: 14
   volume-title: "Recent Advances in Microrobotics"
   submitted: 2022-11-25
-  issued: 2023-01
   keyword: electromagnetic actuation system,microrobotic surgery
     platform,microrobots,ophthalmic surgery,optimization of magnetic
     systems

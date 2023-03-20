@@ -6,9 +6,7 @@ description: |
   This paper theoretically investigates the modeling of  spherical catalytic 
   self-phoretic magnetic Janus microrobot (MJR) evolving in uniform viscous flow.
 author:
-  - name:
-      family: Folio
-      given: David
+  - name: Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -17,24 +15,33 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name:
-      family: Ferreira
-      given: Antoine
+  - name: Ferreira, Antoine
     affiliations:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
 doi: 10.1109/TCST.2021.3139192
-ieeexplore: 9678101
-hal_id: "hal-03523208"
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/TCST.2021.3139192
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/9678101
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03523208
 citation: 
   citation-key: folio2022modeling
   language: en-US
   type: article-journal
   genre: ACL
-  author:
-  - Folio, David 
-  - Ferreira, Antoine
   publisher: IEEE
   container-title: IEEE Transactions on Control Systems Technology
   doi: 10.1109/TCST.2021.3139192

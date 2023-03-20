@@ -5,51 +5,54 @@ title: Motion Analysis and Real-Time Trajectory Prediction of Magnetically Steer
 description: | 
   This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
 author:
-  - name:
-      family: Botross
-      given: Karim
+  - name: Botross, Karim
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name:
-      family: Alkhatib
-      given: Mohammad
+  - name: Alkhatib, Mohammad
     affiliations:
       - ref: pascal
-  - name:
-      family: Folio
-      given: David
+  - name: Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
     attributes:
-      corresponding: true
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name:
-      family: Ferreira
-      given: Antoine
+  - name: Ferreira, Antoine
     affiliations:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
+      corresponding: true
 doi: 10.1109/ICRA46639.2022.9812114
 ieeexplore: 9812114
-hal_id: "hal-03758955"
+
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1109/ICRA46639.2022.9812114"
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: "/research/thesis/"
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03758955
 citation: 
   citation-key: botross2022fully
   language: en-US
   type: paper-conference
   container-title: "IEEE Conference on Robotics and Automation (ICRA)"
   genre: ACT
-  author:
-  - Botross,  Karim
-  - Alkhatib, Mohammad
-  - Folio, David 
-  - Ferreira, Antoine
   publisher: IEEE
   issued: 2022-05
   event-date: 2022-05-25

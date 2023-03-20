@@ -1,0 +1,78 @@
+---
+type: conference
+date: 2019-08-12
+title: Performance Metrics for a Robotic Actuation System Using Static and Mobile Electromagnets
+description: | 
+
+author:
+  - name: Chen, Ruipeng
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Folio, David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Ferreira, Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+
+doi:  10.1109/ICRA.2019.8794092
+#url: https://www.sciencedirect.com/science/article/pii/S0921889020305145
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/ICRA.2019.8794092
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/8794092
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03528527      
+citation: 
+  issued: 2019-08-12
+  container-title: International Conference on Robotics and Automation (ICRA'2019)
+  publisher: IEEE
+  type: paper-conference
+  event-date: 2019-05-20
+  event-place: Montreal, QC, Canada
+  page: 2474--2480
+  abstract: |
+    Wireless magnetic microrobots can perform complex tasks for
+    small-scale minimally invasive surgery (MIS) that requires high
+    precision and dexterity. The choice of the configuration of the
+    electromagnetic actuation (EMA) system is a key issue for reliable
+    medical applications. This paper addresses the study of a robotic
+    EMA platform firstly devoted to ophthalmic MIS, aiming at improving
+    the manipulability and dexterity of the procedure. To this end, a
+    robotic EMA system comprising four static and four mobile
+    electromagnets is investigated. Evaluation of the magnetic force and
+    torque, the manipulability and the dexterity indexes of EMA
+    platforms are studied. The results demonstrate that a robotic EMA
+    platform increases the versatility of the EMA system, and becomes
+    resourceful to perform various tasks.
+categories: 
+  - EMA
+  - Modeling
+image: /images/publications/chen2019icra.webp
+---
+##  Abstract
+
+{{< meta citation.abstract >}}
+
+![](/images/publications/chen2019icra.webp)

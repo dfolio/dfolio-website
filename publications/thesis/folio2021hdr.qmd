@@ -1,6 +1,4 @@
 ---
-aliases: 
-  - /research/hdr/
 type: thesis
 date: 2021-12-03
 title: Magnetic Microrobotics for Biomedical Applications
@@ -8,12 +6,12 @@ pagetitle: D. Folio Habilitation
 keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
 description: >
   Some informations on the Habilitation of David FOLIO
-bibliography: [../dfolio.bib]
-image: /images/research/targeting.webp
+bibliography: [../../research/dfolio.bib]
+aliases: 
+  - /research/hdr/
+  - /publications/hdr/
 author:
-  - name:
-      family: Folio
-      given: David
+  - name: Folio,  David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -22,16 +20,28 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-url: http://dfolio.free.fr/research/hdr/
-hal_id: "tel-03483203"
-pdf: /pdf/folio2021hdr.pdf
+url: /research/hdr/
+links:
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: "/research/hdr/"
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/tel-03483203
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/folio2021hdr.pdf
 citation: 
   citation-key: folio2021hdr
   language: en-US
   type: thesis
   genre: Habilitation
-  author:
-  - Folio, David 
   publisher: University of Orleans
   publisher-place: Bourges, France
   abstract: |
@@ -83,7 +93,7 @@ categories:
 ## Habilitation degree 
  
 I have defended my Habilitation in microrobotics in 2021, which was entitled 
-["_Magnetic Microrobotics for Biomedical Applications_"](/research/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
+["_Magnetic Microrobotics for Biomedical Applications_"](#sec-details) [@folio2021hdr].
 In this work, I have provided a summary of my teaching and research activities since my recruitment as associate professor in 2008.
 \
 To resume thirteen years of hard work is a very interesting exercise. 
