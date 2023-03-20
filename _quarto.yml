@@ -103,8 +103,10 @@ website:
       #- sidebar:research
       - text: "Research"
         href: research/
-      - text: "References"
-        href: research/references.qmd
+      - text: "Publications"
+        href: publications/publications.qmd
+      - text: "Posts"
+        href: posts/index.qmd
     tools:
       - icon: save
         menu:
@@ -160,30 +162,28 @@ website:
         - section: Bibliography
           contents:
             - research/references.qmd
-            - research/publications.qmd
+            - publications/publications.qmd
 
 format:
   html:
+    from: markdown+emoji
     date-modified: last-modified
     highlight: null
     mathjax: null
     theme:
-      light: [scss/light.scss]
-      dark: [scss/dark.scss]
+      light: [scss/common.scss,scss/light.scss]
+      dark: [scss/common.scss,scss/dark.scss]
     css: styles.css
 
     template: html/template.html
     template-partials:
       - html/metadata.html
-      # - html/title-block.html
+      - html/title-block.html
+      - html/title-metadata.html
       - html/after-body.html
     toc: true
     anchor-sections: true
     code-copy: true
-    #code-fold: true
-    #code-line-numbers: true
-    #code-link: true
-    #code-overflow: wrap
     citations-hover: true
     link-citations: true
     link-external-newwindow: true
@@ -203,27 +203,6 @@ execute:
   message: false
   warning: false
 
-author:
-  name:
-    family: Folio
-    given: David
-  orcid: 0000-0001-9430-6091
-  email: david.folio@insa-cvl.fr
-  url: http://dfolio.free.fr
-  attributes:
-    corresponding: true
-    equal-contributor: true
-  affiliations:
-    - ref: INSA-CVL
-
-affiliations:
-  - id: INSA-CVL
-    name: "INSA Centre Val de Loire"
-    affiliation-url: https://www.insa-centrevaldeloire.fr/
-    address: "88 Boulevard Lahitolle"
-    postal-code: 18000
-    city: Bourges
-    country: France
 
 # Metadata stuff
 #pagetitle: "{{< meta title >}} | {{< meta website.title >}}"

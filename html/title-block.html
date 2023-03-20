@@ -1,81 +1,21 @@
 <header id="title-block-header" class="quarto-title-block default" itemprop="headline">
 <div class="quarto-title">
+  <div class="quarto-title column-body">
   <h1 class="title" itemprop="headline">$title$</h1>
   $if(subtitle)$<p class="subtitle lead">$subtitle$</p>$endif$
   $if(categories)$$if(quarto-template-params.title-block-categories)$
   <div class="quarto-categories">
   $for(categories)$<div class="quarto-category">$categories$</div>$endfor$
   </div>$endif$$endif$
+  </div>
 </div>
 
 $if(hide-description)$
 $elseif(description)$
-  <div class="quarto-description"><div class="description p-summary lead">$description$</div></div>
+  <div class="quarto-description"><div class="description p-summary">$description$</div></div>
 $endif$
 
-$if(author-block)$
-$if(by-affiliation/first)$
-<div class="quarto-title-meta-author by-affiliation">
-  <div class="quarto-title-meta-heading">$labels.authors$</div>
-  <div class="quarto-title-meta-heading">$labels.affiliations$</div>
-  $for(by-author)$
-  <div class="quarto-title-meta-contents">
-    <span class="author">
-    $if(by-author.url)$<a href="$by-author.url$">$endif$$if(by-author.name.literal)$$by-author.name.literal$$endif$$if(by-author.url)$</a>$endif$ $if(by-author.orcid)$<a href="https://orcid.org/$by-author.orcid$" class="quarto-title-author-orcid"> <i class="ai ai-orcid"></i></a>$endif$
-    </span>
-  </div>
-  $if(by-author.affiliations)$
-  <div class="quarto-title-meta-contents">
-    $for(by-author.affiliations)$
-    <span class="affiliation">
-      $if(it.url)$
-      <a href="$it.url$">
-      $endif$
-      $it.name$
-      $if(it.url)$
-      </a>
-      $endif$
-    </span>
-    $endfor$
-  </div>
-  $endif$
-  $endfor$
-</div>
+$if(title-block-meta)$
+$title-metadata.html()$
 $endif$
-$endif$
-<div class="quarto-title-meta">
-$if(author-block)$
-$if(by-affiliation)$
-$elseif(by-author)$
-  <div class="quarto-title-meta-author by-author">
-    <div class="quarto-title-meta-heading">$labels.authors$</div>
-    <div class="quarto-title-meta-contents">
-      $for(by-author)$
-       <span>$by-author.name.literal$ $if(by-author.orcid)$<a href="https://orcid.org/$by-author.orcid$" class="quarto-title-author-orcid"> <i class="ai ai-orcid"></i></a>$endif$</span>
-      $endfor$
-    </div>
-  </div>
-$endif$
-$endif$
-
-$if(links)$
-<div class="quarto-title-links">
-$for(links)$
-  <a href="$links.href$" class="$links.class$"><i class="$links.icon$" rel="img" aria-label="$links.aria-label$"></i> $links.name$</a>
-$endfor$
-</div>
-$else$
-$if(doi)$
-  <div class="quarto-title-meta-doi">
-    <i class="ai ai-doi"></i>&nbsp;$labels.doi$:      <span class="doi"><a href="https://doi.org/$doi$">$doi$</a></span>
-  </div>
-$endif$
-$endif$
-$if(abstract)$
-  <div class="abstract">
-  <div class="abstract-title">$labels.abstract$</div>
-  $abstract$
-  </div>
-$endif$
-</div>
 </header>

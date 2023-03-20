@@ -33,10 +33,10 @@ bibACT<-bib[bibtype="InProceedings"]
 ```
  
 My scientific activities have led to `r length(bib)` publications,
-including <a href="#ACL">`r length(bibACL)` articles</a> (ACL), 
-<a href="#DO">`r length(bibDO)` guest editorial</a> (DO), 
-<a href="#OS">`r length(bibOS)`  books chapter</a> (OS) and 
-<a href="#ACT">`r length(bibACT)` proceedings</a> (ACT).
+including [`r length(bibACL)` articles](#ACL) (ACL), 
+[`r length(bibDO)` guest editorial](#DO) (DO), 
+[`r length(bibOS)`  books chapter](#OS) (OS) and 
+[`r length(bibACT)` proceedings](#ACT) (ACT).
 
 :::{.callout-tip}
 - The publications list here follows the Hcéres[^1] proposed nomenclature.
@@ -59,7 +59,9 @@ Most of the documents hereafter are also shared or listed on the following acade
 - [{{< ai hal >}} HAL](https://hal.archives-ouvertes.fr/aut/David+Folio/){rel="noopener noreferrer"} 
   [ --- see also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}]{.text-right .text-muted .small}
 
-You may also interested in the [publications page](publications.qmd) where some of documents below are shared.
+
+You may also be interested in the [publications page](../publications/publications.qmd) where some of the documents below are shared.
+
 
 ## Articles
 

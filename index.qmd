@@ -34,7 +34,7 @@ about:
       href: https://viadeo.com/fr/profile/david.folio
     - aria-label: "HAL"
       text: "{{< ai hal >}}"
-      href: https://hal.archives-ouvertes.fr/aut/David+Folio/
+      href:  https://cv.hal.science/david-folio
 
 anchor-sections: false
 search: false
@@ -51,7 +51,7 @@ listing:
 ::: {.column-page}
 # Welcome to dfolio' website
 
-You can find on this site an overview of my activities as Associate Professor (with [HDR](research/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
+You can find on this site an overview of my activities as Associate Professor (with [HDR](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
 These activities include my [researches](//research/research.qmd) and [teaching](//teaching/teaching.qmd).
 
 You may also find some more personal (public) stuff that I would share on a regular basis.

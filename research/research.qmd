@@ -44,7 +44,7 @@ a biomedical context.
 :::
 
 
-It can be noticed that, since my [PhD degree](/research/thesis/folio2007thesis.qmd), I had to apply a slight change on my research
+It can be noticed that, since my [PhD degree](/publications/thesis/folio2007thesis.qmd), I had to apply a slight change on my research
 topics to address the specificity of the microworld. Actually, in a
 first time, my research activities have been mainly related with the
 European [project NANOMA](/research/projects/projects.qmd#NANOMA). This project consisted to design
@@ -87,12 +87,12 @@ appears three main themes that define my relevant contributions:
 
 ## Prior research activities: doctorate degree and post-doctorate {#sec:career:PhD}
 
-I have defended [my PhD](/research/thesis/folio2007thesis.qmd) in Robotics in 2007 within
+I have defended [my PhD](/publications/thesis/folio2007thesis.qmd) in Robotics in 2007 within
 the Robotics, Action, and Perception (<abbr lang="en" title="Robotics, Action, and Perception">RAP</abbr>) group of the Laboratory for
 Analysis and Architecture of Systems[^5] (<abbr lang="en" title="Laboratory for Analysis and Architecture of Systems">LAAS</abbr>),
 <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr>[^6], under the
 supervision of Viviane Cadenat, Associate Professor at Paul Sabatier
-University of Toulouse, France. [My PhD thesis](/research/thesis/folio2007thesis.qmd) 
+University of Toulouse, France. [My PhD thesis](/publications/thesis/folio2007thesis.qmd) 
 dealt with the design of multi-sensor based control strategies allowing a mobile robot to perform
 vision-based tasks amidst possibly occluding obstacles.
 
