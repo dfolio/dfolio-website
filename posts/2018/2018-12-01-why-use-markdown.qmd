@@ -1,0 +1,73 @@
+---
+lang: en
+title: "Why use Markdown as Markup?"
+date: 2018-12-01 19:27:14 +0100
+description: >
+  My motivation behind the use of Pandoc.
+categories: [pandoc]
+image: /images/Markdown.webp
+---
+{{< include _links.qmd >}}
+
+Commonly, scientific papers, thesis and long dissertations are mainly written
+with [LaTeX]. Writing a manuscript in [LaTeX] basically produces high-quality
+documents, beautiful equations, and have a powerful bibliography management...
+However, it's not very user-friendly. Actually, some good knowledge of [LaTeX]
+is usually mandatory to overcome some compilations issues, or to find the proper
+way to incorporate what the writer has in mind.
+
+Similarly, most web-user/designer/developer does not commonly write the content
+of their website directly with the [HTML] markup: this could be very tedious! Usually,
+the [HTML] markup remain in use mainly to design the website layout.
+There are some WYSIWYG editors that can help  some newbie... but, once again,
+with a desired template in mind it is often not easy to use efficiently those editors.
+That is why many CMS provider use intermediate markup for the webpages content writing.
+For this, [Markdown] is one of the most considered markup!
+
+Recently, I've started considering the  **[Markdown]** _text markup_.
+Indeed, I find it more readable and intuitive, and it comes to be widespread.
+Furthermore, [Markdown] still has equation support in a similar way as [LaTeX] :smile: ;
+and some gateways exist between [Markdown] and [LaTeX], and also between
+[Markdown] and [HTML].
+From my point of view, [Markdown] is a pretty good compromise between simple
+text and advanced markup.
+So how about writing an entire website or dissertation in [Markdown]?
+
+:::{.callout-note}
+Let me notice that the motivations shown here is mainly from "_my personal point of view_"!
+I don't want to say that everybody have to use [Markdown], or [Markdown] is very useful for evrything (see below!)
+For instance, I still use [LaTeX] for writing some scientific articles...
+:::
+
+## Why writing in Markdown?
+
+> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+>
+> <footer class="blockquote-footer"> By <cite>[John Gruber][Markdown]</cite>, author of [Markdown], <https://daringfireball.net/projects/markdown/>.
+
+[Markdown] is a friendly lightweight markup language with plain text format that can be easily converted to [HTML], but also to a bunch of other formats like [LaTeX], PDF, [MS Word][docx], [OpenDocument][odt], [EPUB]...  with the use of [Pandoc] (see [Pandoc] documentation for the numerous input/output dialects).
+
+Thus, you'll enjoy working in [Markdown] because:
+
+- it is a clean, plain-text format, editable with a simple text editor...
+- ...but you can use [LaTeX] and/or [HTML] markup when you need it (for example, in laying out mathematical formula, for creating complex table...).
+- it doesn't suffer from the freezes and crashes that some of us experience when working with large, image-heavy [MS Word][docx], [OpenDocument][odt] manuscripts.
+- it automatically handles the table of contents, bibliography etc. with [Pandoc].
+- comments, drafts of text, etc. can be added to the document by wrapping them in &lt;!--  --&gt;
+- it works well with Git, so keeping backups is straightforward. Just commit the changes and then push them to your repository.
+- there is no lock-in. If you decide that [Markdown] isn't for you, then just output to [MS Word][docx], [LibreOffice][odt], or whatever, and continue working in the new format.
+- you may take some times to fix some formatting issues (e.g. to place the figure exactly where you want and not on the fµ@$ing :anger: page!)... here don't care? you may focused on the writing. The final placement or issues will be handled at the end...
+
+## ... any drawbacks with Markdown?
+
+There are some minor annoyances:
+
+- if you haven't worked with [Markdown] before then you'll find yourself referring to the style-guide fairly often at first (as for any new language).
+- although there is a "**strict**" [Markdown], there are also, and above all, many extensions and variants (such as GFM, PHPmarkdown, Kramadown...); and, sometimes,  it can be difficult to switch from one to another  (e.g. Markdown/Pandoc vs. Jekyll/Kramadown)
+- there are some issues to try to do exactly what you are used to doing with [LaTeX], [HTML] or any advanced text markup. For instance, its remains some issues with the short caption and the list-of-(tables/figures);
+- the style documents in this framework could be improved. The PDF, [HTML] and [EPUB] outputs are acceptable with a proper style/template; but [MS Word][docx] and [OpenDocument][odt] needs some further efforts if you plan to output to these formats.
+- Glossaries/Nomenclatures/Index are not natively supported.
+- Command/Macros/Functions definitions are not natively supported.
+- ... and, probably, may be other _to fit your will_...
+
+These latter drawback are the main motivation for me to try to "extend" the basic [Markdown] text formatting to fit my will...

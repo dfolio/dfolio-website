@@ -1,0 +1,48 @@
+---
+lang: en
+title: "Jekyll/Liquid assign boolean issues"
+date: 2018-12-13 13:44:09.1544705049 +0100
+lead: true
+description: >
+  Liquid is not a programming language!
+  Take care on the use of boolean values...
+image: https://jekyllrb.com/img/logo-2x.png
+categories: jekyll
+---
+
+When dealing with [Jekyll][1] template and use of [Liquid][2] language one may take care when assign Boolean expression to a variable: 
+[**its does not work!!!!**]{.text-danger } 
+:sob: 
+
+The assign tag only supports raw Boolean (i.e. `true` or `false`).
+Trying to assign a Boolean expression such as:
+```liquid
+{% raw %} {% assign vars = 2 == 1 %} {% endraw %}
+```
+inexplicably assigns "2" to `vars`.
+
+To my knowledge, the only way is to use conditional statement to assign Boolean values :disappointed: ,
+such as follows: 
+```liquid
+{% raw %}
+{% assign enable_A=false %}
+{% assign enable_B=true %}
+{% if page.param1==true or page.param2==true  %}{%assign enable_A=true%}{% endif %}
+{% if page.param2==false or enable_A==true    %}{%assign enable_B=false%}{% endif %}
+{% endraw %}
+```
+
+
+Secondly, when mixing the use of Boolean variable with the [Liquid][2] `default` filter, one may also take care on the 'basic' behavior of the filter.
+Basically in the following snippet code:
+
+```liquid
+{% raw %}{% assign varA = false %}
+{% assign vars = varA | default: true %}{% endraw %}
+```
+`vars` is set to the default `true` value as the [Liquid][2] `default` filter will set the value only if "the left side is `nil`, `false`, or `empty`".
+
+
+[1]:https://jekyllrb.com "Transform your plain text into static websites and blogs"
+[2]: https://shopify.github.io/liquid/ " Liquid is a templating language to process templates."
+

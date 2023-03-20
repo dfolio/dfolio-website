@@ -1,0 +1,26 @@
+---
+title: "GitHub Build"
+description: |
+  Check your GitHub page locally in production environment before pushing to GitHub
+date: 2018-12-12 09:30:06.1544603406 +0100
+categories: [web, github]
+image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+---
+
+If you use [GitHub page][1] you may encounter "_Page build failure_" issue.
+You should then have a look to [GitHub documentation][2] to solve your troubleshooting.
+By the way, if you don't find a proper answer to your problem, don't forget to try to build your
+[Jekyll][3] page locally in [**production** environment](https://jekyllrb.com/docs/configuration/environments/ "Jekyll environments")!!!
+Basically, most [Jekyll][3] users use it locally in **development** environment (or in "local" mode). 
+However, some pages in `_layout` or in `_include` should have the following snippet:
+```liquid
+{% if jekyll.environment == "production" %}
+   <<for production environment only contents>>
+{% endif %}
+```
+But, as on [GitHub page][1] the build environment is set to **production**, you don't see the errors related to the `<<for production environment only contents>>`!!!
+So, before _pushing_ your modification on [GitHub page][1], try first check-in them in **production** environment to be sure that all the contents have been tested properly!
+
+[1]:https://pages.github.com "Websites for you and your projects."
+[2]:https://help.github.com/articles/viewing-jekyll-build-error-messages/ "Viewing Jekyll build error messages"
+[3]:https://jekyllrb.com "Transform your plain text into static websites and blogs"

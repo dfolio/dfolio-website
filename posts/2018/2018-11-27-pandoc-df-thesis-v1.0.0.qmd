@@ -1,0 +1,40 @@
+---
+title: "pandoc-df-thesis v1.0.0"
+date:  2018-11-27 22:26:58 +0100
+description: >
+  D. Folio (df) template (v1.0.0) for writing a thesis dissertation using Pandoc
+categories: [pandoc, deprecated]
+# categories [pandoc, markdown, latex, html]
+see-also: 
+  - '[dfolio.github.io](https://dfolio.github.io/)'
+  - '[pandoc-df-thesis documentations](https://dfolio.github.io/docs/pandoc-df-thesis/)'
+  - '[pandoc-df-thesis on GitHub](http://github.com/dfolio/pandoc-df-thesis-template)'
+---
+{{< include _links.qmd >}}
+
+
+The initial (v1.0.0) "public" release of the [pandoc-df-thesis][pandoc-df-thesis-template-doc] is now ready :+1:
+
+Based on the “_(df)modified_” [Markdown] sources, [pandoc-df-thesis][pandoc-df-thesis-template-doc] template can deal with many outputs dialect basically supported by [Pandoc]:
+
+- `pdf`: (**preferred**) output generated from (lua/pdf)[LaTeX];
+- `html`: single (based solely on [Pandoc]) and multi (based on [Jekyll]) [HTML] file, e.g. for web-publications;
+- `epub`: [EPUB] v3 ebook;
+- `docbook5`: XML/[DocBook] (v5) and HTML chunked files (**limited support**);
+- `odt`: [LibreOffice/OpenOffice OpenDocument][odt];
+- `docx`: [Microsoft Word][docx];
+
+With the use of a full featured `Makefile` all the build process is performed automatically, obviously once it is [configured properly][pandoc-df-thesis-template-doc]!
+
+:::{.callout-warning }
+The [pandoc-df-thesis][pandoc-df-thesis-template-doc] template is not intended to be a _standalone direct use_ template:
+
+- Some packages (e.g. [Pandoc], [PP], [LaTeX]...) must be [installed][pandoc-df-thesis-template-doc]  prior to take advantage of this template.
+- Some basic behaviors that you may not want have been defined and hard-coded in the `Makefile`. To _disable_ some unwanted rules, it is necessary to know how to modify the `Makefile` properly.
+- From now, it is difficult to consider using this template without the `Makefile`!!!
+:::
+
+:::{.callout-warning }
+At this time, the [pandoc-df-thesis][pandoc-df-thesis-template-doc] template is designed for mainly Linux distribution.
+Basically, with some few efforts this template can be used on another operating system (e.g. Windows and MacOS)... this is planed in future prospects (when I've got time!).
+:::

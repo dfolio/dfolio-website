@@ -1,0 +1,77 @@
+---
+title: "Jekyll/Liquid variables scopes issues"
+date: 2018-12-20 18:23:09 +0100
+description: >
+  Liquid is not a programming language!
+  Take care on the use of variables...
+image: https://jekyllrb.com/img/logo-2x.png
+categories: [jekyll]
+---
+
+When dealing with [Jekyll][1] template and use of [Liquid][2] language one may take care when assign variables, especially with several includes.
+Indeed, variables defined in a template (e.g. in `_includes`) remain defined in the parent scope.
+Let consider the following basic snippet code:
+
+```liquid
+{% raw %}{% include templateA %}
+... some stuffs...
+{% include templateB %}
+... other things...
+use {{item}}{% endraw %}
+```
+
+ with in `templateA`:
+
+```liquid
+{% raw %}
+{% assign item='foo'%}
+{% endraw %}
+```
+
+and  `templateB`:
+
+```liquid
+{% raw %}
+{% assign item='boo'%}
+{% endraw %}
+```
+
+should output `use boo`.
+
+This seems obvious, but in some advanced template design this [**must be**]{.text-danger} kept in mind!
+
+Let consider a slightly better example:
+
+```liquid
+{% raw %}
+{%assign collection=page.collection%}
+{%assign collection_list=site.collections| where: "label", collection %}
+
+{%for item in collection_list %}
+{% assign title=item.title%}
+...
+{% include do-something %}
+...
+Use title: {{title}}
+{%enfor %}
+{% endraw %}
+```
+
+```liquid
+{% raw %}
+...
+{% assign title=page.title%}
+...
+{%for item in others %}
+...
+Another use of title: {{title}}
+...
+{%enfor %}
+{% endraw %}
+```
+
+Secondly, one should take care when using forloop variables: its seems that we should avoid reassign them...
+
+[1]: https://jekyllrb.com "Transform your plain text into static websites and blogs"
+
+[2]: https://shopify.github.io/liquid/ " Liquid is a templating language to process templates."

@@ -6,6 +6,7 @@ description: "Miscellaneous pages to share some various things that I am interes
 date-format: "MMMM D, YYYY"
 code-tools: false
 
+title-block-meta: false
 page-layout: full
 toc-title: Year
 listing: 
