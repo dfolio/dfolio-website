@@ -10,10 +10,8 @@ description: >
   61st  CNU section. I am mainly involved in the development of electronics and
   electrical sciences teaching activities of the INSA Centre Val de Loire.
 image: /images/logo-teach.svg 
-toc: false
 anchor-sections: false
 categories: [dfolio, teaching]
-  
 ---
 
 My overall teaching activities have been solely related with the 61^st^
@@ -61,12 +59,4 @@ assistants for the disciplines for which I am in charge.
     the necessary fundamentals for continuing their studies.
     <http://www.insa-centrevaldeloire.fr/en/training/engineering-science-and-technology>
 
-::: callout-note
-Notice that some parts of my site are available in both English and
-French. However, as my [teaching activities](/teaching/) are done only
-in French, the rest of this part of [dfolio](/)' website will be
-available mainly in French.
 
-If you want to get some translations of a not translated page
-[contact](/about/about.qmd#contact) me to get further information.
-:::

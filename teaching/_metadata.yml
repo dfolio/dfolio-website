@@ -1,2 +1,25 @@
-
 sidebar: teaching
+title-block-meta: false
+google-scholar: true
+
+author:
+  name:
+    family: Folio
+    given: David
+  orcid: 0000-0001-9430-6091
+  email: david.folio@insa-cvl.fr
+  url: http://dfolio.free.fr
+  attributes:
+    corresponding: true
+    equal-contributor: true
+  affiliations:
+    - ref: INSA-CVL
+
+affiliations:
+  - id: INSA-CVL
+    name: "INSA Centre Val de Loire"
+    affiliation-url: https://www.insa-centrevaldeloire.fr/
+    address: "88 Boulevard Lahitolle"
+    postal-code: 18000
+    city: Bourges
+    country: France
