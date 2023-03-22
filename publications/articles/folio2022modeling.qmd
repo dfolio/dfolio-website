@@ -44,13 +44,11 @@ citation:
   genre: ACL
   publisher: IEEE
   container-title: IEEE Transactions on Control Systems Technology
-  doi: 10.1109/TCST.2021.3139192
   issn: 1558-0865
   issued: 2022-01-11
-  page: 1-8
-  keyword: Dual Kalman filtering,Estimation,Force,Janus particle
-    (JP),Kalman filters,magnetic microrobot,Mathematical
-    models,modeling,Propulsion,Sports,state-space representation.,Torque
+  page: 2681-2688
+  keyword: Dual Kalman filtering, estimation,Janus particle, Kalman filters, magnetic microrobot, mathematical
+    models, modeling, propulsion, state-space representation
   abstract: |
     This study theoretically investigates the modeling of
     spherical catalytic self-phoretic magnetic Janus microrobot (MJR)
@@ -70,13 +68,10 @@ quartile: "Q1"
 categories: 
   - Modeling
   - Catalytic micromotors
-  - Magnetic Janus particles
+  - Janus particles
+  - Magnetic microrobots
   - Kalman filter
 ---
-
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Funding 
 This work was supported by the French National Institute

@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2021-01
+date: 2020-11-08
 title: Mathematical Approach for the Design Configuration of Magnetic System with Multiple Electromagnets
 description: |
   Development of a mathematical approach for configuration design of magnetic platform.
@@ -16,7 +16,6 @@ author:
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
     attributes:
-      corresponding: true
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
@@ -25,6 +24,7 @@ author:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
+      corresponding: true
 doi: 10.1016/j.robot.2020.103674
 url: https://www.sciencedirect.com/science/article/pii/S0921889020305145
 links:
@@ -43,13 +43,21 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03276021
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/chen2021mathematical.pdf
+    
 citation:
   citation-key: chen2021mathematical
-  issued: 2021-01
+  available-date: 2020-11-02
   submitted: 2020-06-09
+  container-title: "Robotics and Autonomous Systems"
   issn: 0921-8890
   type: article-journal
   volume: 135
+  publisher: Elsevier BV
   keyword: Design methodology, Electromagnetic actuation system, Magnetic microrobot, Robotic magnetic platform
   abstract: |
     Magnetic actuation techniques and microrobots have attracted
@@ -90,9 +98,7 @@ categories:
   - Optimization
 ---
 
-##  Abstract
-
-{{< meta citation.abstract >}}
-
 ## Acknowledgment
 The funding scheme is Chinese Scholarship Council.
+
+{{< include ../_footer.qmd >}}

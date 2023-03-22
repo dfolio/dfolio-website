@@ -41,3 +41,7 @@ affiliations:
     postal-code: 08010
     city: Barcelona
     country: Spain
+  - id: UPMC
+    name: Université Pierre et Marie Curie - Paris VI
+    city: Paris
+    country: France

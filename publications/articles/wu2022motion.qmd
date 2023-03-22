@@ -4,7 +4,6 @@ date: 2022-09-21
 title: Motion Analysis and Real-Time Trajectory Prediction of Magnetically Steerable Catalytic Janus Micromotors
 description: | 
   This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
-cite-author: "<span class='supervised'>Wu, Jiaen</span>, <strong>Folio, David</strong>, Zhu, Jiawei, Jang, Bumjin, Chen, Xiangzhong, Feng, Junxiao, Gambardella, Pietro, Sort, Jordi, Puigmarti-Luis, Josep, Ergeneman, Olgac, Ferreira, Antoine and Pane, Salvador"  
 author:
   - name: Wu, Jiaen
     affiliations:
@@ -124,13 +123,10 @@ categories:
   - Modeling
   - Motion analysis
   - Catalytic micromotors
-  - Magnetic Janus particles
+  - Janus particles
+  - Magnetic microrobots
   - Kalman filter
 ---
-
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Acknowledgements
 J.W. and D.F. contributed equally to this work. This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No. 764977, the Spanish (PID2020-116844RB-C2 and PID2020-116844RB-C21) and Catalan (2017-SGR-0292) research administrations, and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2022R1C1C1007338).

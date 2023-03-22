@@ -2,8 +2,7 @@
 type: conference
 date: 2019-03
 title: Computational Electromagnetics Performances of Magnetic Microrobotics Systems
-description: | 
-
+description: The conference paper analyzes the various conventional coils performances.
 author:
   - name: Chen, Ruipeng
     affiliations:
@@ -16,7 +15,6 @@ author:
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
     attributes:
-      corresponding: true
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
@@ -46,11 +44,12 @@ links:
     href: https://hal.archives-ouvertes.fr/hal-03528531      
 citation: 
   issued: 2019-03
-  container-title: IEEE International Conference on Computational
-    Electromagnetics (ICCEM'2019)
+  container-title: IEEE International Conference on Computational Electromagnetics (ICCEM'2019)
   publisher: IEEE
   type: paper-conference
   event-place: Shanghai, China
+  event-date: "2019-03-20/2019-03-22"
+  keyword:  coils, electromagnetic actuation system, magnetic microrobotics systems
   page: 1-3
   abstract: The magnetic microrobot have the potential to assist surgeon
       to perform precision medical procedures by using electromagnetic
@@ -68,6 +67,3 @@ categories:
   - EMA
   - Modeling
 ---
-##  Abstract
-
-{{< meta citation.abstract >}}

@@ -1,0 +1,6 @@
+ a[aria-expanded=true] .bi-chevron-bar-expand {
+   display: none;
+  }
+  a[aria-expanded=false] .bi-chevron-bar-contract {
+     display: none;
+  }

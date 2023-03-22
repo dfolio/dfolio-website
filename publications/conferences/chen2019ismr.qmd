@@ -1,0 +1,72 @@
+---
+type: conference
+date: 2019-05-09
+title: Study of Robotized Electromagnetic Actuation System for Magnetic Microrobots Devoted to Minimally Invasive Ophthalmic Surgery
+description: | 
+
+author:
+  - name: Chen, Ruipeng
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Folio, David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Ferreira, Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+
+doi:  10.1109/ISMR.2019.8710208
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/ISMR.2019.8710208
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/8710208
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03528527      
+citation: 
+  issued: 2019-05-09
+  container-title: International Symposium on Medical Robotics (ISMR'2019)
+  publisher: IEEE
+  type: paper-conference
+  event-date: 2019-04-03
+  event-place: Atlanta, GA, USA
+  keyword: Coils, Electromagnetic actuation system, Electromagnets, Magnetic fields, Medical microrobot, Robots
+  abstract: |
+    Magnetic manipulations of microrobots are a promising
+    solution to improve common biomedical applications, and in
+    particular, ophthalmic minimally invasive surgery (MIS). To achieve
+    this goal a key issue still relies on the design of a suitable
+    electromagnetic actuation (EMA) platform. The study of improving the
+    EMA system is the scope of this paper. The investigated EMA testbed
+    comprises four static and four independent moving electromagnets,
+    firstly devoted to delicate retinal procedures with intraocular
+    microrobots. Specifically, the mobile coils are set into rotation
+    thanks to robotic arms. Analyses and simulations are performed to
+    demonstrate the effectiveness of the additional robotic arms. The
+    results show that the robotized EMA system increases the versatility
+    of the classical magnetic manipulation system and improves their
+    flexibility.
+categories: 
+  - EMA
+  - Biomedical application
+---

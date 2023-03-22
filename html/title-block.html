@@ -1,8 +1,16 @@
 <header id="title-block-header" class="quarto-title-block default" itemprop="headline">
 <div class="quarto-title">
   <div class="quarto-title column-body">
+  $if(type)$<div class="quarto-container-title">
+    <span class="badge rounded-pill bg-primary">$type$</span>
+    $if(citation.container-title)$<span class="container-title">$citation.container-title$.</span>
+    $if(citation.volume-title)$Special Issue <span class="volume-title issue-title">$citation.volume-title$.</span>$endif$
+    $endif$
+  </div>$endif$
   <h1 class="title" itemprop="headline">$title$</h1>
   $if(subtitle)$<p class="subtitle lead">$subtitle$</p>$endif$
+
+
   $if(categories)$$if(quarto-template-params.title-block-categories)$
   <div class="quarto-categories">
   $for(categories)$<div class="quarto-category">$categories$</div>$endfor$
@@ -14,7 +22,12 @@ $if(hide-description)$
 $elseif(description)$
   <div class="quarto-description"><div class="description p-summary">$description$</div></div>
 $endif$
-
+$if(citation)$
+<div class="quarto-metrics">
+  $if(quartile)$<span class="badge rounded-pill bg-primary">$quartile$</span>$endif$
+  $if(impact-factor)$<span class="badge rounded-pill bg-primary">IF: $impact-factor$</span>$endif$
+</div>
+$endif$
 $if(title-block-meta)$
 $title-metadata.html()$
 $endif$

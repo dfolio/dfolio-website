@@ -41,6 +41,11 @@ links:
     icon: "bi bi-link-45deg"
     class: "btn btn-success btn-sm"
     href: "https://www.mdpi.com/2076-3417/12/1/456"
+  - name: "PDF"
+    aria-label: "pdf"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-success btn-sm"
+    href: https://www.mdpi.com/2076-3417/12/1/456/pdf?version=1641286815
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
@@ -48,16 +53,18 @@ links:
     href: https://hal.archives-ouvertes.fr/hal-03516817
 
 citation: 
-  citation-key: chen2022analysis
+  citation-label: chen2022analysis
   language: en-US
   type: article-journal
   container-title: Applied Sciences
   genre: ACL
   publisher: Multidisciplinary Digital Publishing Institute
-  issue: 1
+  number: 1
   volume: 12
+  volume-title: "Micro-Robotics"
   submitted: 2021-11-23
   issued: 2022-01-04
+  license: http://creativecommons.org/licenses/by/4.0/
   keyword: electromagnetic actuation system, medical magnetic microrobots, minimally invasive surgery
   abstract: |
     Magnetic microrobotics is a promising technology for
@@ -89,10 +96,6 @@ categories:
   - EMA
   - Review
 ---
-
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Funding 
 This work was supported by the French National Institute

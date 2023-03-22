@@ -1,9 +1,9 @@
 ---
 type: conference
-date: 2022-09-21
-title: Motion Analysis and Real-Time Trajectory Prediction of Magnetically Steerable Catalytic Janus Micromotors
+date: 2022-07-12
+title: Fully Automatic and Real-Time Microrobot Detection and Tracking based on Ultrasound Imaging using Deep Learning
 description: | 
-  This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
+  This article discusses the use of an ultrasound imaging system to detect and track the real-time motion of spherical microrobots of varying lengths navigating through microfluidic channels with viscous biofluid.
 author:
   - name: Botross, Karim
     affiliations:
@@ -29,8 +29,6 @@ author:
       equal-contributor: true
       corresponding: true
 doi: 10.1109/ICRA46639.2022.9812114
-ieeexplore: 9812114
-
 links:
   - name: "DOI"
     aria-label: "DOI"
@@ -41,7 +39,7 @@ links:
     aria-label: "IEEE"
     icon: "ai ai-ieee"
     class: "btn btn-success btn-sm"
-    href: "/research/thesis/"
+    href: "https://ieeexplore.ieee.org/document/9812114"
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
@@ -52,10 +50,9 @@ citation:
   language: en-US
   type: paper-conference
   container-title: "IEEE Conference on Robotics and Automation (ICRA)"
-  genre: ACT
-  publisher: IEEE
-  issued: 2022-05
-  event-date: 2022-05-25
+  genre: ACTI
+  publisher: IEEE 
+  event-date: "2022-05-23 2022-05-27"
   event-place: "Philadelphia, United States"
   keyword: bubble recoil propulsion,catalytic swimmers,directionality
     control,magnetic Janus particles,real-time trajectory prediction
@@ -77,10 +74,6 @@ categories:
   - US imaging
   - Tracking
 ---
-
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Funding
 This work was supported by the Region Centre Val de Loire Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.

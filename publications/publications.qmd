@@ -36,25 +36,54 @@ listing:
 #sidebar: false
 page-layout: full
 title-block-meta: false
+css: publications.css
 ---
 
 :::{.callout-note}
 A more complete and formal list of D. Folio publications is available on the [references](/research/references.qmd) page.
 :::
 
-## Journal articles
 
+## Journal articles (ACL) {#ACL}
+:::{.collapsable #collapse-parent-ACL}
+:::{.collapse-head}
+<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACL" aria-expanded="true" aria-controls="collapse-ACL" title="Click to expand/contract">
+        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+</a>
+:::
+:::{.collapse .show  #collapse-ACL}
 ::: {#articles-list }
 :::
-
-## Conferences papers
-
-::: {#conferences-list }
+:::
 :::
 
-## Thesis
+## Conferences papers (ACT) {#ACT}
+:::{.collapsable #collapse-parent-ACT}
+:::{.collapse-head}
+<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACT" aria-expanded="false" aria-controls="collapse-ACT" title="Click to expand/contract">
+        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+</a>
+:::
+:::{.collapse #collapse-ACT}
+::: {#conferences-list }
+:::
+:::
+:::
 
+## Thesis {#thesis}
+:::{.collapsable #collapse-parent-thesis}
+:::{.collapse-head}
+<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-thesis" aria-expanded="true" aria-controls="collapse-thesis" title="Click to expand/contract">
+        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+</a>
+:::
+:::{.collapse .show  #collapse-thesis}
 ::: {#thesis-list }
+:::
+:::
 :::
 
 

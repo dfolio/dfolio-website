@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2022-08
+date: 2022-08-13
 title: Electromagnetic Actuation Microrobotic Systems
 description: | 
   This review presents different types of electromagnetic actuation (EMA) microrobotic systems that have
@@ -50,8 +50,7 @@ citation:
   issue: 3
   volume: 3
   volume-title: "Recent Advances in Microrobotics"
-  submitted: 2022-11-25
-  issued: 2022-08
+  submitted: 2022-05-03
   keyword: electromagnetic actuation system, microrobots, optimization of magnetic systems
   abstract: |
     To manipulate untethered microrobots the EMA system has to be designed properly to provide sufficient propulsion with respect to application objectives. Great care must be taken in developing an efficient EMA setup, with sufficient
@@ -65,10 +64,6 @@ categories:
   - EMA
   - Review
 ---
-
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Funding 
 This work was supported by the French National Institute

@@ -1,5 +1,5 @@
 ---
-date: 2007-07
+date: 2007-07-11
 type: thesis
 #lang: fr-FR
 title: Stratégies de commande référencées multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile
@@ -87,8 +87,9 @@ categories:
 ## Doctorate degree
 
 I have defended my PhD in Robotics in 2007 within the Robotics, Action,
-and Perception (RAP) group of the Laboratory for Analysis and
-Architecture of Systems[^1] (LAAS), CNRS[^2], under the supervision of
+and Perception (<abbr lang="en" title="Robotics, Action, and Perception">RAP</abbr>) group of Laboratory for Analysis and Architecture of Systems[^1] 
+(<abbr lang="en" title="Laboratory for Analysis and Architecture of Systems">LAAS</abbr>), 
+<abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr>[^2], under the supervision of
 Viviane Cadenat, Associate Professor at Paul Sabatier University of
 Toulouse, France. Specifically, my PhD thesis was entitled
 ["*Multi-sensor-based control strategies and visual signal loss
@@ -127,17 +128,15 @@ failure during the mission [@folio2007icinco; @folio2008iros].
 
 In addition, during my doctorate degree, I also had the opportunity to
 perform teaching activities, first as temporary teacher (3 years), and
-then as teaching assistant, specifically in French "[Attaché Temporaire d'Enseignement et de Recherche]{.fr lang="fr"}" (ATER,1 year, both for
+then as teaching assistant, specifically in French "[Attaché Temporaire d'Enseignement et de Recherche]{.fr lang="fr"}" (<abbr lang="fr" title="Attaché Temporaire d'Enseignement de Recherche">ATER</abbr>,1 year, both for
 the Paul Sabatier University of Toulouse. These global teaching
 experiences have led to a total volume of 308 hETD[^3].
 
 [^3]: "[Equivalent TD hours]{.em .enquote}" that is in French "[*heures équivalentes TD*]{.fr lang="fr" custom-style="French"}"
     ([hETD]{.unit}), are the reference hours to calculate the teaching
     duties. The rules for a tenured teacher are as follows:
-    [1]{.number}[h]{.unit} of course = [1.5]{.number}[hETD]{.unit},
-    while the others, e.g. [1]{.number}[h]{.unit} of tutorial (TD) =
-    [1]{.number}[h]{.unit} of practical work (TP) =
-    [1]{.number}[hETD]{.unit}.
+    [1]{.number}[h]{.unit} of course = [1.5]{.number}[hETD]{.unit},
+    while the others, e.g. [1]{.number}[h]{.unit} of tutorial (TD) = [1]{.number}[h]{.unit} of practical work (TP) = [1]{.number}[hETD]{.unit}.
 
 ## Thesis Details {#sec-details}
 
@@ -170,11 +169,6 @@ Committee
     +-----------+-----------------------------------------------------+
     | Guess     | Philippe Souères (Prof. Universités de Toulouse)    |
     +-----------+-----------------------------------------------------+
-
-## Abstract
-
-
-{{< meta citation.abstract >}}
 
 ## References
 

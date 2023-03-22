@@ -196,6 +196,7 @@ format:
 page-layout: full
 #bibliography: [research/references.bib]
 csl: research/Thesis-ieee-style.csl
+#csl: research/nature-no-et-al.csl
 
 execute:
   freeze: auto

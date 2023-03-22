@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2023-01
+date: 2022-12-29
 title: Optimal Design of a Multipole-Electromagnet Robotic Platform for Ophthalmic Surgery
 description: | 
   This paper address the design a multipole-electromagnet robotic platform named **OctoRob**.
@@ -38,20 +38,25 @@ links:
     icon: "bi bi-link-45deg"
     class: "btn btn-success btn-sm"
     href: https://www.mdpi.com/2072-666X/14/1/91
+  - name: "PDF"
+    aria-label: "pdf"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-success btn-sm"
+    href: https://www.mdpi.com/2072-666X/14/1/91/pdf?version=1672311269
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03919809
 citation: 
-  citation-key: chen2023optimal
+  citation-key: chen2022optimal
   language: en-US
   type: article-journal
   container-title: Micromachines
   genre: ACL
   publisher: Multidisciplinary Digital Publishing Institute
   issn: 2072-666X
-  issue: 1
+  number: 1
   volume: 14
   volume-title: "Recent Advances in Microrobotics"
   submitted: 2022-11-25
@@ -79,9 +84,6 @@ categories:
   - Biomedical application
 ---
 
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Funding 
 This work was supported by the French National Institute

@@ -22,8 +22,8 @@ image: /images/logo-df.webp
 if(!require(RefManageR))
   remotes::install_github("ropensci/RefManageR")
 
-RefManageR::BibOptions(check.entries = FALSE, style = "markdown", cite.style = "authoryear",
-           bib.style = "numeric")
+RefManageR::BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric")
+#cite.style = "authoryear", 
 #Sys.setlocale(category = "LC_TIME", locale="en_US.UTF-8")
 bib <- RefManageR::ReadBib("dfolio.bib", .Encoding = "UTF-8", check = 'warn')
 bibACL<-bib[c(bibtype="Article",entrysubtype="!ACLN")]
@@ -125,7 +125,7 @@ print(bib[entrysubtype="INV"], .opts = list(check.entries = FALSE, sorting = "yd
 print(bib[entrysubtype="COM"], .opts = list(check.entries = FALSE, sorting = "ydnt"))
 ```
 
-## Thesis dissertation {#THESIS}
+## Thesis {#THESIS}
 
 ```{r}
 #| results: asis

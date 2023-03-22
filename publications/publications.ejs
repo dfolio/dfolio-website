@@ -19,10 +19,10 @@
         <% } %>
         <span class="listing-metrics">
         <% if (item.quartile) { %>
-          <span><%= item.quartile %></span>
+          <span class="badge rounded-pill bg-primary"><%= item.quartile %></span>
         <% } %>
         <% if (item['impact-factor']) { %>
-          <span>IF: <%= item['impact-factor'] %></span>
+          <span class="badge rounded-pill bg-primary">IF: <%= item['impact-factor'] %></span>
         <% } %>
         </span>
       </div>

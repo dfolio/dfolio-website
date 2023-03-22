@@ -60,25 +60,26 @@ $endif$
     </div>
   </div>
   $endif$
-
-  $if(links)$
-  <div class="quarto-title-links">
-  $for(links)$
-    <a href="$links.href$"$if(links.icon)$ class="$links.class$"$endif$>
-      $if(links.icon)$<i class="$links.icon$" rel="img" aria-label="$links.aria-label$"></i>$endif$ $links.name$</a>
-  $endfor$
-  </div>
-  $elseif(doi)$
-  <div>
-    <div class="quarto-title-meta-heading">$labels.doi$</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/$doi$">$doi$</a>
-      </p>
-    </div>
-  </div>
-  $endif$
 </div>
+
+$if(links)$
+<div class="quarto-title-links">
+$for(links)$
+  <a href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">
+    $if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a>
+$endfor$
+</div>
+$elseif(doi)$
+<div class="quarto-title-doi">
+  <div class="quarto-title-meta-heading">$labels.doi$</div>
+  <div class="quarto-title-meta-contents">
+    <p class="doi">
+      <a href="https://doi.org/$doi$">$doi$</a>
+    </p>
+  </div>
+</div>
+$endif$
+
 
 $if(hide-abstract)$
 $elseif(abstract)$
@@ -87,5 +88,14 @@ $elseif(abstract)$
     <div class="abstract-title">$labels.abstract$</div>
     $abstract$
   </div>
+  $if(keywords)$<div class="keywords"><span class="keywords-title">Keywords:</span> $for(keyword)$$keyword$$sep$, $endfor$</div>$endif$
+</div>
+$elseif(citation.abstract)$
+<div>
+  <div class="abstract">
+    <div class="abstract-title">$labels.abstract$</div>
+    $citation.abstract$
+  </div>
+  $if(citation.keyword)$<div class="keywords"><span class="keywords-title">Keywords:</span> $citation.keyword$</div>$endif$
 </div>
 $endif$

@@ -1,0 +1,84 @@
+---
+type: journal
+date: 2018-04-05
+title: "Catalytic Tubular Microjet Navigating in Confined Microfluidic Channels"
+subtitle: "Modeling and Optimization"
+description: |
+  This article investigates the mathematical modeling of catalytic micromotots in confined microfluidic channels.
+author:
+  - name: Sarkis, Bruno
+    affiliations:
+      - ref: UPMC
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Folio, David
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Ferreira, Antoine
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+doi: 10.1109/JMEMS.2018.2803803
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/JMEMS.2018.2803803
+  - name: "IEEE"
+    aria-label: "ieee"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/8306494
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-03276021
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/sarkis2018jmems.pdf
+citation: 
+  number: 2
+  page: 333-343
+  volume: 27
+  type: article-journal
+  container-title: Journal of Microelectromechanical Systems
+  publisher: IEEE
+  abstract: |
+    This paper describes the propulsion of the catalytic
+    tubular microjet in confined environments as microchannels and
+    capillaries using the Stokes equations. Especially, the thrust
+    capability of the microjet is outstanding compared with the other
+    microsystems, but remains only partially understood. Studies have
+    identified the internal precursory mechanisms of the propulsion of
+    the microjet: its inner wall catalyzes the dismutation of the fuel,
+    and bubbles are then formed. Since the jet is conical, the bubble
+    migrates towards its widest opening. This impulses the propulsion of
+    the microjet towards the opposite direction. However, the precise
+    propellant role of the liquid surrounding the jet remains
+    misunderstood. The same goes for the inner wall of the vessel in
+    which the jet navigates, especially in narrowed environment. This
+    article discusses these aspects in a simplified theoretical
+    framework. Calculations are performed by explicit computation of the
+    Stokes equations. The obtained theoretical results are in good
+    agreement with experimental results reported in the literature.
+impact-factor: "2.53"
+quartile: "Q1"
+categories: 
+  - Catalytic micromotors
+  - Modeling
+  - Optimization
+---
+
+{{< include ../_footer.qmd >}}

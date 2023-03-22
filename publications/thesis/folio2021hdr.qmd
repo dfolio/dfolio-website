@@ -5,19 +5,16 @@ title: Magnetic Microrobotics for Biomedical Applications
 pagetitle: D. Folio Habilitation
 keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
 description: >
-  Some informations on the Habilitation of David FOLIO
+  Some information on the Habilitation of David FOLIO where a summary of his teaching and research activities since his recruitment as a lecturer in 2008 is provided.
 bibliography: [../../research/dfolio.bib]
 aliases: 
   - /research/hdr/
   - /publications/hdr/
 author:
-  - name: Folio,  David
+  - name: Folio, David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
-    attributes:
-      corresponding: true
-      equal-contributor: true
     affiliations:
       - ref: INSA-CVL
 url: /research/hdr/
@@ -39,7 +36,6 @@ links:
     href: /pdf/folio2021hdr.pdf
 citation: 
   citation-key: folio2021hdr
-  language: en-US
   type: thesis
   genre: Habilitation
   publisher: University of Orleans
@@ -92,14 +88,13 @@ categories:
 
 ## Habilitation degree 
  
-I have defended my Habilitation in microrobotics in 2021, which was entitled 
+I have defended my Habilitation (in French "[Habilitation à diriger des recherches]{.fr lang="fr"}" -- HDR) in microrobotics in December 2021, which was entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](#sec-details) [@folio2021hdr].
 In this work, I have provided a summary of my teaching and research activities since my recruitment as associate professor in 2008.
 \
 To resume thirteen years of hard work is a very interesting exercise. 
 This allows to take a step back and try to isolate the common thread that has motivated my activities through personal initiatives or opportunities that have arisen.
 It is important to remember that all these activities are the result of collective work, either with my colleagues and co-authors, or with [students](/research/supervision/)  I supervised.
-\
 Nevertheless, it is difficult to  account for all that has been achieved so far and some choices had to be made to write my dissertation.
 Not that the other works have less appeal, but I have tried to maintain consistency on what is reported in the manuscript.
 In particular, in the second part, I chose to focus on my main scientific contributions regarding **magnetic microrobots** that have to _navigate through the cardiovascular system for targeted therapy_.

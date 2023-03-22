@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2021-10
+date: 2021-08-24
 title: Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy
 description: | 
   This letter discusses of the modeling and the characterization of
@@ -81,10 +81,6 @@ categories:
   - Modeling
   - TMMC
 ---
-
-##  Abstract
-
-{{< meta citation.abstract >}}
 
 ## Funding 
 This work was supported by the French National Institute

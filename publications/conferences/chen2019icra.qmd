@@ -3,7 +3,7 @@ type: conference
 date: 2019-08-12
 title: Performance Metrics for a Robotic Actuation System Using Static and Mobile Electromagnets
 description: | 
-
+  This conference paper investigates the performance evaluation of a robotic EMA system that extends the static coil arrangements of OctoMag.
 author:
   - name: Chen, Ruipeng
     affiliations:
@@ -43,15 +43,21 @@ links:
     aria-label: "HAL"
     icon: "ai ai-hal"
     class: "btn btn-danger btn-sm"
-    href: https://hal.archives-ouvertes.fr/hal-03528527      
+    href: https://hal.archives-ouvertes.fr/hal-03528527
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/chen2019icra-slides.pdf
 citation: 
   issued: 2019-08-12
   container-title: International Conference on Robotics and Automation (ICRA'2019)
   publisher: IEEE
   type: paper-conference
-  event-date: 2019-05-20
+  event-date: 2019-05-20/2019-05-24
   event-place: Montreal, QC, Canada
-  page: 2474--2480
+  page: 2474-2480
+  keyword: Coils, dexterity indexes, electromagnetic actuation system, electromagnetic actuators, performance metrics, 
   abstract: |
     Wireless magnetic microrobots can perform complex tasks for
     small-scale minimally invasive surgery (MIS) that requires high
@@ -71,8 +77,7 @@ categories:
   - Modeling
 image: /images/publications/chen2019icra.webp
 ---
-##  Abstract
 
-{{< meta citation.abstract >}}
+[![](/images/publications/chen2019icra.webp)](/pdf/publications/chen2019icra-slides.pdf "Click to download PDF slides"){.download-link download="chen2019icra-slides.pdf"} 
 
-![](/images/publications/chen2019icra.webp)
+{{< include ../_footer.qmd >}}
