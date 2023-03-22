@@ -6,7 +6,7 @@ description: |
   This paper theoretically investigates the modeling of  spherical catalytic 
   self-phoretic magnetic Janus microrobot (MJR) evolving in uniform viscous flow.
 author:
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -15,7 +15,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -38,16 +38,17 @@ links:
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03523208
 citation: 
-  citation-key: folio2022modeling
+  citation-key: 2022folioTCST
   language: en-US
   type: article-journal
   genre: ACL
   publisher: IEEE
   container-title: IEEE Transactions on Control Systems Technology
   issn: 1558-0865
-  issued: 2022-01-11
+  number: 6
   page: 2681-2688
-  keyword: Dual Kalman filtering, estimation,Janus particle, Kalman filters, magnetic microrobot, mathematical
+  volume: 30
+  keyword: Dual Kalman filtering, estimation, Janus particle, Kalman filters, magnetic microrobot, mathematical
     models, modeling, propulsion, state-space representation
   abstract: |
     This study theoretically investigates the modeling of
@@ -66,11 +67,11 @@ citation:
 impact-factor: "5.485"
 quartile: "Q1"
 categories: 
-  - Modeling
-  - Catalytic micromotors
-  - Janus particles
   - Magnetic microrobots
-  - Kalman filter
+  - Modeling
+  - Motion analysis
+  - Optimization
+  - Janus particles 
 ---
 
 ## Funding 

@@ -5,13 +5,13 @@ title: Motion Analysis and Real-Time Trajectory Prediction of Magnetically Steer
 description: | 
   This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
 author:
-  - name: Wu, Jiaen
+  - name: Jiaen Wu
     affiliations:
       - ref: MSRL
     attributes:
       supervised: true
       equal-contributor: true
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -20,48 +20,48 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Zhu, Jiawei
+  - name: Jiawei Zhu
     affiliations:
       - ref: MSRL
-  - name: Jang, Bumjin
+  - name: Bumjin Jang
     affiliations:
       - ref: korea
-  - name: Chen, Xiangzhong
+  - name: Xiangzhong Chen
     affiliations:
       - ref: MSRL
-  - name: Feng, Junxiao
+  - name: Junxiao Feng
     affiliations:
       - ref: Mat-ETH
-  - name: Gambardella, Pietro
+  - name: Pietro Gambardella
     affiliations:
       - ref: Mat-ETH
   - name: Sort, Jordi
     affiliations:
       - ref: fisica
-  - name: Puigmarti-Luis, Josep
+  - name: Josep Puigmarti-Luis
     affiliations:
       - ref: icrea
-  - name: Ergeneman, Olgac
+  - name: Olgac Ergeneman
     affiliations:
       - ref: MSRL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
       equal-contributor: true
-  - name: Pané, Salvador
+  - name: Salvador Pané
     affiliations:
       - ref: MSRL
     attributes:
       equal-contributor: true
 url: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
-doi: aisy.202200192
+doi: 10.1002/aisy.202200192
 links:
   - name: "DOI"
     aria-label: "DOI"
     icon: "ai ai-doi"
     class: "btn btn-success btn-sm"
-    href: https://doi.org/aisy.202200192
+    href: https://doi.org/10.1002/aisy.202200192
   - name: "URL"
     aria-label: "URL"
     icon: "bi bi-link-45deg"
@@ -79,18 +79,16 @@ links:
     href: https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Faisy.202200192&file=aisy202200192-sup-0001-SuppData-S1.zip
       
 citation: 
-  citation-key: wu2022motion
+  citation-key: 2022wuAIS
   language: en-US
   container-title: Advanced Intelligent Systems
   type: article-journal
   genre: ACL
-  author: "Wu, Jiaen and Folio, David and Zhu, Jiawei and Jang, Bumjin and Chen, Xiangzhong and Feng, Junxiao and Gambardella, Pietro and Sort, Jordi and Puigmarti-Luis, Josep and Ergeneman, Olgac and Ferreira, Antoine and Pane, Salvador"
   publisher: Wiley
   issn: 2640-4567
-  issue: 11
+  number: 11
   volume: 4
   submitted: 2022-07
-  issued: 2022-09-21
   keyword: bubble recoil propulsion,catalytic swimmers,directionality
     control,magnetic Janus particles,real-time trajectory prediction
   abstract: |

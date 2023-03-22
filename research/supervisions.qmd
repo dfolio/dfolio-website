@@ -42,6 +42,10 @@ Karim Botros
     :   Magnetic Micro-robotic Platform Guided by Robotic Ultrasound for Brain Tumor Targeting.
         Thesis of {{< var INSA-CVL >}}
 
+    References
+
+    :   [@2022botrossICRA]
+    
 ### Previous supervisions {#sec-supervisions-old}
 
 ### Doctoral students {#sec-research-PhD}
@@ -65,7 +69,7 @@ Ruipeng Chen
 
     References
 
-    :   [@chen2019iccem; @chen2019icra; @chen2019ismr; @chen2021mathematical; @chen2022electromagnetic; @chen2022analysis; @chen2023optimal]
+    :   [@2019chenICCEM; @2019chenICRA; @2019chenISMR; @2020chenRAS; @2022chenCRR; @2022chenApplied; @2022chenMicromachines]
 
     Situation
 
@@ -90,7 +94,7 @@ Lyès Mellal
 
     References
 
-    :   [@mellal2015iros; @mellal2015jnr; @mellal2016icra; @mellal2016marss; @mellal2016tnb; @mellal2017marss; @mellal2018modeling; @mellal2021modeling]
+    :   [@2015mellalIROS; @2015mellalJNR; @2016mellalICRA; @2016mellalMARSS; @2016mellalTNB; @2017mellalMARSS; @2018mellalEncyclopedia; @mellal2021modeling]
 
     Situation
 
@@ -115,7 +119,7 @@ Lyès Mellal
 
     References
 
-    :   [@amari2014ijo; @amari2016encyclo; @amari2014acc; @amari2014iros; @amari2013iros; @amari2013isot]
+    :   [@2014amariIJO; @2016amariEnclyclopedia; @2014amariECC; @2014amariIROS; @2013amariIROS; @2013amariISOT]
 
     Situation
 
@@ -140,7 +144,7 @@ Karim Belharet
 
     References
 
-    :   [@belharet2010mitat; @belharet2011advrob; @folio2013tbme; @belharet2012book; @belharet2010biorob; @belharet2010iros; @belharet2012iros; @belharet2012isot; @belharet2013isot; @belharet2014icra; @belharet2014iros]
+    :   [@2010belharetMITAT; @2011belharetAdvRob; @2013belharetTBME; @2012belharetBook; @2012belharetBioRob; @2010belharetIROS; @2012belharetIROS; @2012belharetISOT; @2013belharetISOT; @2014belharetICRA; @2014belharetIROS]
 
     Situation
 
@@ -165,7 +169,7 @@ Tao Li
 
     References
 
-    :   [@tao2014isj]
+    :   [@2014taoISJ]
 
     Situation
 
@@ -215,7 +219,7 @@ Bruno Sarkis
 
     References
 
-    :   [@sarkis2015icra; @sarkis2018jmems]
+    :   [@2015sarkisICRA; @2018sarkisJMEMS]
 
 Nabil Amari
 

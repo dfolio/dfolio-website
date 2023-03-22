@@ -68,6 +68,9 @@ $for(links)$
   <a href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">
     $if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a>
 $endfor$
+$if(scite-badge)$$if(doi)$
+<div class="scite-badge" data-doi="$doi$" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
+$endif$$endif$
 </div>
 $elseif(doi)$
 <div class="quarto-title-doi">

@@ -32,7 +32,7 @@ Historically, the medical robotics  topic is the main concern of the Robotics te
 at the {{< var PRISME-Laboratory >}}. 
 For instance, researchers from the Robotics team have developed solutions like the robotized
 tele-echography to provide skilled medical care to isolated
-patients [@courreges2008robotized; @kumar2008teleradiology, @tao2014isj].
+patients [@courreges2008robotized; @kumar2008teleradiology, @2014taoISJ].
 Despite the widespread adoption today of medical robotic systems in clinical
 activities, there are still important technical issues and
 challenges [@li2017micro; @simaan2018medical; @yang2018grand].

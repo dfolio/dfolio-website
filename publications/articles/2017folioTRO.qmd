@@ -1,0 +1,95 @@
+---
+type: journal
+date: 2017-06
+title: Two-Dimensional Robust Magnetic Resonance Navigation of a Ferromagnetic Microrobot Using Pareto Optimality.
+description: | 
+  This paper presents an optimal magnetic resonance navigation (MRN) frameworks integrated within clinical MRI scanner constraints.
+author:
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+doi: 10.1109/TRO.2016.2638446
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/TRO.2016.2638446
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/7829399
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-01446482
+  - name: "Materials"
+    aria-label: "materials"
+    icon: "fa fa-file-video"
+    class: "btn btn-light"
+    href: https://ieeexplore.ieee.org/document/7829399/media#media
+citation: 
+  citation-key: 2017folioTRO
+  language: en-US
+  type: article-journal
+  genre: ACL
+  publisher: IEEE
+  container-title: IEEE Transactions on Robotics
+  issn: 1552-3098
+  page: 583-593
+  volume: 33
+  number: 3
+  keyword: Microrobotics, Magnetic Resonance Imaging, Magnetic Resonance Navigation, Multi-ojective planning
+  abstract: |
+    This paper introduces a two-dimensional autonomous
+    navigation strategy of a 750 µm steel microrobot along complex
+    fluidic vascular network inside the bore of a clinical 3.0 T
+    magnetic resonance imaging (MRI) scanner. To ensure successful
+    magnetic resonance navigation (MRN) of a microrobot along
+    consecutive channels, the design of autonoumous navigation strategy
+    is needed taking into account the major MRI technological
+    constraints and physiological perturbations, e.g. non-negligible
+    pulsatile flow, limitations on the magnetic gradient amplitude, MRI
+    overheating, susceptibility artifacts uncertainties, and so on. An
+    optimal navigation planning framework based on Pareto optimality is
+    proposed in order to deal with this multiple-objective problem.
+    Based on these optimal conditions, a dedicated control architecture
+    has been implemented in an interventional medical platform for
+    real-time propulsion, control and imaging experiments. The reported
+    experiments suggest that the likelihood of controlling autonomously
+    untethered 750 $\mu$m magnetic microrobots is rendered possible in a
+    complex two-dimensional centimeter-sized vascular phantom. The
+    magnetic microrobot traveled intricate paths at a mean velocity of
+    about 4 mm/s with average tracking errors below 800 µm with
+    limited magnetic gradients ±15 mT/m compatible with clinical MRI
+    scanners. The experiments demonstrate that it is effectively
+    possible to autonomously guide a magnetic microrobot using a
+    conventional MRI scanner with only a software upgrade.
+impact-factor: "6.835"
+quartile: "Q1"
+categories: 
+  - Magnetic microrobots
+  - MRN
+  - Optimization
+  - Path planning
+  - Tracking
+image: /images/research/targeting.webp
+---
+
+## Media
+The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/7829399/media#media)
+
+{{< video ../../media/2017folioTRO.webm >}}

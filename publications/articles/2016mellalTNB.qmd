@@ -1,0 +1,91 @@
+---
+type: journal
+date: 2016-05
+title: Modeling of Optimal Targeted Therapies Using Drug-Loaded Magnetic Nanoparticles for Liver Cancer
+description: | 
+  The paper described an optimal design strategy for innovative transcatheter arterial magnetic bolus delivery using MRN procedure.
+author:
+  - name: Lyès Mellal
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+      
+  - name: Karim Belharet
+    affiliations:
+      - ref: hei
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+doi: 10.1109/tnb.2016.2535380
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1109/tnb.2016.2535380"
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/7422145
+  - name: "Pubmed"
+    aria-label: "Pubmed"
+    icon: "ai ai-pubmed"
+    class: "btn btn-success btn-sm"
+    href: https://pubmed.ncbi.nlm.nih.gov/26955045
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-01305959
+citation: 
+  citation-key: 2016mellalTNB
+  type: article-journal
+  genre: ACL
+  publisher: IEEE
+  container-title: IEEE Transactions on NanoBioscience
+  issn: 1536-1241
+  number: 3
+  volume: 15
+  page: 265-274
+  abstract: |
+    To enhance locoregional therapies for liver cancer
+    treatment, we propose in this study a mathematical model to optimize
+    the transcatheter arterial delivery of therapeutical agents. To
+    maximize the effect of the treatment and minimize adverse effects on
+    the patient, different mathematical models of the tumor growth are
+    considered in this study to find the optimal number of the
+    therapeutic drug-loaded magnetic nanoparticles to be administered.
+    Three types of therapy models are considered, e.g. angiogenesis
+    inhibition therapy, chemotherapy and radiotherapy. We use
+    state-dependent Riccati equations (SDRE) as an optimal control
+    methodology framework to the Hahnfeldt's tumor growth formulation.
+    Based on this, design optimal rules are derived for each therapy to
+    reduce the growth of a tumor through the administration of
+    appropriate dose of anti-angiogenic, radio- and chemo-therapeutic
+    agents. Simulation results demonstrate the validity of the proposed
+    optimal delivery approach, leading to reduced intervention time, low
+    drug administration rates and optimal targeted delivery.
+impact-factor: "3.206"
+quartile: "Q2"
+categories: 
+  - Biomedical application
+  - Modeling
+  - MRN
+  - Optimization
+image: /images/research/targeting.webp
+---
+

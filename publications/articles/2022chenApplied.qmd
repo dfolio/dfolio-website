@@ -8,13 +8,13 @@ description: |
   specifications, the appropriate EMA system can be determined
   efficiently.
 author:
-  - name: Chen, Ruipeng
+  - name: Ruipeng Chen
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -23,7 +23,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -53,7 +53,7 @@ links:
     href: https://hal.archives-ouvertes.fr/hal-03516817
 
 citation: 
-  citation-label: chen2022analysis
+  citation-label: 2022chenApplied
   language: en-US
   type: article-journal
   container-title: Applied Sciences
@@ -63,7 +63,6 @@ citation:
   volume: 12
   volume-title: "Micro-Robotics"
   submitted: 2021-11-23
-  issued: 2022-01-04
   license: http://creativecommons.org/licenses/by/4.0/
   keyword: electromagnetic actuation system, medical magnetic microrobots, minimally invasive surgery
   abstract: |

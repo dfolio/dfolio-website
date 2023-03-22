@@ -8,6 +8,7 @@ project:
   resources:
     - "images/favicons/*"
     - "images/index.html"
+    - "media/*"
     - "pdf/index.html"
     - "pdf/teaching/index.html"
     - "pdf/research/index.html"
@@ -38,7 +39,7 @@ website:
 
   open-graph:
     locale: en_US
-    site-name: "{{< meta website.title >}}"
+    site-name: "dfolio' website"
     image: /images/logo-df.webp
 
   reader-mode: true
@@ -197,6 +198,8 @@ page-layout: full
 #bibliography: [research/references.bib]
 csl: research/Thesis-ieee-style.csl
 #csl: research/nature-no-et-al.csl
+biblio-style: ieee
+biblatex: true
 
 execute:
   freeze: auto

@@ -3,7 +3,7 @@ lang: en-US
 date: 2023-02-24 13:35:12.1522179552 +0200
 pagetitle: "dfolio' website homepage"
 description: 'dfolio website is for sharing my projects, activities and others...'
-keywords: [dfolio, D. Folio, David FOLIO, dfolio website]
+keywords: [dfolio, D. David, Folio FOLIO, dfolio website]
 image: /images/logo-df.webp
 section-divs: false
 toc: false

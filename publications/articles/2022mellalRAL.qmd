@@ -10,13 +10,13 @@ description: |
   behavior of which has been characterized experimentally under weak
   magnetic fields.
 author:
-  - name: Mellal, Lyès
+  - name: Lyès Mellal
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -25,7 +25,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -54,7 +54,6 @@ citation:
   genre: ACL
   publisher: IEEE
   container-title: IEEE Robotics and Automation Letters
-  issued: 4
   number: 3
   volume: 6
   page: 8293-8300
@@ -79,7 +78,7 @@ impact-factor: "3.74"
 quartile: "Q1"
 categories: 
   - Modeling
-  - TMMC
+  - Magnetic microrobots
 ---
 
 ## Funding 

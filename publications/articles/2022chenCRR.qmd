@@ -12,7 +12,7 @@ author:
     attributes:
       supervised: true
       equal-contributor: true
-  - name:  Folio, David
+  - name:  David, Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -40,7 +40,7 @@ links:
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03758932
 citation: 
-  citation-key: chen2023optimal
+  citation-key: 2022chenMicromachines
   language: en-US
   type: article-journal
   container-title: Current Robotics Reports

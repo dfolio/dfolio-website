@@ -1,0 +1,93 @@
+---
+type: journal
+date: 2016-04-05
+title: MRI-based dynamic tracking of an untethered ferromagnetic microcapsule navigating in liquid
+description: | 
+  This article, we described a framework to extract a robust pathway with respect to MRI-based sensing capabilities
+author:
+  - name: Christian Dahmen
+    affiliations:
+      - ref: Oldenburg
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Karim Belharet
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+      corresponding: true
+      
+  - name: Sergej Fatikow
+    affiliations:
+      - ref: Oldenburg
+      
+doi: 10.1080/15599612.2016.1166305
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1080/15599612.2016.1166305"
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: https://www.tandfonline.com/doi/full/10.1080/15599612.2016.1166305
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-01305963
+citation: 
+  citation-key: 2016dahmenIJO
+  type: article-journal
+  genre: ACL
+  publisher: "Taylor & Francis"
+  container-title: International Journal of Optomechatronics
+  issn: 1536-1241
+  number: 2
+  volume: 10
+  page: 73-96
+  keyword: Microrobotics, MRI-based sensing, navigation, path planning, visual tracking
+  abstract: |
+    The propulsion of ferromagnetic objects by means of MRI
+    gradients is a promising approach to enable new forms of therapy. In
+    this work, necessary techniques are presented to make this approach
+    work. This includes path planning algorithms working on MRI data,
+    ferromagnetic artifact imaging and a tracking algorithm which
+    delivers position feedback for the ferromagnetic objects and a
+    propulsion sequence to enable interleaved magnetic propulsion and
+    imaging. Using a dedicated software environment integrating
+    path-planning methods and real-time tracking, a clinical MRI system
+    is adapted to provide this new functionality for controlled
+    interventional targeted therapeutic applications. Through MRI-based
+    sensing analysis, this paper aims to propose a framework to plan a
+    robust pathway to enhance the navigation ability to reach deep
+    locations in human body. The proposed approaches are validated with
+    different experiments.
+impact-factor: "4.17"
+quartile: "Q2"
+categories: 
+  - Magnetic microrobots
+  - MRN
+  - Optimization
+  - Path planning
+  - Tracking
+image: /images/research/targeting.webp
+---
+

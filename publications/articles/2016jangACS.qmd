@@ -1,0 +1,144 @@
+---
+type: journal
+date: 2016-10-18
+title: Catalytic Locomotion of Core-Shell Nanowire Motors
+description: | 
+  This paper address the real-time motion analysis of catalytic Janus magnetic micromotors.
+author:
+  - name: Bumjin Jang
+    affiliations:
+      - ref: MSRL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Wang, Wei
+    affiliations:
+      - ref: shenzhen
+  - name: Wiget, Samuel
+    affiliations:
+      - ref: MSRL
+  - name: Petruska, Andrew
+    affiliations:
+      - ref: MSRL
+  - name: Chen, Xiangzhong
+    affiliations:
+      - ref: MSRL
+  - name: Hu, Chengzhi
+    affiliations:
+      - ref: MSRL
+  - name: Hong, Ayoung   
+    affiliations:
+      - ref: MSRL   
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+  - name: Salvador Pané
+    email: vidalp@ethz.ch
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: MSRL
+  - name: Nelson Bradley
+    email: bnelson@ethz.ch
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: MSRL
+url: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
+doi: 10.1021/acsnano.6b04224
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1021/acsnano.6b04224
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-01410107
+  - name: "Materials"
+    aria-label: "materials"
+    icon: "bi bi-file-earmark-plus"
+    class: "btn btn-light"
+    href: https://doi.org/10.1021/acsnano.6b04224#notes-1
+      
+citation: 
+  citation-key: jang2016catalytic
+  container-title: ACS Nano
+  type: article-journal
+  genre: ACL
+  publisher: American Chemical Society (ACS)
+  issn: 2640-4567
+  number: 11
+  volume: 10
+  page: 9983-9991
+  available-date: 2016-10-25
+  submitted: 2016-06-26
+  keyword: electrodeposition, core−shell nanowires, catalytic nanomotors, self-electroosmosis, self-diffusiophoresis, net propulsive force
+  abstract: |
+    We report the partial core-shell nanowire motors. These
+    nanowires are fabricated using our previously developed
+    electrodeposition-based technique, and their catalytic locomotion in
+    the presence of H2O2 is investigated. Unlike conventional bimetallic
+    nanowires that are self-electroosmotically propelled, our Au/Ru
+    core-shell nanowires show both a noticeable decrease in rotational
+    diffusivity and increase in motor speed with nanowire length.
+    Numerical modelling based on self-electroosmosis attributes the
+    decreases in rotational diffusivity to the formation of toroidal
+    vortices at the nanowire tail, but fails to explain the speed
+    increase with length. To reconcile this inconsistency, we propose a
+    combined mechanism of self-diffusiophoresis and electroosmosis based
+    on the oxygen gradient produced by catalytic shells. This mechanism
+    successfully explains not only the peculiar speed increase of Au/Ru
+    core-shell nanomotors with length, but also the large variation in
+    speeds among Au/Ru, Au/Rh and Rh/Au core-shell nanomotors. The
+    possible contribution of diffusiophoresis to an otherwise
+    well-established electroosmotic mechanism sheds light on future
+    designs of nanomotors, at the same time highlighting the complex
+    nature of nanoscale propulsion.
+impact-factor: 18.03
+quartile: Q1
+categories: 
+  - Modeling
+  - Catalytic micromotors
+image: https://pubs.acs.org/cms/10.1021/acsnano.6b04224/asset/images/acsnano.6b04224.social.jpeg_v03
+---
+
+![](https://pubs.acs.org/cms/10.1021/acsnano.6b04224/asset/images/acsnano.6b04224.social.jpeg_v03)
+
+## Acknowledgements
+Funding support from the European Community's Seventh Framework Programme (FP7/2007-2013) 
+under grant agreement 296679 (MANAQA) is acknowledged. S.P. acknowledges financial support by the European Research Council Starting
+Grant "Magnetoelectric Chemonanomotorics for Chemical and Biomedical Applications (ELECTROCHEMBOTS)", 
+by the ERC grant agreement no. 336456. W.W. is grateful for the ﬁnancial support from National Natural Science Foundation of
+China
+(grant no. 11402069) and the city government of Shenzhen (grant no. KQCX20140521144102503). 
+We especially thank Prof. Mahmut Selman Sakar from the Mechanical Engineering (School of Engineering, EPFL), and 
+Carlos C. J. Alcantara from the Multi-Scale Robotics Lab (ETH Zürich) for constructive discussions.
+
+## Supporting Information
+The Supporting Information is available free of charge on the [ACS Publications website](https://pubs.acs.org/) at 
+{{< ai doi >}} [10.1021/acsnano.6b04224](10.1021/acsnano.6b04224).
+
+- [Movie S1](https://pubs.acs.org/doi/suppl/10.1021/acsnano.6b04224/suppl_file/nn6b04224_si_001.avi): A motion comparison of Au/Ru core-shell nanowires at different lengths [{{< fa file-video >}}](https://pubs.acs.org/doi/suppl/10.1021/acsnano.6b04224/suppl_file/nn6b04224_si_001.avi)
+- [Movie S2](https://pubs.acs.org/doi/suppl/10.1021/acsnano.6b04224/suppl_file/nn6b04224_si_002.avi): A motion comparison among Au/Rh, Rh/Au and Au/Ru core-shell nanowires [{{< fa file-video >}}](https://pubs.acs.org/doi/suppl/10.1021/acsnano.6b04224/suppl_file/nn6b04224_si_002.avi)
+- [Supplement file](https://pubs.acs.org/doi/suppl/10.1021/acsnano.6b04224/suppl_file/nn6b04224_si_003.pdf): Numerical modeling procedures and additional numerical modeling results of the effect of core protrusion on the speed of nanomotors
+  and supporting figures [{{< fa file-pdf >}}](https://pubs.acs.org/doi/suppl/10.1021/acsnano.6b04224/suppl_file/nn6b04224_si_003.pdf)

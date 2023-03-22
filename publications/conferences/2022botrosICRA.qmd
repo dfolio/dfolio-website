@@ -5,7 +5,7 @@ title: Fully Automatic and Real-Time Microrobot Detection and Tracking based on 
 description: | 
   This article discusses the use of an ultrasound imaging system to detect and track the real-time motion of spherical microrobots of varying lengths navigating through microfluidic channels with viscous biofluid.
 author:
-  - name: Botross, Karim
+  - name: Karim Botross
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -14,7 +14,7 @@ author:
   - name: Alkhatib, Mohammad
     affiliations:
       - ref: pascal
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -22,7 +22,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -46,7 +46,7 @@ links:
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03758955
 citation: 
-  citation-key: botross2022fully
+  citation-key: 2022botrossICRA
   language: en-US
   type: paper-conference
   container-title: "IEEE Conference on Robotics and Automation (ICRA)"

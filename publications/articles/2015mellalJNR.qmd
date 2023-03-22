@@ -1,0 +1,97 @@
+---
+type: journal
+date: 2015-01-30
+title: Optimal Structure of Particles-Based Superparamagnetic Microrobots
+subtitle: Application to MRI Guided Targeted Drug Therapy
+description: | 
+  The paper described an optimal design strategy for magnetic targeting of therapeutic drugs using magnetic SPIO particles aggregates.
+author:
+  - name: Lyès Mellal
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Karim Belharet
+    affiliations:
+      - ref: hei
+    attributes:
+      equal-contributor: false
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: INSA-CVL
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: INSA-CVL
+    attributes:
+      equal-contributor: true
+doi: 10.1007/s11051-014-2733-3
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1007/s11051-014-2733-3"
+  - name: "Springer"
+    aria-label: "Springer"
+    icon: "ai ai-springer"
+    class: "btn btn-success btn-sm"
+    href: https://link.springer.com/article/10.1007/s11051-014-2733-3
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-01112036
+citation: 
+  citation-key: 2015mellalJNR
+  type: article-journal
+  genre: ACL
+  publisher: Springer Science and Business Media LLC
+  container-title: Journal of Nanoparticle Research
+  issn: 1572-896X
+  number: 64
+  volume: 17
+  page: 265-274
+  submitted: 2014-07-11
+  keyword: Targeted drug delivery, Magnetic steering, Superparamagnetic microrobot, Optimal design
+  abstract: |
+    This paper presents an optimal design strategy for
+    therapeutic magnetic micro carriers (TMMC) guided in real time by a
+    magnetic resonance imaging (MRI) system. As aggregates of TMMC must
+    be formed to carry the most amount of drug and magnetic actuation
+    capability, different clustering agglomerations could be arranged.
+    Nevertheless, its difficult to predict the hydrodynamic behavior of
+    any arbitrary-shaped object due to the nonlinear hydrodynamic
+    effects. Indeed, the drag effect is related not only to the
+    properties of the bolus but also to its interaction with the fluid
+    viscosity, the free-stream velocity and the container geometry. In
+    this work, we propose a mathematical framework to optimize the TMMC
+    aggregates to improve the steering efficiency in experimental
+    endovascular conditions. The proposed analysis is carried out on
+    various sizes and geometries of microcarrier: spherical,
+    ellipsoid-like and chain-like of microsphere structures. We analyze
+    the magnetophoretic behavior of such designs to exhibit the optimal
+    configuration. Based on the optimal design of the boluses,
+    experimental investigations were carried out in mm-sized fluidic
+    artery phantoms to demonstrate the steerability of the magnetic
+    bolus using a proof-of-concept setup. The experiments demonstrate
+    the steerability of the magnetic bolus under different velocity,
+    shear-stress and trajectory constraints with a laminar viscous
+    fluidic environment. Preliminary experiments with a MRI system
+    confirms the feasibility of the steering of these TMMCs in hepatic
+    artery microchannel phantom.
+impact-factor: "2.533"
+quartile: "Q2"
+categories: 
+  - Biomedical application
+  - Modeling
+  - Magnetic microrobots
+  - Optimization
+---
+

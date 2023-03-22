@@ -11,7 +11,7 @@ aliases:
   - /research/hdr/
   - /publications/hdr/
 author:
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -80,7 +80,7 @@ categories:
   - Control
   - Optimization
   - Catalytic micromotors
-  - Microrobots
+  - Magnetic microrobots
   - EMA
   - Biomedical application
 ---
@@ -104,16 +104,16 @@ In particular, in the second part, I chose to focus on my main scientific contri
 
 My research has led me to mainly study modeling and control of microrobotic systems in a biomedical context, as illustrated in @fig-targeting.
 Different research groups aim to design appropriate solutions that could be applied to the human body.
-So far, the use of magnetic actuation appears to be the most convenient approach for such realizations [@folio2012iros; @mellal2015iros; @chen2022analysis].
+So far, the use of magnetic actuation appears to be the most convenient approach for such realizations [@folio2012iros; @2015mellalIROS; @2022chenApplied].
 This original theme is a field still in progress with the ambition to modernize current therapies by seeking to improve therapeutic targeting while enhancing patient comfort.
-To achieve this goal, a good understanding of the microrobots evolving in the human body is an important step [@belharet2010iros; @folio2012iros].
-We have thus studied the theoretical foundation and the physical laws allowing to describe the various phenomena which act on magnetic microrobots in vascular-like environment [ @sarkis2015icra;@acsnano2016; @sarkis2018jmems; @belharet2013isot; @folio2022modeling; @mellal2016tnb; @mellal2018modeling; @mellal2021modeling; @wu2022motion].
-We have developed a methodology allowing us to deal with multiphysics approaches combining different sources of uncertainties and hypotheses [@folio2013tbme].
+To achieve this goal, a good understanding of the microrobots evolving in the human body is an important step [@2010belharetIROS; @folio2012iros].
+We have thus studied the theoretical foundation and the physical laws allowing to describe the various phenomena which act on magnetic microrobots in vascular-like environment [ @2015sarkisICRA;@2016jangACS; @2018sarkisJMEMS; @2013belharetISOT; @2022folioTCST; @2016mellalTNB; @2018mellalEncyclopedia; @mellal2021modeling; @2022wuAIS].
+We have developed a methodology allowing us to deal with multiphysics approaches combining different sources of uncertainties and hypotheses [@2013belharetTBME].
 Great care has been taken in their validations through experiments when it is possible, otherwise with numerical analysis.
 This help us  to better understand the overriding dynamics, as well as the predominant parameters in the description of magnetic microrobots in a vascular-like environment.
 This makes  possible to fully characterize their behaviors in  a viscous flow  and their responses to magnetic fields.
 \
-All of these helped us to propose advanced navigation strategies for our microrobots [@belharet2010biorob; @belharet2011advrob; @belharet2012iros; @belharet2012isot; @dahmen2012iros; @mellal2016icra].
+All of these helped us to propose advanced navigation strategies for our microrobots [@2012belharetBioRob; @2011belharetAdvRob; @2012belharetIROS; @2012belharetISOT; @dahmen2012iros; @2016mellalICRA].
 Our navigation process can be divided in two levels. 
 First, we plan (off-line) really feasible navigation paths based on the <abbr title="Fast Marching Method">FMM</abbr>. 
 With the proposed navigation planning framework, we can take into account different constraints and objectives to get _a really feasible_ reference path.

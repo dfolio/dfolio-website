@@ -5,13 +5,13 @@ title: Performance Metrics for a Robotic Actuation System Using Static and Mobil
 description: | 
   This conference paper investigates the performance evaluation of a robotic EMA system that extends the static coil arrangements of OctoMag.
 author:
-  - name: Chen, Ruipeng
+  - name: Ruipeng Chen
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -20,7 +20,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -48,7 +48,7 @@ links:
     aria-label: "PDF"
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
-    href: /pdf/publications/chen2019icra-slides.pdf
+    href: /pdf/publications/2019chenICRA-slides.pdf
 citation: 
   issued: 2019-08-12
   container-title: International Conference on Robotics and Automation (ICRA'2019)
@@ -75,9 +75,9 @@ citation:
 categories: 
   - EMA
   - Modeling
-image: /images/publications/chen2019icra.webp
+image: /images/publications/2019chenICRA.webp
 ---
 
-[![](/images/publications/chen2019icra.webp)](/pdf/publications/chen2019icra-slides.pdf "Click to download PDF slides"){.download-link download="chen2019icra-slides.pdf"} 
+[![](/images/publications/2019chenICRA.webp)](/pdf/publications/2019chenICRA-slides.pdf "Click to download PDF slides"){.download-link download="2019chenICRA-slides.pdf"} 
 
 {{< include ../_footer.qmd >}}

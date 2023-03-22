@@ -42,6 +42,9 @@
           <% for (const link of item.links) { %>
           <a href="<%= link.href %>" class="<%- link.class %>" target="_blank" rel="noopener noreferrer"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a>
           <% } %>
+           <% if (item.doi) { %>
+            <div class="scite-badge" data-doi="<%= item.doi %>" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
+          <% } %>
         <% } else { %>
           <% if (item.doi) { %>
             <a href="https://doi.org/<%= item.doi %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi"></i>&nbsp;DOI</a>

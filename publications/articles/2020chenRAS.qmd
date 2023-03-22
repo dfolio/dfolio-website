@@ -5,13 +5,13 @@ title: Mathematical Approach for the Design Configuration of Magnetic System wit
 description: |
   Development of a mathematical approach for configuration design of magnetic platform.
 author:
-  - name: Chen, Ruipeng
+  - name: Ruipeng Chen
     affiliations:
       - ref: INSA-CVL
     attributes:
       supervised: true
       equal-contributor: true
-  - name: Folio, David
+  - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
@@ -19,7 +19,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: INSA-CVL
-  - name: Ferreira, Antoine
+  - name: Antoine Ferreira
     affiliations:
       - ref: INSA-CVL
     attributes:
@@ -47,10 +47,10 @@ links:
     aria-label: "PDF"
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
-    href: /pdf/publications/chen2021mathematical.pdf
+    href: /pdf/publications/2020chenRAS.pdf
     
 citation:
-  citation-key: chen2021mathematical
+  citation-key: 2020chenRAS
   available-date: 2020-11-02
   submitted: 2020-06-09
   container-title: "Robotics and Autonomous Systems"
