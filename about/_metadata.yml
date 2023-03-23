@@ -12,12 +12,12 @@ author:
     corresponding: true
     equal-contributor: true
   affiliations:
-    - ref: INSA-CVL
+    - ref: PRISME
 
 affiliations:
-  - id: INSA-CVL
-    name: "INSA Centre Val de Loire"
-    affiliation-url: https://www.insa-centrevaldeloire.fr/
+  - id: PRISME
+    name: "INSA Centre Val de Loire, Univ. Orléans, PRISME EA4229"
+    affiliation-url: https://www.univ-orleans.fr/fr/prisme/
     address: "88 Boulevard Lahitolle"
     postal-code: 18000
     city: Bourges

@@ -4,9 +4,9 @@ scite-badge: true
 google-scholar: true
 
 affiliations:
-  - id: INSA-CVL
-    name: "PRISME EA4229, INSA Centre Val de Loire"
-    affiliation-url: https://www.insa-centrevaldeloire.fr
+  - id: PRISME
+    name: "INSA Centre Val de Loire, Univ. Orléans, PRISME EA4229"
+    affiliation-url: https://www.univ-orleans.fr/fr/prisme
     address: "88 Boulevard Lahitolle"
     postal-code: 18000
     city: Bourges
@@ -19,7 +19,7 @@ affiliations:
     city: Toulouse
     country: France
   - id: hei
-    name: "PRISME EA4229, JUNIA-HEI"
+    name: "JUNIA-HEI, PRISME EA4229"
     address: 2 Allée Jean Vaillé
     postal-code: 36000
     city: Châteauroux
@@ -31,6 +31,11 @@ affiliations:
     name: "Division Microrobotics and Control Engineering, University of Oldenburg"
     city: Oldenburg
     country: Germany
+  - id: lagadic
+    name: "Lagadic Team, Inria Rennes–Bretagne Atlantique, IRISA"
+    city: Rennes
+    postal-code: 35042
+    country: "France"
   - id: MSRL
     name: "Multi-Scale Robotics Lab, Institute of Robotics and Intelligent Systems, ETH Zurich"
     affiliation-url: https://msrl.ethz.ch
