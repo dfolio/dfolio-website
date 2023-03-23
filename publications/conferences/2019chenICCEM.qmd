@@ -6,7 +6,7 @@ description: The conference paper analyzes the various conventional coils perfor
 author:
   - name: Ruipeng Chen
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -17,10 +17,10 @@ author:
     attributes:
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 

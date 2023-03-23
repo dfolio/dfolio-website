@@ -86,7 +86,7 @@ with a deep scientific reviews.
 
     Summary
 
-    :   The PIANHO project is an {{< var ANR >}} P3N (2009) project. <br/> The
+    :   The PIANHO project is an {{< var ANR >}}[^3] P3N (2009) project. <br/> The
         motivation of this project is to create a nanomanipulation
         platform capable of pick, hold and place nano-objects in the
         synchrotron radiation beam of the ESRF (Grenoble, France) via
@@ -137,7 +137,7 @@ with a deep scientific reviews.
 
     Summary
 
-    :   The PROSIT project is an {{< var ANR >}}[^3] Contint program (2008) project,
+    :   The PROSIT project is an {{< var ANR >}} Contint program (2008) project,
         coordinated by Professor Pierre Vieyres, University of Orléans,
         PRISME Laboratory.\
         The goal is to develop an interactive and complex master-slave
@@ -181,8 +181,8 @@ with a deep scientific reviews.
 
 ### Partnership
 
--   PHC[^5] cooperation program [**PROCORE**]{#PROCORE} between France
-    and Hong Kong
+-   <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr>[^5] cooperation program [**PROCORE**]{#PROCORE} between France
+    and Hong-Kong
 
     Date
 
@@ -198,7 +198,7 @@ with a deep scientific reviews.
         of Mechanical and Automation Engineering](http://www.mae.cuhk.edu.hk) (MAE) du Chinese
         University of Hong Kong (CUHK), Hong-Kong
 
--   PHC cooperation program [**PROCOPE**]{#PROCOPE} between France
+-   <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr> cooperation program [**PROCOPE**]{#PROCOPE} between France
     and Germany
 
     Date
@@ -227,7 +227,7 @@ with a deep scientific reviews.
 
 ### Local Project
 
--   Nano-IRM:
+-   [Nano-IRM]{#Nano-IRM}:
 
     Date
 

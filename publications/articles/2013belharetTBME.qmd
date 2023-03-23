@@ -1,0 +1,86 @@
+---
+type: journal
+date: 2013-04
+title: Simulation and Planning of a Magnetically Actuated Microrobot Navigating in Arteries
+description: | 
+  In this paper, a microrobotic surgical simulation and planning has been presented for the treatment of PAD.
+author:
+  - name: Karim Belharet
+    affiliations:
+      - ref: PRISME
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: PRISME
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: PRISME
+    attributes:
+      equal-contributor: true
+doi: 10.1109/TBME.2012.2236092
+PMID:  23269748
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1109/TBME.2012.2236092"
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/6392216
+  - name: "Pubmed"
+    aria-label: "Pubmed"
+    icon: "ai ai-pubmed"
+    class: "btn btn-success btn-sm"
+    href: https://pubmed.ncbi.nlm.nih.gov/23269748
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-01112036
+citation: 
+  citation-key: 2013belharetTBME
+  type: article-journal
+  genre: ACL
+  publisher: IEEE
+  container-title: IEEE Transactions on Biomedical Engineering
+  container-title-short: IEEE Trans. Biomed. Eng.
+  issn: 1558-2531
+  number: 4
+  volume: 60
+  page: 994-1001
+  submitted: 2012-06-18
+  keyword: Anisotropic path planning, blood flow simulation, microrobotics, minimally invasive surgery (MIS)
+  abstract: |
+    This work presents a preoperative microrobotic surgical
+    simulation and planning application. The main contribution is to
+    support computer-aided minimally invasive surgery (MIS) procedure
+    using untethered microrobots that have to navigate within the
+    arterial networks. We first propose a fast interactive application
+    (with endovascular tissues) able to simulate the blood flow and
+    microrobot interaction. Secondly, we also propose a microrobotic
+    surgical planning framework, based on the anisotropic Fast Marching
+    Method (FMM), that provides a feasible pathway robust to biomedical
+    navigation constraints. We demonstrate the framework performance in
+    a case study of the treatment of peripheral arterial diseases (PAD)
+impact-factor: "4.756"
+quartile: "Q1"
+categories: 
+  - Biomedical application
+  - Modeling
+  - Magnetic microrobots
+  - Path planning
+---
+
+## Funding
+The work of K. Belharet was supported by the [Nano-IRM project](../../research/projects/projects.qmd#Nano-IRM), founded by [Region Centre]{.fr lang=fr} and City of Bourges.

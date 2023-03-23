@@ -20,7 +20,7 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
 ---
 
 I had directly supervised 5 Master (M2) and 6 PhD students.
@@ -169,7 +169,7 @@ Tao Li
 
     References
 
-    :   [@2014taoISJ]
+    :   [@2016taoISJ]
 
     Situation
 

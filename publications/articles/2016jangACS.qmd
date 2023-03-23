@@ -36,10 +36,10 @@ author:
     attributes:
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
   - name: Salvador Pané

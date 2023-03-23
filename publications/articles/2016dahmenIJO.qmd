@@ -13,7 +13,7 @@ author:
       equal-contributor: true
   - name: Karim Belharet
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -24,10 +24,10 @@ author:
     attributes:
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
       corresponding: true
@@ -53,12 +53,18 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-01305963
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/2016dahmenIJO.pdf
 citation: 
   citation-key: 2016dahmenIJO
   type: article-journal
   genre: ACL
   publisher: "Taylor & Francis"
   container-title: International Journal of Optomechatronics
+  container-title-short: Int. J. Optomechatronics.
   issn: 1536-1241
   number: 2
   volume: 10
@@ -80,7 +86,7 @@ citation:
     robust pathway to enhance the navigation ability to reach deep
     locations in human body. The proposed approaches are validated with
     different experiments.
-impact-factor: "4.17"
+impact-factor: "4.5"
 quartile: "Q2"
 categories: 
   - Magnetic microrobots
@@ -91,3 +97,9 @@ categories:
 image: /images/research/targeting.webp
 ---
 
+
+## Funding
+This work  was supported by the <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr> [PROCOPE project](../../research/projects/projects.qmd#PROCOPE).
+
+
+{{< include ../_footer.qmd >}}

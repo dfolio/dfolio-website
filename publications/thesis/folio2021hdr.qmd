@@ -16,7 +16,7 @@ author:
     email: david.folio@insa-cvl.fr
     url: http://dfolio.free.fr
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
 url: /research/hdr/
 links:
   - name: "URL"

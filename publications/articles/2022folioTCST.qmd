@@ -14,10 +14,10 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 doi: 10.1109/TCST.2021.3139192
@@ -44,6 +44,7 @@ citation:
   genre: ACL
   publisher: IEEE
   container-title: IEEE Transactions on Control Systems Technology
+  container-title-short:  IEEE Trans. Control Syst. Technol.
   issn: 1558-0865
   number: 6
   page: 2681-2688

@@ -10,7 +10,7 @@ description: |
 author:
   - name: Ruipeng Chen
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -22,10 +22,10 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 url: https://www.mdpi.com/2076-3417/12/1/456
@@ -57,6 +57,7 @@ citation:
   language: en-US
   type: article-journal
   container-title: Applied Sciences
+  container-title-short: Appl. Sci.
   genre: ACL
   publisher: Multidisciplinary Digital Publishing Institute
   number: 1

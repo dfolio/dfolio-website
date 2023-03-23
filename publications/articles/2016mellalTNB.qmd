@@ -7,7 +7,7 @@ description: |
 author:
   - name: Lyès Mellal
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -19,17 +19,18 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
       
   - name: Karim Belharet
     affiliations:
       - ref: hei
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 doi: 10.1109/tnb.2016.2535380
+PMID: 26955045
 links:
   - name: "DOI"
     aria-label: "DOI"
@@ -51,12 +52,13 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-01305959
-citation: 
+citation:
   citation-key: 2016mellalTNB
   type: article-journal
   genre: ACL
   publisher: IEEE
   container-title: IEEE Transactions on NanoBioscience
+  container-title-short: IEEE Trans. Nanobiosci.
   issn: 1536-1241
   number: 3
   volume: 15

@@ -8,7 +8,7 @@ description: |
 author:
   - name:  Chen, Ruipeng
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -20,7 +20,7 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
 doi: 10.1007/s43154-022-00081-w
 url: "https://link.springer.com/article/10.1007/s43154-022-00081-w"
 links:
@@ -44,6 +44,7 @@ citation:
   language: en-US
   type: article-journal
   container-title: Current Robotics Reports
+  container-title-short: Curr. Robot. Rep
   genre: ACL
   publisher: Springer
   issn: 2662-4087
@@ -60,6 +61,7 @@ citation:
     the control, the unexpected singularities, system stabilization, etc. Therefore, through the similar investigation in the characteristics of the application, the suitable EMA microrobotic system can be designed with respect to the desired movement
     task with given type of the microrobot.
 quartile: "Q2"
+impact-factor: 3.4
 categories: 
   - EMA
   - Review

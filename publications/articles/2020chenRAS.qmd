@@ -7,7 +7,7 @@ description: |
 author:
   - name: Ruipeng Chen
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -18,10 +18,10 @@ author:
     attributes:
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
       corresponding: true
@@ -54,6 +54,7 @@ citation:
   available-date: 2020-11-02
   submitted: 2020-06-09
   container-title: "Robotics and Autonomous Systems"
+  container-title-short: "Robot. and Auton. Syst."
   issn: 0921-8890
   type: article-journal
   volume: 135
@@ -90,7 +91,7 @@ citation:
       number of electromagnets and their optimal configuration obtained by
       the proposed approach, the EMA system can be initially established.
 
-impact-factor: "2.82"
+impact-factor: "3.7"
 quartile: "Q1"
 categories: 
   - EMA

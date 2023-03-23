@@ -1,0 +1,89 @@
+---
+type: journal
+date: 2016-09
+title: "Robotized Tele-Echography"
+subtitle: "An Assisting Visibility Tool to Support Expert Diagnostic"
+description: | 
+  This paper presents a robotized tele-echography system that offers sonographers a solution to perform in real-time a diagnosis on remotely located patients.
+author:
+  - name: Alexandre Krupa
+    affiliation:
+      - ref: lagadic
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: http://dfolio.free.fr
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: PRISME
+  
+  - name: Cyril Novales
+    affiliations:
+      - ref: PRISME
+  - name: Pierre Vieyres
+    affiliations:
+      - ref: PRISME
+  - name: Tao Li
+    affiliations:
+      - ref: lagadic
+      - ref: PRISME
+
+doi: 10.1109/JSYST.2014.2314773
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: https://doi.org/10.1109/JSYST.2014.2314773
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/6808404
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-00986875
+citation: 
+  citation-key: 2016taoISJ
+  type: article-journal
+  genre: ACL
+  publisher: IEEE
+  container-title: IEEE Systems Journal
+  container-title-short: IEEE Syst. J.
+  issn: 1932-8184
+  page: 974-983
+  volume: 10
+  number: 3
+  keyword: Robotized tele-echography, ultrasound-based, visual servoing, visibility constraints.
+  abstract: |
+    This paper presents a robotized tele-echography system with
+    an assisting visibility mode that helps the medical expert
+    diagnosis. This autonomous mode is based on a multitask control
+    approach that maintains the visibility of an anatomic element of
+    interest while the medical expert tele-operates a 2D ultrasound
+    probe held by a 4-DoF robot. The main task is used to automatically
+    maintain several visual constraints that guarantee an intersection
+    between the US image plane and the organ of interest. A secondary
+    task allows the medical expert to manually apply the probe motion
+    through the tele-operation mode. The main advantage of this approach
+    is to give to the clinician the control of all the degrees of
+    freedom of the probe to examine the patient while automatically
+    preserving the visibility of the organ of interest when required.
+    Experimental results, performed on a phantom and human abdomen,
+    demonstrate the efficiency of the visibility assistance task.
+impact-factor: "4.8"
+quartile: "Q1"
+categories: 
+  - Tracking
+  - US imaging
+  - Visual servoing
+---
+
+## Acknowledgment
+This work is supported by the {{< var ANR >}} [PROSIT](../../research/projects/projects.qmd#PROSIT) project of the
+French National Research Agency (ANR-08-CORD-017) and the S2E2 cluster.
+

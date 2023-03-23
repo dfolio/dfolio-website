@@ -8,7 +8,7 @@ description: |
 author:
   - name: Lyès Mellal
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -25,10 +25,10 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 doi: 10.1007/s11051-014-2733-3
@@ -54,6 +54,7 @@ citation:
   genre: ACL
   publisher: Springer Science and Business Media LLC
   container-title: Journal of Nanoparticle Research
+  container-title-short: J. Nanoparticle Res..
   issn: 1572-896X
   number: 64
   volume: 17

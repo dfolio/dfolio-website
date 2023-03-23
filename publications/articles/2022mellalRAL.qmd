@@ -12,7 +12,7 @@ description: |
 author:
   - name: Lyès Mellal
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
@@ -24,10 +24,10 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 doi: 10.1109/LRA.2021.3107102
@@ -54,6 +54,7 @@ citation:
   genre: ACL
   publisher: IEEE
   container-title: IEEE Robotics and Automation Letters
+  container-title-short: Robot. Autom. Lett.
   number: 3
   volume: 6
   page: 8293-8300
@@ -74,7 +75,7 @@ citation:
     for targeted drug delivery due to the adaptability of their
     characteristics to environmental conditions (e.g. vessel size,
     velocity, shear stress).
-impact-factor: "3.74"
+impact-factor: "4.321"
 quartile: "Q1"
 categories: 
   - Modeling

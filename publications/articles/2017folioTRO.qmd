@@ -1,7 +1,7 @@
 ---
 type: journal
 date: 2017-06
-title: Two-Dimensional Robust Magnetic Resonance Navigation of a Ferromagnetic Microrobot Using Pareto Optimality.
+title: Two-Dimensional Robust Magnetic Resonance Navigation of a Ferromagnetic Microrobot Using Pareto Optimality
 description: | 
   This paper presents an optimal magnetic resonance navigation (MRN) frameworks integrated within clinical MRI scanner constraints.
 author:
@@ -13,10 +13,10 @@ author:
       corresponding: true
       equal-contributor: true
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
   - name: Antoine Ferreira
     affiliations:
-      - ref: INSA-CVL
+      - ref: PRISME
     attributes:
       equal-contributor: true
 doi: 10.1109/TRO.2016.2638446
@@ -43,11 +43,11 @@ links:
     href: https://ieeexplore.ieee.org/document/7829399/media#media
 citation: 
   citation-key: 2017folioTRO
-  language: en-US
   type: article-journal
   genre: ACL
   publisher: IEEE
   container-title: IEEE Transactions on Robotics
+  container-title-short: IEEE Trans. on Robot.
   issn: 1552-3098
   page: 583-593
   volume: 33

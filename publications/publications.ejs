@@ -5,8 +5,13 @@
       <div class="publication-info">
       <span class="listing-date">(<%= item.date %>)</span>
       <span class="listing-author"><%= item.author %></span>:
-      <a href="<%- item.path %>"><span class="listing-title fw-bold"><%= item.title %></span></a>,
-      <% if (item["container-title"]) { %>
+      <a href="<%- item.path %>"><span class="listing-title title fw-bold"><%= item.title %></span><% if (item.subtitle) { %>: <span class="listing-subtitle subtitle"><%= item.subtitle %></span><% } %></a>.
+
+      <% if (item["container-title-short"]) { %>
+          <span class="listing-publication fst-italic"><%= item["container-title-short"] %></span>.
+      <% } else if (item.citation["container-title-short"]) { %>
+          <span class="listing-publication fst-italic"><%= item.citation["container-title-short"] %></span>.
+      <% } else if (item["container-title"]) { %>
           <span class="listing-publication fst-italic"><%= item["container-title"] %></span>.
       <% } else if (item.citation["container-title"]) { %>
           <span class="listing-publication fst-italic"><%= item.citation["container-title"] %></span>.
@@ -17,9 +22,9 @@
           <%= item.citation.publisher %><% if (item.citation["publisher-place"]) { %>, <%= item.citation["publisher-place"] %><% } %>.
           </span>
         <% } %>
-        <span class="listing-metrics">
+        <span class="listing-metrics ">
         <% if (item.quartile) { %>
-          <span class="badge rounded-pill bg-primary"><%= item.quartile %></span>
+          <span class="badge rounded-pill bg-primary" ><%= item.quartile %></span>
         <% } %>
         <% if (item['impact-factor']) { %>
           <span class="badge rounded-pill bg-primary">IF: <%= item['impact-factor'] %></span>
