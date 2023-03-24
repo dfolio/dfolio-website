@@ -2,3 +2,7 @@
   quarto-pub:
     - id: 7d64559a-f324-4d18-b51d-2df3f5d0427e
       url: 'https://dfolio.quarto.pub/dfolio-website'
+  netlify:
+    - id: 95286b11-d57b-4e5b-89d2-ec4ed92cdd84
+      url: https://dfolio.fr
+      #url: 'https://dfolio-website.netlify.app'

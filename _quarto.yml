@@ -21,8 +21,9 @@ website:
   title: "dfolio' website"
   description: "D. Folio is an associate professor (HDR) at INSA Centre Val de Loire, researching in microrobotics."
   favicon: favicon.webp
-  site-url: http://dfolio.free.fr
+  #site-url: http://dfolio.free.fr
   #site-url: https://dfolio.quarto.pub
+  site-url: https://dfolio.fr
   repo-url: https://github.com/dfolio/dfolio-website
   search: true
 
