@@ -5,6 +5,8 @@ pagetitle: "dfolio' website homepage"
 description: 'dfolio website is for sharing my projects, activities and others...'
 keywords: [dfolio, D. David, Folio FOLIO, dfolio website]
 image: /images/logo-df.webp
+image-width: 80%
+image-alt: "D. Folio photo"
 section-divs: false
 toc: false
 comments: false
@@ -15,16 +17,16 @@ about:
       icon: github
       href:  https://github.com/dfolio
     - aria-label: "Orcid"
-      text: "{{< ai orcid >}}"
+      text: "{{< ai orcid title='orcid' >}}"
       href: https://orcid.org/0000-0001-9430-6091
     - aria-label: "clarivate (webofscience)"
-      text: "{{< ai clarivate >}}"
+      text: "{{< ai clarivate title='clarivate' >}}"
       href: https://www.webofscience.com/wos/author/record/D-5808-2013
     - aria-label: "Google Scholar"
-      text: "{{< ai google-scholar >}}"
+      text: "{{< ai google-scholar title='google scholar' >}}"
       href: https://scholar.google.fr/citations?user=XQVc6JMAAAAJ
     - aria-label: "ResearchGate"
-      text: "{{< ai researchgate >}}"
+      text: "{{< ai researchgate title='researchgate' >}}"
       href: https://www.researchgate.net/profile/David_Folio
     - aria-label: "LinkedIn"
       icon: linkedin
@@ -33,7 +35,7 @@ about:
       icon: link-45deg
       href: https://viadeo.com/fr/profile/david.folio
     - aria-label: "HAL"
-      text: "{{< ai hal >}}"
+      text: "{{< ai hal title='HAL archive ouverte' >}}"
       href:  https://cv.hal.science/david-folio
 
 anchor-sections: false
@@ -46,17 +48,18 @@ listing:
   contents: 
     - /teaching/teaching.qmd
     - /research/research.qmd
-    - research/references.qmd
+    #- /research/references.qmd
+    - /publications/publications.qmd
 ---
+
 ::: {.column-page}
 # Welcome to dfolio' website
 
-You can find on this site an overview of my activities as Associate Professor (with [HDR](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
-These activities include my [researches](//research/research.qmd) and [teaching](//teaching/teaching.qmd).
+You can find on this site an overview of my activities as Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
+These activities include my [researches](/research/research.qmd) and [teaching](/teaching/teaching.qmd).
 
 You may also find some more personal (public) stuff that I would share on a regular basis.
 :::
-
 
 ::: {#index-links .column-screen-inset-right style="max-width: 850px;"}
 :::
