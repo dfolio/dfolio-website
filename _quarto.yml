@@ -6,6 +6,7 @@ project:
     watch-inputs: true
     navigate: true
   resources:
+    - CNAME
     - "images/favicons/*"
     - "images/index.html"
     - "media/*"

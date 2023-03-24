@@ -4,5 +4,4 @@
       url: 'https://dfolio.quarto.pub/dfolio-website'
   netlify:
     - id: 95286b11-d57b-4e5b-89d2-ec4ed92cdd84
-      url: https://dfolio.fr
-      #url: 'https://dfolio-website.netlify.app'
+      url: 'https://dfolio.fr'
