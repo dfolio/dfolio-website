@@ -15,21 +15,6 @@ $endif$
 </div>
 </footer>
 
-<div class="download_btn">
-  <a onclick="window.print()" class="btn btn-sm btn-download-pdf-button dropdown-item" data-bs-placement="left" data-bs-toggle="tooltip" data-bs-original-title="Print to PDF">
-    <i class="fas fa-file-pdf"></i>.pdf
-  </a>
-</div>
-<script>
-var all_btns = document.querySelectorAll(".download_btn a");
-var data_nav = document.querySelectorAll('[aria-labelledby="quarto-navigation-tool-dropdown-0"] li')
-
-for (let i = 0; i < data_nav.length; i++) {
-  let li = document.createElement("li");
-  li.appendChild(all_btns[i]);
-  data_nav[i].parentElement.replaceChild(li, data_nav[i])
-}
-</script>
 $if(scite-badge)$
 <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
 $endif$

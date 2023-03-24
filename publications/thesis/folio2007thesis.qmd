@@ -19,19 +19,19 @@ author:
   - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
-    url: http://dfolio.free.fr
+    url: https://dfolio.fr
     attributes:
       corresponding: true
       equal-contributor: true
     affiliations:
       - ref: LAAS
-url: /research/thesis/
+url: /publications/thesis/folio2021hdr.qmd
 links:
   - name: "URL"
     aria-label: "URL"
     icon: "bi bi-link-45deg"
     class: "btn btn-success btn-sm"
-    href: "/research/thesis/"
+    href: "/publications/thesis/folio2021hdr.qmd"
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"

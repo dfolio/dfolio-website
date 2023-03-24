@@ -15,7 +15,7 @@ author:
       given: David
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
-    url: http://dfolio.free.fr
+    url: https://dfolio.fr
     attributes:
       corresponding: true
       equal-contributor: true
