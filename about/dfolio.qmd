@@ -10,7 +10,7 @@ bibliography: [../research/dfolio.bib,../research/references.bib]
 ## Overview
 
 :::{.grid}
-:::{#INSA-CVL .d-none .d-md-block .g-col-md-8}
+:::{#INSA-CVL .g-col-12 .d-md-block .g-col-md-8}
 
 ##### **David Folio** {-}
 
@@ -25,7 +25,7 @@ bibliography: [../research/dfolio.bib,../research/references.bib]
   of D. Folio' CV
 - [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
   of D. Folio' CV (dating from 2018)
-- See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
+- See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
 ![](/images/david-folio.webp  "David Folio photo")

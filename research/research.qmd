@@ -9,7 +9,10 @@ keywords: [dfolio, research]
 toc: true
 description: >
   An  overview of the careerof D. Folio that sets the background in which its works was carried out.
-image: /images/logo-research.webp 
+image: /images/logo-research.webp
+image-alt: "research logo"
+image-width: 80%
+image-height: 80%
 categories: [dfolio, research]
 ---
 

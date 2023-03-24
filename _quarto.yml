@@ -17,6 +17,7 @@ project:
     - "site.webmanifest"
     - "browserconfig.xml"
     - "keybase.txt"
+    - "sw.js"
 
 website:
   title: "dfolio' website"
@@ -32,10 +33,11 @@ website:
     style: simple
     type: implied
     palette: dark
-    policy-url: about/privacy.qmd
+    policy-url: /about/privacy
 
   google-analytics:
-    tracking-id: 'G-P49B92C60B'
+    #tracking-id: 'G-P49B92C60B'
+    tracking-id: 'G-TVHK4RZ89K'
     version: 4
     anonymize-ip: true
 
@@ -50,32 +52,32 @@ website:
   page-footer:
     border: false
     left: |
-        [&copy; 2004&ndash;2023, {{< fa at >}} [Folio David](/about/about.qmd).]{.copyright aria-label="copyright"}
+        [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/about.qmd).]{.copyright aria-label="copyright"}
         [![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
         Site licensed under
-        [[{{< fa brands creative-commons-by >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
+        [[{{< fa brands creative-commons-by title="CC-BY 4.0" >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
 
     right:
       - aria-label: "GitHub"
         icon: github
         href:  https://github.com/dfolio
       - aria-label: "Orcid"
-        text: "{{< ai orcid >}}"
+        text: "{{< ai orcid title='orcid' >}}"
         href: https://orcid.org/0000-0001-9430-6091
       - aria-label: "clarivate (webofscience)"
-        text: "{{< ai clarivate >}}"
+        text: "{{< ai clarivate title='clarivate' >}}"
         href: https://www.webofscience.com/wos/author/record/D-5808-2013
       - aria-label: "Scopus"
         text: "{{< ai scopus >}}"
         href: https://www.scopus.com/authid/detail.uri?authorId=15924858900
       - aria-label: "Google Scholar"
-        text: "{{< ai google-scholar >}}"
+        text: "{{< ai google-scholar title='google scholar' >}}"
         href: https://scholar.google.fr/citations?user=XQVc6JMAAAAJ
       - aria-label: "Academia"
         text: "{{< ai academia >}}"
         href: https://insa-centrevaldeloire.academia.edu/DavidFolio
       - aria-label: "ResearchGate"
-        text: "{{< ai researchgate >}}"
+        text: "{{< ai researchgate title='researchgate' >}}"
         href: https://www.researchgate.net/profile/David_Folio
       - aria-label: "LinkedIn"
         icon: linkedin
@@ -84,7 +86,7 @@ website:
         icon: link-45deg
         href: https://viadeo.com/fr/profile/david.folio
       - aria-label: "HAL"
-        text: "{{< ai hal >}}"
+        text: "{{< ai hal title='HAL archive ouverte' >}}"
         href: https://cv.hal.science/david-folio
 #      - aria-label: "Website"
 #        icon: link-45deg
@@ -110,7 +112,7 @@ website:
         href: publications/publications.qmd
       - text: "Posts"
         href: posts/index.qmd
-    # tools:
+    tools:
     #   - icon: save
     #     menu:
     #       - text: ""
@@ -166,7 +168,6 @@ website:
           contents:
             - research/references.qmd
             - publications/publications.qmd
-
 format:
   html:
     from: markdown+emoji
@@ -190,7 +191,7 @@ format:
     citations-hover: true
     link-citations: true
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/dfolio.(?:quarto.pub|free.fr|.fr)'
+    link-external-filter: '^(?:http:|https:)\/\/dfolio.(?:quarto.pub|free.fr|fr)'
     footnotes-hover: true
     reference-location: document
     strip-comments: true
@@ -208,7 +209,6 @@ execute:
   echo: false
   message: false
   warning: false
-
 
 # Metadata stuff
 #pagetitle: "{{< meta title >}} | {{< meta website.title >}}"

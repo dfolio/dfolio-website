@@ -2,6 +2,7 @@
 aliases:
   - /research/publications/
   - /publications/
+order: 3
 date: 2023-03-14 
 title: "Selected publications"
 description: |
@@ -37,6 +38,12 @@ listing:
 page-layout: full
 title-block-meta: false
 css: publications.css
+
+image: /images/logo-df.webp
+image-alt: "D. F. logo"
+image-width: 80%
+image-height: 80%
+categories: [dfolio, research, bibliography]
 ---
 
 :::{.callout-note}
@@ -84,6 +91,5 @@ A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOL
 :::
 :::
 :::
-
 
 {{< include _footer.qmd >}}

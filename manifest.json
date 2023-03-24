@@ -1,7 +1,7 @@
 {
-  "name": "dfolio(at)free",
-  "short_name": "dfolio@free",
-  "description": "dfolio@free' personal webpage",
+  "name": "dfolio' website",
+  "short_name": "dfolio'",
+  "description": "dfolio' personal webpage",
   "icons":  [
     {
       "src": "/images/favicons/favicon-16x16.png",
@@ -12,6 +12,12 @@
       "src": "/images/favicons/favicon-32x32.png",
       "sizes": "32x32",
       "type": "image/png"
+    },
+    {
+      "src": "/images/favicons/favicon-150x150-mask.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/images/favicons/favicon-194x194.png",
@@ -41,5 +47,7 @@
   "background_color": "#fff",
   "theme_color": "#007bff",
   "display": "standalone",
-  "scope": "/"
+  "orientation": "portrait",
+  "scope": "/",
+  "prefer_related_applications": false
 }
