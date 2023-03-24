@@ -23,9 +23,9 @@ $if(by-affiliation/first)$
 </div>
 $endif$
 
+$if(by-affiliation)$
+$elseif(by-author)$
 <div class="quarto-title-meta by-author">
-  $if(by-affiliation)$
-  $elseif(by-author)$
   <div>
     <div class="quarto-title-meta-heading">$labels.authors$</div>
     <div class="quarto-title-meta-contents">
@@ -34,32 +34,29 @@ $endif$
       $endfor$
     </div>
   </div>
-  $endif$
+</div>
+$endif$
 
-  $if(date)$
-  <div>
-    <div class="quarto-title-meta-heading">$labels.published$</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">$date$</p>
-    </div>
-  </div>
-  $elseif(citation.issued)$
-  <div>
-    <div class="quarto-title-meta-heading">$labels.published$</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">$citation.issued$</p>
-    </div>
-  </div>
-  $endif$
 
-  $if(date-modified)$
-  <div>
-    <div class="quarto-title-meta-heading">$labels.modified$</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">$date-modified$</p>
-    </div>
+
+<div class="quarto-title-meta date">
+$if(date)$
+  <div class="quarto-title-meta-heading">$labels.published$</div>
+  <div class="quarto-title-meta-contents">
+    <p class="date">$date$</p>
   </div>
-  $endif$
+$elseif(citation.issued)$
+  <div class="quarto-title-meta-heading">$labels.published$</div>
+  <div class="quarto-title-meta-contents">
+    <p class="date-modified">$citation.issued$</p>
+  </div>
+$endif$
+$if(date-modified)$
+  <div class="quarto-title-meta-heading">$labels.modified$</div>
+  <div class="quarto-title-meta-contents">
+    <p class="date-modified">$date-modified$</p>
+  </div>
+$endif$
 </div>
 
 $if(links)$

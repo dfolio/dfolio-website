@@ -1,0 +1,14 @@
+---
+title: "Completed HDR manuscript"
+date:  2021-12-08 21:14:32 +0100
+description: >
+  After a while everything is done :)
+categories: [bookdown, thesis]
+image: https://bookdown.org/yihui/bookdown/images/logo.png
+image-width: 64px
+
+---
+
+{{< include ../_links.qmd >}}
+
+Writing with [bookdown] [my HDR thesis][HDR] is finally done!

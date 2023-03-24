@@ -1,0 +1,15 @@
+---
+title: dfolio(at)free design
+description: "dfolio(at)free is back after a while with a new design using [Quarto]"
+date: "2023-03-23 16:43:39 +0200"
+image: /images/logo-df.webp
+categories: [web,quarto]
+---
+
+{{< include ../_links.qmd >}}
+
+[Jekyll] is really quite impressive for a website development.
+But, most of my regular works relies on the use of [Rmarkdown], and now [Quarto].
+They both offer great features for developing website/blog.
+So, since I don't want to spend a lot of time on effective design or to manage multiple template/layout languages, I switched to [Quarto].
+Actually, for most of my documents production (e.g. teaching materials, academic papers, presentations...), I first used [Rmarkdown] and now mostly [Quarto] (which is more versatile).

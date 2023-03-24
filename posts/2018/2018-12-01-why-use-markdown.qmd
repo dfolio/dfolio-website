@@ -7,7 +7,7 @@ description: >
 categories: [pandoc]
 image: /images/Markdown.webp
 ---
-{{< include _links.qmd >}}
+{{< include ../_links.qmd >}}
 
 Commonly, scientific papers, thesis and long dissertations are mainly written
 with [LaTeX]. Writing a manuscript in [LaTeX] basically produces high-quality

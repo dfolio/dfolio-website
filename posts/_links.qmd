@@ -1,3 +1,4 @@
+[bookdown]: https://bookdown.org/ "Write HTML, PDF, ePub, and Kindle books with R Markdown"
 [Bootstrap]: https://getbootstrap.com "One most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites."
 [Bootstrap-github]: https://github.com/twbs/bootstrap "Visit Bootstrap on Github"
 [DocBook]: http://docbook.org/ "DocBook is a semantic markup language for technical documentation."
@@ -22,7 +23,11 @@
 [pandoc-citeproc]: https://github.com/jgm/pandoc-citeproc "Library and executable for using citeproc with pandoc"
 [pandoc-crossref]: https://github.com/lierdakil/pandoc-crossref "Pandoc filter for cross-references "
 [pp]: https://cdsoft.fr/pp/ "PP is a generic Preprocessor (with Pandoc in mind)"
-[Ruby]: https:/www.ruby-lang.org "Ruby is a dynamic, interpreted, reflective, object-oriented, general-purpose programming language. "
+[Quarto]: https://quarto.org/ "Open-source scientific and technical publishing system built on Pandoc" 
+[Ruby]: https:/www.ruby-lang.org "Ruby is a dynamic, interpreted, reflective, object-oriented, general-purpose programming language."
+[revealjs]: https://github.com/rstudio/revealjs "Revealjs: R Markdown Format for Reveal.js Presentations"
+[Rmarkdown]: https://rmarkdown.rstudio.com/ "A file format for making dynamic documents with R"
+[Rstudio]: https://posit.co/download/rstudio-desktop/ "An IDE for R and Python with Markdown support"
 [SASS]: https://github.com/sass/ruby-sass "Sass (Syntactically awesome style sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS)."
 
 [dfolio-github-io]: http://github.com/dfolio/dfolio.github.io "dfolio.github.io repo"
@@ -32,4 +37,4 @@
 [cc-by-3]: https://creativecommons.org/licenses/by/3.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)"
 [license]: /about/license/ "License and term of use of the content of  the content of dfolio(at)free website."
 
-
+[HDR]: ../../publications/thesis/folio2021hdr.qmd 

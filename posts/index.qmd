@@ -10,15 +10,43 @@ title-block-meta: false
 page-layout: full
 toc-title: Year
 listing: 
+  - id: posts-2020
+    contents:  "2020/*"
+    sort: "date desc"
+    fields: [image, date, title, reading-time, categories, description]
+    type: default
+    categories: cloud
+  - id: posts-2021
+    contents:  "2021/*"
+    sort: "date desc"
+    fields: [image, date, title, reading-time, categories, description]
+  - id: posts-2023
+    contents:  "2023/*"
+    sort: "date desc"
+    fields: [image, date, title, reading-time, categories, description]
+    
   - id: posts-2018
     contents:  "2018/*"
     sort: "date desc"
     fields: [image, date, title, reading-time, categories, description]
-    type: default
-    categories: true
     
 ---
 
+### 2023
+
+:::{#posts-2023}
+:::
+
+
+### 2021
+
+:::{#posts-2021}
+:::
+
+### 2020
+
+:::{#posts-2020}
+:::
 
 ## Old stuffs
 

@@ -1,0 +1,123 @@
+---
+title: "Manage a glossary with bookdown"
+date:  2021-03-04 14:32:33 +0100
+description: >
+ How to easily link glossary terms/acronyms from the text body to a glossary page
+categories: [pandoc, bookdown, thesis]
+# categories [pandoc, markdown, latex, html]
+image: https://bookdown.org/yihui/bookdown/images/logo.png
+image-width: 64px
+
+references:
+  - type: post-weblog
+    id: yongfu
+    author: Yongfu's Blog
+    title: Create a Glossary in R Markdown
+    issued: Oct 24, 2018
+    url: https://yongfu.name/2018/10/24/glossary-maker/
+    accessed: 2023-03-23 
+  - type: website
+    id: ewfrees
+    author: Yongfu's Blog
+    title: Setting up a Glossary
+    issued: Aug 14, 2020
+    url: https://ewfrees.github.io/StyleGuideLDA/setting-up-a-glossary.html
+    accessed: 2023-03-23 
+      
+---
+
+{{< include ../_links.qmd >}}
+
+When writing a (long) manuscript, it is often useful to add a glossary.
+With [LaTeX] the glossary is properly managed with the [acronym package](https://ctan.org/pkg/acronym).
+But, neither [Pandoc] nor [bookdown] provide a proper way to do this (see [this issue](https://github.com/rstudio/bookdown/issues/199)).
+\
+With [bookdown], the common basic proposed solution is to put the acronyms in a data file (e.g. in csv format or xslx) and then render a the glossary page
+(see e.g. [@yongfu; @ewfrees]).
+However, these simple solutions do not link from the acronym in the text body to the glossary page, as is the case with the  [LaTeX] [acronym package](https://ctan.org/pkg/acronym).
+
+My solution effectively use the above  basic solution with the adds of an anchor on each acronyms and terms:
+
+```{r}
+#| code-fold: true
+#| code-summary: "Show the code"
+# library(tidyverse)
+# library(magrittr)
+load_descr <- function(descr,data_file, data_dir="data") {
+  data_path = xfun::native_encode(file.path(data_dir, data_file))
+  descr$data <- readr::read_csv(data_path, col_types = readr::cols(), trim_ws = TRUE, skip_empty_rows = TRUE)
+  invisible(descr)
+}
+
+#' print_acro
+#'
+#' @param data_file a csv file with two column: abbrv, descr
+#' @param data_dir directory where the data file is stored
+#' @param id_prefix prefix for the identifier
+#' @param class the class for the `abbrv`
+#' @param indent a string use for indentation
+#' @param glue_template the template use to print the acronym
+#'
+#' @return The acronym in a format 
+#'
+print_acro <- function(data_file, data_dir = "data", id_prefix = "acro", class = "acronym-item",
+                      indent='', glue_template = "default") {
+  descr <- list() %>%  load_descr(data_file, data_dir)
+  # generate an id in the format id_prefix-abbrv
+  descr$data %<>%
+    dplyr::mutate(id=paste0(id_prefix, "-",stringr::str_replace_all(abbrv," ", "-")))
+
+  if (glue_template == "default") {
+    glue_template <- "\n
+<<indent>>[<<abbrv>>]{#<<id>> .<<class>>}
+<<indent>>:   <<descr>>
+\n"
+  }
+
+  acro <- descr$data
+  print(glue::glue_data(acro,glue_template,indent='',.open = "<<",.close = ">>"))
+}
+```
+
+## Example
+For instance, if you have the following csv data file in `acro.csv`:
+
++-------+-----------------+
+| abbrv | descr           |
++-------+-----------------+
+| 2D    | two-dimension   |
++-------+-----------------+
+| 3D    | three-dimension |
++-------+-----------------+
+
+the following markdown will be generated using `print_acro(acro.csv)`
+```markdown
+[2D]{#acro-2D .acronym-item}
+:   two-dimension
+
+[3D]{#acro-3D .acronym-item}
+:   three-dimension
+```
+One can link to the glossary page as follows:
+
+```markdown
+In [2D](#acro-2D){.acroterm} you get [...]
+```
+
+[Bookdown] is then able to generate a link the anchor in the glossary page (i.e. where you have called  `print_acro(acro.csv)`).
+\
+Next, if you're using [Rstudio] (or any IDE that does the same), you can add a _snippet_, such as:
+```markdown
+snippet acro
+	[${1:acro}](#acro-${1:acro}){.acroterm}
+```
+With this, one can easily add an acronym in the text body, and that, for any [pandoc] output format!
+
+:::{.callout-tip}
+You can change the snippet to include the `abbr` HTML tag, but this work only with HTML like output  :frowning_face:
+:::
+
+Nevertheless, it remains that the management of plural forms is not yet possible (although  [LaTeX] [acronym package](https://ctan.org/pkg/acronym) allows it)...
+In my opinion, the only way that may allow such functionality is to define some specific (`R`) function (or a specific package?).
+
+> **Edit**: I found recently this package <https://github.com/yonicd/glossaries> (but not curently tested)

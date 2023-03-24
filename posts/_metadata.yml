@@ -11,7 +11,7 @@ toc-location: left
 
 #code-fold: show
 #code-summary: "Toggle the code"
-#code-tools: true
+code-tools: false
 #code-line-numbers: true
 #code-link: true
 #code-overflow: wrap
@@ -31,7 +31,3 @@ author:
   email: david.folio@insa-cvl.fr
   url: http://dfolio.free.fr
 
-
-format:
-  html:
-    code-tools: true

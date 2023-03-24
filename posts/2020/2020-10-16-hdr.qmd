@@ -1,0 +1,25 @@
+---
+title: "Start to write (seriously) my HDR"
+date:  2020-10-16 09:24:0 +0100
+description: >
+  D. Folio has started to write his HDR thesis with bookdown.
+categories: [pandoc, bookdown, thesis]
+# categories [pandoc, markdown, latex, html]
+image: https://bookdown.org/yihui/bookdown/images/logo.png
+image-width: 64px
+---
+
+{{< include ../_links.qmd >}}
+
+For a few years, I think I have to start writing [my HDR thesis][HDR].
+At the beginning, I had in mind to use [Pandoc] and that's why I started to develop [pandoc-df-thesis][pandoc-df-thesis-template-doc] because relying only on [Pandoc] did not completely correspond to my expectations.
+But in the meantime, I also started to use [Rstudio] and, above all, [Rmarkdown].
+I started to use [Rmarkdown] and some of its extension ([revealjs], [bookdown], etc.) for most of my documents productions.
+So I started to use [Rmarkdown] and some of its extensions (e.g. [revealjs], [bookdown], etc.) for most of my document productions (e.g. presentations, course materials, academic articles...).
+That's why, when I thought about writing (seriously) [my HDR thesis][HDR], naturally I moved on to [bookdown].
+\
+[Bookdown][bookdown] introduces some additional functionality on top of [Rmarkdown] that makes it particularly useful for writing a thesis. 
+You can automatically handle all the numbering of your sections, figures, and tables (like with [LaTeX]), as well as automatically generating dynamic contents from external data (e.g. bib, csv, xslx, etc.).
+Thanks to [Pandoc], you can also export in various formats, such as pdf {{< fa file-pdf >}},  HTML {{< fa file-code >}} (e.g. [gitbook](https://www.gitbook.com/)), MS Word {{< fa file-word >}}, etc.
+
+So from here, I can focus on the  writing of [my HDR thesis][HDR] :smile: ...

@@ -3,14 +3,10 @@ title: "pandoc-df-thesis v1.0.0"
 date:  2018-11-27 22:26:58 +0100
 description: >
   D. Folio (df) template (v1.0.0) for writing a thesis dissertation using Pandoc
-categories: [pandoc, deprecated]
+categories: [pandoc, thesis, deprecated]
 # categories [pandoc, markdown, latex, html]
-see-also: 
-  - '[dfolio.github.io](https://dfolio.github.io/)'
-  - '[pandoc-df-thesis documentations](https://dfolio.github.io/docs/pandoc-df-thesis/)'
-  - '[pandoc-df-thesis on GitHub](http://github.com/dfolio/pandoc-df-thesis-template)'
 ---
-{{< include _links.qmd >}}
+{{< include ../_links.qmd >}}
 
 
 The initial (v1.0.0) "public" release of the [pandoc-df-thesis][pandoc-df-thesis-template-doc] is now ready :+1:
@@ -38,3 +34,9 @@ The [pandoc-df-thesis][pandoc-df-thesis-template-doc] template is not intended t
 At this time, the [pandoc-df-thesis][pandoc-df-thesis-template-doc] template is designed for mainly Linux distribution.
 Basically, with some few efforts this template can be used on another operating system (e.g. Windows and MacOS)... this is planed in future prospects (when I've got time!).
 :::
+
+
+## See-also
+  - '[dfolio.github.io](https://dfolio.github.io/)'
+  - '[pandoc-df-thesis documentations](https://dfolio.github.io/docs/pandoc-df-thesis/)'
+  - '[pandoc-df-thesis on GitHub](http://github.com/dfolio/pandoc-df-thesis-template)'
