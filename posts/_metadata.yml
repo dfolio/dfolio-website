@@ -1,6 +1,6 @@
+adsense: true
 # Date format
 date-format: "ddd., MMM. D, YYYY"
-
 # Enable banner style title blocks
 title-block-banner: true
 title-block-meta: true
@@ -9,7 +9,7 @@ toc: true
 toc-title: Contents
 toc-location: left
 
-#code-fold: show
+code-fold: show
 #code-summary: "Toggle the code"
 code-tools: false
 #code-line-numbers: true
