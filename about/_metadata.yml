@@ -1,6 +1,6 @@
 
 sidebar: about
-
+#comments: true
 author:
   name:
     family: Folio

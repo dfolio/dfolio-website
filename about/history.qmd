@@ -10,19 +10,19 @@ Long time no see!
 
 ## History
 
-Let me show a brief history of [dfolio(at)free](/). I don't remember
+Let me show a brief history of [dfolio(at)free]. I don't remember
 exactly when I have created an account on the
 [free.fr](http://pagesperso.free.fr/) hosting service, but it must have been in
 the early 2000's. This  was when I've started to discover the Internet and some
 basics of the web development. But, it was around the 2004's (during my PhD),
-that [dfolio(at)free](/) started to be designed (a bit) suitably. At this time, I
+that [dfolio(at)free] started to be designed (a bit) suitably. At this time, I
 liked well developing with PHP, but I didn't like database management (up to
 now). Thus, I have focused on a website with a flat-file system. That's when I
 discovered [PmWiki](http://www.pmwiki.org).
 
 ## 2004 -- 2008
 
-Once again, I don't remember exactly how [dfolio(at)free](/) has evolved. But, I
+Once again, I don't remember exactly how [dfolio(at)free] has evolved. But, I
 have performed some web development with [PmWiki](http://www.pmwiki.org) and PHP, mainly devoted for
 scientific diffusion. Hence, I have developed a PHP-based parser for BibTeX
 entitled '*PhpBib*' (I still have it somewhere if someone need it). But today,
@@ -38,22 +38,22 @@ are made when I have time.
 ## 2008 -- 2018
 
 Nothing happened! I didn't update, neither posted anything on
-[dfolio(at)free](/). Why? Basically, because I had managed my personal website
+[dfolio(at)free]. Why? Basically, because I had managed my personal website
 with my Institute' hosting (former http://perso.ensi-bourge.fr/dfolio/). But
 this service is right now down, since autumn 2017.
-Thus, I came back to  [dfolio(at)free](/) =) …
+Thus, I came back to  [dfolio(at)free] :smile: …
 but, as you see, mainly in [English](/about/about.qmd#langage).
 
 ## 2018 -- 2023
 
-When I came back to [dfolio(at)free](/) (after 10 years), I learn that
+When I came back to [dfolio(at)free] (after 10 years), I learn that
 [free.fr](http://pagesperso.free.fr/) hosting service does not (really) allows
 flat-system database, and thus [PmWiki](http://www.pmwiki.org) :/ That is why I
 have looked for a new website management system (but I still dislike SQL
 databases). Finally, I have discovered [Jekyll](https://jekyllrb.com) that is
 for *static* website, from plain-text (aka markdown based). This has lead to a
-totally new [dfolio(at)free](/)  website. For now the previous
-[dfolio(at)free](/) contents have been removed. But maybe, latter, I'd put back
+totally new [dfolio(at)free]  website. For now the previous
+[dfolio(at)free] contents have been removed. But maybe, latter, I'd put back
 some of the previous contents. Come here again to see the evolution.
 
 ## Since 2023
@@ -64,6 +64,9 @@ They both offer great features for developing website.
 So, since I don't want to spend a lot of time on effective design or to manage multiple template/layout languages, I switched to [Quarto]
 Actually, for most of my documents production (e.g. teaching materials, academic papers, presentations...), I first used [Rmarkdown] and now mostly [Quarto] (which is more versatile).
 
+Secondly, from march 2023 [dfolio(at)free] will be moved to <http://dfolio.fr>.
+
+[dfolio(at)free]: <http://dfolio.free.fr> "My original website"
 [Rmarkdown]: <https://rmarkdown.rstudio.com/> "Make  high quality documents, reports, presentations and dashboards with R and Markdown." 
 [Quarto]: <https://quarto.org/> "Open-source scientific and technical publishing system built on Pandoc" 
 

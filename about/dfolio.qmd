@@ -21,16 +21,21 @@ bibliography: [../research/dfolio.bib,../research/references.bib]
 
 > **Main topic**:  [Microrobotics](/research/microrobotics/microrobotics.qmd) for [biomedical applications](/research/microrobotics/biomedical.qmd).
 
-- [English version](/pdf/CV-dfolio-en.pdf "Click to download"){.download-link download="CV-dfolio-en.pdf"} {{< fa file-pdf >}}
-  of D. Folio' CV
-- [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
-  of D. Folio' CV (dating from 2018)
-- See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
 ![](/images/david-folio.webp  "David Folio photo")
 :::
 :::
+
+Further details about me:
+
+- [English version](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} {{< fa file-pdf >}}
+  of [D. Folio' CV](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} (as of 2022)
+- [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
+  of [D. Folio' CV](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} (as of 2018)
+- See also my 
+  - [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
+  - [rapport d'activité](/pdf/2022_rapport-activite.pdf){.download-link .fr lang="fr" download="2022_rapport-activite_dfolio.pdf"}
 
 ## Background and Career Overview {#chap-resume-career}
 

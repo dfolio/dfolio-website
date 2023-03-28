@@ -7,44 +7,53 @@ aliases:
 link-external-icon: true
 ---
 
-
+<!--
 Hi! Long time no see! After about 10 years [of dormancy](/about/history.qmd), [dfolio(at)free](/)
 website is up again.
 But, as you see, mainly in [English](/about/about.qmd#langage).
-You can also have legal notice on the [license](/about/license.qmd) and the [cookies-consent](/about/privacy.qmd#cookie) using the left sidebar panel.
+-->
+Hi everyone!
+This the new version of my  personal webpage now at <https://dfolio.fr>.
+The old <https://dfolio.free.fr> remains. 
+But without guarantees that it will be up-to-date as it will be on <https://dfolio.fr> (see the [history](/about/history.qmd) page for some information).
 
 I like all aspects of web design, development, code and front end designing of
 websites. However, I am not a web designer nor a developer. I am just interested
 in these topics… as an '_hobby_'. So all development and design are made when I
 have time.
+You can also have legal notice on the [license](/about/license.qmd) and the [cookies-consent](/about/privacy.qmd#cookie) using the left sidebar panel.
 
 ## Goals
 
-The  [dfolio](/)' website aims to:
+The  [dfolio]' website aims to:
 
--   share my activities as associate professor ([research](//research/research.qmd) and [teaching](//teaching/teaching.qmd))
--   be a place to centralize stuff (quickly) while I found/discover new scientific, technological, or development topics.
+- share my activities as associate professor ([research](/research/research.qmd) and [teaching](/teaching/teaching.qmd) activities)
+- be a place to centralize stuff (quickly) while I found/discover new scientific, technological, or development topics.
 
 ## Langage
 
 I am French, and my mother tongue is French. But, I have chosen to write mainly
-this new version of  [dfolio](/)' website in English. Why? Obviously for a wide spreading of
+this new version of  [dfolio]' website in English. Why? Obviously for a wide spreading of
 its contents.
 
 
 ## Contact {#contact}
 
-You can react only if you have any inquiries on the contents of this website.
+You can react if you have any inquiries on the contents of this website.
 You may react me through the [social links](#social-links) below or in the page footer:
 
 :::{#social-links}
-- [{{< fa brands github >}} Github](https://github.com/dfolio){rel="noopener noreferrer"}
+- [{{< fa brands github title="github" >}} Github](https://github.com/dfolio){rel="noopener noreferrer"}
 - [{{< ai orcid title='orcid' >}} Orcid](https://orcid.org/0000-0001-9430-6091){rel="noopener noreferrer"}
 - [{{< ai clarivate title='clarivate' >}} Clarivate](https://www.webofscience.com/wos/author/record/D-5808-2013){rel="noopener noreferrer"}
-- [{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=15924858900){rel="noopener noreferrer"}
+- [{{< ai scopus title="scopus" >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=15924858900){rel="noopener noreferrer"}
 - [{{< ai google-scholar title='google scholar' >}} Google Scholar](https://scholar.google.fr/citations?user=XQVc6JMAAAAJ){rel="noopener noreferrer"}
-- [{{< ai academia >}} Academia](https://insa-centrevaldeloire.academia.edu/DavidFolio){rel="noopener noreferrer"}
+- [{{< ai academia title="academia" >}} Academia](https://insa-centrevaldeloire.academia.edu/DavidFolio){rel="noopener noreferrer"}
 - [{{< ai researchgate title='researchgate' >}} ResearchGate](https://www.researchgate.net/profile/David_Folio){rel="noopener noreferrer"}
-- [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/david-folio/){rel="noopener noreferrer"}
-- [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.archives-ouvertes.fr/aut/David+Folio/){rel="noopener noreferrer"} 
+- [{{< fa brands linkedin title="linkedin" >}} LinkedIn](https://www.linkedin.com/in/david-folio/){rel="noopener noreferrer"}
+- [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
+
+
+[dfolio(at)free]: <http://dfolio.free.fr> "My original website"
+[dfolio]: <http://dfolio.fr> "My new website"
