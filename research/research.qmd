@@ -8,13 +8,24 @@ pagetitle: "David FOLIO research activities"
 keywords: [dfolio, research]
 toc: true
 description: >
-  An  overview of the careerof D. Folio that sets the background in which its works was carried out.
+  An  overview of the career of D. Folio that sets the background in which its works was carried out.
 image: /images/logo-research.webp
 image-alt: "research logo"
 image-width: 80%
 image-height: 80%
 categories: [dfolio, research]
 ---
+
+
+Further details about me:
+
+- [English version](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} {{< fa file-pdf >}}
+  of [D. Folio' CV](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} (as of 2022)
+- [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
+  of [D. Folio' CV](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} (as of 2018)
+- See also my 
+  - [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
+  - [rapport d'activité](/pdf/2022_rapport-activite.pdf){.download-link .fr lang="fr" download="2022_rapport-activite_dfolio.pdf"}
 
 ## Researches as Associate Professor {#sec-career-tenure}
 
@@ -64,8 +75,10 @@ The different projects in which I have been involved are reported in [Research P
     Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
 
 
-:::{.center}
-![](/images/research/timeline.svg "Timeline of D. FOLIO activities")
+:::{#fig-timeline}
+![](/images/research/timeline.webp "Timeline of D. FOLIO activities")
+
+Timeline of my activities.
 :::
 
 ### Structuring of Activities
@@ -98,6 +111,14 @@ supervision of Viviane Cadenat, Associate Professor at Paul Sabatier
 University of Toulouse, France. [My PhD thesis](/publications/thesis/folio2007thesis.qmd) 
 dealt with the design of multi-sensor based control strategies allowing a mobile robot to perform
 vision-based tasks amidst possibly occluding obstacles.
+
+:::{#fig-mobile-robot layout=[30,-10,60]}
+![](/images/research/super-scout.webp){#fig-scout}
+
+![](/images/research/bertin.webp){#fig-aerial}
+
+Mobile robots use (a) during my doctorate and  (b) in my post-doctorate.
+:::
 
 [^5]: LAAS is a laboratory depending from the CNRS. <http://www.laas.fr>
 

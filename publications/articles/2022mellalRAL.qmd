@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2021-08-24
+date: 2021-10
 title: Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy
 description: | 
   This letter discusses of the modeling and the characterization of

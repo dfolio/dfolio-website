@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2022-08-13
+date: 2022-09
 title: Electromagnetic Actuation Microrobotic Systems
 description: | 
   This review presents different types of electromagnetic actuation (EMA) microrobotic systems that have

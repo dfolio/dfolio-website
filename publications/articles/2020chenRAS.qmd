@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2020-11-08
+date: 2021-01
 title: Mathematical Approach for the Design Configuration of Magnetic System with Multiple Electromagnets
 description: |
   Development of a mathematical approach for configuration design of magnetic platform.

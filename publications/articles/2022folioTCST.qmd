@@ -1,6 +1,6 @@
 ---
 type: journal
-date: 2022-01-11
+date: 2022-11
 title: Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs
 description: | 
   This paper theoretically investigates the modeling of  spherical catalytic 

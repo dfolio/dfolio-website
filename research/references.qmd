@@ -11,9 +11,13 @@ bibliography: dfolio.bib
 #biblio-style: authoryear
 aliases: 
   - /research/references/
+  - /publications/references/
 link-external-icon: true
 categories: [dfolio, bibliography, research]
 image: /images/logo-df.webp
+image-alt: "references logo"
+image-width: 80%
+image-height: 80%
 ---
 
 ```{r}
