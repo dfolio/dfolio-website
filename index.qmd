@@ -1,12 +1,13 @@
 ---
-lang: en-US
 date: 2023-02-24 13:35:12.1522179552 +0200
+aliases: 
+  - /home/
 pagetitle: "dfolio' website homepage"
 description: 'dfolio website is for sharing my projects, activities and others...'
 keywords: [dfolio, D. David, Folio FOLIO, dfolio website]
-image: /images/logo-df.webp
+image: "/favicon.svg"
 image-width: 80%
-image-alt: "D. Folio photo"
+image-alt: "D. Folio website logo"
 section-divs: false
 toc: false
 comments: false
@@ -42,7 +43,7 @@ anchor-sections: false
 search: false
 listing:
   id: index-links
-  #categories: true
+  categories: false
   type: grid
   fields: [image, title, subtitle, categories, description,  date]
   contents: 
@@ -53,7 +54,7 @@ listing:
 ---
 
 ::: {.column-page}
-# Welcome to dfolio' website
+# Welcome to dfolio' personal website ?
 
 You can find on this site an overview of my activities as Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
 These activities include my [researches](/research/research.qmd) and [teaching](/teaching/teaching.qmd).
@@ -63,3 +64,4 @@ You may also find some more personal (public) stuff that I would share on a regu
 
 ::: {#index-links .column-screen-inset-right style="max-width: 850px;"}
 :::
+ 

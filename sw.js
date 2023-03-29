@@ -18,6 +18,13 @@ self.addEventListener('install', (event) => {
       './',
       './index.html',
       './styles.css',
+      './favicon.ico',
+      './favicon.svg',
+      './images/logo-df.webp',
+      './images/logo-teach.webp',
+      './images/logo-research.webp',
+      './images/favicons/favicon-16x16.webp',
+      './images/favicons/favicon-32x32.webp',
     ])
   );
 });
@@ -26,17 +33,18 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(enableNavigationPreload());
 });
 
-// when the browser fetches a url
-self.addEventListener('fetch', function(event) {
-    // either respond with the cached object or go ahead and fetch the actual url
-    event.respondWith(
-        caches.match(event.request).then(function(response) {
-            if (response) {
-                // retrieve from cache
-                return response;
-            }
-            // fetch as normal
-            return fetch(event.request);
-        })
-    );
+self.addEventListener("fetch", (e) => {
+  if (!(e.request.url.startsWith('http'))) return;
+  e.respondWith(
+    (async () => {
+      const r = await caches.match(e.request);
+      console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
+      if (r) { return r;}
+      const response = await fetch(e.request);
+      const cache = await caches.open(cacheName);
+      console.log(`[Service Worker] Caching new resource: ${e.request.url}`);
+      cache.put(e.request, response.clone());
+      return response;
+    })()
+  );
 });

@@ -9,7 +9,8 @@ description: >
   As senior lecturer, D. Folio overall teaching activities is solely related with the
   61st  CNU section. I am mainly involved in the development of electronics and
   electrical sciences teaching activities of the INSA Centre Val de Loire.
-image: /images/logo-teach.svg 
+image: /images/logo-teach.webp
+image-alt: "Teaching logo"
 anchor-sections: false
 categories: [dfolio, teaching]
 ---

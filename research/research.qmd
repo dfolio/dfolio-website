@@ -11,8 +11,6 @@ description: >
   An  overview of the career of D. Folio that sets the background in which its works was carried out.
 image: /images/logo-research.webp
 image-alt: "research logo"
-image-width: 80%
-image-height: 80%
 categories: [dfolio, research]
 ---
 

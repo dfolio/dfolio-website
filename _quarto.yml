@@ -1,12 +1,13 @@
 project:
   type: website
   preview:
-    port: 7633
+    port: 8080
     browser: true
     watch-inputs: true
-    navigate: true
+    #navigate: true
   resources:
     - CNAME
+    - "favicon.svg"
     - "images/favicons/*"
     - "images/index.html"
     - "media/*"
@@ -14,7 +15,7 @@ project:
     - "pdf/teaching/index.html"
     - "pdf/research/index.html"
     # Things that need to be at the site root
-    - "site.webmanifest"
+    #- "webmanifest.json"
     - "browserconfig.xml"
     - "keybase.txt"
     - "sw.js"
@@ -22,7 +23,8 @@ project:
 website:
   title: "dfolio' website"
   description: "D. Folio is an associate professor (Dr. Habil) at INSA Centre Val de Loire, researching in microrobotics."
-  favicon: favicon.webp
+  image: "favicon.svg"
+  favicon: "favicon.svg"
   #site-url: https://dfolio.fr
   #site-url: https://dfolio.quarto.pub
   site-url: https://dfolio.fr
@@ -49,7 +51,7 @@ website:
   open-graph:
     locale: en_US
     site-name: "dfolio' website"
-    image: /images/logo-df.webp
+    image: "/favicon.svg"
 
   reader-mode: true
   page-navigation: true
@@ -99,7 +101,7 @@ website:
 
   navbar:
     pinned: false
-    logo: favicon.webp
+    logo: "favicon.svg"
     logo-alt: "dfolio website logo"
     search: true
     title: false
@@ -218,5 +220,5 @@ execute:
 # Metadata stuff
 #pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
 title-prefix: "dfolio' website"
-description-meta: "{{< meta description >}}"
+#description-meta: "{{< meta description >}}"
 author-meta: "D. FOLIO"

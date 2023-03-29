@@ -35,8 +35,19 @@ $dropdown-link-hover-color: white;
 /*-- scss:mixins --*/
 /*-- scss:rules --*/
 
+
 .fa-solid {
     color: #9ea1a8;
 }
 .dark-mode { display: block; }
 .light-mode { display: none; }
+
+
+img.navbar-logo{
+width: 0px;
+height: 0px;
+padding: 24px;
+  background: url("/images/favicons/safari-pinned-tab.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

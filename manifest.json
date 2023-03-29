@@ -1,53 +1,19 @@
 {
   "name": "dfolio' website",
-  "short_name": "dfolio'",
+  "short_name": "dfolio",
   "description": "dfolio' personal webpage",
   "icons":  [
-    {
-      "src": "/images/favicons/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/favicons/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/favicons/favicon-150x150-mask.png",
-      "sizes": "150x150",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/images/favicons/favicon-194x194.png",
-      "sizes": "194x194",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/favicons/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/favicons/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "/images/favicons/favicon.ico",
-      "sizes": "16x16 32x32 48x48"
-    },
-    {
-      "src": "/images/favicons/favicon.svg",
-      "sizes": "128x128",
-      "density": 2
-    }],
-  "start_url": "/?utm_source=web_app_manifest",
+    {"src": "/images/favicons/favicon-16x16.webp", "sizes": "16x16", "type": "image/webp"},
+    {"src": "/images/favicons/favicon-32x32.webp", "sizes": "32x32","type": "image/webp"},
+    {"src": "/images/favicons/favicon-mask-128x128.webp","sizes": "128x128","type": "image/webp","purpose": "maskable"},
+    {"src": "/images/favicons/android-chrome-192x192.png","sizes": "192x192","type": "image/png"},
+    {"src": "/images/favicons/android-chrome-512x512.png","sizes": "512x512","type": "image/png"},
+    {"src": "/favicon.ico","sizes": "48x48", "type": "image/x-icon" },
+    {"src": "/favicon.svg","sizes": "any","density": 2}],
+  "start_url": "/",
   "background_color": "#fff",
-  "theme_color": "#007bff",
+  "theme_color": "#2fa4e7",
   "display": "standalone",
-  "orientation": "portrait",
   "scope": "/",
   "prefer_related_applications": false
 }
