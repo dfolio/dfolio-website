@@ -13,12 +13,13 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
+
       - name: Check out repository
         #uses: actions/checkout@v2
         uses: actions/checkout@v3
 
       - name: Set locale
-       run: |
+        run: |
          sudo locale-gen  ${{ env.LANG }}
          sudo update-locale LANG=${{ env.LANG }}
 
