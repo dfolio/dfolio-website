@@ -6,17 +6,11 @@ $metadata.html()$
 $styles.html()$
 </style>
 
-$for(header-includes)$
-$header-includes$
-$endfor$
-
-$if(math)$$if(mathjax)$<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>$endif$
-$math$$endif$
-
+$for(header-includes)$$header-includes$$endfor$
+$if(math)$$if(mathjax)$<script src="https://polyfill.io/v3/polyfill.min.js?features=es6" async></script>$endif$$math$$endif$
 $for(css)$<link rel="stylesheet" href="$css$" />$endfor$
 </head>
 <body>
-
 $for(include-before)$$include-before$$endfor$
 
 $if(title)$
@@ -30,8 +24,6 @@ $if(toc)$$toc.html()$$endif$
 $body$
 
 $after-body.html()$
-
 $for(include-after)$$include-after$$endfor$
 </body>
-
 </html>

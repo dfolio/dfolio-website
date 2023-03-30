@@ -38,7 +38,6 @@ about:
     - aria-label: "HAL"
       text: "{{< ai hal title='HAL archive ouverte' >}}"
       href:  https://cv.hal.science/david-folio
-
 anchor-sections: false
 search: false
 listing:
@@ -51,9 +50,10 @@ listing:
     - /research/research.qmd
     #- /research/references.qmd
     - /publications/publications.qmd
+#max-width:850px;
 ---
 
-::: {.column-page}
+::: column-page
 # Welcome to dfolio' personal website ?
 
 You can find on this site an overview of my activities as Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
@@ -62,6 +62,5 @@ These activities include my [researches](/research/research.qmd) and [teaching](
 You may also find some more personal (public) stuff that I would share on a regular basis.
 :::
 
-::: {#index-links .column-screen-inset-right style="max-width: 850px;"}
+::: {#index-links .column-screen-inset-right}
 :::
- 

@@ -60,8 +60,8 @@ website:
     border: false
     left: |
         [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/about.qmd).]{.copyright aria-label="copyright"}
-        [![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
-        Site licensed under
+        [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
+        Site licensed under]{.d-none .d-lg-inline}
         [[{{< fa brands creative-commons-by title="CC-BY 4.0" >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
 
     right:
@@ -177,14 +177,17 @@ website:
             - publications/publications.qmd
 format:
   html:
+    minimal: true
     from: markdown+emoji
     date-modified: last-modified
     highlight: null
     mathjax: null
+    html-math-method: plain
     theme:
       light: [scss/common.scss,scss/light.scss]
       dark: [scss/common.scss,scss/dark.scss]
-    css: styles.css
+
+    #css: styles.css
 
     template: html/template.html
     template-partials:
@@ -204,7 +207,7 @@ format:
     strip-comments: true
     smooth-scroll: true
 
-page-layout: full
+#page-layout: full
 #bibliography: [research/references.bib]
 csl: research/Thesis-ieee-style.csl
 #csl: research/nature-no-et-al.csl
@@ -218,7 +221,5 @@ execute:
   warning: false
 
 # Metadata stuff
-#pagetitle: "{{< meta title >}} | {{< meta website.title >}}"
 title-prefix: "dfolio' website"
-#description-meta: "{{< meta description >}}"
 author-meta: "D. FOLIO"
