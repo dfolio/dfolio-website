@@ -27,7 +27,7 @@ if(!require(RefManageR))
 
 RefManageR::BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric")
 #cite.style = "authoryear", 
-Sys.setlocale(category = "LC_ALL", locale="en_US.UTF-8")
+#Sys.setlocale(category = "LC_ALL", locale="en_US.UTF-8")
 bib <- RefManageR::ReadBib("dfolio.bib", .Encoding = "UTF-8", check = 'warn')
 bibACL<-bib[c(bibtype="Article",entrysubtype="!ACLN")]
 bibDO<-bib[entrysubtype="DO"]
@@ -64,7 +64,6 @@ Most of the documents hereafter are also shared or listed on the following acade
 
 
 You may also be interested in the [publications page](../publications/publications.qmd) where some of the documents below are shared.
-
 
 ## Articles
 
