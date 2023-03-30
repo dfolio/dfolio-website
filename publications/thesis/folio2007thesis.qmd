@@ -84,6 +84,7 @@ categories:
   - Obstacle avoidance
 ---
 
+
 ## Doctorate degree
 
 I have defended my PhD in Robotics in 2007 within the Robotics, Action,

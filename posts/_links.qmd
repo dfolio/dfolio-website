@@ -37,4 +37,5 @@
 [cc-by-3]: https://creativecommons.org/licenses/by/3.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)"
 [license]: /about/license/ "License and term of use of the content of  the content of dfolio(at)free website."
 
+[thesis]: ../../publications/thesis/folio2007thesis.qmd 
 [HDR]: ../../publications/thesis/folio2021hdr.qmd 

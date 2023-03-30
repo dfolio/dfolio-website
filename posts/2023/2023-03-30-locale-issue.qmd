@@ -1,0 +1,90 @@
+---
+title: "Locale/language issue with Quarto website :/"
+description: "How to solve locale/language issue with R and Quarto"
+date: "2023-03-30 17:52:07 +0200"
+image: /images/logo-df.webp
+categories: [web, quarto]
+---
+
+
+I encountered an encoding problem on some pages where there were accented characters.
+For example, using [RefManageR](https://github.com/ropensci/RefManageR/ "Tool for importing and working with bibliographic references") package to print a bibliography, [my PhD thesis][thesis] title was rendered as:
+
+```raw
+"Strat<U+00E9>gies de commande r<U+00E9>f<U+00E9>renc<U+00E9>es multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile"
+```
+
+This issue is related to `R`(studio) being used with a locale that is not compatible with Unicode encoding (e.g. UTF-8).
+To overcome this, one can simply use the following inside its `Rscript`:
+
+```r
+Sys.setlocale(category = "LC_ALL", locale="en_US.UTF-8")
+```
+
+::: callout-warning
+Do not forget the `.UTF-8` in the locale, that is don't simply set `locale="en_US"`, it might not be an UTF-8 encoding!
+:::
+
+::: callout-tip
+Although I haven't tested, but I guess this trick can work with all other languages that have UTF-8 encoding.
+:::
+
+Next, in some other pages, when I directly write some text with accented characters I would have weird output.
+Fo example, if I write [my PhD thesis][thesis] title, I will get:
+
+```raw
+"Stratgies de commande rfrences multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile"
+```
+
+This issue seems more related to [Quarto].
+Surprisingly, this troubleshooting doesn't happen on all pages where there are accented characters :frowning:.\
+After some few investigation, ir seems that this will occur when your system locale does not use  UTF-8 encoding, such as
+```bash
+foo@bar:~$ echo $LANG
+C
+foo@bar:~$ locale
+LANG=C
+LC_CTYPE="C"
+LC_NUMERIC="C"
+LC_TIME="C"
+...
+```
+By changing your locale to one that support  UTF-8 encoding, the above issue is solved:
+```bash
+foo@bar:~$ export LANG="en.UTF-8"
+```
+If you use `systemd`, it is better use the `localectl` command.
+
+A last point, it is quite easy to change the locale of your computer and then to publish your website for instance on [Github Pages](https://quarto.org/docs/publishing/github-pages.html), [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub.html) or even you own web-hoster.
+But, if you need the hoster to build and publish on its own server, you have to be aware of the server locale!
+\
+If you use [GitHub Action](https://quarto.org/docs/publishing/netlify.html#github-action), 
+I found the following trick to change the locale on GitHub server:
+```yaml
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+name: Dfolio deploy
+env:
+  LANG: "en_US.UTF-8"
+  LANGUAGE: "en_US:en"
+  LC_ALL: "en_US.UTF-8"
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+      - name: Set locale
+        run: |
+         sudo locale-gen  ${{ env.LANG }}
+         sudo update-locale LANG=${{ env.LANG }}
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        ...
+```
+This trick is inspired from this [issue](https://github.com/actions/runner-images/issues/762)
+
+
+{{< include ../_links.qmd >}}

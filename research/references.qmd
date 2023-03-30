@@ -1,5 +1,4 @@
 ---
-lang: en-US
 order: 3
 date: 2018-03-30 06:55:35.1522385735 +0200
 title: References

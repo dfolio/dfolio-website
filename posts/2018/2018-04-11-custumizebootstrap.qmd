@@ -38,19 +38,14 @@ Actually, by using a toolkit (such as [Bootstrap][bootstrap] or whatever) you ca
 
 If you have a look to `bootstrap.scss` from [Bootstrap][bootstrap] source or you can shown it on the [{{< fa brands github >}} Githup page](https://github.com/twbs/bootstrap/blob/v4-dev/scss/bootstrap.scss)
 
-:::{.collapsable #collapse-parent-1}
-:::{.collapse-head}
-<summary class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Toggle Code </summary>
-:::
-:::{.collapse #collapse-1}
-```sass
-/\*!
+```{sass}
+/*!
 
 -   Bootstrap v4.0.0 (<https://getbootstrap.com>)
 -   Copyright 2011-2018 The Bootstrap Authors
 -   Copyright 2011-2018 Twitter, Inc.
 -   Licensed under MIT (<https://github.com/twbs/bootstrap/blob/master/LICENSE>)
-    \*/
+    */
 
 @import "functions";
 @import "variables";
@@ -88,8 +83,6 @@ If you have a look to `bootstrap.scss` from [Bootstrap][bootstrap] source or you
 @import "utilities";
 @import "print";
 ```
-:::
-:::
 
 As you can see, many of the above default import are not necessary for all website, and not for all webpage.
 From [Bootstrap v4](https://getbootstrap.com/docs/4.0/getting-started/theming/) documentation you can get the "**minimal**" bootstrap components:
