@@ -83,14 +83,14 @@ categories:
   - Magnetic microrobots
   - EMA
   - Biomedical application
----
 
+---
 
 ## Habilitation degree 
  
 I have defended my Habilitation (in French "[Habilitation à diriger des recherches]{.fr lang="fr"}" -- HDR) in microrobotics in December 2021, which was entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](#sec-details) [@folio2021hdr].
-In this work, I have provided a summary of my teaching and research activities since my recruitment as associate professor in 2008.
+In this work, I have provided a summary of my [teaching](/teaching/teaching.qmd) and [research](/research/research.qmd) activities since my recruitment as associate professor in 2008.
 \
 To resume thirteen years of hard work is a very interesting exercise. 
 This allows to take a step back and try to isolate the common thread that has motivated my activities through personal initiatives or opportunities that have arisen.

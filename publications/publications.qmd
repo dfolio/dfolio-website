@@ -27,6 +27,13 @@ listing:
     sort-ui: [date, author]
     date-format: "YYYY"
   
+  - id: communications-list
+    contents: communications/*.qmd
+    template: publications.ejs
+    sort: 'date desc'
+    sort-ui: [date, author]
+    date-format: "YYYY"
+    
   - id: thesis-list
     contents: thesis/*.qmd
     template: publications.ejs
@@ -74,6 +81,21 @@ A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOL
 :::
 :::{.collapse #collapse-ACT}
 ::: {#conferences-list }
+:::
+:::
+:::
+
+
+## Oral communications (COM) {#COM}
+:::{.collapsable #collapse-parent-COM}
+:::{.collapse-head}
+<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-COM" aria-expanded="false" aria-controls="collapse-COM" title="Click to expand/contract">
+        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+</a>
+:::
+:::{.collapse #collapse-COM}
+::: {#communications-list }
 :::
 :::
 :::

@@ -3,6 +3,7 @@ title-block-meta: true
 scite-badge: true
 google-scholar: true
 
+date-format: "YYYY"
 affiliations:
   - id: PRISME
     name: "INSA Centre Val de Loire, Univ. Orléans, PRISME EA4229"

@@ -212,8 +212,8 @@ format:
 #bibliography: [research/references.bib]
 csl: research/Thesis-ieee-style.csl
 #csl: research/nature-no-et-al.csl
-biblio-style: ieee
-biblatex: true
+#biblio-style: ieee
+#biblatex: true
 
 execute:
   freeze: auto

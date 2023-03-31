@@ -17,7 +17,6 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       './',
       './index.html',
-      './styles.css',
       './favicon.ico',
       './favicon.svg',
       './images/logo-df.webp',

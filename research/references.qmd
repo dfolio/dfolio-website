@@ -22,10 +22,8 @@ image-height: 80%
 ```{r}
 #| output: false
 if(!require(RefManageR))
-  remotes::install_github("ropensci/RefManageR")
-
+  remotes::install_github("ropensci/RefManageR") 
 RefManageR::BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric")
-#cite.style = "authoryear", 
 #Sys.setlocale(category = "LC_ALL", locale="en_US.UTF-8")
 bib <- RefManageR::ReadBib("dfolio.bib", .Encoding = "UTF-8", check = 'warn')
 bibACL<-bib[c(bibtype="Article",entrysubtype="!ACLN")]

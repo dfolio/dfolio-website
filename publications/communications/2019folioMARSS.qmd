@@ -1,0 +1,35 @@
+---
+type: speech
+date: 2019-07-03
+title: Dynamic modeling of self-phoretic magnetic Janus microrobot
+description: | 
+  In this talk D. Folio discussed the dynamic modeling of catalytic magnetic microrobot.
+author:
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: https://dfolio.fr
+    attributes:
+      corresponding: true
+links:
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/2019folioMARSS-slides.pdf
+citation: 
+  issued: 2019-07-03
+  container-title: International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS'2019)
+  event-date: 2019-07-01/2019-07-04
+  event-place: Helsinki, Finland
+  keyword: catalytic micromotors, magnetic microrobot
+categories: 
+  - Modeling
+  - Catalytic micromotors
+  - Magnetic microrobots
+image: /images/publications/2019folioMARSS-slides.webp
+---
+
+[![](/images/publications/2019folioMARSS-slides.webp)](/pdf/publications/2019folioMARSS-slides.pdf "Click to download PDF slides"){.download-link download="2019folioMARSS-slides.pdf"} 
+
+{{< include ../_footer.qmd >}}
