@@ -1,0 +1,23 @@
+#RewriteEngine on
+#php_flag zlib.output_compression on
+#php_value zlib.output_compression_level 2
+
+Options -Indexes -ExecCGI -FollowSymLinks -Includes  +MultiViews
+
+<IfDefine Free>
+php56 1
+</IfDefine>
+
+
+#ErrorDocument 404 /404.html
+
+<Files ".ht*">
+Order allow,deny
+Deny from all
+Satisfy all
+</Files>
+
+AddDefaultCharset utf-8
+LanguagePriority  en fr
+
+RedirectMatch permanent ^/$ https://dfolio.fr/

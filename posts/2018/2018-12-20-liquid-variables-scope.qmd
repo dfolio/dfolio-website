@@ -6,6 +6,7 @@ description: >
   Take care on the use of variables...
 image: https://jekyllrb.com/img/logo-2x.png
 categories: [jekyll]
+aliases: [/articles/2018/12/liquid-variables-scope/]
 ---
 
 When dealing with [Jekyll][1] template and use of [Liquid][2] language one may take care when assign variables, especially with several includes.

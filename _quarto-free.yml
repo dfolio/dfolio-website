@@ -1,0 +1,14 @@
+project:
+  title: "dfolio(at)free.fr website"
+  output-dir: _site-free
+  resources:
+    - .htaccess
+
+website:
+  #site-url: https://dfolio.free.fr
+
+  google-analytics:
+    tracking-id: 'G-P49B92C60B'
+
+google-site-verification: "Sgx1zZ3gmG87KGSYq9dNEy1UOYKmTmQ8kvGBPBj4mkE"
+msvalidate: "24CE5E8134BD1EEE1A27F32D3E0F5927"

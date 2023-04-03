@@ -2,6 +2,7 @@
 date: 2018-09-14 14:50:43 +0200
 aliases: 
   - /teaching/SFEN/
+  - /teach/SFEN/
 lang: fr 
 title: L'option SFEN
 subtitle: Sûreté et Fonctionnement en Énergie Nucléaire (SFEN)

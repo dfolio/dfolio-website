@@ -13,9 +13,12 @@ website is up again.
 But, as you see, mainly in [English](/about/about.qmd#langage).
 -->
 Hi everyone!
+
+:::{.callout-note}
 This the new version of my  personal webpage now at <https://dfolio.fr>.
-The old <https://dfolio.free.fr> remains. 
-But without guarantees that it will be up-to-date as it will be on <https://dfolio.fr> (see the [history](/about/history.qmd) page for some information).
+The old <http://dfolio.free.fr> remains. 
+But without guarantees that it will be up-to-date as mush as  it will be on <https://dfolio.fr> (see the [history](/about/history.qmd) page for some information).
+:::
 
 I like all aspects of web design, development, code and front end designing of
 websites. However, I am not a web designer nor a developer. I am just interested

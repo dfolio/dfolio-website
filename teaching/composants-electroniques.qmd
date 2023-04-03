@@ -2,6 +2,7 @@
 date: 2018-03-30 14:16:55.1522412215 +0200
 aliases: 
   - /teaching/composants-electroniques/
+  - /teach/composants-electroniques/
 lang: fr
 title: Composants électroniques
 keywords: [composants électroniques, électronique analogique, cours, david folio, INSA]

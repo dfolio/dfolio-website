@@ -1,7 +1,7 @@
 ---
 order: 1
 date: 2018-03-27 16:56:05.1522162565 +0200
-aliases:  [/teaching/]
+aliases:  [/teaching/, /teach/]
 title: Teaching activities
 #subtitle: '{{< meta pagetitle >}}'
 keywords: [dfolio, teach, activities]

@@ -5,6 +5,7 @@ date: 2018-12-01 19:27:14 +0100
 description: >
   My motivation behind the use of Pandoc.
 categories: [pandoc]
+aliases: [/articles/2018/12/why-use-markdown/]
 image: /images/Markdown.webp
 ---
 {{< include ../_links.qmd >}}

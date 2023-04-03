@@ -1,6 +1,11 @@
 ##############################
 # Netlify configuration file #
 ##############################
+[[redirects]]
+  from = "/teach"
+  to = "/teaching"
+  status = 301
+  query = {path = ":path"}
 
 [[headers]]
   for = "/*"

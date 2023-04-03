@@ -55,9 +55,19 @@ listing:
 freeze: false
 ---
 
+::: {.content-visible when-profile="free"}
+:::{.callout-warning}
+My personal website is now migrating to <https://dfolio.fr>
+This old <http://dfolio.free.fr> remains. 
+But without guarantees that it will be up-to-date as mush as it will be on <https://dfolio.fr> (see the [history](https://dfolio.fr/about/history.qmd) page for some information).
+:::
+:::
+
 ::: column-page
 # Welcome to dfolio' personal website ?
-
+::: {.content-visible unless-profile="free"}
+This is the new version of my  personal webpage.
+:::
 You can find on this site an overview of my activities as Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
 These activities include my [researches](/research/research.qmd) and [teaching](/teaching/teaching.qmd).
 

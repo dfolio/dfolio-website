@@ -2,6 +2,7 @@
 date: 2018-03-30 13:40:03.1522410003 +0200
 aliases: 
   - /teaching/ELAN/
+  - /teach/electronique-analogique/
 lang: fr
 title: Électronique Analogique
 keywords: [électronique analogique, cours, David Folio, INSA]

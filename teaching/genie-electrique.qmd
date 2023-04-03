@@ -2,6 +2,7 @@
 date: 2018-03-30 14:20:43.1522412443 +0200
 aliases: 
   - /teaching/genie-electrique/
+  - /teach/genie-electrique/
 lang: fr
 title: Electricité - Électrotechnique
 keywords: électronique analogique, cours, david folio, INSA
