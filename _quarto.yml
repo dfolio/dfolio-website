@@ -16,7 +16,6 @@ project:
     - "pdf/teaching/index.html"
     - "pdf/research/index.html"
     # Things that need to be at the site root
-    #- "webmanifest.json"
     - "browserconfig.xml"
     - "keybase.txt"
     - "sw.js"
@@ -41,7 +40,7 @@ website:
     style: simple
     type: implied
     palette: dark
-    policy-url: /about/privacy
+    policy-url: /about/privacy/
 
   google-analytics:
     #tracking-id: 'G-P49B92C60B'
