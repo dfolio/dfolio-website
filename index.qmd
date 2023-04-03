@@ -52,6 +52,7 @@ listing:
     #- /research/references.qmd
     - /publications/publications.qmd
 #max-width:850px;
+freeze: false
 ---
 
 ::: column-page

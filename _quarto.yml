@@ -26,7 +26,7 @@ website:
   description: "D. Folio is an associate professor (Dr. Habil) at INSA Centre Val de Loire, researching in microrobotics."
   image: "favicon.svg"
   favicon: "favicon.svg"
-  #site-url: https://dfolio.fr
+  #site-url: https://dfolio.free.fr
   #site-url: https://dfolio.quarto.pub
   site-url: https://dfolio.fr
   repo-url: https://github.com/dfolio/dfolio-website
