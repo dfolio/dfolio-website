@@ -108,7 +108,7 @@ website:
     collapse-below: lg
     left:
       - text: "About"
-        href: about.qmd
+        href: about/about.qmd
       #- sidebar:teaching
       - text: "Teaching"
         href: teaching/teaching.qmd
