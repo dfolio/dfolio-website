@@ -3,7 +3,7 @@ type: conference
 date: 2019-05-09
 title: Study of Robotized Electromagnetic Actuation System for Magnetic Microrobots Devoted to Minimally Invasive Ophthalmic Surgery
 description: | 
-
+  This work investigates how to improve EMA system.
 author:
   - name: Ruipeng Chen
     affiliations:
