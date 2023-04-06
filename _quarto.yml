@@ -40,7 +40,7 @@ website:
     style: simple
     type: implied
     palette: dark
-    policy-url: /about/privacy/
+    policy-url: /about/privacy.qmd
 
   google-analytics:
     #tracking-id: 'G-P49B92C60B'
@@ -108,7 +108,7 @@ website:
     collapse-below: lg
     left:
       - text: "About"
-        href: about/
+        href: about.qmd
       #- sidebar:teaching
       - text: "Teaching"
         href: teaching/teaching.qmd
@@ -130,7 +130,7 @@ website:
   sidebar:
     - id: about
       #collapse-level: 1
-      title: "Teaching"
+      title: "About"
       #style: "docked"
       style: "floating"
       contents:
@@ -139,7 +139,6 @@ website:
         - about/history.qmd
         - about/privacy.qmd
         - about/license.qmd
-
 
     - id: teaching
       #collapse-level: 1
