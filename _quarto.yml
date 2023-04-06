@@ -8,6 +8,7 @@ project:
   resources:
     - CNAME
     - netlify.toml
+    - "ads.txt"
     - "favicon.svg"
     - "images/favicons/*"
     - "images/index.html"
@@ -19,6 +20,7 @@ project:
     - "browserconfig.xml"
     - "keybase.txt"
     - "sw.js"
+    - "26debdd5c70948148dc25915bd7777ae.txt"
 
 website:
   title: "dfolio' website"

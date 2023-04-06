@@ -11,6 +11,9 @@ $if(math)$$if(mathjax)$<script src="https://polyfill.io/v3/polyfill.min.js?featu
 $for(css)$<link rel="stylesheet" href="$css$" />$endfor$
 </head>
 <body>
+$if(ads.amp)$$if(canonical)$
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-$ads.pub$"></amp-auto-ads>
+$endif$$endif$
 $for(include-before)$$include-before$$endfor$
 
 $if(title)$
