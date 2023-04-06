@@ -66,6 +66,10 @@ categories:
   - Magnetic microrobots
 ---
 
+## Support information
+The [USMicroMagset](https://gitlab.com/insa-cvl2/USMicroMagSet/) dataset is available on gitlab at
+<https://gitlab.com/insa-cvl2/USMicroMagSet/>
+
 ## Funding 
 
-This work was supported by the Region Centre Val de Loire Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.
+This work was supported by the [Region Centre Val de Loire]{.fr lang="fr"} Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.
