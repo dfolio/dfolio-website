@@ -16,6 +16,7 @@ listing:
     fields: [image, date, title, reading-time, categories, description]
     type: default
     categories: cloud
+    feed: true
   - id: posts-2021
     contents:  "2021/*"
     sort: "date desc"
@@ -29,7 +30,9 @@ listing:
     contents:  "2018/*"
     sort: "date desc"
     fields: [image, date, title, reading-time, categories, description]
-    
+aliases: 
+  - /posts/index.html
+  - /articles/index.html
 ---
 
 ### 2023

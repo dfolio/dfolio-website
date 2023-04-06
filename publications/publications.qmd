@@ -18,6 +18,7 @@ listing:
     # categories: true
     sort-ui: [date, author]
     date-format: "YYYY"
+    feed: true
   
   - id: conferences-list
     contents: conferences/*.qmd

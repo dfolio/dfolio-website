@@ -8,6 +8,7 @@ $if(date-meta)$<meta name="dcterms.date" content="$date-meta$" />$endif$
 $if(keywords)$<meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />$endif$
 $if(description-meta)$<meta name="description" content="$description-meta$" />$endif$
 <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
+$if(rss)$<link rel="alternate" type="application/rss+xml" title="$title-prefix$" href="$rss$" >$endif$
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- sizes="180x180" -->

@@ -121,7 +121,7 @@ website:
       - text: "Publications"
         href: publications/publications.qmd
       - text: "Posts"
-        href: posts/index.qmd
+        href: posts/posts.qmd
     tools:
     #   - icon: save
     #     menu:
