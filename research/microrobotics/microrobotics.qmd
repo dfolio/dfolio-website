@@ -38,14 +38,13 @@ microrobot and microrobotic would refer mainly to systems that have
 characteristic length globally of $L<\SI{1000}{\micro\meter}$ .
 :::
 
-
-## Why microrobots ?
+## Why using microrobots?
 
 Since few decades, the societal, industrial and scientific issues related to more and more miniaturized objects or systems are of significant interests
 [@fatikow1997microsystem; @nelson2008micro; @nelson2010microrobots; @sitti2009miniature; @sitti2017mobile].
 These interests concern various domains such as healthcare, biotechnologies,
 manufacturing, space, environment, power and so on, with the aims to
-energy saving, mass reduction, lower $\ce{CO2}$ release, etc. This
+energy saving, mass reduction, lower CO~2~ release, etc. This
 is made possible thanks to the advances in micro/nano-scale sciences and
 technologies allowing creating tiny tools able to operate in very small
 spaces, and to control or interact with micro/nano-scale entities efficiently. Such
@@ -101,7 +100,6 @@ These various challenges associated with the lack of knowledge and tools are the
 works towards the realization of _advanced microrobotic tasks_. 
 Our original approach aims to propose a framework spanning from the understanding of the microrobotic system and its environment, to the definition of their navigation strategies. 
 Especially, we  focus mainly on [**biomedical applications**](biomedical.qmd).
-
 
 ## References
 

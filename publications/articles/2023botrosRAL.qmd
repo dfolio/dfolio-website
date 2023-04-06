@@ -43,8 +43,13 @@ links:
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
-    class: "btn btn-danger btn-sm"
+    class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-04060583
+  - name: "Materials"
+    aria-label: "materials"
+    icon: "bi bi-file-earmark-plus"
+    class: "btn btn-light"
+    href: https://gitlab.com/insa-cvl2/USMicroMagSet/
 citation: 
   citation-key: 2023botrosRAL
   language: en-US

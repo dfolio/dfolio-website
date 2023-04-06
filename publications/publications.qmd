@@ -9,7 +9,6 @@ description: |
   A selection of academic publications that  David Folio has co-authored.
 
 toc-title: Publication type
-
 listing:
   - id: articles-list
     contents: articles/*.qmd
@@ -40,21 +39,23 @@ listing:
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
-
-#sidebar: false
-page-layout: full
+date-format: "MMMM D, YYYY"
+#page-layout: full
+# page-layout: article
+title-block: true
 title-block-meta: false
 css: publications.css
-
 image: /images/logo-df.webp
 image-alt: "D. F. logo"
 image-width: 80%
 image-height: 80%
 categories: [dfolio, research, bibliography]
+
 ---
 
 :::{.callout-note}
 A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).
+\
 See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
 :::
 

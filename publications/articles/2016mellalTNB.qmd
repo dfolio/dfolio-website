@@ -45,12 +45,12 @@ links:
   - name: "Pubmed"
     aria-label: "Pubmed"
     icon: "ai ai-pubmed"
-    class: "btn btn-success btn-sm"
+    class: "btn btn-primary btn-sm"
     href: https://pubmed.ncbi.nlm.nih.gov/26955045
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
-    class: "btn btn-danger btn-sm"
+    class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-01305959
 citation:
   citation-key: 2016mellalTNB

@@ -2,7 +2,8 @@
 title: "Locale/language issue with Quarto website :/"
 description: "How to solve locale/language issue with R and Quarto"
 date: "2023-03-30 17:52:07 +0200"
-image: /images/logo-df.webp
+image: https://quarto.org/quarto.png
+image-alt: Quarto logo
 categories: [web, quarto]
 ---
 

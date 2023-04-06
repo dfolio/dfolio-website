@@ -42,7 +42,7 @@ links:
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
-    class: "btn btn-danger btn-sm"
+    class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03528527
   - name: "PDF"
     aria-label: "PDF"

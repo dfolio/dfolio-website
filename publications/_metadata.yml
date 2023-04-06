@@ -2,7 +2,8 @@ title-block: true
 title-block-meta: true
 scite-badge: true
 google-scholar: true
-
+page-layout: article
+freeze: true
 date-format: "YYYY"
 affiliations:
   - id: PRISME

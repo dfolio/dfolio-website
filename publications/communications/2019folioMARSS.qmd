@@ -15,7 +15,7 @@ links:
   - name: "PDF"
     aria-label: "PDF"
     icon: "bi bi-file-pdf"
-    class: "btn btn-danger btn-sm"
+    class: "btn btn-primary btn-sm"
     href: /pdf/publications/2019folioMARSS-slides.pdf
 citation: 
   issued: 2019-07-03

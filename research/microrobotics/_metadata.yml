@@ -1,3 +1,6 @@
 title-block: true
 title-block-meta: true
 google-scholar: true
+comments:
+    giscus:
+      repo: dfolio/dfolio

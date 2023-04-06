@@ -34,7 +34,7 @@ links:
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
-    class: "btn btn-danger btn-sm"
+    class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-01446482
   - name: "Materials"
     aria-label: "materials"

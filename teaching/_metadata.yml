@@ -1,6 +1,7 @@
 sidebar: teaching
 title-block-meta: false
 google-scholar: true
+comments: false
 
 author:
   name:
@@ -14,7 +15,6 @@ author:
     equal-contributor: true
   affiliations:
     - ref: INSA-CVL
-
 affiliations:
   - id: INSA-CVL
     name: "INSA Centre Val de Loire"
