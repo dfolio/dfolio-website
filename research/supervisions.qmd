@@ -94,7 +94,7 @@ Lyès Mellal
 
     References
 
-    :   [@2015mellalIROS; @2015mellalJNR; @2016mellalICRA; @2016mellalMARSS; @2016mellalTNB; @2017mellalMARSS; @2018mellalEncyclopedia; @mellal2021modeling]
+    :   [@2015mellalIROS; @2015mellalJNR; @2016mellalICRA; @2016mellalMARSS; @2016mellalTNB; @2017mellalMARSS; @2018mellalEncyclopedia; @2022mellalRAL]
 
     Situation
 

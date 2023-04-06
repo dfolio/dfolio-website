@@ -1,0 +1,71 @@
+---
+type: journal
+date: "2023"
+title: "USMicroMagSet: Using Deep Learning Analysis to Benchmark the Performance of Microrobots in Ultrasound Images"
+description: | 
+  This letter proposes the USMicroMagSet dataset and a deep learning method to detect and track microrobots in ultrasound images.
+author:
+  - name: Karim Botross
+    affiliations:
+      - ref: PRISME
+    attributes:
+      supervised: true
+      equal-contributor: true
+  - name: Alkhatib, Mohammad
+    affiliations:
+      - ref: pascal
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: https://dfolio.fr
+    attributes:
+      equal-contributor: true
+    affiliations:
+      - ref: PRISME
+  - name: Antoine Ferreira
+    affiliations:
+      - ref: PRISME
+    attributes:
+      equal-contributor: true
+      corresponding: true
+doi: 10.1109/LRA.2023.3264746
+links:
+  - name: "DOI"
+    aria-label: "DOI"
+    icon: "ai ai-doi"
+    class: "btn btn-success btn-sm"
+    href: "https://doi.org/10.1109/10.1109/LRA.2023.3264746"
+  - name: "IEEE"
+    aria-label: "IEEE"
+    icon: "ai ai-ieee"
+    class: "btn btn-success btn-sm"
+    href: https://ieeexplore.ieee.org/document/10093014
+  - name: "HAL"
+    aria-label: "HAL"
+    icon: "ai ai-hal"
+    class: "btn btn-danger btn-sm"
+    href: https://hal.archives-ouvertes.fr/hal-04060583
+citation: 
+  citation-key: 2023botrosRAL
+  language: en-US
+  type: article-journal
+  genre: ACL
+  publisher: IEEE
+  container-title: IEEE Robotics and Automation Letters
+  container-title-short: Robot. Autom. Lett.
+  #number: 3
+  #volume: 6
+  page: 1-8
+  abstract: |
+    Microscale robots introduce great perspectives into many medical applications such as drug delivery, minimally invasive surgery, and localized biometric diagnostics. Fully automatic microrobots' real-time detection and tracking using medical imagers are actually investigated for future clinical translation. Ultrasound (US) B-mode imaging has been employed to monitor single agents and collective swarms of microrobots in vitro and ex vivo in controlled experimental conditions. However, low contrast and spatial resolution still limit the effective employment of such a method in a medical microrobotic scenario due to uncertainties associated with the position of microrobots. The positioning error arises due to the inaccuracy of the US-based visual feedback, which is provided by the detection and tracking algorithms. The application of deep learning networks is a promising solution to detect and track real-time microrobots in noisy ultrasonic images. However, what is most striking is the performance gap among state-of-the-art microrobots deep learning detection and tracking research. A key factor of that is the unavailability of large-scale datasets and benchmarks. In this paper, we present the first publicly available B-mode ultrasound dataset for microrobots ($USmicroMagSet$) with accurate annotations which contains more than 40000 samples of magnetic microrobots. In addition, for analyzing the performance of microrobots included in the proposed benchmark dataset, 4 deep learning detectors and 4 deep learning trackers are used.
+impact-factor: "4.321"
+quartile: "Q1"
+categories: 
+  - US imaging
+  - Tracking
+  - Magnetic microrobots
+---
+
+## Funding 
+
+This work was supported by the Region Centre Val de Loire Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.

@@ -48,7 +48,7 @@ links:
     class: "btn btn-danger btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03416758
 citation: 
-  citation-key: mellal2021modeling
+  citation-key: 2022mellalRAL
   language: en-US
   type: article-journal
   genre: ACL

@@ -7,9 +7,6 @@ pagetitle: D. Folio PhD. Thesis
 keywords: [dfolio, PhD, thesis, visual servoing, sensor based control]
 description: >
   Some informations on the doctorate degree of David FOLIO
-#css: /assets/css/references.css
-#critical-css: references
-
 bibliography: [../../research/references.bib, ../../research/dfolio.bib]
 aliases: 
   - /research/thesis/

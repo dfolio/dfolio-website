@@ -57,7 +57,7 @@ Most of the documents hereafter are also shared or listed on the following acade
 - [{{< ai researchgate title='researchgate' >}} ResearchGate](https://www.researchgate.net/profile/David_Folio){rel="noopener noreferrer"}
 - [{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/david-folio/){rel="noopener noreferrer"}
 - [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.archives-ouvertes.fr/aut/David+Folio/){rel="noopener noreferrer"} 
-  [ --- see also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}]{.text-right .text-muted .small}
+  [ --- see also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}]{.text-right .text-muted .small}
 
 
 You may also be interested in the [publications page](../publications/publications.qmd) where some of the documents below are shared.

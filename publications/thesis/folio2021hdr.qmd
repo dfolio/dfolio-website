@@ -2,6 +2,7 @@
 type: thesis
 date: 2021-12-03
 title: Magnetic Microrobotics for Biomedical Applications
+subtitle: Modeling, Simulation, Control and Validations
 pagetitle: D. Folio Habilitation
 keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
 description: >
@@ -107,7 +108,7 @@ Different research groups aim to design appropriate solutions that could be appl
 So far, the use of magnetic actuation appears to be the most convenient approach for such realizations [@folio2012iros; @2015mellalIROS; @2022chenApplied].
 This original theme is a field still in progress with the ambition to modernize current therapies by seeking to improve therapeutic targeting while enhancing patient comfort.
 To achieve this goal, a good understanding of the microrobots evolving in the human body is an important step [@2010belharetIROS; @folio2012iros].
-We have thus studied the theoretical foundation and the physical laws allowing to describe the various phenomena which act on magnetic microrobots in vascular-like environment [ @2015sarkisICRA;@2016jangACS; @2018sarkisJMEMS; @2013belharetISOT; @2022folioTCST; @2016mellalTNB; @2018mellalEncyclopedia; @mellal2021modeling; @2022wuAIS].
+We have thus studied the theoretical foundation and the physical laws allowing to describe the various phenomena which act on magnetic microrobots in vascular-like environment [ @2015sarkisICRA;@2016jangACS; @2018sarkisJMEMS; @2013belharetISOT; @2022folioTCST; @2016mellalTNB; @2018mellalEncyclopedia; @2022mellalRAL; @2022wuAIS].
 We have developed a methodology allowing us to deal with multiphysics approaches combining different sources of uncertainties and hypotheses [@2013belharetTBME].
 Great care has been taken in their validations through experiments when it is possible, otherwise with numerical analysis.
 This help us  to better understand the overriding dynamics, as well as the predominant parameters in the description of magnetic microrobots in a vascular-like environment.
