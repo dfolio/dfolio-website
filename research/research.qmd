@@ -74,7 +74,7 @@ The different projects in which I have been involved are reported in [Research P
 
 
 :::{#fig-timeline}
-![](/images/research/timeline.webp "Timeline of D. FOLIO activities")
+![](/images/research/timeline.webp "Timeline of D. FOLIO activities"){width=95%}
 
 Timeline of my activities.
 :::
@@ -111,9 +111,9 @@ dealt with the design of multi-sensor based control strategies allowing a mobile
 vision-based tasks amidst possibly occluding obstacles.
 
 :::{#fig-mobile-robot layout=[30,-10,60]}
-![](/images/research/super-scout.webp){#fig-scout}
+![](/images/research/super-scout.webp "Super scout"){width=30% }
 
-![](/images/research/bertin.webp){#fig-aerial}
+![](/images/research/bertin.webp "Bertin Unmanned Aerial Vehicles"){#fig-aerial}
 
 Mobile robots use (a) during my doctorate and  (b) in my post-doctorate.
 :::

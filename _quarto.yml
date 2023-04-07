@@ -84,7 +84,7 @@ website:
         text: "{{< ai google-scholar title='google scholar' >}}"
         href: https://scholar.google.fr/citations?user=XQVc6JMAAAAJ
       - aria-label: "Academia"
-        text: "{{< ai academia >}}"
+        text: "{{< ai academia title='academia' >}}"
         href: https://insa-centrevaldeloire.academia.edu/DavidFolio
       - aria-label: "ResearchGate"
         text: "{{< ai researchgate title='researchgate' >}}"
