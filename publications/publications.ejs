@@ -41,11 +41,11 @@
       <% } %>
       -->
       <div class="publication-btn btn-toolbar" role="toolbar" aria-label="Links to publication">
-        <a href="<%- item.path %>" class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a>
-
+      <ul class="nav justify-content-center">
+      <li class="nav-item"><a href="<%- item.path %>" class="nav-link"><span class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</span></a></li>
         <% if (item.links) { %>
           <% for (const link of item.links) { %>
-          <a href="<%= link.href %>" class="<%- link.class %>" target="_blank" rel="noopener noreferrer"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a>
+          <li class="nav-item"><a href="<%= link.href %>" class="nav-link" target="_blank" rel="noopener noreferrer"><span class="<%- link.class %>"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></span></a></li>
           <% } %>
            <% if (item.doi) { %>
             <div class="scite-badge" data-doi="<%= item.doi %>" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
@@ -78,6 +78,7 @@
             <a href="<%- item.materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-zip"></i>&nbsp;Materials</a>
           <% } %>
         <% } %>
+      </ul>
       </div>
     </li>
   <% } %>
