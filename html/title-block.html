@@ -11,7 +11,9 @@
   $if(subtitle)$<p class="subtitle lead">$subtitle$</p>$endif$
   $if(categories)$$if(quarto-template-params.title-block-categories)$
   <div class="quarto-categories">
-  $for(categories)$<div class="quarto-category">$categories$</div>$endfor$
+    <ul class="nav justify-content-center">
+    $for(categories)$<li class="nav-item"><span class="nav-link quarto-category">$categories$</span></li>$endfor$
+    </ul>
   </div>$endif$$endif$
   </div>
 </div>

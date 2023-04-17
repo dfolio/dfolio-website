@@ -24,10 +24,10 @@ project:
     - "yandex_6973f7dbef8d9fa8.html"
 
 website:
-  title: "dfolio' website"
-  description: "D. Folio is an associate professor (Dr. Habil) at INSA Centre Val de Loire, researching in microrobotics."
-  image: "favicon.svg"
-  favicon: "favicon.svg"
+  title: &title "dfolio' website"
+  description: &description "D. Folio is an associate professor (Dr. Habil) at INSA Centre Val de Loire, researching in microrobotics."
+  image: &logo "favicon.svg"
+  favicon: *logo
   #site-url: https://dfolio.free.fr
   #site-url: https://dfolio.quarto.pub
   site-url: https://dfolio.fr
@@ -63,11 +63,11 @@ website:
     border: false
     left: |
         [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/about.qmd).]{.copyright aria-label="copyright"}
-        [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License")](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
+        [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License"){fig-alt="CC by 4.0"}](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
         Site licensed under]{.d-none .d-lg-inline}
         [[{{< fa brands creative-commons-by title="CC-BY 4.0" >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
 
-    right:
+    right: &links
       - aria-label: "GitHub"
         icon: github
         href:  https://github.com/dfolio
@@ -75,10 +75,10 @@ website:
         text: "{{< ai orcid title='orcid' >}}"
         href: https://orcid.org/0000-0001-9430-6091
       - aria-label: "clarivate (webofscience)"
-        text: "{{< ai clarivate title='clarivate' >}}"
+        text: "{{< ai clarivate title='clarivate author profile' >}}"
         href: https://www.webofscience.com/wos/author/record/D-5808-2013
       - aria-label: "Scopus"
-        text: "{{< ai scopus >}}"
+        text: "{{< ai scopus title='Scopus author profile' >}}"
         href: https://www.scopus.com/authid/detail.uri?authorId=15924858900
       - aria-label: "Google Scholar"
         text: "{{< ai google-scholar title='google scholar' >}}"
@@ -98,13 +98,16 @@ website:
       - aria-label: "HAL"
         text: "{{< ai hal title='HAL archive ouverte' >}}"
         href: https://cv.hal.science/david-folio
+      - aria-label: "keybase"
+        text: "{{< fa brands keybase title='keybase profile' >}}"
+        href: https://keybase.io/dfolio
 #      - aria-label: "Website"
 #        icon: link-45deg
 #        href:  http://dfolio.free.fr
 
   navbar:
     pinned: false
-    logo: "favicon.svg"
+    logo: *logo
     logo-alt: "dfolio website logo"
     search: true
     title: false
@@ -223,7 +226,7 @@ execute:
   warning: false
 
 # Metadata stuff
-title-prefix: "dfolio' website"
+title-prefix: *title
 author-meta: "D. FOLIO"
 
 google-site-verification: "2LKsKZuNGSvXTnIpJyX2dJKhpug9PmKo88MIFWhdOTo"

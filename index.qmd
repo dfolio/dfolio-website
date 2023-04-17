@@ -15,20 +15,26 @@ comments: false
 about:
   template: trestles
   links:
-    - aria-label: "gitHub"
+    - aria-label: "GitHub"
       icon: github
       href:  https://github.com/dfolio
     - aria-label: "Orcid"
       text: "{{< ai orcid title='orcid' >}}"
       href: https://orcid.org/0000-0001-9430-6091
     - aria-label: "clarivate (webofscience)"
-      text: "{{< ai clarivate title='clarivate' >}}"
+      text: "{{< ai clarivate title='clarivate author profile' >}}"
       href: https://www.webofscience.com/wos/author/record/D-5808-2013
+    - aria-label: "Scopus"
+      text: "{{< ai scopus title='Scopus author profile' >}}"
+      href: https://www.scopus.com/authid/detail.uri?authorId=15924858900
     - aria-label: "Google Scholar"
       text: "{{< ai google-scholar title='google scholar' >}}"
       href: https://scholar.google.fr/citations?user=XQVc6JMAAAAJ
+    - aria-label: "Academia"
+      text: "{{< ai academia title='academia author profile' >}}"
+      href: https://insa-centrevaldeloire.academia.edu/DavidFolio
     - aria-label: "ResearchGate"
-      text: "{{< ai researchgate title='researchgate' >}}"
+      text: "{{< ai researchgate title='researchgate  author profile' >}}"
       href: https://www.researchgate.net/profile/David_Folio
     - aria-label: "LinkedIn"
       icon: linkedin
@@ -37,8 +43,11 @@ about:
       icon: link-45deg
       href: https://viadeo.com/fr/profile/david.folio
     - aria-label: "HAL"
-      text: "{{< ai hal title='HAL archive ouverte' >}}"
-      href:  https://cv.hal.science/david-folio
+      text: "{{< ai hal title='HAL archive ouverte CV' >}}"
+      href: https://cv.hal.science/david-folio
+    - aria-label: "keybase"
+      text: "{{< fa brands keybase title='keybase profile' >}}"
+      href: https://keybase.io/dfolio
 anchor-sections: false
 search: false
 listing:
