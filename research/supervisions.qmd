@@ -75,7 +75,7 @@ Ruipeng Chen
 
     :   Post Doctorate,  {{< var INSA-CVL >}}, Bourges, France.
 
-Lyès Mellal
+[Lyès Mellal]{#Lyès-Mellal}
 
 :    
 
@@ -125,7 +125,7 @@ Lyès Mellal
 
     :   Associate Professor HEI, Châteauroux, France
 
-Karim Belharet
+[Karim Belharet]{#Karim-Belharet}
 
 :    
 
