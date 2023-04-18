@@ -173,9 +173,9 @@ website:
           - research/projects/BUBBLEBOT.qmd
           - research/projects/MTG.qmd
         - section: "Microrobotics"
-          contents:
-          -  research/microrobotics/microrobotics.qmd
-          - research/microrobotics/biomedical.qmd
+          contents: research/microrobotics/*.qmd
+          #-  research/microrobotics/microrobotics.qmd
+          #- research/microrobotics/biomedical.qmd
         - section: Bibliography
           contents:
             - research/references.qmd

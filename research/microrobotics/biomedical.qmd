@@ -1,6 +1,7 @@
 ---
 date: 2022-01-04 16:05:33 +0100
 aliases: [/research/microrobotics/biomedical/]
+order: 2
 title: Biomedical applications
 pagetitle: "About biomedical applications of microrobots"
 keywords: [dfolio, projects, research, activities, microrobot,biomedical applications]
