@@ -147,7 +147,6 @@ website:
         - about/license.qmd
 
     - id: teaching
-      #collapse-level: 1
       title: "Teaching"
       contents:
         - teaching/teaching.qmd
@@ -161,8 +160,8 @@ website:
 
     - id: research
       title: "Research"
-      collapse-level: 2
-      align: left
+      collapse-level: 1
+      #align: left
       contents:
         - research/research.qmd
         - research/supervisions.qmd
@@ -173,7 +172,19 @@ website:
           - research/projects/BUBBLEBOT.qmd
           - research/projects/MTG.qmd
         - section: "Microrobotics"
-          contents: research/microrobotics/*.qmd
+          href: research/microrobotics/microrobotics.qmd
+          contents:
+          - section:  "Biomedical application"
+            href: research/microrobotics/biomedical/biomedical.qmd
+            contents:
+            - research/microrobotics/biomedical/microrobot-vessel.qmd
+          - section: "Magnetic Microrobots"
+            href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd
+            contents:
+            - text: "Magnetic Actuation"
+              href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd
+            - research/microrobotics/magnetic-microrobot/magnetic-properties.qmd
+
           #-  research/microrobotics/microrobotics.qmd
           #- research/microrobotics/biomedical.qmd
         - section: Bibliography
@@ -224,6 +235,10 @@ execute:
   echo: false
   message: false
   warning: false
+crossref:
+  fig-title: Fig     # (default is "Figure")
+  eq-title: Eq       # (default is "Equation")
+  #tbl-title: Tbl     # (default is "Table")
 
 # Metadata stuff
 title-prefix: *title

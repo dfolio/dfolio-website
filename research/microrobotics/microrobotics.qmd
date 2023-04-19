@@ -9,34 +9,26 @@ description: >
 #toc: false
 images: /images/research/microrobotics-scales.webp
 bibliography: [../references.bib]
-format:
-  html:
-    include-in-header: 
-      text: |
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js" id=""></script>
-    include-after-body: 
-      - ../../html/siunitx.html
-
 author-block: true
 ---
 ::: {.callout-note}
 **Microbotics** is commonly referred to the branch of robotics, which
 deals with the study and application of miniature ones, such as microscale mobile robots.
 The term can also be used for system capable of manipulating micrometer-sized components.
-\
+
 While the '*micro*' prefix has been used subjectively to mean "small",
 standardizing on length scales should avoid confusion. A nanorobot
-would have characteristic dimensions at or below $L<\SI{1}{\micro\meter}$,
-or manipulate components on the $1$ to $\SI{1000}{\nano\meter}$ size range.
+would have characteristic dimensions at or below $L<1$ [µm]{.unit},
+or manipulate components on the $1$ to ${1000}$ [nm]{.unit} size range.
 Similarly, a millirobot would have characteristic length
-$L<\SI{1}{\centi\meter}$; and a small-robot would have dimensions
-$L<\SI{10}{\centi\meter}$. Anything above the milli-scale is,
+$L<1$ [cm]{.unit}; and a small-robot would have dimensions
+$L<10$ [cm]{.unit}. Anything above the milli-scale is,
 here, globally considered as a macroscale robot, where objects or
 phenomena are large enough to be visible with the naked eye.
 
 For the sake of clarity and simplicity the terms of
 microrobot and microrobotic would refer mainly to systems that have
-characteristic length globally of $L<\SI{1000}{\micro\meter}$ .
+characteristic length globally of $L<1000$ [µm]{.unit} .
 :::
 
 ## Why using microrobots?
@@ -63,7 +55,7 @@ and health monitoring...
 Before that, a good understanding of the considered small scale and its specificity is essential.
 
 :::{#fig-scales}
-![](/images/research/microrobotics-scales.webp "microrobotics scales"){width=80%}
+![](/images/research/microrobotics-scales.webp "microrobotics scales"){width=80% fig-alt="microrobotics scales"}
 
 Representation of the scaling importance towards the microworld. The last rows report the relevant
 imaging modalities.
@@ -100,7 +92,7 @@ and features allowing manipulating and interacting directly with the microworld.
 These various challenges associated with the lack of knowledge and tools are the main motivations of my research
 works towards the realization of _advanced microrobotic tasks_. 
 Our original approach aims to propose a framework spanning from the understanding of the microrobotic system and its environment, to the definition of their navigation strategies. 
-Especially, we  focus mainly on [**biomedical applications**](biomedical.qmd).
+Especially, we  focus mainly on [**biomedical applications**](biomedical/biomedical.qmd).
 
 ## References
 
