@@ -8,16 +8,10 @@ description: >
   Discussion by David FOLIO about microrobots in vascular like environment.
 #toc: false
 images: /images/research/microrobotics-scales.webp
-bibliography: [../references.bib,../dfolio.bib]
+bibliography: [../../references.bib,../../dfolio.bib]
 format:
   html:
-    include-in-header: 
-      text: |
-        <script>
-        window.MathJax = {
-          loader: {load: ['[tex]/physics']},
-          tex: {packages: {'[+]': ['physics']}}
-        };</script>
+    include-in-header: ../../../html/mathjax.html
     html-math-method: mathjax
 author-block: true
 ---

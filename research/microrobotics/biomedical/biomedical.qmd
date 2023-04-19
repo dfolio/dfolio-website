@@ -2,15 +2,13 @@
 date: 2022-01-04 16:05:33 +0100
 aliases: [/research/microrobotics/biomedical/]
 order: 2
-title: Biomedical applications
+title: Microrobotics for biomedical applications
 pagetitle: "About biomedical applications of microrobots"
 keywords: [dfolio, projects, research, activities, microrobot,biomedical applications]
 description: >
   David Folio discuss here the challenges and opportunities of microrobots for biomedical applications.
-bibliography: [../references.bib,../dfolio.bib]
+bibliography: [../../references.bib,../../dfolio.bib]
 ---
-
-## Microrobotics for biomedical applications
 
 Since the 1980s with the first surgical guidance robots, the use of robotic
 systems in medicine and biomedical applications are growing, giving birth to the
