@@ -32,9 +32,10 @@ gradients are applied [@abbott2020magnetic], as illustrated in @fig-magnetic-act
 
 ![](/images/research/magnetic-actuation-c.webp "oscillating magnetic"){#fig-magnetic-actuation-c fig-alt="oscillating magnetic"}
 
-Schematic representation of basic magnetic swimming principle: (a) bead pulling with $\grad{\vb{B}}$, (b) rotating magnetic field on helical microswimmer, and (c) oscillating magnetic field can be used to induce a traveling waves on flagella.
+Schematic representation of basic magnetic swimming principle: (a) bead pulling with[^dB] $\grad{\vb{B}}$, (b) rotating magnetic field on helical microswimmer, and (c) oscillating magnetic field can be used to induce a traveling waves on flagella.
 :::
 
+[^dB]: The arrow that represents $\grad{\vb{B}}$ is there for the sake of clarity only. In no case $\grad{\vb{B}}$ is a 2D or 3D vector: it can indeed have up to 9 components...
 
 ##  Magnetic manipulation 
  
