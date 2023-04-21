@@ -50,6 +50,7 @@ developed on a magnetized object are usually expressed as follows
 \vb{t}_m &=V_m \ \vb{M} \times  \vb{B} \label{eq-Tm}
 \end{align}
 where $V_m=\tau_m V$ is the volume of magnetic materials, with $V$ the total volume and $\tau_m$ the magnetization rate of the microrobot.
+\
 The magnetization $\vb{M}$ ([A/m]{.unit}) denotes the magnetic moment per unit volume 
 due to any individual magnetic moments $\vb{m}$ existing in the material, that is:
 $$
@@ -59,7 +60,7 @@ According to Ampere's law, a magnet is equivalent to a circulating electric curr
 The elementary magnetic moment $\vb{m}$ can be represented by a tiny current loop.
 If the area of the loop is $S$, and the circulating current is $i$, then: $\vb{m}= i S$.
 
-When a $\vb{B}$-field passes through a magnetic material there can be some
+When a $\vb{B}$-field  ([T]{.unit}) passes through a magnetic material there can be some
 ambiguity regarding which part of the field that origins from the external field and
 which part that origins from the sample itself. It is then motivated to introduce
 the auxiliary field[^magnetic-field] $\vb{H}$ ([A/m]{.unit}) as:
