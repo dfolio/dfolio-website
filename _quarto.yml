@@ -45,12 +45,12 @@ website:
     palette: dark
     policy-url: /about/privacy.qmd
 
-  google-analytics:
-    #tracking-id: 'G-P49B92C60B'
-    #tracking-id: 'G-TVHK4RZ89K'
-    tracking-id: G-XQNLKMV9YH
-    version: 4
-    anonymize-ip: true
+#  google-analytics:
+#    #tracking-id: 'G-P49B92C60B'
+#    #tracking-id: 'G-TVHK4RZ89K'
+#    tracking-id: G-XQNLKMV9YH
+#    version: 4
+#    anonymize-ip: true
 
   open-graph:
     locale: en_US
