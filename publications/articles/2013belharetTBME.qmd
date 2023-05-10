@@ -49,6 +49,7 @@ links:
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-01112036
 citation: 
+  url: /publications/articles/2013belharetTBME.html
   citation-key: 2013belharetTBME
   type: article-journal
   genre: ACL

@@ -29,9 +29,14 @@ jobs:
         #   # To install LaTeX to build PDF book
         #   tinytex: true
 
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: html
+
       # add software dependencies here
       #
-      - name: Render and Publish
+      - name: Publish to NETLIFY
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: netlify

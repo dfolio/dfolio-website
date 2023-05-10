@@ -2,3 +2,8 @@
 
 # dfolio website
 dfolio' personal website build with [Quarto](https://quarto.org/).
+
+# Todo
+
+- Fix url issue in citations display:
+  - solution add url in citation metadata
