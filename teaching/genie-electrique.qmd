@@ -54,6 +54,9 @@ meilleur suivi de cet enseignement.
 -   Le transformateur monophasé;
 -   Les machines électriques tournantes: à courant continu, asynchrone, synchrone
 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8144330076490130" data-ad-slot="8519706932"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## Supports {#sec-supports}
 
 Vous avez ci-dessous les supports  au format  {{< fa file-pdf >}}:

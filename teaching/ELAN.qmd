@@ -60,6 +60,9 @@ Ces pré-requis comprennent, entre autre:
 Le cours et les TD sont communs aux deux campus (de Blois et de Bourges) de
 l'{{< var INSA-CVL >}}.
 
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-8144330076490130" data-ad-slot="8519706932"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## Supports {#sec-supports}
 
 Vous avez ci-dessous les supports des cours et TD d'électronique analogique au format {{< fa file-pdf >}}:
