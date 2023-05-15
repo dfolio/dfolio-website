@@ -16,8 +16,8 @@ image-alt: "Photo of David FOLIO"
 
 ##### **David Folio** {-}
 
-> Born September 17, 1979; 
-> French nationality
+> - Born September 17, 1979; 
+> - French nationality
 
 ##### Associate Professor (Dr. Habil) {-}
 
@@ -34,7 +34,7 @@ Further details about me:
 - [English version](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} {{< fa file-pdf >}}
   of [D. Folio's CV](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} [(issued 2022)]{.mutted}
 - [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
-  of [D. Folio's CV](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} [(issued 2018)]{.mutted}
+  of [D. Folio's CV](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} [(issued 2018)]{.mutted} [Thx Ruipeng]
 - See also my 
   - [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"}
   - [rapport d'activité](/pdf/2022_rapport-activite.pdf){.download-link .fr lang="fr" download="2022_rapport-activite_dfolio.pdf"}  [(issued 2022)]{.mutted}

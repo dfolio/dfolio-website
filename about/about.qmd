@@ -7,43 +7,46 @@ aliases:
 link-external-icon: true
 ---
 
-<!--
+:::{.callout-note}
+Here is the new version of my personal webpage now on <https://dfolio.fr> domain.
+The old <http://dfolio.free.fr> remains, but without guarantee that it will be up-to-date as mush as it will be on <https://dfolio.fr> 
+(see also the [history](/about/history.qmd) page for further information).
+:::
+
+
+::: {.content-visible when-profile="free"}
 Hi! Long time no see! After about 10 years [of dormancy](/about/history.qmd), [dfolio(at)free](/)
 website is up again.
 But, as you see, mainly in [English](/about/about.qmd#langage).
--->
-Hi everyone!
-
-:::{.callout-note}
-This the new version of my  personal webpage now at <https://dfolio.fr>.
-The old <http://dfolio.free.fr> remains. 
-But without guarantees that it will be up-to-date as mush as  it will be on <https://dfolio.fr> (see the [history](/about/history.qmd) page for some information).
 :::
-
-I like all aspects of web design, development, code and front end designing of
-websites. However, I am not a web designer nor a developer. I am just interested
-in these topics… as an '_hobby_'. So all development and design are made when I
-have time.
-You can also have legal notice on the [license](/about/license.qmd) and the [cookies-consent](/about/privacy.qmd#cookie) using the left sidebar panel.
+::: {.content-visible unless-profile="free"}
+Hi everyone!
+:::
+I like many aspects of web design, development, code front end designing of
+websites...
+However, I am neither a web designer nor a developer. 
+I am just interested in these topics... as a '_hobby_'. 
+So all development and design are made when I have time.
+You can also have a look to the notice on the [license](/about/license.qmd) and the [cookies-consent](/about/privacy.qmd#cookie) using the left sidebar.
 
 ## Goals
 
-The  [dfolio]' website aims to:
+The [dfolio]' website aims to:
 
-- share my activities as associate professor ([research](/research/research.qmd) and [teaching](/teaching/teaching.qmd) activities)
-- be a place to centralize stuff (quickly) while I found/discover new scientific, technological, or development topics.
+- share my activities as associate professor, that is [research](/research/research.qmd) and [teaching](/teaching/teaching.qmd) activities
+- be a place to centralize new scientific, technological,  development topics and miscellaneous stuff that I gave found/discovered
 
 ## Langage
 
 I am French, and my mother tongue is French. But, I have chosen to write mainly
-this new version of  [dfolio]' website in English. Why? Obviously for a wide spreading of
+this new version of [dfolio]' website in English. Why? Obviously for a wide spreading of
 its contents.
 
 
 ## Contact {#contact}
 
 You can react if you have any inquiries on the contents of this website.
-You may react me through the [social links](#social-links) below or in the page footer:
+You may react me through the [social links](#social-links) bellow or in the page footer:
 
 :::{#social-links}
 - [{{< fa brands github title="github" >}} Github](https://github.com/dfolio){rel="noopener noreferrer"}

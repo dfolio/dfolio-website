@@ -3,15 +3,15 @@ date: 2018-04-07 21:34:40.1523129680 +0200
 aliases: [/about/history/]
 keywords: [dfolio, about]
 title: History
-description: A brief story about of dfolio(at)free' website
+description: A brief story about of dfolio' website
 ---
 
 Long time no see!
 
 ## History
 
-Let me show a brief history of [dfolio(at)free]. I don't remember
-exactly when I have created an account on the
+Let me present a brief history of [dfolio]' website .
+I don't remember exactly when I have created an account on the
 [free.fr](http://pagesperso.free.fr/) hosting service, but it must have been in
 the early 2000's. This  was when I've started to discover the Internet and some
 basics of the web development. But, it was around the 2004's (during my PhD),
@@ -22,13 +22,12 @@ discovered [PmWiki](http://www.pmwiki.org).
 
 ## 2004 -- 2008
 
-Once again, I don't remember exactly how [dfolio(at)free] has evolved. But, I
-have performed some web development with [PmWiki](http://www.pmwiki.org) and PHP, mainly devoted for
+I have performed some web development with [PmWiki](http://www.pmwiki.org) and PHP, mainly devoted for
 scientific diffusion. Hence, I have developed a PHP-based parser for BibTeX
 entitled '*PhpBib*' (I still have it somewhere if someone need it). But today,
 with CSL and more advanced parsers my PHP' BibTeX parser is obsolete. During
 this period, I have also investigate some security issues (i.e. cryptography).
-But, I have mainly studied web standards (HTML 4.0, xHTML, CSS, and so on), and
+But, I have mainly studied web standards (HTML 4.0, xHTML, CSS, and so on), and
 have tried to have a compliant website.
 \
 However, let me notice that I am not a web designer nor a web developer. I am
@@ -40,7 +39,7 @@ are made when I have time.
 Nothing happened! I didn't update, neither posted anything on
 [dfolio(at)free]. Why? Basically, because I had managed my personal website
 with my Institute' hosting (former http://perso.ensi-bourge.fr/dfolio/). But
-this service is right now down, since autumn 2017.
+this service is  down since autumn 2017.
 Thus, I came back to  [dfolio(at)free] :smile: …
 but, as you see, mainly in [English](/about/about.qmd#langage).
 
@@ -49,8 +48,8 @@ but, as you see, mainly in [English](/about/about.qmd#langage).
 When I came back to [dfolio(at)free] (after 10 years), I learn that
 [free.fr](http://pagesperso.free.fr/) hosting service does not (really) allows
 flat-system database, and thus [PmWiki](http://www.pmwiki.org) :/ That is why I
-have looked for a new website management system (but I still dislike SQL
-databases). Finally, I have discovered [Jekyll](https://jekyllrb.com) that is
+have looked for a new website management system (but I still dislike databases). 
+Finally, I have discovered [Jekyll](https://jekyllrb.com) that is
 for *static* website, from plain-text (aka markdown based). This has lead to a
 totally new [dfolio(at)free]  website. For now the previous
 [dfolio(at)free] contents have been removed. But maybe, latter, I'd put back
@@ -61,12 +60,12 @@ some of the previous contents. Come here again to see the evolution.
 [Jekyll](https://jekyllrb.com) is really quite impressive for a website development.
 But, most of my regular works relies on the use of [Rmarkdown], and now [Quarto].
 They both offer great features for developing website.
-So, since I don't want to spend a lot of time on effective design or to manage multiple template/layout languages, I switched to [Quarto]
+So, since I don't want to spend a lot of time on effective design or to manage multiple template/layout languages, I switched to [Quarto].
 Actually, for most of my documents production (e.g. teaching materials, academic papers, presentations...), I first used [Rmarkdown] and now mostly [Quarto] (which is more versatile).
 
-Secondly, from march 2023 [dfolio(at)free] will be moved to <http://dfolio.fr>.
+Secondly, from march 2023 [dfolio(at)free] will be moved to <http://dfolio.fr> domain.
 
 [dfolio(at)free]: <http://dfolio.free.fr> "My original website"
 [Rmarkdown]: <https://rmarkdown.rstudio.com/> "Make  high quality documents, reports, presentations and dashboards with R and Markdown." 
 [Quarto]: <https://quarto.org/> "Open-source scientific and technical publishing system built on Pandoc" 
-
+[dfolio]: <http://dfolio.fr> "My new website"
