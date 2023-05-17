@@ -21,7 +21,7 @@ image-alt: "Photo of David FOLIO"
 
 ##### Associate Professor (Dr. Habil) {-}
 
-> **Main topic**:  [Microrobotics](/research/microrobotics/microrobotics.qmd) for [biomedical applications](/research/microrobotics/biomedical.qmd).
+> **Main topic**:  [Microrobotics](/research/microrobotics/microrobotics.qmd) for [biomedical applications](/research/microrobotics/biomedical/biomedical.qmd).
 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
@@ -128,7 +128,8 @@ in the Robotics team belonging to the Images, Robotics, Automatic control and Si
 (<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>) department. 
 Since I have been an associate professor, my
 field of scientific research mainly focused on the 
-_modeling and control for [nano and micro-robots](/research/microrobotics/microrobotics.qmd) in a [biomedical](/research/microrobotics/biomedical.qmd) context_. 
+_modeling and control for [nano and micro-robots](/research/microrobotics/microrobotics.qmd) in a 
+[biomedical](/research/microrobotics/biomedical/biomedical.qmd) context_. 
 Globally, my main contributions focus on the study of **magnetic medical microrobots** for targeted therapies.
 \
 Meanwhile, I have also contributed to the development of
@@ -139,5 +140,4 @@ Finally, on December 3, 2021, I defended [my habilitation](/publications/thesis/
 
 
 
-[^PRISME]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de
-    Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
+[^PRISME]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
