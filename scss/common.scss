@@ -7,11 +7,10 @@ $theme: "dfolio" !default;
 
 // Quickly modify global styling by enabling or disabling optional features.
 $enable-caret:              true !default;
-$enable-rounded:            true;
+$enable-rounded:            true !default;
 $enable-shadows:            true;
 $enable-gradients:          true;
-$enable-transitions:        true;
-$enable-hover-media-query:  false;// Deprecated, no longer affects any compiled CSS
+$enable-transitions:        true !default;
 $enable-grid-classes:       true;
 $enable-print-styles:       true;
 $enable-print-dark:         true;
@@ -20,13 +19,18 @@ $enable-responsive-font-sizes: true!default;
 // Body
 $sidebar-width:         500px !default;
 //$grid-body-width:       900px !default;
-
+//color:
+$gray-900:              #212529 !default;
+$dark:                  $gray-900 !default;
 // Fonts
+// stylelint-disable value-keyword-case
+$font-family-serif:     MJXZERO, MJXTEX, "Noto Serif","Times New Roman",Times, serif;
 // stylelint-enable value-keyword-case
 $font-size-base:        1rem !default; // Assumes the browser default, typically `16px`
-$font-size-min:          0.75rem;
+$font-size-sm:          $font-size-base * .875 !default;
+$font-size-min:         0.75rem;
 $font-size-foot:        max(($font-size-base * .875), $font-size-min);
-$font-size-footnote:    max(($font-size-base * .75),$font-size-min);
+$font-size-footnote:    max(($font-size-base * .75), $font-size-min);
 $line-height-base:      1.5 !default;
 
 // Buttons
@@ -34,8 +38,13 @@ $input-btn-padding-y:         .15rem ;
 $input-btn-padding-x:         .25rem ;
 $input-btn-line-height:       $line-height-base * 0.66;
 
-
 $text-shadow: 0 1px 0 rgba($body-color, .6) !default;
+
+// Figures
+$caption-font-size:    $font-size-sm;
+$caption-color:        $dark !default;
+// Footnotes
+$footnotes-rule: 2px solid $dark;
 /*-- scss:mixins --*/
 
 @mixin text-shadow($color) {
@@ -209,4 +218,9 @@ img.navbar-logo{
 .references{
   font-size: $font-size-sm;
   color: rgba($body-color, .6);
+}
+
+.math,
+.unit{
+  font-family: $font-family-serif;
 }
