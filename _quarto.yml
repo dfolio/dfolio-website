@@ -179,8 +179,8 @@ website:
             href: research/microrobotics/biomedical/biomedical.qmd
             contents:
             - research/microrobotics/biomedical/microrobot-vessel.qmd
-          - section: "Magnetic Microrobots"
-            href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd
+          - section: "Magnetic Microrobotics"
+            href: research/microrobotics/magnetic-microrobot/magnetic-microrobotics.qmd
             contents:
             - text: "Magnetic Actuation"
               href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd

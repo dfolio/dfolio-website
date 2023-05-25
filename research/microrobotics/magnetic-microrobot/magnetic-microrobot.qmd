@@ -5,7 +5,7 @@ order: 3
 title: "Magnetic microrobots"
 keywords: [dfolio, microrobotics, research, activities]
 description: >
-  Discussion by David FOLIO about magnetic microrobotics
+  Discussion by David FOLIO about magnetic microrobots
 #toc: false
 images: /images/research/microrobotics-scales.webp
 bibliography: [../../references.bib,../../dfolio.bib]
@@ -14,6 +14,8 @@ format:
     include-in-header: ../../../html/mathjax.html
     html-math-method: mathjax
 author-block: true
+categories: 
+  - Magnetic microrobots
 ---
 
 Commonly, the choice of the microrobots depends on the considered
@@ -88,9 +90,3 @@ To maximize either the magnetic pulling
 force \eqref{eq-Fm} or the torque \eqref{eq-Tm}, the microrobot should possess
 strong magnetization $\vb{M}$, which depends on its [magnetic properties](magnetic-properties.qmd).
 
-
-
-## References
-
-:::{#refs}
-:::

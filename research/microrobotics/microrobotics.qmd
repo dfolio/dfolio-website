@@ -10,6 +10,8 @@ description: >
 images: /images/research/microrobotics-scales.webp
 bibliography: [../references.bib]
 author-block: true
+categories: 
+  - Magnetic microrobots
 ---
 ::: {.callout-note}
 **Microbotics** is commonly referred to the branch of robotics, which
@@ -92,10 +94,6 @@ and features allowing manipulating and interacting directly with the microworld.
 These various challenges associated with the lack of knowledge and tools are the main motivations of my research
 works towards the realization of _advanced microrobotic tasks_. 
 Our original approach aims to propose a framework spanning from the understanding of the microrobotic system and its environment, to the definition of their navigation strategies. 
-Especially, we  focus mainly on [**biomedical applications**](biomedical/biomedical.qmd).
+Especially, in my research activities in focus mainly on [**biomedical applications**](biomedical/biomedical.qmd).
 
-## References
-
-:::{#refs}
-:::
 
