@@ -1,3 +1,5 @@
+$if(title-block-meta)$
+$else$
 <footer id="footer-block" class="quarto-footer-block default h-entry">
 $if(author)$
 <div class="quarto-footer-meta-authors">
@@ -8,14 +10,12 @@ $if(author)$
 $endif$
 <div class="quarto-footer-meta-date">
   $if(date)$<span class="quarto-footer-meta-heading">$labels.published$:</span> <span class="date">$date$</span>
-  $if(date-modified)$; <span class="quarto-footer-meta-heading">$labels.modified$:</span> <span class="date">$date-modified$</span>$endif$
-  $else$
-  $if(date-modified)$<span class="quarto-footer-meta-heading">$labels.modified$:</span> <span class="date">$date-modified$</span>$endif$
+  $if(date-modified)$; <!--<span class="quarto-footer-meta-heading">$labels.modified$:</span> <span class="date">$date-modified$</span>-->$endif$
   $endif$
 </div>
 </div>
 </footer>
-
+$endif$
 $if(scite-badge)$
 <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
 $endif$
