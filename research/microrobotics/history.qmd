@@ -1,0 +1,75 @@
+---
+aliases:  [/research/microrobotics/]
+order: 1
+date: 2023-05-31 12:20:58.1685528458 +0200
+title: "History of microrobotics"
+keywords: [dfolio, microrobotics, research, activities]
+description: >
+  Discussion by David FOLIO about history of microrobotics
+#toc: false
+images: /images/research/microrobotics-scales.webp
+bibliography: [../references.bib]
+author-block: true
+categories: 
+  - Microrobotics
+---
+
+
+The history of [microrobotics] is a relatively recent field of research and development, and it has seen significant progress only over the past few decades.
+
+## Origin (probable)
+
+In 1959, the renowned physicist [Richard P. Feynman @feynman1959] delivered a lecture titled "_There is Plenty of Room at the Bottom_" at the annual meeting of the American Physical Society at Caltech, Pasadena [@feynman1959]. 
+This lecture has since become  the birth of microsystem technology and is often considered the starting point of nanotechnology and bio-nanotechnology.
+From there, the rapid development of microfabrication and then nanofabrication technologies made it possible to provide components for microsystems at a reasonable cost. 
+On the other hand, very quickly, it became clear that the development of micro/nanotechnologies is hardly possible without high precision (micro)robots allowing manipulation at such scales.
+
+Meanwhile, the need for [targeted medicine](biomedical/biomedical.qmd) was another favorable factor for [microrobotics]. 
+The idea of microrobots operating autonomously inside the human body first appeared in science fiction films like ["_Fantastic Voyage_"" (1966) @fantastic1966].
+
+
+## From early exploration (1980s) to advancements in manufacturing (1990s)
+
+The field of [microrobotics] began effectively to emerge in the 1980's, with scientists and researchers exploring the possibilities of creating robots at the microscale. 
+Initial efforts focused on fundamental research and experimental studies to understand the properties of materials at the micro level and investigate methods of fabricating miniature structures.
+Additionally, advancements in [microscopy devices](microrobotics.qmd#fig-scales), such as scanning electron microscopy (SEM) and scanning probe microscopy (SPM), have also had an impacting effect on the development of [microrobotics].
+
+In the 1990s, significant advancements were made in microrobotic manufacturing techniques. 
+Researchers developed sophisticated methods such as lithography and electron beam fabrication, enabling the creation of complex microrobots with high precision. 
+This era marked the transition from theoretical concepts to practical implementations.
+
+
+## Since 2000s the applications
+
+The early 2000's witnessed the application of microrobotics first mainly in the [biomedical field](biomedical/biomedical.qmd). 
+Microrobots were used for minimally invasive surgery, targeted drug delivery, and diagnostics. 
+These tiny robots offered improved precision and reduced invasiveness compared to traditional surgical techniques.
+\
+Microrobotic technology also found applications in industrial settings for tasks such as micro-assembly and manipulation. 
+Tiny robotic system could handle delicate and precise operations that were challenging for humans or larger robots. 
+They were employed in various industries, including electronics, optics, and microelectromechanical systems (MEMS).
+\
+In the 2010's, some researchers focused on developing biomimetic microrobots inspired by natural systems [@peyer2013bioinspired].
+Drawing inspiration from insects, birds, and other organisms, these robots mimicked the locomotion and behaviors of their biological counterparts. 
+Bio-inspired microrobots showed promise in areas such as environmental monitoring, surveillance, and exploration.
+\
+Recent years have seen advancements in nanotechnology and soft robotics, which have further expanded the possibilities of microrobotics. 
+Nanotechnology has enabled the development of nanoscale robots with unique capabilities, while soft robotics has allowed for more flexible and compliant microrobot designs [@gao2021bioinspired; @eshaghi2021design].
+\
+Microrobotics is currently being explored for various emerging applications. 
+These include nanomedicine, where microrobots could be used for targeted drug delivery and precise medical interventions at the cellular level [@li2017micro; @yang2018grand]. 
+Tiny robots are envisionned for space exploration missions, where their small size and maneuverability can be advantageous [@dubowsky2005concept].
+Microrobots have also shown their usefulness in remediation applications [@gao2021bioinspired; @peng2022shapecontrolled].
+
+[Microrobotics], as an independent subject of scientific researches, has been around for 25-30 years now and has gradually matured.
+It has already demonstrated significant progress, increasing attention, and high promise [@setti2007microscale; @ishiyama2002magnetic; @abbott2007robotics;
+@sitti2009miniature; @li2017micro; @yang2018grand].
+So far, the microrobot generally performs relatively basic functions. Some
+of these tasks should be realized in autonomous way to allow robustness,
+adaptability and precision. In more advanced procedures, supervision and
+tele-operation  directed by a practitioner allow offering more reliability and safety.
+ It is foreseeable that as technology advances, the microrobotic system will be able to make more and more complex tasks.
+
+
+[microrobotics]: microrobotics.qmd
+
