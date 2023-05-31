@@ -1,0 +1,34 @@
+---
+date: 2023-05-31 12:20:58.1685528458 +0200
+title: "Ethical issues in microrobotics"
+keywords: [dfolio, microrobotics, research, activities]
+description: >
+  Discussion by David FOLIO about ethical issues in microrobotics
+#toc: false
+images: /images/research/microrobotics-scales.webp
+bibliography: [../references.bib]
+author-block: true
+categories: 
+  - Microrobotics
+---
+
+Ethics in micro/nano-technology, like in any other field, plays a crucial role in guiding the responsible development, deployment, and use of [microrobotics]. 
+While microrobots offer tremendous potential for various applications, ethical considerations must be addressed to ensure responsible and beneficial use. 
+
+First, as microtechnology can be integrated into various applications, safety considerations are very important. 
+It is essential to ensure that microdevices are designed, manufactured, and deployed in a manner that minimizes risks to users and the broader environment. 
+Adequate testing, quality control, and safety standards are necessary to prevent harm or unintended consequences.
+However, even though the researcher must have all of this in mind from the beginning of the design of the [microrobotics system][microrobotics], all of these safety issues only arise during clinical validation which should enable proof of safety
+
+Microtechnologies hold the potential to enhance human capabilities and performance. 
+However, ethical concerns arise regarding the boundaries and implications of such enhancements. 
+Discussions surrounding the responsible use of microtechnologies in areas like cognitive enhancement, augmentation, and performance enhancement are necessary to navigate potential societal, economic, and ethical impacts.
+But to date, scientific research in the field of microrobotics is far from bringing such high level of improvements.
+The only close improvement is the targeted delivery in the body of a living animal [@gao2015artificial; @servant2015controlled; @felfoul2016magneto; @jeon2019magnetically].
+
+These are just a few examples of the ethical considerations in [microrobotics]. 
+As microtechnologies continue to evolve, it is crucial for researchers, policymakers, and society as a whole to engage in ongoing discussions to address these ethical challenges and shape the development of [microrobotics] in a responsible and beneficial manner.
+
+
+
+[microrobotics]: microrobotics.qmd
