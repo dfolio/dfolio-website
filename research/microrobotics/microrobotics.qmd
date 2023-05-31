@@ -13,12 +13,15 @@ author-block: true
 categories: 
   - Magnetic microrobots
 ---
-::: {.callout-note}
-**Microbotics** is commonly referred to the branch of robotics, which
-deals with the study and application of miniature ones, such as microscale mobile robots.
-The term can also be used for system capable of manipulating micrometer-sized components.
 
-While the '*micro*' prefix has been used subjectively to mean "small",
+**Microbotics** is commonly referred to the branch of robotics, which
+deals with the design, fabrication, control and application of miniature one.
+The term can also be used for system capable of manipulating micrometer-sized components.
+\
+Microrobots are unique due to their small size, which enables them to navigate and interact in environments that are inaccessible to larger robots or human operators. They often utilize novel materials, fabrication techniques, and actuation mechanisms to overcome the challenges posed by the microscale.
+
+::: {.callout-note}
+While the '*micro*' prefix has been used subjectively to mean "small"[^micro],
 standardizing on length scales should avoid confusion. A nanorobot
 would have characteristic dimensions at or below $L<1$ [µm]{.unit},
 or manipulate components on the $1$ to ${1000}$ [nm]{.unit} size range.
@@ -32,6 +35,10 @@ For the sake of clarity and simplicity the terms of
 microrobot and microrobotic would refer mainly to systems that have
 characteristic length globally of $L<1000$ [µm]{.unit} .
 :::
+
+
+[^micro]: The micro prefix comes from the Greek '[μικρός]{lang=grc .grc}'' ([mikrós]{lang=grc .grc}) meaning "small" (source: [wikipedia](https://en.wikipedia.org/wiki/Micro-)).
+
 
 ## Why using microrobots?
 
