@@ -175,6 +175,8 @@ website:
         - section: "Microrobotics"
           href: research/microrobotics/microrobotics.qmd
           contents:
+          - text: "History"
+            href: research/microrobotics/history.qmd
           - section:  "Biomedical application"
             href: research/microrobotics/biomedical/biomedical.qmd
             contents:
@@ -185,9 +187,8 @@ website:
             - text: "Magnetic Actuation"
               href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd
             - research/microrobotics/magnetic-microrobot/magnetic-properties.qmd
-
-          #-  research/microrobotics/microrobotics.qmd
-          #- research/microrobotics/biomedical.qmd
+          - text: "Ethics"
+            href: research/microrobotics/ethics.qmd
         - section: Bibliography
           contents:
             - research/references.qmd

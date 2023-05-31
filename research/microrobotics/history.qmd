@@ -1,5 +1,4 @@
 ---
-aliases:  [/research/microrobotics/]
 order: 1
 date: 2023-05-31 12:20:58.1685528458 +0200
 title: "History of microrobotics"
