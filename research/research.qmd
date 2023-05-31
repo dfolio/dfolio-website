@@ -34,7 +34,7 @@ School (<abbr lang="fr" title='École Nationale Supérieur d’Ingénieurs'>ENSI
 involved in the life of the Institute.
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
-![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){#fig:INSA-CVL}
+![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){#fig:INSA-CVL fig-alt="INSA-CVL"}
 :::
 :::
 [^1]: INSA [Centre Val de Loire]{.fr lang="fr"} (INSA CVL) was created in 2014 by the merge of 
@@ -51,7 +51,7 @@ mainly deal with the modeling and control for nano and micro-robotics in
 a biomedical context. 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
-![](/images/PRISME.svg "Logo of PRISME Laboratory"){#fig:PRISME}
+![](/images/PRISME.svg "Logo of PRISME Laboratory"){#fig:PRISME fig-alt="PRISME"}
 :::
 :::
 
@@ -74,7 +74,7 @@ The different projects in which I have been involved are reported in [Research P
 
 
 :::{#fig-timeline}
-![](/images/research/timeline.webp "Timeline of D. FOLIO activities"){width=95%}
+![](/images/research/timeline.webp "Timeline of D. FOLIO activities"){width=95% fig-alt="Timeline of my activities"}
 
 Timeline of my activities.
 :::
@@ -111,9 +111,9 @@ dealt with the design of multi-sensor based control strategies allowing a mobile
 vision-based tasks amidst possibly occluding obstacles.
 
 :::{#fig-mobile-robot layout=[30,-10,60]}
-![](/images/research/super-scout.webp "Super scout"){width=30% }
+![](/images/research/super-scout.webp "Super scout"){width=30% fig-alt="Super scout"}
 
-![](/images/research/bertin.webp "Bertin Unmanned Aerial Vehicles"){#fig-aerial}
+![](/images/research/bertin.webp "Bertin Unmanned Aerial Vehicles"){#fig-aerialfig-alt="bertin"}
 
 Mobile robots use (a) during my doctorate and  (b) in my post-doctorate.
 :::
