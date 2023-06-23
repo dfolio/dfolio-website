@@ -1,0 +1,32 @@
+---
+title: "A Quarto IEEE journal format"
+description: "How to produce an article with the IEEEtran format in Quarto document"
+date: "2023-06-23 15:33:59.1687527239 +0200"
+image: https://quarto.org/quarto.png
+image-alt: Quarto logo
+categories: [article, quarto]
+---
+
+[Quarto] allows to produce polished scholarly articles. 
+It provides through the [quarto-journal] extension a basic collection of 
+journal templates ([Association of Computing Machinery](https://github.com/quarto-journals/acm),
+[American Chemical Society](https://github.com/quarto-journals/acs), etc.).
+[Quarto] also provides a simple way to user to [create](https://quarto.org/docs/journals/formats.html#quick-start) their own Journal article format extension:
+
+
+```{.bash filename="Terminal"}
+$ quarto create extension journal
+ ? Extension Name › aps
+```
+
+The interested reader may read the documentation on [journal format]](https://quarto.org/docs/journals/formats.html#quick-start) of [Quarto] for further details.
+
+
+However, there is no built-in template for IEEE journals.
+Hence, I started developping the [quarto-ieee] journal format extension to produce journal paper using the [IEEEtran.cls] document class.
+
+
+[quarto-journal]: https://github.com/quarto-journals/
+[quarto-ieee]: https://github.com/dfolio/quarto-ieee/
+[IEEEtran.cls]: https://ctan.org/pkg/ieeetran "Document class for IEEE Transactions journals and conferences"
+{{< include ../_links.qmd >}}

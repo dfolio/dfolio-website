@@ -1,0 +1,11 @@
+The dynamic model of microbubbles refers to the mathematical representation or description of the behavior and characteristics of microbubbles in various fluid environments. Microbubbles are tiny gas-filled spheres, typically with diameters ranging from a few micrometers to a few millimeters, and they exhibit unique physical properties due to their small size and gas-liquid interface.
+
+The dynamic behavior of microbubbles is influenced by several factors, including the surrounding fluid, bubble size, gas content, surface tension, and external forces. The mathematical models aim to capture these dynamics and predict the behavior of microbubbles under different conditions.
+
+One commonly used model is the Rayleigh-Plesset equation, which describes the radial oscillations of a single microbubble in an incompressible fluid. This equation assumes the bubble to be a spherical entity and considers the effects of gas compressibility, surface tension, and surrounding fluid pressure. The Rayleigh-Plesset equation provides insights into bubble collapse, growth, and stability.
+
+Another approach is the Keller-Miksis equation, an extension of the Rayleigh-Plesset equation, which takes into account the compressibility of both the gas inside the bubble and the surrounding fluid. This model allows for the analysis of nonlinear bubble dynamics, such as bubble pulsations and shape oscillations.
+
+In addition to these simplified models, more complex numerical simulations and computational fluid dynamics (CFD) models can be employed to study the behavior of microbubbles in more detail. These models consider factors like bubble interactions, fluid turbulence, and bubble dispersion in multiphase flows.
+
+It's important to note that the specific dynamic model used for microbubbles can vary depending on the desired level of accuracy and the particular application, such as biomedical imaging, drug delivery, or industrial processes. Researchers continuously refine and develop models to better understand and control the behavior of microbubbles in various contexts.
