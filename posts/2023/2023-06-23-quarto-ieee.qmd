@@ -16,14 +16,45 @@ journal templates ([Association of Computing Machinery](https://github.com/quart
 
 ```{.bash filename="Terminal"}
 $ quarto create extension journal
- ? Extension Name › aps
+ ? Extension Name : aps
 ```
 
-The interested reader may read the documentation on [journal format]](https://quarto.org/docs/journals/formats.html#quick-start) of [Quarto] for further details.
+The interested reader may read the documentation on [journal format](https://quarto.org/docs/journals/formats.html#quick-start) of [Quarto] for further details.
 
 
 However, there is no built-in template for IEEE journals.
-Hence, I started developping the [quarto-ieee] journal format extension to produce journal paper using the [IEEEtran.cls] document class.
+Therefore, I started developing the [quarto-ieee] journal format extension to produce journal paper using the [IEEEtran.cls] document class.
+
+
+
+## Creating a New Article
+
+To create a new article using the [quarto-ieee] format:
+
+
+```{.bash filename="Terminal"}
+quarto use template dfolio/quarto-ieee
+ ? Directory name: my-ieee-article
+```
+
+This will create a new directory `my-ieee-article` with an example document (`my-ieee-article.qmd`) that uses the [quarto-ieee] format.
+
+## Using with an Existing Document
+
+To add the [quarto-ieee] format to an existing [Quarto] document:
+
+
+```{.bash filename="Terminal"}
+quarto add dfolio/quarto-ieee
+```
+
+Then, add the format to your document options:
+
+``` yaml
+format:
+  quarto-ieee-pdf: default
+```
+
 
 
 [quarto-journal]: https://github.com/quarto-journals/
