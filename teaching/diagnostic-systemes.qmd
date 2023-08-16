@@ -8,6 +8,7 @@ description: >
   Cet enseignement a pour but d'appréhender les méthodes de diagnostic basées
   modèles pour l'amélioration de la fiabilité des processus technologiques.
 images: /images/teaching/commande-diagnostic.webp
+canonical: https://dfolio.fr/teaching/diagnostic-systemes.html
 ---
 
 
