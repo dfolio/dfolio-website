@@ -63,7 +63,7 @@ website:
   page-footer:
     border: false
     left: |
-        [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/about.qmd).]{.copyright aria-label="copyright"}
+        [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/index.qmd).]{.copyright aria-label="copyright"}
         [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License"){fig-alt="CC by 4.0"}](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
         Site licensed under]{.d-none .d-lg-inline}
         [[{{< fa brands creative-commons-by title="CC-BY 4.0" >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
@@ -115,7 +115,7 @@ website:
     collapse-below: lg
     left:
       - text: "About"
-        href: about/about.qmd
+        href: about/index.qmd
       #- sidebar:teaching
       - text: "Teaching"
         href: teaching/teaching.qmd
@@ -123,9 +123,9 @@ website:
       - text: "Research"
         href: research/
       - text: "Publications"
-        href: publications/publications.qmd
+        href: publications/index.qmd
       - text: "Posts"
-        href: posts/posts.qmd
+        href: posts/index.qmd
     tools:
     #   - icon: save
     #     menu:
@@ -141,7 +141,7 @@ website:
       #style: "docked"
       style: "floating"
       contents:
-        - about/about.qmd
+        - about/index.qmd
         - about/dfolio.qmd
         - about/history.qmd
         - about/privacy.qmd
@@ -173,16 +173,16 @@ website:
           - research/projects/BUBBLEBOT.qmd
           - research/projects/MTG.qmd
         - section: "Microrobotics"
-          href: research/microrobotics/microrobotics.qmd
+          href: research/microrobotics/index.qmd
           contents:
           - text: "History"
             href: research/microrobotics/history.qmd
           - section:  "Biomedical application"
-            href: research/microrobotics/biomedical/biomedical.qmd
+            href: research/microrobotics/biomedical/index.qmd
             contents:
             - research/microrobotics/biomedical/microrobot-vessel.qmd
           - section: "Magnetic Microrobotics"
-            href: research/microrobotics/magnetic-microrobot/magnetic-microrobotics.qmd
+            href: research/microrobotics/magnetic-microrobot/index.qmd
             contents:
             - text: "Magnetic Actuation"
               href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd
@@ -192,7 +192,7 @@ website:
         - section: Bibliography
           contents:
             - research/references.qmd
-            - publications/publications.qmd
+            - publications/index.qmd
 format:
   html:
     minimal: true

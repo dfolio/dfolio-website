@@ -1,5 +1,6 @@
 ---
-aliases:  [/research/projects/]
+aliases:  [/research/projects/projects.html]
+canonical: https://dfolio.fr/research/projects/index.html
 date: 2018-03-30 06:57:45.1522385865 +0200
 title: "List of D. FOLIO's projects"
 keywords: [dfolio, projects, research, activities]

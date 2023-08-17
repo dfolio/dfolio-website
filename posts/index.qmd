@@ -2,7 +2,6 @@
 title: "Posts and Articles"
 subtitle: "A few brief notes along the way"
 description: "Miscellaneous pages to share some various things that I am interested in :)"
-canonical: https://dfolio.fr/posts/index.html
 date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
@@ -31,8 +30,9 @@ listing:
     sort: "date desc"
     fields: [image, date, title, reading-time, categories, description]
 aliases: 
-  - /posts/index.html
+  - /posts/posts.html
   - /articles/index.html
+canonical: https://dfolio.fr/posts/index.html
 ---
 
 ### 2023

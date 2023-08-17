@@ -41,7 +41,7 @@ Nothing happened! I didn't update, neither posted anything on
 with my Institute' hosting (former http://perso.ensi-bourge.fr/dfolio/). But
 this service is  down since autumn 2017.
 Thus, I came back to  [dfolio(at)free] :smile: …
-but, as you see, mainly in [English](/about/about.qmd#langage).
+but, as you see, mainly in [English](/about/index.qmd#langage).
 
 ## 2018 -- 2023
 

@@ -3,7 +3,8 @@ date: 2018-03-25 20:17:40.1522001860 +0200
 title: "About this website"
 description: Learn more about D.Folio and the contents of its personal webpage.
 aliases: 
-  - /about/
+  - /about/about.qmd
+canonical: https://dfolio.fr/about/index.html
 link-external-icon: true
 ---
 
@@ -17,7 +18,7 @@ The old <http://dfolio.free.fr> remains, but without guarantee that it will be u
 ::: {.content-visible when-profile="free"}
 Hi! Long time no see! After about 10 years [of dormancy](/about/history.qmd), [dfolio(at)free](/)
 website is up again.
-But, as you see, mainly in [English](/about/about.qmd#langage).
+But, as you see, mainly in [English](/about/index.qmd#langage).
 :::
 ::: {.content-visible unless-profile="free"}
 Hi everyone!

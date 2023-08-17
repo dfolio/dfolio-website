@@ -60,7 +60,7 @@ Most of the documents hereafter are also shared or listed on the following acade
   [ --- see also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}]{.text-right .text-muted .small}
 
 
-You may also be interested in the [publications page](../publications/publications.qmd) where some of the documents below are shared.
+You may also be interested in the [publications page](../publications/index.qmd) where some of the documents below are shared.
 
 ## Articles
 

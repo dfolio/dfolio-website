@@ -21,7 +21,7 @@ image-alt: "Photo of David FOLIO"
 
 ##### Associate Professor (Dr. Habil) {-}
 
-> **Main topic**:  [Microrobotics](/research/microrobotics/microrobotics.qmd) for [biomedical applications](/research/microrobotics/biomedical/biomedical.qmd).
+> **Main topic**:  [Microrobotics](/research/microrobotics/index.qmd) for [biomedical applications](/research/microrobotics/biomedical/index.qmd).
 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
@@ -128,8 +128,8 @@ in the Robotics team belonging to the Images, Robotics, Automatic control and Si
 (<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>) department. 
 Since I have been an associate professor, my
 field of scientific research mainly focused on the 
-_modeling and control for [nano and micro-robots](/research/microrobotics/microrobotics.qmd) in a 
-[biomedical](/research/microrobotics/biomedical/biomedical.qmd) context_. 
+_modeling and control for [nano and micro-robots](/research/microrobotics/index.qmd) in a 
+[biomedical](/research/microrobotics/biomedical/index.qmd) context_. 
 Globally, my main contributions focus on the study of **magnetic medical microrobots** for targeted therapies.
 \
 Meanwhile, I have also contributed to the development of

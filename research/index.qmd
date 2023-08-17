@@ -1,5 +1,6 @@
 ---
-aliases:  [/research/]
+aliases:  [/research/research.html]
+canonical: https://dfolio.fr/research/index.html
 order: 2
 date: 2018-03-27 15:17:09 +0200
 title: "Research activities"
@@ -11,7 +12,6 @@ description: >
   An  overview of the career of D. Folio that sets the background in which its works was carried out.
 image: /images/logo-research.webp
 image-alt: "research logo"
-categories: [dfolio, research]
 ---
 
 

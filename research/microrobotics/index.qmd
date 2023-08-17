@@ -1,5 +1,6 @@
 ---
-aliases:  [/research/microrobotics/]
+aliases:  [/research/microrobotics/microrobotics.html]
+canonical: https://dfolio.fr/research/microrobotics/index.html
 order: 1
 date: 2021-12-07 14:05:22 +0100
 title: "About microrobotics"
@@ -10,8 +11,6 @@ description: >
 images: /images/research/microrobotics-scales.webp
 bibliography: [../references.bib]
 author-block: true
-categories: 
-  - Magnetic microrobots
 ---
 
 **Microbotics** is commonly referred to the branch of robotics, which

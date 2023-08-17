@@ -59,7 +59,7 @@ listing:
     - /teaching/teaching.qmd
     - /research/research.qmd
     #- /research/references.qmd
-    - /publications/publications.qmd
+    - /publications/index.qmd
 #max-width:850px;
 freeze: false
 ---

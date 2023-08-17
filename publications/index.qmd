@@ -1,8 +1,8 @@
 ---
 aliases:
-  - /research/publications/
-  - /publications/
-canonical: https://dfolio.fr/publications/publications.html
+  - /research/publications/index.html
+  - /publications/publications.html
+canonical: https://dfolio.fr/publications/index.html
 order: 3
 date: 2023-03-14 
 title: "Selected publications"
