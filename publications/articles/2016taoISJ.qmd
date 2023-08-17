@@ -84,6 +84,6 @@ categories:
 ---
 
 ## Acknowledgment
-This work is supported by the {{< var ANR >}} [PROSIT](../../research/projects/projects.qmd#PROSIT) project of the
+This work is supported by the {{< var ANR >}} [PROSIT](../../research/projects/index.qmd#PROSIT) project of the
 French National Research Agency (ANR-08-CORD-017) and the S2E2 cluster.
 

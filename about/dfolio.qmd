@@ -108,7 +108,7 @@ international relations division by accompanying the different
 delegations of schools and universities partners during their visits. In March
 2017, the direction of the {{< var INSA-CVL >}} given to me the mission of referent _racism and antisemitism_.
 
-As a [lecturer](//teaching/teaching.qmd), I am involved, among others, in the development of
+As a [lecturer](/teaching/index.qmd), I am involved, among others, in the development of
 electronics and electrical sciences teaching activities within the Institute. 
 Since tenured as associate professor, my average teaching load is about 270 hETD per year.
 <!-- Figure \@ref(fig:chapI-teach-load) presents the evolution  of my teaching duty since 2008. -->

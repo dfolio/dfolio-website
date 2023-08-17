@@ -34,7 +34,7 @@ You can also have a look to the notice on the [license](/about/license.qmd) and 
 
 The [dfolio]' website aims to:
 
-- share my activities as associate professor, that is [research](/research/research.qmd) and [teaching](/teaching/teaching.qmd) activities
+- share my activities as associate professor, that is [research](/research/index.qmd) and [teaching](/teaching//index.qmd) activities
 - be a place to centralize new scientific, technological,  development topics and miscellaneous stuff that I gave found/discovered
 
 ## Langage

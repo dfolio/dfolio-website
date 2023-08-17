@@ -118,7 +118,7 @@ website:
         href: about/index.qmd
       #- sidebar:teaching
       - text: "Teaching"
-        href: teaching/teaching.qmd
+        href: teaching/index.qmd
       #- sidebar:research
       - text: "Research"
         href: research/
@@ -150,7 +150,7 @@ website:
     - id: teaching
       title: "Teaching"
       contents:
-        - teaching/teaching.qmd
+        - /teaching/index.qmd
         - teaching/SFEN.qmd
         - teaching/ELAN.qmd
         - teaching/composants-electroniques.qmd
@@ -164,12 +164,12 @@ website:
       collapse-level: 1
       #align: left
       contents:
-        - research/research.qmd
+        - research/index.qmd
         - research/supervisions.qmd
         - section: "Projects"
           contents:
           - text: "Projects list"
-            href: research/projects/projects.qmd
+            href: research/projects/index.qmd
           - research/projects/BUBBLEBOT.qmd
           - research/projects/MTG.qmd
         - section: "Microrobotics"
@@ -185,7 +185,7 @@ website:
             href: research/microrobotics/magnetic-microrobot/index.qmd
             contents:
             - text: "Magnetic Actuation"
-              href: research/microrobotics/magnetic-microrobot/magnetic-microrobot.qmd
+              href: research/microrobotics/magnetic-microrobot/index.qmd
             - research/microrobotics/magnetic-microrobot/magnetic-properties.qmd
           - text: "Ethics"
             href: research/microrobotics/ethics.qmd

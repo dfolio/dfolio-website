@@ -99,7 +99,7 @@ image: /images/research/targeting.webp
 
 
 ## Funding
-This work  was supported by the <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr> [PROCOPE project](../../research/projects/projects.qmd#PROCOPE).
+This work  was supported by the <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr> [PROCOPE project](../../research/projects/index.qmd#PROCOPE).
 
 
 {{< include ../_footer.qmd >}}

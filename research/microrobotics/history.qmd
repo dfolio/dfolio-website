@@ -23,7 +23,7 @@ This lecture has since become  the birth of microsystem technology and is often 
 From there, the rapid development of microfabrication and then nanofabrication technologies made it possible to provide components for microsystems at a reasonable cost. 
 On the other hand, very quickly, it became clear that the development of micro/nanotechnologies is hardly possible without high precision (micro)robots allowing manipulation at such scales.
 
-Meanwhile, the need for [targeted medicine](biomedical/biomedical.qmd) was another favorable factor for [microrobotics]. 
+Meanwhile, the need for [targeted medicine](biomedical/index.qmd) was another favorable factor for [microrobotics]. 
 The idea of microrobots operating autonomously inside the human body first appeared in science fiction films like ["_Fantastic Voyage_"" (1966) @fantastic1966].
 
 
@@ -40,7 +40,7 @@ This era marked the transition from theoretical concepts to practical implementa
 
 ## Since 2000s the applications
 
-The early 2000's witnessed the application of microrobotics first mainly in the [biomedical field](biomedical/biomedical.qmd). 
+The early 2000's witnessed the application of microrobotics first mainly in the [biomedical field](biomedical/index.qmd). 
 Microrobots were used for minimally invasive surgery, targeted drug delivery, and diagnostics. 
 These tiny robots offered improved precision and reduced invasiveness compared to traditional surgical techniques.
 \

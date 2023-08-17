@@ -14,7 +14,6 @@ image: /images/logo-research.webp
 image-alt: "research logo"
 ---
 
-
 Further details about me:
 
 - [English version](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} {{< fa file-pdf >}}
@@ -59,15 +58,15 @@ a biomedical context.
 It can be noticed that, since my [PhD degree](/publications/thesis/folio2007thesis.qmd), I had to apply a slight change on my research
 topics to address the specificity of the microworld. Actually, in a
 first time, my research activities have been mainly related with the
-European [project NANOMA](/research/projects/projects.qmd#NANOMA). This project consisted to design
+European [project NANOMA](/research/projects/index.qmd#NANOMA). This project consisted to design
 microrobotic system for targeted drug delivery through the
 cardiovascular system. In parallel, I have also contributed to the
 development of micromanipulation activities of the laboratory. Firstly,
 the micromanipulation tasks have been devoted for intra-cytoplasmic
 applications. Next, this research activities have evolved to object
 micromanipulation to be placed in the focus of a light beam within the
-{{< var ANR >}}[^8] [project PIANHO](/research/projects/projects.qmd#PIANHO). 
-The different projects in which I have been involved are reported in [Research Projects](/research/projects/projects.qmd). 
+{{< var ANR >}}[^8] [project PIANHO](/research/projects/index.qmd#PIANHO). 
+The different projects in which I have been involved are reported in [Research Projects](/research/projects/index.qmd). 
 
 [^2]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de
     Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
@@ -86,7 +85,7 @@ systems at the microscale to propose novel solutions to successfully
 perform advanced and reliable microrobotic tasks, mainly devoted to
 biomedical applications. In particular, a significant lack of knowledge
 emerge on the appropriate understanding of the behaviors of 
-[microrobots in a biomedical](/research/microrobotics/biomedical.qmd) situation. It is in this
+[microrobots in a biomedical](/research/microrobotics/index.qmd) situation. It is in this
 context that most of my scientific contributions have been made, since
 my tenure as associate professor. 
 Specifically, I have chosen to focus my research activities on **magnetic medical microrobots** for targeted

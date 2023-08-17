@@ -84,4 +84,4 @@ categories:
 ---
 
 ## Funding
-The work of K. Belharet was supported by the [Nano-IRM project](../../research/projects/projects.qmd#Nano-IRM), founded by [Region Centre]{.fr lang=fr} and City of Bourges.
+The work of K. Belharet was supported by the [Nano-IRM project](../../research/projects/index.qmd#Nano-IRM), founded by [Region Centre]{.fr lang=fr} and City of Bourges.

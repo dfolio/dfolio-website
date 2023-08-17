@@ -56,8 +56,8 @@ listing:
   type: grid
   fields: [image, title, subtitle, categories, description,  date]
   contents: 
-    - /teaching/teaching.qmd
-    - /research/research.qmd
+    - /teaching//index.qmd
+    - /research/index.qmd
     #- /research/references.qmd
     - /publications/index.qmd
 #max-width:850px;
@@ -78,7 +78,7 @@ But without guarantees that it will be up-to-date as mush as it will be on <http
 This is the new version of my  personal webpage.
 :::
 You can find on this site an overview of my activities as Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
-These activities include my [researches](/research/research.qmd) and [teaching](/teaching/teaching.qmd).
+These activities include my [researches](/research/index.qmd) and [teaching](/teaching//index.qmd).
 
 You may also find some more personal (public) stuff that I would share on a regular basis.
 :::
