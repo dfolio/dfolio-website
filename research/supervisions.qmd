@@ -44,7 +44,7 @@ Karim Botros
 
     References
 
-    :   [@2022botrosICRA]
+    :   [@2022botrosICRA; @2023BotrosRAL]
     
 ### Previous supervisions {#sec-supervisions-old}
 
