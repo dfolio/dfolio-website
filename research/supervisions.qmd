@@ -60,7 +60,7 @@ Ruipeng Chen
 
     Title
 
-    :   Design Methodology for Electromagnetic Microrobotic Platforms.
+    :   [Design Methodology for Electromagnetic Microrobotic Platforms](../pdf/ruipeng2020design.pdf).
         Thesis of {{< var INSA-CVL >}}.
 
     Supervision
