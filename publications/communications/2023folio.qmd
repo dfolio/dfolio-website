@@ -1,0 +1,34 @@
+---
+type: speech
+date: 2023-07-04
+title: La microbotique et leurs applications biomédicales
+description: | 
+  In this conference, D. Folio discussed magnetic microrobotics and their biomedical applications to a general audience.
+author:
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    email: david.folio@insa-cvl.fr
+    url: https://dfolio.fr
+    attributes:
+      corresponding: true
+links:
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-primary btn-sm"
+    href: /pdf/publications/2023folio.pdf
+citation: 
+  issued: 2023-07-04
+  container-title: Journée de cohésion de l'INSA Centre Val de Loire
+  event-date: 2023-07-04
+  event-place: Bourges, France
+  keyword: magnetic microrobot, biomedical applications
+categories: 
+  - Biomedical application
+  - Magnetic microrobots
+image: /images/publications/2023folio.webp
+---
+
+[![](/images/publications/2023folio.webp)](/pdf/publications/2023folio.pdf "Click to download PDF slides"){.download-link download="2023folio.pdf"} 
+
+{{< include ../_footer.qmd >}}
