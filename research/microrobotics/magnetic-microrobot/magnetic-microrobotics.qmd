@@ -13,7 +13,7 @@ categories:
   - Magnetic microrobots
 ---
 
-Magnetic [microrobotics](../microrobotics.qmd) refers to the field of research and development focused on creating and controlling tiny robotic devices that can navigate and perform tasks using magnetic fields [@nelson2008micro; @abbott2020magnetic]. 
+Magnetic [microrobotics](../index.qmd) refers to the field of research and development focused on creating and controlling tiny robotic devices that can navigate and perform tasks using magnetic fields [@nelson2008micro; @abbott2020magnetic]. 
 These robots generally have a size of less than a millimeter or of the order of a micrometer.
 
 Magnetic microrobots are designed to take advantage of magnetic forces for their propulsion, manipulation, and control. 

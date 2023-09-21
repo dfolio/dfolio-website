@@ -31,7 +31,7 @@ The idea of microrobots operating autonomously inside the human body first appea
 
 The field of [microrobotics] began effectively to emerge in the 1980's, with scientists and researchers exploring the possibilities of creating robots at the microscale. 
 Initial efforts focused on fundamental research and experimental studies to understand the properties of materials at the micro level and investigate methods of fabricating miniature structures.
-Additionally, advancements in [microscopy devices](microrobotics.qmd#fig-scales), such as scanning electron microscopy (SEM) and scanning probe microscopy (SPM), have also had an impacting effect on the development of [microrobotics].
+Additionally, advancements in [microscopy devices](index.qmd#fig-scales), such as scanning electron microscopy (SEM) and scanning probe microscopy (SPM), have also had an impacting effect on the development of [microrobotics].
 
 In the 1990s, significant advancements were made in microrobotic manufacturing techniques. 
 Researchers developed sophisticated methods such as lithography and electron beam fabrication, enabling the creation of complex microrobots with high precision. 
@@ -70,5 +70,5 @@ tele-operation  directed by a practitioner allow offering more reliability and s
  It is foreseeable that as technology advances, the microrobotic system will be able to make more and more complex tasks.
 
 
-[microrobotics]: microrobotics.qmd
+[microrobotics]: index.qmd
 
