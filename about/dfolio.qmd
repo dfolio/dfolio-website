@@ -16,12 +16,12 @@ image-alt: "Photo of David FOLIO"
 
 ##### **David Folio** {-}
 
-> - Born September 17, 1979; 
+> - Born September 17, 1979
 > - French nationality
 
-##### Associate Professor (Dr. Habil) {-}
+##### Senior associate Professor (Dr. Habil) {-}
 
-> **Main topic**:  [Microrobotics](/research/microrobotics/index.qmd) for [biomedical applications](/research/microrobotics/biomedical/index.qmd).
+> **Main research topic**:  [Microrobotics](/research/microrobotics/index.qmd) for [biomedical applications](/research/microrobotics/biomedical/index.qmd).
 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
@@ -29,10 +29,48 @@ image-alt: "Photo of David FOLIO"
 :::
 :::
 
+
+Since 2008
+:   **Associate Professor** [(maître de conférences)]{.text-muted .french lang=fr}, 61^st^ 
+    <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr> section
+
+    Affiliation:
+    :   {{< var INSA-CVL >}}, University of Orléans, 
+        {{< var PRISME-Laboratory >}} EA4229, Bourges, France.
+
+    Teaching:
+    :   Member of the teaching team of the Industrial Risk Control 
+        (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>), 
+        of the Energy, Risks, and Environment 
+        (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>), and 
+        of the Sciences and Techniques for Engineers 
+        (<abbr lang="fr" title="Science et Technique pour l’Ingénieur">STPI</abbr>) departments on the Bourges campus of {{< var INSA-CVL >}}.
+
+    Research:
+    :   Member of the Robotics team of the  Images, Robotics, Automatic control 
+        and Signal (<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>)
+        unit of the {{< var PRISME-Laboratory >}}.
+    
+Since 2014
+:    In charge of the Nuclear Energy option of the 5^th^ year of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department.
+    
+Since 2020
+:    Elected member of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department Council.
+
+Since 2022
+:     
+     
+     - Senior associate professor  [(maître de conférences hors classe)]{.text-muted .french lang=fr}.
+     - Elected member of the {{< var PRISME-Laboratory >}} Council.
+     
+Since 2023
+:   Elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
+
+
 Further details about me:
 
-- [English version](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} {{< fa file-pdf >}}
-  of [D. Folio's CV](/pdf/2022_dfolio_en.pdf "Click to download"){.download-link download="2022_dfolio_en.pdf"} [(issued 2022)]{.mutted}
+- [English version](/pdf/2023_dfolio_en.pdf "Click to download"){.download-link download="2023_dfolio_en.pdf"} {{< fa file-pdf >}}
+  of [D. Folio's CV](/pdf/2023_dfolio_en.pdf "Click to download"){.download-link download="2023_dfolio_en.pdf"} [(issued 2023)]{.mutted}
 - [Chinese version](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} {{< fa file-pdf >}}
   of [D. Folio's CV](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} [(issued 2018)]{.mutted} [Thx Ruipeng]
 - See also my 
@@ -121,7 +159,7 @@ Between  2017 and 2020, I have been elected as member of the council department 
 Environment (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>);
 and since November 2020 I am an elected member of the council department of Industrial Risk Control
 (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>).
-
+Since may 2023, I am an elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
 
 Furthermore, I carry out my research activities with the {{< var PRISME-Laboratory >}}[^PRISME]
 in the Robotics team belonging to the Images, Robotics, Automatic control and Signal 
@@ -135,9 +173,9 @@ Globally, my main contributions focus on the study of **magnetic medical microro
 Meanwhile, I have also contributed to the development of
 micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase].
 
-Finally, on December 3, 2021, I defended [my habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR) which I entitled 
+On December 3, 2021, I defended [my habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR) which I entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](/publications/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
 
-
+Since march 2022, I am an elected member of the  {{< var PRISME-Laboratory >}} Council.
 
 [^PRISME]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
