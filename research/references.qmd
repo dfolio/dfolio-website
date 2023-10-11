@@ -4,8 +4,7 @@ date: 2018-03-30 06:55:35.1522385735 +0200
 title: References
 keywords: [dfolio, bibliography, references, research, activities]
 description: >
-  D. FOLIO research activities have given rise to scientific publications which are 
-  listed on this page of bibliographical references.
+  D. Folio's research activities have given rise to scientific publications which are listed on this bibliographical references page.
 bibliography: dfolio.bib
 #biblio-style: authoryear
 aliases: 
@@ -19,7 +18,7 @@ image-width: 80%
 image-height: 80%
 ---
 
-```{r}
+```{r bib-data}
 #| output: false
 if(!require(RefManageR))
   remotes::install_github("ropensci/RefManageR") 
