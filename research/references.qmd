@@ -20,6 +20,8 @@ image-height: 80%
 
 ```{r bib-data}
 #| output: false
+if(!require(rmarkdown))
+  install.packages("rmarkdown")
 if(!require(RefManageR))
   remotes::install_github("ropensci/RefManageR") 
 RefManageR::BibOptions(check.entries = FALSE, style = "markdown", bib.style = "numeric", max.names=99)
