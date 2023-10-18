@@ -63,6 +63,7 @@ You may also be interested in the [publications page](../publications/index.qmd)
 :::{.callout-tip}
 - The publications list here follows the Hcéres[^1] proposed nomenclature.
 - Two journal metrics are reported here: journal quartile (Qn) and impact factor (IF).
+- The names of the supervised young researchers and my name are in **bold**.
 :::
 
 [^1]: From French "*[Haut Conseil de l'évaluation de la recherche et de l'enseignement supérieur]{.fr lang="fr"}*" (Hcéres) which is the High Council for Evaluation of Research and Higher Education an independent administrative authority. <https://www.hceres.fr>
@@ -114,7 +115,7 @@ print(bibACT, .opts = list(check.entries = FALSE, sorting = "ydnt"))
 ## Oral Communications {#sec:ORAL}
 
 
-### Invited Speaker in Conferences (INV) {#INV}
+### Invited Speaker (INV) {#INV}
 
 ```{r}
 #| results: asis
