@@ -1,6 +1,6 @@
 ---
-title: "A Quarto IEEE journal format"
-description: "How to produce an article with the IEEEtran format in Quarto document"
+title: "A Quarto IEEE journal template [v1.0.0]"
+description: "How to produce an article with the IEEEtran template in Quarto document"
 date: "2023-06-23 15:33:59.1687527239 +0200"
 image: https://quarto.org/quarto.png
 image-alt: Quarto logo
@@ -13,7 +13,6 @@ journal templates ([Association of Computing Machinery](https://github.com/quart
 [American Chemical Society](https://github.com/quarto-journals/acs), etc.).
 [Quarto] also provides a simple way to user to [create](https://quarto.org/docs/journals/formats.html#quick-start) their own Journal article format extension:
 
-
 ```{.bash filename="Terminal"}
 $ quarto create extension journal
  ? Extension Name : aps
@@ -21,16 +20,12 @@ $ quarto create extension journal
 
 The interested reader may read the documentation on [journal format](https://quarto.org/docs/journals/formats.html#quick-start) of [Quarto] for further details.
 
-
-However, there is no built-in template for IEEE journals.
-Therefore, I started developing the [quarto-ieee] journal format extension to produce journal paper using the [IEEEtran.cls] document class.
-
-
+However, up to now, there is no built-in template for the IEEE transactions or journals.
+Therefore, I started developing the [quarto-ieee] journal template extension to produce journal paper using the [IEEEtran.cls] LaTeX document class.
 
 ## Creating a New Article
 
 To create a new article using the [quarto-ieee] format:
-
 
 ```{.bash filename="Terminal"}
 quarto use template dfolio/quarto-ieee
@@ -43,7 +38,6 @@ This will create a new directory `my-ieee-article` with an example document (`my
 
 To add the [quarto-ieee] format to an existing [Quarto] document:
 
-
 ```{.bash filename="Terminal"}
 quarto add dfolio/quarto-ieee
 ```
@@ -52,9 +46,8 @@ Then, add the format to your document options:
 
 ``` yaml
 format:
-  quarto-ieee-pdf: default
+  ieee-pdf: default
 ```
-
 
 
 [quarto-journal]: https://github.com/quarto-journals/
