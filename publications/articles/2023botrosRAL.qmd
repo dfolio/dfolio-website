@@ -1,6 +1,6 @@
 ---
 type: journal
-date: "2023-06"
+date: "2023-04-05"
 title: "USMicroMagSet: Using Deep Learning Analysis to Benchmark the Performance of Microrobots in Ultrasound Images"
 description: | 
   This letter proposes the USMicroMagSet dataset and a deep learning method to detect and track microrobots in ultrasound images.
@@ -52,6 +52,7 @@ links:
     href: https://gitlab.com/insa-cvl2/USMicroMagSet/
 citation: 
   citation-key: 2023botrosRAL
+  issued: 2023-06
   language: en-US
   type: article-journal
   genre: ACL
