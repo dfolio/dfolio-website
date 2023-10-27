@@ -11,4 +11,4 @@ image-width: 64px
 
 {{< include ../_links.qmd >}}
 
-Writing with [bookdown] [my HDR thesis][HDR] is finally done!
+Writing with [bookdown], [my HDR thesis][HDR] is finally done!
