@@ -22,10 +22,10 @@ jobs:
         run: |
          sudo locale-gen  ${{ env.LANG }}
          sudo update-locale LANG=${{ env.LANG }}
-         
+
       - name: Setup pandoc
         uses: r-lib/actions/setup-pandoc@v2
-      
+
       - name: Setup R1
         uses: r-lib/actions/setup-r@v2
       - name: Setup R2
@@ -37,13 +37,12 @@ jobs:
           extra-packages:
             any::remotes
             any::RefManageR
-        
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        # with:
-        #   # To install LaTeX to build PDF book
-        #   tinytex: true        
-            
+        with:
+          tinytex: true       # To install LaTeX to build PDF book
+
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
         with:
