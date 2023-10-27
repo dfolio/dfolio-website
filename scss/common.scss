@@ -16,6 +16,10 @@ $enable-print-styles:       true;
 $enable-print-dark:         true;
 $enable-responsive-font-sizes: true!default;
 
+$enable-dark-mode:        true !default;
+$color-mode-type:         data !default; // `data` or `media-query`
+
+$spacer: 1rem !default;
 // Body
 $sidebar-width:         500px !default;
 //$grid-body-width:       900px !default;
@@ -33,18 +37,39 @@ $font-size-foot:        max(($font-size-base * .875), $font-size-min);
 $font-size-footnote:    max(($font-size-base * .75), $font-size-min);
 $line-height-base:      1.5 !default;
 
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: $font-size-sm,
+);
+// scss-docs-end font-sizes
+
+$link-decoration:           underline;
 // Buttons
-$input-btn-padding-y:         .15rem ;
-$input-btn-padding-x:         .25rem ;
+$input-btn-padding-y:         .25rem ;
+$input-btn-padding-x:         .5rem ;
 $input-btn-line-height:       $line-height-base * 0.66;
 
 $text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 
 // Figures
 $caption-font-size:    $font-size-sm;
-$caption-color:        $dark !default;
 // Footnotes
 $footnotes-rule: 2px solid $dark;
+
+$list-group-item-padding-y: $spacer * 0.25 !default;
 /*-- scss:mixins --*/
 
 @mixin text-shadow($color) {
@@ -60,17 +85,28 @@ $footnotes-rule: 2px solid $dark;
 }
 
 /*-- scss:rules --*/
-
 main.content{
+  .url, .download-link{
+    color: $link-color;
+    text-decoration: none;
+    font-weight: 500;
+    &:hover{
+      text-decoration: $link-decoration;
+    }
+  }
+  a {
+    text-decoration: none;
+    &:not([href]), &:not([class]){
+      @extend .url;
+    }
+  }
   dl {
     @include make-container();
     @include make-row();
   }
   dd{padding-left: $spacer;}
   @include media-breakpoint-up(lg) {
-    > ul,
-    > ol,
-    > p {
+    > ul,> ol,> p {
       max-width: 90%;
     }
     dt{@include make-col(3);}
@@ -86,8 +122,8 @@ main.content{
   }
 
   .right {
-    text-align: right;
-    padding-right: 1em;
+    text-align:  $spacer;
+    padding-right: $spacer;
   }
 }
 
@@ -153,7 +189,6 @@ img.navbar-logo{
   }
 }
 
-
 // Navbar
 
 .navbar {
@@ -185,7 +220,6 @@ img.navbar-logo{
 .btn-outline-secondary {
   color: $gray-700;
 }
-
 
 // Typography
 

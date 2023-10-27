@@ -8,7 +8,7 @@ date: 2023-03-14
 title: "Selected publications"
 description: |
   A selection of academic publications that  David Folio has co-authored.
-
+comments: false
 toc-title: Publication type
 listing:
   - id: articles-list
@@ -64,7 +64,7 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 ## Journal articles (ACL) {#ACL}
 :::{.collapsable #collapse-parent-ACL}
 :::{.collapse-head}
-<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACL" aria-expanded="true" aria-controls="collapse-ACL" title="Click to expand/contract">
+<a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACL" aria-expanded="true" aria-controls="collapse-ACL" title="Click to expand/contract">
         <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
         <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
 </a>
@@ -78,9 +78,9 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 ## Conferences papers (ACT) {#ACT}
 :::{.collapsable #collapse-parent-ACT}
 :::{.collapse-head}
-<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACT" aria-expanded="false" aria-controls="collapse-ACT" title="Click to expand/contract">
-        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
-        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+<a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACT" aria-expanded="false" aria-controls="collapse-ACT" title="Click to expand/contract">
+<i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+<i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
 </a>
 :::
 :::{.collapse #collapse-ACT}
@@ -89,13 +89,12 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 :::
 
-
 ## Oral communications (COM) {#COM}
 :::{.collapsable #collapse-parent-COM}
 :::{.collapse-head}
-<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-COM" aria-expanded="false" aria-controls="collapse-COM" title="Click to expand/contract">
-        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
-        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+<a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-COM" aria-expanded="false" aria-controls="collapse-COM" title="Click to expand/contract">
+<i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+<i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
 </a>
 :::
 :::{.collapse #collapse-COM}
@@ -107,9 +106,9 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 ## Thesis {#thesis}
 :::{.collapsable #collapse-parent-thesis}
 :::{.collapse-head}
-<a class="btn btn-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-thesis" aria-expanded="true" aria-controls="collapse-thesis" title="Click to expand/contract">
-        <i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
-        <i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
+<a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-thesis" aria-expanded="true" aria-controls="collapse-thesis" title="Click to expand/contract">
+<i class="bi bi-chevron-bar-expand" aria-hidden="true" aria-label="expand"><span class="visually-hidden">expand</span></i>
+<i class="bi bi-chevron-bar-contract" aria-hidden="true" aria-label="contract"><span class="visually-hidden">contract</span></i>
 </a>
 :::
 :::{.collapse .show  #collapse-thesis}

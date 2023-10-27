@@ -37,8 +37,6 @@ $elseif(by-author)$
 </div>
 $endif$
 
-
-
 <div class="quarto-title-meta date">
 $if(date)$
   <div class="quarto-title-meta-heading">$labels.published$</div>
@@ -63,10 +61,12 @@ $endif$
 
 $if(links)$
 <div class="quarto-title-links">
+  <ul class="list-group list-group-horizontal fs-7">
 $for(links)$
-  <a href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">
-    $if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a>
+  <li class="list-group-item px-1"><a href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">
+    $if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a></li>
 $endfor$
+</ul>
 $if(scite-badge)$$if(doi)$
 <div class="scite-badge" data-doi="$doi$" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
 $endif$$endif$

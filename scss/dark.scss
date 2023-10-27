@@ -3,6 +3,19 @@
 /*-- scss:uses --*/
 /*-- scss:functions --*/
 /*-- scss:defaults --*/
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
 // The main body
 $sidebar-width: 500px !default;
 $grid-body-width: 900px !default;
@@ -18,6 +31,10 @@ $light: #525252;
 $footer-bg: #181818;
 $navbar-bg: #303030;
 
+// List group
+$list-group-color: $gray-900 !default;
+$list-group-bg: rgba($black, .6);
+$list-group-border-color: rgba($gray-100, 0.2);
 
 // Code blocks
 $code-block-bg-alpha: -.8;
@@ -32,6 +49,8 @@ $dropdown-color: $body-color;
 $dropdown-link-color: $body-color;
 $dropdown-link-hover-bg: $gray-600;
 $dropdown-link-hover-color: white;
+
+$caption-color:        $light;
 /*-- scss:mixins --*/
 /*-- scss:rules --*/
 

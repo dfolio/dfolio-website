@@ -71,6 +71,11 @@ $dropdown-link-hover-bg:        $primary !default;
 $navbar-fg:      rgba($white, .8);
 $navbar-hl:      rgba($white, .9);
 
+// List group
+$list-group-color: $gray-900 !default;
+$list-group-bg: rgba($white, .6);
+$list-group-border-color: rgba($gray-600, 0.2);
+
 // Sidebar
 $sidebar-fg:      rgba($body-color, .8);
 $sidebar-hl:      rgba($body-color, .6);
@@ -79,6 +84,7 @@ $sidebar-hl:      rgba($body-color, .6);
 $footer-bg:       rgba($gray-900,0.6) !default;
 $footer-fg:       rgba($gray-300,0.8) !default;
 
+$caption-color:        $dark;
 //
 /*-- scss:mixins --*/
 
