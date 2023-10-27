@@ -64,9 +64,7 @@ website:
     border: false
     left: |
         [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/index.qmd).]{.copyright aria-label="copyright"}
-        [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License"){fig-alt="CC by 4.0"}](http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International (CC BY 4.0)")
-        Site licensed under]{.d-none .d-lg-inline}
-        [[{{< fa brands creative-commons-by title="CC-BY 4.0" >}} CC-BY 4.0](/about/license.qmd "Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.license aria-label="license"}
+        [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License"){fig-alt="CC by 4.0"}](/about/license.qmd "Site licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.d-none .d-lg-inline}
 
     right: &links
       - aria-label: "GitHub"
