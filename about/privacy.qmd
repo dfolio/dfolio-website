@@ -49,10 +49,11 @@ You can learn more about cookies and the following third­party websites:
 ### The use of HTTP cookie on this webpages {#cookie-usage}
 
 [dfolio'](/) website  use (a very few) cookies to track site usage (aka [Google Analytics][GA]). 
-By reading this website, and unless you instruct your browser to block cookies, you consent to the use of cookies.
+By reading this website, and unless you instruct your browser to block cookies, you consent to the use of cookies. You can change your [cookie preferences]{#open_preferences_center}.
 \
 The different pages should work perfectly fine without cookies. 
 Thus, you are free to disable cookies usage or delete them from your computer.
+
 
 <!--
 ## Comments
