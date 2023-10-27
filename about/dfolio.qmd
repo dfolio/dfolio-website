@@ -7,6 +7,9 @@ description: Some information on the author of this site, that is on D.Folio.
 bibliography: [../research/dfolio.bib,../research/references.bib]
 image: /images/david-folio.webp
 image-alt: "Photo of David FOLIO"
+comments:
+  giscus:
+    repo: dfolio/dfolio
 ---
 
 ## Overview
