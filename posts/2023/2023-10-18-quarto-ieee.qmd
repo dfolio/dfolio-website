@@ -18,7 +18,7 @@ and [`physics`](https://ctan.org/pkg/physics) (for flexible macros for typesetti
 See below an example of the `PDF` output:
 
 :::center
-[![](/images/posts/2023/quarto-ieee-template-pdf.webp){width="80%"}](https://github.com/dfolio/quarto-ieee/blob/main/template.pdf)
+[![](/images/posts/2023/quarto-ieee-template-pdf.webp){width="80%"}](https://dfolio.fr/posts/quarto-ieee/template.pdf)
 :::
 
 :::callout-important
@@ -46,7 +46,7 @@ However, some features are not (currently) supported:
 See below an example of the `HTML` output:
 
 :::center
-[![](/images/posts/2023/quarto-ieee-template-html.webp){width="80%"}](https://github.com/dfolio/quarto-ieee/blob/main/template.html)
+[![](/images/posts/2023/quarto-ieee-template-html.webp){width="80%"}](https://dfolio.fr/posts/quarto-ieee/template.html)
 :::
 
 ### Contributing
