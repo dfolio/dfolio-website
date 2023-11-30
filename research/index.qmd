@@ -1,5 +1,5 @@
 ---
-aliases:  
+aliases:
   - /research/research.html
   - /research/research-activities.html
   - /research/activities.html
