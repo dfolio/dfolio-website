@@ -83,8 +83,15 @@ $list-group-item-padding-y: $spacer * 0.25 !default;
 @mixin btn-shadow($color){
   @include gradient-y-three-colors(tint-color($color, 16%), $color, 60%, shade-color($color, 6%));
 }
-
 /*-- scss:rules --*/
+
+@font-face {
+  font-family: scite-icons;
+  src: local('scite-icons'), local('/scite-icons.woff2'),
+    url(https://cdn.scite.ai/assets/fonts/scite-icons/scite-icons.woff2?v=5)
+    format('woff2');
+}
+
 main.content{
   .url, .download-link{
     color: $link-color;
