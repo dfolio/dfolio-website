@@ -56,7 +56,7 @@ listing:
   type: grid
   fields: [image, title, subtitle, categories, description,  date]
   contents: 
-    - /teaching//index.qmd
+    - /teaching/index.qmd
     - /research/index.qmd
     #- /research/references.qmd
     - /publications/index.qmd
@@ -84,4 +84,6 @@ You may also find some more personal (public) stuff that I would share on a regu
 :::
 
 ::: {#index-links .column-screen-inset-right}
+
+              
 :::
