@@ -24,6 +24,9 @@ $if(rss)$<link rel="alternate" type="application/rss+xml" title="$title-prefix$"
 $if(google-site-verification)$<meta rel="google-site-verification" content="$google-site-verification$" />$endif$
 $if(msvalidate)$<meta rel="msvalidate.01" content="$msvalidate$" />$endif$
 $if(canonical)$<link rel="canonical" href="$canonical$" />$endif$
+$if(scite-badge)$
+<link rel="preload" href="/scite-icons.woff2" as="font" type="font/woff2" crossorigin>
+$endif$
 $if(ads.pub)$<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-$ads.pub$" crossorigin="anonymous"></script>
 $if(ads.amp)$<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"> </script>$endif$
 $endif$
@@ -39,3 +42,4 @@ gtag('set','user_data',{'sha256_email_address': "7edfb721cba3efa892eeec9a170e82c
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MWQGCQ6');</script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
