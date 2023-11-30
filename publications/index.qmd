@@ -27,14 +27,12 @@ listing:
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
-  
   - id: communications-list
     contents: communications/*.qmd
     template: publications.ejs
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
-    
   - id: thesis-list
     contents: thesis/*.qmd
     template: publications.ejs
@@ -42,8 +40,6 @@ listing:
     sort-ui: [date, author]
     date-format: "YYYY"
 date-format: "MMMM D, YYYY"
-#page-layout: full
-# page-layout: article
 title-block: true
 title-block-meta: false
 css: publications.css
@@ -52,7 +48,6 @@ image-alt: "D. F. logo"
 image-width: 80%
 image-height: 80%
 categories: [dfolio, research, bibliography]
-
 ---
 
 :::{.callout-note}

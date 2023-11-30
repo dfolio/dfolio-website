@@ -32,14 +32,16 @@
         </span>
       </div>
       <div class="publication-btn btn-toolbar" role="toolbar" aria-label="Links to publication">
-      <ul class="list-group list-group-horizontal fs-7 mb-2">
-      <li class="list-group-item px-1"><a href="<%- item.path %>" class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a></li>
+      <ul class="list-group list-group-horizontal-md fs-7 mb-2">
+      <li class="list-group-item flex-fill px-1"><a href="<%- item.path %>" class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a></li>
         <% if (item.links) { %>
           <% for (const link of item.links) { %>
-          <li class="list-group-item px-1"><a href="<%= link.href %>" target="_blank" rel="noopener noreferrer" class="<%- link.class %>"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a></li>
+          <li class="list-group-item flex-fill px-1"><a href="<%= link.href %>" target="_blank" rel="noopener noreferrer" class="<%- link.class %>"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a></li>
           <% } %>
            <% if (item.doi) { %>
+          <li class="d-none d-md-block flex-fill">
             <div class="scite-badge" data-doi="<%= item.doi %>" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
+          </li>
           <% } %>
         <% } else { %>
           <% if (item.doi) { %>
