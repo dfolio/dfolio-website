@@ -70,6 +70,7 @@ Since 2022
      
 Since 2023
 :    
+    
     - Elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
     - Full member appointed to section CNU61
 
