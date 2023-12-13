@@ -36,7 +36,7 @@ School (<abbr lang="fr" title='École Nationale Supérieur d’Ingénieurs'>ENSI
 involved in the life of the Institute.
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
-![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){#fig:INSA-CVL fig-alt="INSA-CVL"}
+![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){#fig-INSA-CVL fig-alt="INSA-CVL"}
 :::
 :::
 [^1]: INSA [Centre Val de Loire]{.fr lang="fr"} (INSA CVL) was created in 2014 by the merge of 
@@ -53,7 +53,7 @@ mainly deal with the modeling and control for nano and micro-robotics in
 a biomedical context. 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
-![](/images/PRISME.svg "Logo of PRISME Laboratory"){#fig:PRISME fig-alt="PRISME"}
+![](/images/PRISME.svg "Logo of PRISME Laboratory"){#fig-PRISME fig-alt="PRISME"}
 :::
 :::
 
