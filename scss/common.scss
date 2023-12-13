@@ -111,7 +111,12 @@ main.content{
     @include make-container();
     @include make-row();
   }
-  dd{padding-left: $spacer;}
+  dd{padding-left: $spacer;
+    ul{
+        margin-top: -2.5*$spacer;
+        margin-left: -$spacer;
+      }
+  }
   @include media-breakpoint-up(lg) {
     > ul,> ol,> p {
       max-width: 90%;
