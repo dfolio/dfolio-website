@@ -15,22 +15,24 @@ comments:
 ## Overview
 
 :::{.grid}
-:::{#INSA-CVL .g-col-12 .d-md-block .g-col-md-8}
+:::{#INSA-CVL .g-col-12 .d-md-block .g-col-md-6}
 
 ##### **David Folio** {-}
 
 > - Born September 17, 1979
 > - French nationality
 
-##### Senior associate Professor (Dr. Habil) {-}
+##### Senior Associate Professor (Dr. Habil) {-}
 
 > **Main research topic**:  [Microrobotics](/research/microrobotics/index.qmd) for [biomedical applications](/research/microrobotics/biomedical/index.qmd).
 
 :::
-:::{.d-none .d-md-block .g-col-md-4 }
+:::{.d-none .d-md-block .g-col-md-3 }
 ![](/images/david-folio.webp  "David Folio photo")
 
-<div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="david-folio" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/david-folio?trk=profile-badge">David Folio</a></div>
+:::
+:::{.d-none .d-md-block .g-col-md-3 }
+<div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="david-folio" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/david-folio?trk=profile-badge"> </a></div>
 :::
 :::
 
@@ -62,6 +64,9 @@ Since 2014
 Since 2020
 :    Elected member of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department Council.
 
+Dec. 2021
+:    Dr. Habil ("[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR)
+
 Since 2022
 :     
      
@@ -72,7 +77,7 @@ Since 2023
 :    
     
     - Elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
-    - Full member appointed to section CNU61
+    - Full member appointed to [61^st^ section <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){lang=fr}
 
 
 Further details about me:
