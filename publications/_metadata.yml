@@ -11,21 +11,24 @@ affiliations:
     affiliation-url: https://www.univ-orleans.fr/fr/prisme
     address: "88 Boulevard Lahitolle"
     postal-code: 18000
+    region: "Centre Val de Loire"
     city: Bourges
-    country: France
+    country: FR
   - id: LAAS
     name: "LAAS-CNRS, Université de Toulouse"
     affiliation-url: https://www.laas.fr
     address: "7, avenue du Colonel Roche"
     postal-code: 31077
     city: Toulouse
-    country: France
+    region: "Occitanie"
+    country: FR
   - id: hei
     name: "JUNIA-HEI, PRISME EA4229"
     address: 2 Allée Jean Vaillé
     postal-code: 36000
+    region: "Centre Val de Loire"
     city: Châteauroux
-    country: France
+    country: FR
   - id: pascal
     name: Institut Pascal
     url: http://www.institutpascal.uca.fr
@@ -36,8 +39,9 @@ affiliations:
   - id: lagadic
     name: "Lagadic Team, Inria Rennes–Bretagne Atlantique, IRISA"
     city: Rennes
+    region: "Bretagne"
     postal-code: 35042
-    country: "France"
+    country: "FR"
   - id: MSRL
     name: "Multi-Scale Robotics Lab, Institute of Robotics and Intelligent Systems, ETH Zurich"
     affiliation-url: https://msrl.ethz.ch
@@ -72,8 +76,8 @@ affiliations:
     postal-code: 518055
     country: China
   - id: UPMC
-    name: Université Pierre et Marie Curie - Paris VI
+    name: "Université Pierre et Marie Curie - Paris VI"
     city: Paris
-    country: France
+    country: FR
 
 rss: /publications/publications.xml

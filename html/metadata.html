@@ -34,6 +34,31 @@ $if(profile)$<script type="application/ld+json">{
   "dateModified": "$date-modified$",
   "mainEntity": $json-author.html()$
 }</script>$endif$
+$if(citation)$<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "author":  [$json-author.html()$],
+  "dateCreated": "$date$",
+  "dateModified": "$date-modified$",
+  "headline": "$title$",
+  $if(images)$"image": "https://dfolio.fr$images$", $endif$
+  $if(abstract)$"abstract": "$abstract$", $endif$
+  $if(links)$"archivedAt": [$for(links)$$links.href$$sep$, $endfor$], $endif$
+  "hasPart": [{
+    "@id": "$citation.citation-key$",
+    "@type": "PublicationIssue",
+    "name": "$title$",
+    "datePublished": "$date$"
+    $if(citation.number)$, "issueNumber": "$citation.number$"$endif$
+    $if(citation.container-title)$, "isPartOf": {
+      "@type": "PublicationVolume",
+      "name": "$citation.container-title$"
+      $if(citation.issn)$, "issn": "$citation.issn$"$endif$
+      $if(citation.volume)$, "volumeNumber": "$citation.volume$"$endif$
+      $if(citation.publisher)$, "publisher": "$citation.publisher$"$endif$
+    }$endif$
+  }]
+}</script>$endif$
 $if(course)$<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Course",
@@ -53,15 +78,13 @@ $if(course)$<script type="application/ld+json">{
   $if(datePublished)$"datePublished": "$datePublished$",
   $else$$if(date)$"datePublished": "$date$",$endif$$endif$
   $if(educationalLevel)$"educationalLevel": "$educationalLevel$", $endif$
-  $if(images)$"image": "https://dfolio$images$", $endif$
+  $if(images)$"image": "https://dfolio.fr$images$", $endif$
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
       "courseMode": "Onsite",
       $if(courseWorkload)$"courseWorkload": "$courseWorkload$",$endif$
-      $if(author)$"instructor": [
-      $json-author.html()$
-      ]$endif$
+      $if(author)$"instructor": [$json-author.html()$]$endif$
     }],
   "offers": [{
     "@type": "Offer",
