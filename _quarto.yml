@@ -199,9 +199,9 @@ format:
     highlight: null
     mathjax: null
     html-math-method: plain
-    theme:
-      light: [scss/common.scss,scss/light.scss]
-      dark: [scss/common.scss,scss/dark.scss]
+    theme: scss/common.scss
+      #light: [scss/common.scss,scss/light.scss]
+      #dark: [scss/common.scss,scss/dark.scss]
 
     #css: styles.css
 
