@@ -16,6 +16,7 @@ author:
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: https://dfolio.fr
+    image: "/images/david-folio.webp"
     affiliations:
       - ref: PRISME
 url: /publications/thesis/folio2007thesis.qmd
@@ -24,7 +25,7 @@ links:
     aria-label: "URL"
     icon: "bi bi-link-45deg"
     class: "btn btn-success btn-sm"
-    href: "/publications/thesis/folio2007thesis.qmd"
+    href: "/publications/thesis/folio2021hdr.qmd"
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"

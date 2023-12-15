@@ -18,6 +18,7 @@ author:
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: https://dfolio.fr
+    image: "/images/david-folio.webp"
     attributes:
       equal-contributor: true
     affiliations:
