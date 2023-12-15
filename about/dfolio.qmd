@@ -7,6 +7,7 @@ description: Some information on the author of this site, that is on D.Folio.
 bibliography: [../research/dfolio.bib,../research/references.bib]
 image: /images/david-folio.webp
 image-alt: "Photo of David FOLIO"
+profile: true
 comments:
   giscus:
     repo: dfolio/dfolio
@@ -35,7 +36,6 @@ comments:
 <div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="david-folio" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/david-folio?trk=profile-badge"> </a></div>
 :::
 :::
-
 
 Since 2008
 :   **Associate Professor** [(maître de conférences)]{.text-muted .french lang=fr}, 61^st^ 

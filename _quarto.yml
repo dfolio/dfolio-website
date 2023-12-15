@@ -211,6 +211,7 @@ format:
       - html/title-block.html
       - html/title-metadata.html
       - html/after-body.html
+      - html/json-author.html
     toc: true
     anchor-sections: true
     code-copy: true

@@ -1,24 +1,38 @@
 
 sidebar: about
 #comments: true
+#
+date-format: YYYY-MM-DDTHH:mm:ssZ
 author:
   name:
     family: Folio
     given: David
+  alternate: dfolio
   orcid: 0000-0001-9430-6091
   email: david.folio@insa-cvl.fr
   url: https://dfolio.fr
+  image: "/images/david-folio.webp"
   attributes:
     corresponding: true
     equal-contributor: true
   affiliations:
     - ref: PRISME
+  roles:
+    - Write: 69
 
 affiliations:
   - id: PRISME
     name: "INSA Centre Val de Loire, Univ. Orléans, PRISME EA4229"
-    affiliation-url: https://www.univ-orleans.fr/fr/prisme/
+    url: https://www.univ-orleans.fr/fr/prisme/
     address: "88 Boulevard Lahitolle"
-    postal-code: 18000
+    postal-code: "F-18000"
     city: Bourges
-    country: France
+    region: "Centre Val de Loire"
+    country: FR
+  - id: INSA-CVL
+    name: "INSA Centre Val de Loire"
+    url: "https://www.insa-centrevaldeloire.fr"
+    address: "88 Boulevard Lahitolle"
+    postal-code: "F-18000"
+    city: Bourges
+    country: FR

@@ -4,6 +4,7 @@ google-scholar: true
 adsense: true
 comments: false
 
+date-format: iso
 author:
   name:
     family: Folio
@@ -17,11 +18,13 @@ author:
   affiliations:
     - ref: INSA-CVL
   image: "/images/david-folio.webp"
+  roles:
+    - Write: 69
 affiliations:
   - id: INSA-CVL
     name: "INSA Centre Val de Loire"
     url: "https://www.insa-centrevaldeloire.fr"
     address: "88 Boulevard Lahitolle"
-    postal-code: 18000
+    postal-code: "F-18000"
     city: Bourges
-    country: France
+    country: FR
