@@ -11,6 +11,13 @@ datePublished: 2015-09-01
 skills: ["Technologies des composants électroniques passifs: linéaire (résistances, capacités, inductances) et non linéaire (les diodes)","les transistors bipolaires","les transistors à effets de champs","Technologies des composants numériques"]
 coursePrerequisites: ["électronique analogique"]
 courseWorkload: "PT21H20M"
+breadcrumb: 
+  - name: "Teaching"
+    position: 1
+    item: "https://dfolio.fr/teaching/"
+  - name: "Composants électroniques"
+    position: 2
+    item: "https://dfolio.fr/teaching/composants-electroniques.html"
 description: >
   L'objectif de cet enseignement avancé est de s'interesser au fonctionnement et
   aux technologies des composants de l'électroniques analogique.

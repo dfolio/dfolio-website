@@ -14,6 +14,10 @@ image: /images/logo-teach.webp
 image-alt: "Teaching logo"
 anchor-sections: false
 categories: [dfolio, teaching]
+breadcrumb: 
+  - name: "Teaching"
+    position: 1
+    item: "https://dfolio.fr/teaching/"
 ---
 
 My overall teaching activities have been solely related with the 61^st^

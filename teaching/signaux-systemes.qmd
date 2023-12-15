@@ -10,6 +10,13 @@ datePublished: 2014-09-01
 skills: ["signal and system","analog filter","oscillator","phase locked loop"]
 coursePrerequisites: ["traitement du signal", "automatique", "électronique analogique"]
 courseWorkload: "PT21H20M"
+breadcrumb: 
+  - name: "Teaching"
+    position: 1
+    item: "https://dfolio.fr/teaching/"
+  - name: "Signaux et systemes"
+    position: 2
+    item: "https://dfolio.fr/teaching/signaux-systemes.html"
 description: >
   Cet enseignement a pour but d'appréhender la chaîne de transmission de
   l'information à travers l'étude de la génération des signaux et des composants de

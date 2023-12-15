@@ -71,6 +71,20 @@ $if(course)$
 }
 </script>
 $endif$
+$if(breadcrumb)$
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [$for(breadcrumb)${
+    "@type": "ListItem",
+    "position": $breadcrumb.position$,
+    "name": "$breadcrumb.name$",
+    "item": "$breadcrumb.item$"
+  }$sep$, $endfor$]
+}
+</script>
+$endif$
 $if(ads.pub)$<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-$ads.pub$" crossorigin="anonymous"></script>
 $if(ads.amp)$<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"> </script>$endif$
 $endif$
