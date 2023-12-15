@@ -23,7 +23,7 @@ author:
       equal-contributor: true
     affiliations:
       - ref: LAAS
-url: /publications/thesis/folio2021hdr.qmd
+url: /publications/thesis/folio2007thesis.qmd
 links:
   - name: "URL"
     aria-label: "URL"

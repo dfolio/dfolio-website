@@ -19,7 +19,7 @@ author:
     image: "/images/david-folio.webp"
     affiliations:
       - ref: PRISME
-url: /publications/thesis/folio2007thesis.qmd
+url: /publications/thesis/folio2021hdr.qmd
 links:
   - name: "URL"
     aria-label: "URL"
