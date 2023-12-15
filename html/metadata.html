@@ -27,6 +27,46 @@ $if(canonical)$<link rel="canonical" href="$canonical$" />$endif$
 $if(scite-badge)$
 <link rel="preload" href="/scite-icons.woff2" as="font" type="font/woff2" crossorigin>
 $endif$
+$if(course)$
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "$title$",
+  "description": "$description$",
+  $if(affiliations)$
+  "provider": {
+    "@type": "Organization",
+    "name": "$for(affiliations)$$affiliations.name$$sep$- $endfor$",
+    "sameAs": "$for(affiliations)$$affiliations.url$$sep$- $endfor$"
+  },$endif$
+  $if(skills)$"about": [$for(skills)$"$skills$"$sep$,$endfor$],$endif$
+  $if(availableLanguage)$"availableLanguage": [$for(availableLanguage)$"$availableLanguage$"$sep$,$endfor$],
+  $else$$if(lang)$"availableLanguage": "$lang$", $endif$$endif$
+  $if(lang)$"inLanguage": "$lang$", $endif$
+  $if(coursePrerequisites)$"coursePrerequisites": [$for(coursePrerequisites)$"$coursePrerequisites$"$sep$,$endfor$],$endif$
+  $if(datePublished)$"datePublished": "$datePublished$",
+  $else$$if(date)$"datePublished": "$date$",$endif$$endif$
+  $if(educationalLevel)$"educationalLevel": "$educationalLevel$", $endif$
+  $if(images)$"image": "$images$", $endif$
+  "hasCourseInstance": [
+    {
+      "@type": "CourseInstance",
+      "courseMode": "Onsite",
+      $if(courseWorkload)$"courseWorkload": "$courseWorkload$",$endif$
+      $if(author)$"instructor": [
+      $for(by-author)${
+         "@type": "Person",
+         "name": "$by-author.name.literal$",
+         $if(by-author.metadata.description)$"description": "$by-author.metadata.description$",$endif$
+         $if(by-author.metadata.image)$"image": "$by-author.metadata.image$",$endif$
+         $if(by-author.url)$"sameAs": "$by-author.url$",$endif$
+      }$sep$, $endfor$
+      ]$endif$
+    },]
+}
+</script>
+$endif$
 $if(ads.pub)$<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-$ads.pub$" crossorigin="anonymous"></script>
 $if(ads.amp)$<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"> </script>$endif$
 $endif$

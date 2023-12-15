@@ -4,6 +4,11 @@ aliases:
   - /teaching/diagnostic-systemes/
 lang: fr
 title: Diagnostic des systèmes industriels
+course: true
+datePublished: 2015-09-01
+skills: ["analyser les propriétés d'un procédé","identifier les modes de fonctionnement normaux et anormaux des procédés", "concevoir	un système de diagnostic"]
+coursePrerequisites: ["automatique", "Modélisation et commande dans l'espace d'état"]
+courseWorkload: "PT21H20M"
 description: >
   Cet enseignement a pour but d'appréhender les méthodes de diagnostic basées
   modèles pour l'amélioration de la fiabilité des processus technologiques.

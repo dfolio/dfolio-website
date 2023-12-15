@@ -16,10 +16,11 @@ author:
     equal-contributor: true
   affiliations:
     - ref: INSA-CVL
+  image: "/images/david-folio.webp"
 affiliations:
   - id: INSA-CVL
     name: "INSA Centre Val de Loire"
-    affiliation-url: https://www.insa-centrevaldeloire.fr
+    url: "https://www.insa-centrevaldeloire.fr"
     address: "88 Boulevard Lahitolle"
     postal-code: 18000
     city: Bourges

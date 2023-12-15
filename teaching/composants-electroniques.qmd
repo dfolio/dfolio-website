@@ -6,6 +6,11 @@ aliases:
 lang: fr
 title: Composants électroniques
 keywords: [composants électroniques, électronique analogique, cours, david folio, INSA]
+course: true
+datePublished: 2015-09-01
+skills: ["Technologies des composants électroniques passifs: linéaire (résistances, capacités, inductances) et non linéaire (les diodes)","les transistors bipolaires","les transistors à effets de champs","Technologies des composants numériques"]
+coursePrerequisites: ["électronique analogique"]
+courseWorkload: "PT21H20M"
 description: >
   L'objectif de cet enseignement avancé est de s'interesser au fonctionnement et
   aux technologies des composants de l'électroniques analogique.

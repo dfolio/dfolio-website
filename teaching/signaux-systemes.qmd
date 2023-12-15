@@ -5,6 +5,11 @@ aliases:
 lang: fr
 title: Signaux et systemes
 keywords: Signaux et systèmes, traitement signal, filtrage, électronique, cours, david folio, INSA
+course: true
+datePublished: 2014-09-01
+skills: ["signal and system","analog filter","oscillator","phase locked loop"]
+coursePrerequisites: ["traitement du signal", "automatique", "électronique analogique"]
+courseWorkload: "PT21H20M"
 description: >
   Cet enseignement a pour but d'appréhender la chaîne de transmission de
   l'information à travers l'étude de la génération des signaux et des composants de
