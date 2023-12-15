@@ -43,7 +43,7 @@ $if(citation)$<script type="application/ld+json">{
   "headline": "$title$",
   $if(images)$"image": "https://dfolio.fr$images$", $endif$
   $if(abstract)$"abstract": "$abstract$", $endif$
-  $if(links)$"archivedAt": [$for(links)$$links.href$$sep$, $endfor$], $endif$
+  $if(links)$"archivedAt": [$for(links)$"$links.href$"$sep$, $endfor$], $endif$
   "hasPart": [{
     "@id": "$citation.citation-key$",
     "@type": "PublicationIssue",
