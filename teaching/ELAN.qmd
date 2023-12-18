@@ -10,6 +10,18 @@ description: >
   Le but de cet enseignement est de faire comprendre le fonctionnement des
   composants électroniques élémentaires à base de semi-conducteurs et d'étudier les montages classiques.
 images: /images/teaching/electronic-analog.webp
+course: true
+datePublished: 2015-09-01
+skills: ["Composants électroniques passifs non linéaire (diodes)","les transistors bipolaires","l'amplificateur operationel réel"]
+coursePrerequisites: ["électrocinétique"]
+courseWorkload: "PT21H20M"
+breadcrumb: 
+  - name: "Teaching"
+    position: 1
+    item: "https://dfolio.fr/teaching/"
+  - name: "Électronique Analogique"
+    position: 2
+    item: "http://dfolio.fr/teaching/ELAN.html"
 ---
 
 :::{.grid}
@@ -19,12 +31,12 @@ images: /images/teaching/electronic-analog.webp
 +----------------------+--------------------------------------------------+
 | **Semestre** _S4_    | **EC**: _Électronique analogique_                |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 6  | _Tronc commun (TC)_                              | +----------------------+--------------------------------------------------+
-| **Coefficient**: 2   |                                                  |
+| **ECTS**: 6          | _Tronc commun (TC)_                              | +----------------------+--------------------------------------------------+
+| **Coefficient**: 2   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/electronic-analog.webp "electronique analogique")
+![](/images/teaching/electronic-analog.webp "electronique analogique"){.zoom width="90%"}
 :::
 :::
 

@@ -32,11 +32,11 @@ canonical: https://dfolio.fr/teaching/signaux-systemes.html
 +----------------------+--------------------------------------------------+
 | **Semestre** _S7_    | **EC**: _Signaux et Systèmes_                    |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 10 | _EA Systèmes avancés_                            |
+| **ECTS**: 10         | _EA Systèmes avancés_                            |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/signaux-system.webp)
+![](/images/teaching/signaux-system.webp){.zoom width="90%"}
 :::
 :::
 

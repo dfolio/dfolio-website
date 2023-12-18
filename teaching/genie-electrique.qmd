@@ -10,6 +10,18 @@ description: >
   Le but de cet enseignement est de s'interesser à l'électricité et à leurs
   applications pratiques, notamment à travers l'étude de machines électriques.
 images: /images/teaching/cycles-energies.webp
+course: true
+datePublished: 2016-09-01
+skills: ["Le régime monophasé","Le régime triphasé","Le transformateur", "Machine synchrone", "Machine asynchrone","Machine à courant continu"]
+coursePrerequisites: ["électronique analogique"]
+courseWorkload: "PT22H"
+breadcrumb: 
+  - name: "Teaching"
+    position: 1
+    item: "https://dfolio.fr/teaching/"
+  - name: "Electricité - Électrotechnique"
+    position: 2
+    item: "http://dfolio.fr/teaching/genie-electrique.html"
 ---
 
 :::{.grid}
@@ -19,13 +31,13 @@ images: /images/teaching/cycles-energies.webp
 +----------------------+--------------------------------------------------+
 | **Semestre** _S6_    | **EC**: _Electricité - Électrotechnique_         |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 5  | _Tronc commun (TC)_                              |
+| **ECTS**: 5          | _Tronc commun (TC)_                              |
 +----------------------+--------------------------------------------------+
 | **Coefficient**: 2   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/cycles-energies.webp "Maîtriser l'énergie électrique")
+![](/images/teaching/cycles-energies.webp "Maîtriser l'énergie électrique"){.zoom width="90%"}
 :::
 :::
 

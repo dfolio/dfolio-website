@@ -31,13 +31,13 @@ images: /images/teaching/electronic-analog.webp
 +----------------------+--------------------------------------------------+
 | **Semestre** _S5_    | **EC**: _Composants électroniques_               |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 10 | _Tronc commun (TC)_                              |
+| **ECTS**: 10         | _Tronc commun (TC)_                              |
 +----------------------+--------------------------------------------------+
 | **Coefficient**: 2   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/electronic-analog.webp "electronique analogique")
+![](/images/teaching/electronic-analog.webp "electronique analogique"){.zoom width="90%"}
 :::
 :::
 

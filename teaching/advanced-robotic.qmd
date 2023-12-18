@@ -8,6 +8,18 @@ keywords: [robotic, mobile robot, control, systems, teach, activities]
 description: >
   This course provides an understanding of the basic notions of mobile robotics from modeling to autonomous navigation.
 images: /images/teaching/robotic.webp
+course: true
+datePublished: 2015-09-01
+skills: ["mobile robot kinematic modeling","mobile robot control", "mobile robot autonomous navigation"]
+coursePrerequisites: ["Control", "Solid mechanics","Metrology"]
+courseWorkload: "PT18H"
+breadcrumb: 
+  - name: "Teaching"
+    position: 1
+    item: "https://dfolio.fr/teaching/"
+  - name: "Advanced Robotic"
+    position: 2
+    item: "https://dfolio.fr/teaching/advanced-robotic.html"
 ---
 
 :::{.grid}
@@ -17,13 +29,13 @@ images: /images/teaching/robotic.webp
 +----------------------+--------------------------------------------------+
 | **Semestre** _S6_    | **EC**: _Robotique avancée_                      |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 10 | Option RSI et STLR                               |
+| **ECTS**: 10         | Option RSI \& STLR et Master                     |
 +----------------------+--------------------------------------------------+
 | **Coefficient**: 1   |                                                  |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/robotic.webp)
+![](/images/teaching/robotic.webp){.zoom width="90%"}
 :::
 :::
 

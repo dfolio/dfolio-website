@@ -31,11 +31,11 @@ canonical: https://dfolio.fr/teaching/diagnostic-systemes.html
 +----------------------+--------------------------------------------------+
 | **Semestre** _S8_    | **EC**: _Diagnostic et systèmes industriels_     |
 +----------------------+--------------------------------------------------+
-| **Crédits ECTS**: 5  | _EA Génie des Procédés_                          |
+| **ECTS**: 5          | _EA Génie des Procédés_                          |
 +----------------------+--------------------------------------------------+
 :::
 :::{.d-none .d-md-block .g-col-md-12 .g-col-xl-5}
-![](/images/teaching/commande-diagnostic.webp)
+![](/images/teaching/commande-diagnostic.webp){.zoom width="90%"}
 :::
 :::
 
