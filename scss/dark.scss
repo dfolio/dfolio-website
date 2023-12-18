@@ -16,14 +16,15 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
+$blue:    #0d6efd !default;
 // The main body
 $sidebar-width: 500px !default;
 $grid-body-width: 900px !default;
 
 // Base document colors
-$body-bg: #181818;
-$body-color: white;
-$link-color: #75AADB;
+$body-bg:     $gray-900;
+$body-color:  $white;
+$link-color:  tint-color($blue, 60%);
 
 $light: #525252;
 
@@ -50,8 +51,18 @@ $dropdown-link-color: $body-color;
 $dropdown-link-hover-bg: $gray-600;
 $dropdown-link-hover-color: white;
 
+//list group
+$list-group-color:                  $body-color;
+$list-group-bg:                     $body-bg;
+$list-group-border-color:           $border-color !default;
+
 $caption-color:        $light;
+$text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 /*-- scss:mixins --*/
+
+@mixin text-shadow($color) {
+  text-shadow: 0 0 1px rgba($color, .6), 0 0 3px rgba($color, .5), 0 0 .5rem rgba($color, .3), 0 0 2rem rgba($color, .2);
+}
 /*-- scss:rules --*/
 
 

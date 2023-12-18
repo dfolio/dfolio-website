@@ -85,9 +85,13 @@ $footer-bg:       rgba($gray-900,0.6) !default;
 $footer-fg:       rgba($gray-300,0.8) !default;
 
 $caption-color:        $dark;
+$text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 //
 /*-- scss:mixins --*/
 
+@mixin text-shadow($color) {
+  text-shadow: 0 0 1px rgba($color, .6), 0 0 3px rgba($color, .5), 0 0 .5rem rgba($color, .3), 0 0 2rem rgba($color, .2);
+}
 
 /*-- scss:rules --*/
 
@@ -95,3 +99,18 @@ $caption-color:        $dark;
 .light-mode { display: block; }
 .dark-mode { display: none; }
 
+
+// Buttons
+.btn {
+  text-shadow: $text-shadow;
+}
+
+.btn-secondary,
+.btn-outline-secondary {
+  color: $gray-700;
+}
+
+// Typography
+.text-secondary {
+  color: $gray-500 !important;
+}

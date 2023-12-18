@@ -26,11 +26,10 @@ $sidebar-width:         500px !default;
 //color:
 $gray-900:              #212529 !default;
 $dark:                  $gray-900 !default;
-$body-color:            $dark;
 // Fonts
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+//$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+//$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-serif:     MJXZERO, MJXTEX, "Noto Serif","Times New Roman",Times, serif;
 // stylelint-enable value-keyword-case
 $font-size-base:        1rem !default; // Assumes the browser default, typically `16px`
@@ -65,19 +64,15 @@ $input-btn-padding-y:         .25rem ;
 $input-btn-padding-x:         .5rem ;
 $input-btn-line-height:       $line-height-base * 0.66;
 
-$text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 
 // Figures
 $caption-font-size:    $font-size-sm;
 // Footnotes
 $footnotes-rule: 2px solid $dark;
-
+//list group
 $list-group-item-padding-y: $spacer * 0.25 !default;
 /*-- scss:mixins --*/
 
-@mixin text-shadow($color) {
-  text-shadow: 0 0 1px rgba($color, .6), 0 0 3px rgba($color, .5), 0 0 .5rem rgba($color, .3), 0 0 2rem rgba($color, .2);
-}
 
 @mixin text-shadow-sm($color) {
   text-shadow: 0 0 1px rgba($color, .3), 0 0 2px rgba($color, .3), 0 0 5px rgba($color, .2);
@@ -87,7 +82,6 @@ $list-group-item-padding-y: $spacer * 0.25 !default;
   @include gradient-y-three-colors(tint-color($color, 16%), $color, 60%, shade-color($color, 6%));
 }
 /*-- scss:rules --*/
-
 @font-face {
   font-family: scite-icons;
   src: local('scite-icons'), local('/scite-icons.woff2'),
@@ -165,6 +159,12 @@ img.navbar-logo{
       font-weight: $font-weight-bold;
     }
   }
+  .list-group-horizontal{
+    flex-wrap: wrap;
+    .quato-category{
+      text-wrap: nowrap;
+    }
+  }
 }
 #footer-block{
   @include media-breakpoint-up(sm) {
@@ -224,23 +224,7 @@ img.navbar-logo{
 .nav-footer {
   font-size: $font-size-foot;
 }
-// Buttons
-
-.btn {
-  text-shadow: $text-shadow;
-}
-
-.btn-secondary,
-.btn-outline-secondary {
-  color: $gray-700;
-}
-
-// Typography
-
-.text-secondary {
-  color: $gray-500 !important;
-}
-
+/*
 .bg-primary,
 .bg-success,
 .bg-info,
@@ -255,7 +239,7 @@ img.navbar-logo{
   h6 {
     color: $white;
   }
-}
+}*/
 .text-secondary {
   color: $gray-500 !important;
 }
@@ -271,4 +255,12 @@ img.navbar-logo{
 .math,
 .unit{
   font-family: $font-family-serif;
+}
+
+img.zoom{
+  transition:transform 0.25s ease;
+  &:hover{
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+  }
 }
