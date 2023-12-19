@@ -4,17 +4,27 @@ description: "quarto-ieee now on quarto-journal extension"
 date: "2023-10-27 10:16:25.1687527239 +0200"
 image: https://quarto.org/quarto.png
 image-alt: Quarto logo
-categories: [article, quarto]
+categories: [article, quarto] 
+links: 
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: https://github.com/dfolio/quarto-ieee/
+  - name: "URL"
+    aria-label: "URL"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-success btn-sm"
+    href: https://quarto.org/docs/extensions/listing-journals.html
 ---
-
 ## Referenced by Quarto
 
 With the version v1.1.1, [`quarto-ieee`] is now available on the [quarto-listing] of [quarto-extensions].
-To do so, most requirements of [quarto-journal] has been verified.
+Most of the [quarto-journal] requirements have been verified.
 
-Moreover, this version also support both ![Tested on Quarto-1.3](https://img.shields.io/badge/quarto-1.3-blue?label=quarto) and ![Tested on Quarto-1.4](https://img.shields.io/badge/quarto-1.4-blue?label=quarto).
+This release also support both ![Quarto-1.3](https://img.shields.io/badge/quarto-1.3-blue?label=quarto) and ![Quarto-1.4](https://img.shields.io/badge/quarto-1.4-blue?label=quarto).
 
-You may access a local evaluation of the [`quarto-ieee`] template [in PDF](../quarto-ieee/template.pdf) as well as  [in HTML](../quarto-ieee/template.html).
+You can access a local evaluation of the [`quarto-ieee`] template [in PDF](../quarto-ieee/template.pdf) as well as  [in HTML](../quarto-ieee/template.html).
 
 [quarto-listing]: https://quarto.org/docs/extensions/listing-journals.html
 [quarto-extensions]: https://quarto.org/docs/extensions/
