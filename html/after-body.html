@@ -5,7 +5,8 @@ $if(author)$
 <div class="quarto-footer-meta-authors">
 <div class="quarto-footer-meta-contents authors">
   <span class="quarto-footer-meta-heading">$labels.authors$</span>:
-  <span class="quarto-footer-meta-contents">$for(by-author)$<span class="p-author h-card">$by-author.name.literal$</span>$sep$, $endfor$</span>
+  <span class="quarto-footer-meta-contents">$for(by-author)$<span class="p-author h-card">
+    $if(by-author.url)$<a href="$by-author.url$">$endif$$by-author.name.literal$$if(by-author.url)$</a>$endif$</span>$sep$, $endfor$</span>
 </div>
 $endif$
 <div class="quarto-footer-meta-date">
