@@ -1,6 +1,9 @@
 adsense: true
 # Date format
-date-format: "ddd., MMM. D, YYYY"
+#date-format: "ddd., MMM. D, YYYY"
+date-format: "YYYY-MM-DDTHH:mm:ssZ"
+
+post: true
 # Enable banner style title blocks
 title-block-banner: true
 title-block-meta: true
@@ -16,20 +19,20 @@ code-tools: false
 #code-link: true
 #code-overflow: wrap
 
-freeze: true
 
 # Default knitr options
 execute:
-  echo: true
-  message: true
-  warning: true
+  freeze: true
 
 # Default author
 author:
   name: David Folio
   orcid: 0000-0001-9430-6091
   email: david.folio@insa-cvl.fr
-  url: https://dfolio.fr
+  url:  https://dfolio.fr/about/dfolio.html
+  alternate: ["dfolio", "David Folio"]
+  jobTitle: "Senior associate professor"
+  image: "https://dfolio.fr/images/david-folio.webp"
 
 rss: /posts/posts.xml
 
