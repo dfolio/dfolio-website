@@ -12,13 +12,13 @@ $if(rss)$<link rel="alternate" type="application/rss+xml" title="$title-prefix$"
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- sizes="180x180" -->
-<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v=2">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png?v=2">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png?v=2">
-<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg?v=2" color="#2fa4e7">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#2fa4e7">
 <link rel="shortcut icon" href="/favicon.ico" sizes="any">
 <meta name="msapplication-TileColor" content="#2fa4e7" />
-<meta name="msapplication-config" content="/browserconfig.xm?v=2l">
+<meta name="msapplication-config" content="/browserconfig.xml">
 <meta name="theme-color" content="#2fa4e7" >
 <meta name="color-scheme" content="light dark" />
 $if(google-site-verification)$<meta rel="google-site-verification" content="$google-site-verification$" />$endif$
@@ -27,6 +27,13 @@ $if(canonical)$<link rel="canonical" href="$canonical$" />$endif$
 $if(scite-badge)$
 <link rel="preload" href="/scite-icons.woff2" as="font" type="font/woff2" crossorigin>
 $endif$
+$if(website)$<script type="application/ld+json">{
+  "@context" : "https://schema.org",
+  "@type" : "WebSite",
+  "name" : "dfolio' website",
+  "alternateName" : ["Website of David FOLIO","dfolio", "David FOLIO"],
+  "url" : "https://dfolio.fr/"
+}</script>$endif$
 $if(profile)$<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "ProfilePage",
@@ -41,7 +48,7 @@ $if(citation)$<script type="application/ld+json">{
   "dateCreated": "$date$",
   "dateModified": "$date-modified$",
   "headline": "$title$",
-  $if(images)$"image": "https://dfolio.fr$images$", $endif$
+  $if(image)$"image": [$for(image)$"$image$"$sep$, $endfor$], $endif$
   $if(abstract)$"abstract": "$abstract$", $endif$
   $if(links)$"archivedAt": [$for(links)$"$links.href$"$sep$, $endfor$], $endif$
   "hasPart": [{
@@ -58,6 +65,19 @@ $if(citation)$<script type="application/ld+json">{
       $if(citation.publisher)$, "publisher": "$citation.publisher$"$endif$
     }$endif$
   }]
+}</script>$endif$
+$if(post)$<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "author":  [$json-author.html()$],
+  "dateCreated": "$date$",
+  "dateModified": "$date-modified$",
+  "datePublished": $if(datePublished)$"$datePublished$"$else$"$date$"$endif$,
+  "headline": "$title$"
+  $if(image)$, "image": [$for(image)$"$image$"$sep$, $endfor$]$endif$
+  $if(abstract)$, "abstract": "$abstract$"$endif$
+  $if(description)$, "description": "$description$"$endif$
+  $if(links)$, "sameAs": [$for(links)$"$links.href$"$sep$, $endfor$]$endif$
 }</script>$endif$
 $if(course)$<script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -78,7 +98,7 @@ $if(course)$<script type="application/ld+json">{
   $if(datePublished)$"datePublished": "$datePublished$",
   $else$$if(date)$"datePublished": "$date$",$endif$$endif$
   $if(educationalLevel)$"educationalLevel": "$educationalLevel$", $endif$
-  $if(images)$"image": "https://dfolio.fr$images$", $endif$
+  $if(image)$"image": [$for(image)$"$image$"$sep$, $endfor$], $endif$
   "hasCourseInstance": [
     {
       "@type": "CourseInstance",
@@ -90,6 +110,17 @@ $if(course)$<script type="application/ld+json">{
     "@type": "Offer",
     "category": "Subscription"
   }]
+}</script>$endif$
+$if(video)$<script type="application/ld+json">{
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": $if(video.name)$"$video.name$"$else$"$title$"$endif$,
+      "description": $if(video.description)$"$video.description$"$else$"$description$"$endif$,
+      "thumbnailUrl": [$if(video.thumbnailUrl)$$for(video.thumbnailUrl)$"$video.thumbnailUrl$"$sep$, $endfor$$else$$if(image)$$for(image)$"$image$"$sep$, $endfor$$endif$$endif$]
+      $if(video.uploadDate)$, "uploadDate": "$video.uploadDate$"$endif$
+      $if(video.duration)$, "duration": "$video.duration$"$endif$
+      $if(video.url)$, "contentUrl": "$video.url$"$endif$
+      $if(video.embedUrl)$, "embedUrl": "$video.embedUrl$"$endif$
 }</script>$endif$
 $if(breadcrumb)$<script type="application/ld+json">{
   "@context": "https://schema.org",
