@@ -38,15 +38,13 @@ Actually, by using a toolkit (such as [Bootstrap][bootstrap] or whatever) you ca
 
 If you have a look to `bootstrap.scss` from [Bootstrap][bootstrap] source or you can shown it on the [{{< fa brands github >}} Githup page](https://github.com/twbs/bootstrap/blob/v4-dev/scss/bootstrap.scss)
 
-```{sass}
+```sass
 /*!
-
 -   Bootstrap v4.0.0 (<https://getbootstrap.com>)
 -   Copyright 2011-2018 The Bootstrap Authors
 -   Copyright 2011-2018 Twitter, Inc.
 -   Licensed under MIT (<https://github.com/twbs/bootstrap/blob/master/LICENSE>)
     */
-
 @import "functions";
 @import "variables";
 @import "mixins";
