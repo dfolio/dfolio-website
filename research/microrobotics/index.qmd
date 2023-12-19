@@ -8,7 +8,7 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about microrobotics
 #toc: false
-images: /images/research/microrobotics-scales.webp
+images: https://dfolio.fr/images/research/microrobotics-scales.webp
 bibliography: [../references.bib]
 author-block: true
 ---

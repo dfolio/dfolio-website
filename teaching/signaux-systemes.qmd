@@ -21,7 +21,7 @@ description: >
   Cet enseignement a pour but d'appréhender la chaîne de transmission de
   l'information à travers l'étude de la génération des signaux et des composants de
   base pour leurs traitements élémentaires.
-images: /images/teaching/signaux-system.webp
+images: https://dfolio.fr/images/teaching/signaux-system.webp
 canonical: https://dfolio.fr/teaching/signaux-systemes.html
 ---
 

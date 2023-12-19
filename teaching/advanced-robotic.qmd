@@ -7,7 +7,7 @@ title: Advanced Robotic
 keywords: [robotic, mobile robot, control, systems, teach, activities]
 description: >
   This course provides an understanding of the basic notions of mobile robotics from modeling to autonomous navigation.
-images: /images/teaching/robotic.webp
+images: https://dfolio.fr/images/teaching/robotic.webp
 course: true
 datePublished: 2015-09-01
 skills: ["mobile robot kinematic modeling","mobile robot control", "mobile robot autonomous navigation"]

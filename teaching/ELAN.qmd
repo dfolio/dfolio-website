@@ -9,7 +9,7 @@ keywords: [électronique analogique, cours, David Folio, INSA]
 description: >
   Le but de cet enseignement est de faire comprendre le fonctionnement des
   composants électroniques élémentaires à base de semi-conducteurs et d'étudier les montages classiques.
-images: /images/teaching/electronic-analog.webp
+images: https://dfolio.fr/images/teaching/electronic-analog.webp
 course: true
 datePublished: 2015-09-01
 skills: ["Composants électroniques passifs non linéaire (diodes)","les transistors bipolaires","l'amplificateur operationel réel"]

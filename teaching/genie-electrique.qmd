@@ -9,7 +9,7 @@ keywords: électronique analogique, cours, david folio, INSA
 description: >
   Le but de cet enseignement est de s'interesser à l'électricité et à leurs
   applications pratiques, notamment à travers l'étude de machines électriques.
-images: /images/teaching/cycles-energies.webp
+images: https://dfolio.fr/images/teaching/cycles-energies.webp
 course: true
 datePublished: 2016-09-01
 skills: ["Le régime monophasé","Le régime triphasé","Le transformateur", "Machine synchrone", "Machine asynchrone","Machine à courant continu"]

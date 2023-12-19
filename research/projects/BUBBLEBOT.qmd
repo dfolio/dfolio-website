@@ -8,7 +8,7 @@ keywords: [dfolio, projects, research, activities, microrobot]
 description: >
   Design of magnetic microbubble (the "bubblebot") for targeted drug delivery
 toc: false
-images: /images/research/bubblebot.webp 
+images: https://dfolio.fr/images/research/bubblebot.webp 
 ---
 
 # Bubblebots to kill Glioblastoma 

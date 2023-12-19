@@ -21,7 +21,7 @@ breadcrumb:
 description: >
   L'objectif de cet enseignement avancé est de s'interesser au fonctionnement et
   aux technologies des composants de l'électroniques analogique.
-images: /images/teaching/electronic-analog.webp
+images: https://dfolio.fr/images/teaching/electronic-analog.webp
 ---
 
 :::{.grid}

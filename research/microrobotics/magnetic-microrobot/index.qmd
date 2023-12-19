@@ -1,7 +1,9 @@
 ---
 #aliases:  [/research/microrobotics/]
 date: 2023-04-18 17:26:02 +0100
-aliases:  [research/microrobotics/magnetic-microrobot/magnetic-microrobot.html]
+aliases:  
+  - /research/microrobotics/magnetic-microrobot/magnetic-microrobot.html
+  - /research/microrobotics/magnetic-microrobot.html
 canonical: https://dfolio.fr/research/microrobotics/magnetic-microrobot/index.html
 order: 3
 title: "Magnetic microrobots"
@@ -9,7 +11,7 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about magnetic microrobots
 #toc: false
-images: /images/research/microrobotics-scales.webp
+images: https://dfolio.fr/images/research/microrobotics-scales.webp
 bibliography: [../../references.bib,../../dfolio.bib]
 format:
   html:
