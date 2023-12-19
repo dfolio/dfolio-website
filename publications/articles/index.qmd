@@ -1,0 +1,42 @@
+---
+aliases:
+  - /research/publications/articles/articles.html
+  - /publications/articles.html
+canonical: https://dfolio.fr/publications/articles/index.html
+order: 3
+date: 2023-12-19 
+title: "Selected journal articles"
+description: |
+  A selection of ajournal articles that David Folio has co-authored.
+comments: false
+toc-title: Publication type
+listing:
+  - id: articles-list
+    contents: ./20*.qmd
+    template: ../publications.ejs
+    sort: 'date desc'
+    categories: cloud
+    sort-ui: [date, author]
+    date-format: "YYYY"
+    feed: true
+date-format: "MMMM D, YYYY"
+title-block: true
+title-block-meta: false
+css: publications.css
+image: /images/logo-df.webp
+image-alt: "D. F. logo"
+image-width: 80%
+image-height: 80%
+categories: [dfolio, research, bibliography]
+---
+
+:::{.callout-note}
+A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).\
+See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
+:::
+ 
+## Journal articles (ACL) {#ACL}
+
+::: {#articles-list }
+:::
+

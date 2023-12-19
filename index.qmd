@@ -12,6 +12,7 @@ image-alt: "D. Folio website logo"
 section-divs: false
 toc: false
 comments: false
+rss: /posts/posts.xml
 about:
   template: trestles
   links:
