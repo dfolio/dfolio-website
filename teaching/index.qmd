@@ -32,7 +32,7 @@ first, as a temporary teacher (3 years, 2003-2006), teaching assistant
     <http://www.cpcnu.fr>
 
 Since 2008, as member of the teaching team on the campus in Bourges of
-the INSA [Centre Val de Loire]{.fr lang="fr"}, I am mainly involved in
+the {{< var INSA-CVL >}}, I am mainly involved in
 the students formation of the Industrial Risk Control[^2] (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>), of the
 Energy, Risk and the Environment[^3] (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>), and of the Sciences and
 Techniques for Engineers[^4] (<abbr lang="fr" title="Science et Technique pour l'Ingénieur">STPI</abbr>) departments. Specifically, after

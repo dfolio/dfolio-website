@@ -39,7 +39,7 @@ involved in the life of the Institute.
 ![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){#fig-INSA-CVL fig-alt="INSA-CVL"}
 :::
 :::
-[^1]: INSA [Centre Val de Loire]{.fr lang="fr"} (INSA CVL) was created in 2014 by the merge of 
+[^1]: {{< var INSA-CVL >}} (INSA CVL) was created in 2014 by the merge of 
       [École Nationale d'Ingénieurs du Val de Loire]{.fr lang="fr"} (ENIVL) of Blois and 
       [École Nationale Supérieur d'Ingénieurs]{.fr lang="fr"} (ENSI) of Bourges. 
       <http://www.insa-centrevaldeloire.fr>

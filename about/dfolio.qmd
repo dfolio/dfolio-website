@@ -194,4 +194,4 @@ Since March 2022, I am an elected member of the  {{< var PRISME-Laboratory >}} C
 
 Since November 2023, I am a full member appointed to the [61^st^ Section of the <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){lang=fr}
 
-[^PRISME]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
+[^PRISME]: PRISME laboratory is from University of Orléans and from {{< var INSA-CVL >}} (EA 4229). <http://www.univ-orleans.fr/PRISME>
