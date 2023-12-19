@@ -7,11 +7,12 @@ author:
   name:
     family: Folio
     given: David
-  alternate: dfolio
+  alternate: ["dfolio", "David Folio"]
+  jobTitle: "Senior associate professor"
   orcid: 0000-0001-9430-6091
   email: david.folio@insa-cvl.fr
-  url: https://dfolio.fr
-  image: "/images/david-folio.webp"
+  url: https://dfolio.fr/about/dfolio.html
+  image: "https://dfolio.fr/images/david-folio.webp"
   attributes:
     corresponding: true
     equal-contributor: true

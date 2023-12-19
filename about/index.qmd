@@ -3,15 +3,15 @@ date: 2018-03-25 20:17:40.1522001860 +0200
 title: "About this website"
 description: Learn more about D.Folio and the contents of its personal webpage.
 aliases: 
-  - /about/about.qmd
+  - /about/about.html
 canonical: https://dfolio.fr/about/index.html
 link-external-icon: true
 ---
 
 :::{.callout-note}
-Here is the new version of my personal webpage now on <https://dfolio.fr> domain.
+Here is the new version of [D. Folio](/about/dfolio.qmd) personal webpage now on <https://dfolio.fr> domain.
 The old <http://dfolio.free.fr> remains, but without guarantee that it will be up-to-date as mush as it will be on <https://dfolio.fr> 
-(see also the [history](/about/history.qmd) page for further information).
+(see also the [history page](/about/history.qmd) for further information).
 :::
 
 
@@ -19,12 +19,13 @@ The old <http://dfolio.free.fr> remains, but without guarantee that it will be u
 Hi! Long time no see! After about 10 years [of dormancy](/about/history.qmd), [dfolio(at)free](/)
 website is up again.
 But, as you see, mainly in [English](/about/index.qmd#langage).
+As mentioned above, please visit <https://dfolio.fr> for more up-to-date information and contents.
 :::
 ::: {.content-visible unless-profile="free"}
 Hi everyone!
 :::
 I like many aspects of web design, development, code front end designing of
-websites...
+websites... (visit [posts](/posts/index.qmd) for further details)
 However, I am neither a web designer nor a developer. 
 I am just interested in these topics... as a '_hobby_'. 
 So all development and design are made when I have time.
@@ -34,13 +35,13 @@ You can also have a look to the notice on the [license](/about/license.qmd) and 
 
 The [dfolio]' website aims to:
 
-- share my activities as associate professor, that is [research](/research/index.qmd) and [teaching](/teaching//index.qmd) activities
-- be a place to centralize new scientific, technological,  development topics and miscellaneous stuff that I gave found/discovered
+- share my activities as associate professor, that is [research](/research/index.qmd) and [teaching](/teaching//index.qmd) activities;
+- be a place to centralize new scientific, technological,  development topics and miscellaneous stuff that I found/discovered.
 
 ## Langage
 
-I am French, and my mother tongue is French. But, I have chosen to write mainly
-this new version of [dfolio]' website in English. Why? Obviously for a wide spreading of
+I am French, and my mother tongue is French. But, I have decided to write 
+this new version of the [dfolio]' website in English. Why is that? Obviously for a wider spreading of
 its contents.
 
 
@@ -61,6 +62,5 @@ You may react me through the [social links](#social-links) bellow or in the page
 - [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 
-
-[dfolio(at)free]: <http://dfolio.free.fr> "My original website"
-[dfolio]: <http://dfolio.fr> "My new website"
+[dfolio(at)free]: <http://dfolio.free.fr> "D. Folio original website"
+[dfolio]: <http://dfolio.fr> "D. Folio new website"

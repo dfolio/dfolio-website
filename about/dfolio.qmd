@@ -8,6 +8,7 @@ bibliography: [../research/dfolio.bib,../research/references.bib]
 image: /images/david-folio.webp
 image-alt: "Photo of David FOLIO"
 profile: true
+rss: /posts/posts.xml 
 comments:
   giscus:
     repo: dfolio/dfolio
@@ -59,7 +60,7 @@ Since 2008
         unit of the {{< var PRISME-Laboratory >}}.
     
 Since 2014
-:    In charge of the Nuclear Energy option of the 5^th^ year of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department.
+:    In charge of the [Nuclear Energy option](/teaching/SFEN.qmd) of the 5^th^ year of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department.
     
 Since 2020
 :    Elected member of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department Council.
@@ -186,9 +187,11 @@ Globally, my main contributions focus on the study of **magnetic medical microro
 Meanwhile, I have also contributed to the development of
 micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase].
 
-On December 3, 2021, I defended [my habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR) which I entitled 
+On December 3, 2021, I defended [my Habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR), entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](/publications/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
 
-Since march 2022, I am an elected member of the  {{< var PRISME-Laboratory >}} Council.
+Since March 2022, I am an elected member of the  {{< var PRISME-Laboratory >}} Council.
+
+Since November 2023, I am a full member appointed to the [61^st^ Section of the <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){lang=fr}
 
 [^PRISME]: PRISME laboratory is from University of Orléans and from INSA [Centre Val de Loire]{.fr lang="fr"} (EA 4229). <http://www.univ-orleans.fr/PRISME>
