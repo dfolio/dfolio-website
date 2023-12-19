@@ -28,6 +28,13 @@ image-alt: "D. F. logo"
 image-width: 80%
 image-height: 80%
 categories: [dfolio, research, bibliography]
+breadcrumb: 
+  - name: "Publications"
+    position: 1
+    item: "https://dfolio.fr/publications/"
+  - name: "Articles"
+    position: 2
+    item: "https://dfolio.fr/publications/articles/"
 ---
 
 :::{.callout-note}

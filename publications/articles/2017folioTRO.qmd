@@ -1,14 +1,14 @@
 ---
 type: journal
 date: 2017-06
-title: Two-Dimensional Robust Magnetic Resonance Navigation of a Ferromagnetic Microrobot Using Pareto Optimality
+title: &title "Two-Dimensional Robust Magnetic Resonance Navigation of a Ferromagnetic Microrobot Using Pareto Optimality"
 description: | 
   This paper presents an optimal magnetic resonance navigation (MRN) frameworks integrated within clinical MRI scanner constraints.
 author:
   - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
-    url: https://dfolio.fr
+    url:  https://dfolio.fr/about/dfolio.html
     image: "/images/david-folio.webp"
     attributes:
       corresponding: true
@@ -16,6 +16,7 @@ author:
     affiliations:
       - ref: PRISME
   - name: Antoine Ferreira
+    url: https://www.researchgate.net/profile/Antoine-Ferreira
     affiliations:
       - ref: PRISME
     attributes:
@@ -88,6 +89,22 @@ categories:
   - Path planning
   - Tracking
 image: /images/research/targeting.webp
+video:
+  name: *title
+  uploadDate: "2023-03-22 15:44:05.000000000 +0100"
+  duration: "PT44S"
+  url: https://dfolio.fr/media/2017folioTRO.webm
+  thumbnailUrl: ["https://dfolio.fr/images/publications/2017folioTRO.webp"]
+breadcrumb: 
+  - name: "Publications"
+    position: 1
+    item: "https://dfolio.fr/publications/"
+  - name: "Articles"
+    position: 2
+    item: "https://dfolio.fr/publications/articles/"
+  - name: *title
+    position: 3
+    item: "https://dfolio.fr/publications/articles/2017folioTRO.html"  
 ---
 
 ## Media

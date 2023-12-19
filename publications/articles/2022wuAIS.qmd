@@ -14,7 +14,7 @@ author:
   - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
-    url: https://dfolio.fr
+    url:  https://dfolio.fr/about/dfolio.html
     image: "/images/david-folio.webp"
     attributes:
       corresponding: true
@@ -130,7 +130,7 @@ categories:
 ---
 
 ## Acknowledgements
-J.W. and D.F. contributed equally to this work. This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No. 764977, the Spanish (PID2020-116844RB-C2 and PID2020-116844RB-C21) and Catalan (2017-SGR-0292) research administrations, and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2022R1C1C1007338).
+J.W. and D.F. contributed equally to this work. This project has received funding from the European Union's Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No. 764977, the Spanish (PID2020-116844RB-C2 and PID2020-116844RB-C21) and Catalan (2017-SGR-0292) research administrations, and the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2022R1C1C1007338).
 
 ## Supporting Information
 

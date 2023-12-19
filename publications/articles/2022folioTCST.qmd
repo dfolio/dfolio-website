@@ -1,7 +1,7 @@
 ---
 type: journal
 date: 2022-11
-title: Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs
+title: &title "Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs"
 description: | 
   This paper theoretically investigates the modeling of  spherical catalytic 
   self-phoretic magnetic Janus microrobot (MJR) evolving in uniform viscous flow.
@@ -17,6 +17,7 @@ author:
     affiliations:
       - ref: PRISME
   - name: Antoine Ferreira
+    url: https://www.researchgate.net/profile/Antoine-Ferreira
     affiliations:
       - ref: PRISME
     attributes:
@@ -74,6 +75,17 @@ categories:
   - Motion analysis
   - Optimization
   - Janus particles 
+image: /images/research/2022folioTCST.webp
+breadcrumb: 
+  - name: "Publications"
+    position: 1
+    item: "https://dfolio.fr/publications/"
+  - name: "Articles"
+    position: 2
+    item: "https://dfolio.fr/publications/articles/"
+  - name: *title
+    position: 3
+    item: "https://dfolio.fr/publications/articles/2022folioTCST.html"
 ---
 
 ## Funding 

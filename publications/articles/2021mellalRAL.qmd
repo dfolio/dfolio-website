@@ -1,7 +1,10 @@
 ---
 type: journal
 date: 2021-10
-title: Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy
+aliases: 
+  - /publications/articles/2022mellalRAL.html
+canonical: https://dfolio.fr/publications/articles/2021mellalRAL.html  
+title:  &title "Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy"
 description: | 
   This letter discusses of the modeling and the characterization of
   deformable soft magnetic microrobots, under various magnetic field
@@ -11,6 +14,7 @@ description: |
   magnetic fields.
 author:
   - name: Lyès Mellal
+    url: https://www.researchgate.net/profile/Lyes-Mellal
     affiliations:
       - ref: PRISME
     attributes:
@@ -19,7 +23,7 @@ author:
   - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
-    url: https://dfolio.fr
+    url:  https://dfolio.fr/about/dfolio.html
     image: "/images/david-folio.webp"
     attributes:
       corresponding: true
@@ -27,6 +31,7 @@ author:
     affiliations:
       - ref: PRISME
   - name: Antoine Ferreira
+    url: https://www.researchgate.net/profile/Antoine-Ferreira
     affiliations:
       - ref: PRISME
     attributes:
@@ -49,7 +54,7 @@ links:
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03416758
 citation: 
-  citation-key: 2022mellalRAL
+  citation-key: 2021mellalRAL
   language: en-US
   type: article-journal
   genre: ACL
@@ -81,7 +86,29 @@ quartile: "Q1"
 categories: 
   - Modeling
   - Magnetic microrobots
+image: /images/research/2021mellalRAL.webp
+video:
+  name: *title
+  uploadDate: "2023-12-19 10:30:02.1702978202 +0100"
+  duration: "PT47S"
+  url: https://dfolio.fr/media/2021mellalRAL.webm
+breadcrumb: 
+  - name: "Publications"
+    position: 1
+    item: "https://dfolio.fr/publications/"
+  - name: "Articles"
+    position: 2
+    item: "https://dfolio.fr/publications/articles/"
+  - name: *title
+    position: 3
+    item: "https://dfolio.fr/publications/articles/2021mellalRAL.html"
 ---
+
+
+## Media
+
+The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/9521741/media#media)
+{{< video ../../media/2021mellalRAL.webm title="Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy" >}}
 
 ## Funding 
 This work was supported by the French National Institute

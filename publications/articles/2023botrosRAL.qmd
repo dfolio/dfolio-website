@@ -6,24 +6,27 @@ description: |
   This letter proposes the USMicroMagSet dataset and a deep learning method to detect and track microrobots in ultrasound images.
 author:
   - name: Karim Botross
+    url: /research/supervisions.qmd#Karim-Botross
     affiliations:
       - ref: PRISME
     attributes:
       supervised: true
       equal-contributor: true
-  - name: Alkhatib, Mohammad
+  - name: Alkhatib Mohammad
+    url: https://www.researchgate.net/profile/Mohammad-Alkhatib-10
     affiliations:
       - ref: pascal
   - name: David Folio
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
-    url: https://dfolio.fr
+    url:  https://dfolio.fr/about/dfolio.html
     image: "/images/david-folio.webp"
     attributes:
       equal-contributor: true
     affiliations:
       - ref: PRISME
   - name: Antoine Ferreira
+    url: https://www.researchgate.net/profile/Antoine-Ferreira
     affiliations:
       - ref: PRISME
     attributes:
@@ -71,13 +74,23 @@ categories:
   - US imaging
   - Tracking
   - Magnetic microrobots
-
+images: https://dfolio.fr/images/research/2023botrosRAL.webp
+breadcrumb: 
+  - name: "Publications"
+    position: 1
+    item: "https://dfolio.fr/publications/"
+  - name: "Articles"
+    position: 2
+    item: "https://dfolio.fr/publications/articles/"
+  - name: &title
+    position: 3
+    item: "https://dfolio.fr/publications/articles/2023botrosRAL.html"
 ---
 
 ## Support information
-The [USMicroMagset](https://gitlab.com/insa-cvl2/USMicroMagSet/) dataset is available on gitlab at
+The [USMicroMagset](https://gitlab.com/insa-cvl2/USMicroMagSet/) dataset is available on [GitLab](https://gitlab.com/insa-cvl2/USMicroMagSet/) at
 <https://gitlab.com/insa-cvl2/USMicroMagSet/>
 
 ## Funding 
 
-This work was supported by the [Region Centre Val de Loire]{.fr lang="fr"} Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.
+This work was supported by the [Region Centre Val de Loire]{.fr lang="fr"} fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.

@@ -12,7 +12,7 @@ comments: false
 toc-title: Publication type
 listing:
   - id: articles-list
-    contents: articles/*.qmd
+    contents: articles/20*.qmd
     template: publications.ejs
     sort: 'date desc'
     categories: cloud
