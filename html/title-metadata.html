@@ -41,7 +41,7 @@ $endif$
 $if(date)$
   <div class="quarto-title-meta-heading">$labels.published$</div>
   <div class="quarto-title-meta-contents">
-    <p class="date">$date$</p>
+    <p class="date"><time datetime="$date$">$date$</time></p>
   </div>
 $elseif(citation.issued)$
   <div class="quarto-title-meta-heading">$labels.published$</div>
