@@ -3,11 +3,13 @@ $for(by-author)${
   "name": "$by-author.name.literal$"
   $if(by-author.name.family)$, "familyName": "$by-author.name.family$"$endif$
   $if(by-author.name.given)$, "givenName": "$by-author.name.given$"$endif$
-  $if(by-author.metadata.alternate)$, "alternateName": "$by-author.metadata.alternate$"$endif$
+  $if(by-author.metadata.alternate)$, "alternateName": [$for(by-author.metadata.alternate)$"$by-author.metadata.alternate$"$sep$, $endfor$]$endif$
+  $if(by-author.metadata.honorificPrefix)$, "honorificPrefix": "$by-author.metadata.honorificPrefix$"$endif$
   $if(by-author.url)$, "sameAs": "$by-author.url$", "url": "$by-author.url$"$endif$
   $if(by-author.orcid)$, "identifier": "$by-author.orcid$"$endif$
   $if(by-author.metadata.description)$, "description": "$by-author.metadata.description$"$endif$
-  $if(by-author.metadata.image)$, "image": "https://dfolio.fr$by-author.metadata.image$"$endif$
+  $if(by-author.metadata.jobTitle)$, "jobTitle": "$by-author.metadata.jobTitle$"$endif$
+  $if(by-author.metadata.image)$, "image": [$for(by-author.metadata.image)$"$by-author.metadata.image$"$sep$, $endfor$]$endif$
   $if(by-author.affiliations)$, "affiliations": [$for(by-author.affiliations)${
     "@type": "Organization",
     "name": "$it.name$"
