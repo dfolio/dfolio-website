@@ -29,7 +29,7 @@ These different students are listed hereafter, as well as the joint publications
 
 ## On going {#sec-supervisions-ongoing}
 
-Karim Botros
+Karim Botros {#Karim-Botros}
 
 :    
 
@@ -50,7 +50,7 @@ Karim Botros
 
 ### Doctoral students {#sec-research-PhD}
 
-Ruipeng Chen
+Ruipeng Chen {#Ruipeng-Chen}
 
 :    
 
@@ -75,7 +75,7 @@ Ruipeng Chen
 
     :   Post Doctorate,  {{< var INSA-CVL >}}, Bourges, France.
 
-[Lyès Mellal]{#Lyès-Mellal}
+[Lyès Mellal]{#Lyes-Mellal}
 
 :    
 
