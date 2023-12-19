@@ -16,7 +16,7 @@ jobs:
 
       - name: Check out repository
         #uses: actions/checkout@v2
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set locale
         run: |
@@ -49,8 +49,6 @@ jobs:
         with:
           to: html
 
-      # add software dependencies here
-      #
       - name: Publish to NETLIFY
         uses: quarto-dev/quarto-actions/publish@v2
         with:
