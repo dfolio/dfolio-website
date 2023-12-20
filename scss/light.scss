@@ -41,21 +41,21 @@ $info:          rgba($teal,0.8);
 $warning:       $orange !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$dark:          $gray-900 !default;
 
 $min-contrast-ratio:   2.75 !default;
 
-
 // Body
-$body-bg:               #fdfdfd !default;
-$body-color:            $gray-900;
+$body-bg:               $light;
+$body-color:            $dark;
+$body-emphasis-color:   $gray-500;
 // Fonts
 // stylelint-enable value-keyword-case
 $headings-color:        darken($primary,25%);
 
 // Links
 // Style anchor elements.
-$link-color:            rgba(darken($primary,15%), .8);
+$link-color:            rgba(darken($primary,20%), .9);
 $link-decoration:       none;
 $link-shade-percentage: 30% !default;
 $link-hover-color:      shift-color($link-color, $link-shade-percentage) !default;
@@ -81,9 +81,14 @@ $sidebar-fg:      rgba($body-color, .8);
 $sidebar-hl:      rgba($body-color, .6);
 
 // Footer
-$footer-bg:       rgba($gray-900,0.6) !default;
-$footer-fg:       rgba($gray-300,0.8) !default;
+$footer-bg:       if(variable-exists(navbar-bg), $navbar-bg, rgba($body-color,.8));
+$footer-fg:       if(variable-exists(navbar-fg), $navbar-fg, rgba($body-bg,.8));
 
+
+// Set a default body emphasis color
+$code-bg: rgba($body-emphasis-color,.4);
+// Footnotes
+$footnotes-rule: 2px solid $dark;
 $caption-color:        $dark;
 $text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 //
@@ -98,7 +103,6 @@ $text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 
 .light-mode { display: block; }
 .dark-mode { display: none; }
-
 
 // Buttons
 .btn {

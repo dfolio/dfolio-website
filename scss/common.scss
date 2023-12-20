@@ -24,8 +24,7 @@ $spacer: 1rem !default;
 $sidebar-width:         500px !default;
 //$grid-body-width:       900px !default;
 //color:
-$gray-900:              #212529 !default;
-$dark:                  $gray-900 !default;
+
 // Fonts
 // stylelint-disable value-keyword-case
 //$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -67,8 +66,6 @@ $input-btn-line-height:       $line-height-base * 0.66;
 
 // Figures
 $caption-font-size:    $font-size-sm;
-// Footnotes
-$footnotes-rule: 2px solid $dark;
 //list group
 $list-group-item-padding-y: $spacer * 0.25 !default;
 /*-- scss:mixins --*/

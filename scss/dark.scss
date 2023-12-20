@@ -23,14 +23,14 @@ $grid-body-width: 900px !default;
 
 // Base document colors
 $body-bg:     $gray-900;
-$body-color:  $white;
-$link-color:  tint-color($blue, 60%);
+$body-color:  $gray-100;
+$link-color:  tint-color($blue, 40%);
 
 $light: #525252;
 
 // Navigation element colors
-$footer-bg: #181818;
-$navbar-bg: #303030;
+$footer-bg: $body-bg;
+$navbar-bg: rgba($body-bg,.8);
 
 // List group
 $list-group-color: $gray-900 !default;
@@ -39,17 +39,19 @@ $list-group-border-color: rgba($gray-100, 0.2);
 
 // Code blocks
 $code-block-bg-alpha: -.8;
+// Set a default body emphasis color
+$code-bg: rgba($gray-500,.4);
 
 // Bootstrap popovers
-$popover-bg: #242424;
+$popover-bg:                $body-bg;
 
 // Bootstrap inputs
-$input-bg: #242424;
-$dropdown-bg: $body-bg;
-$dropdown-color: $body-color;
-$dropdown-link-color: $body-color;
-$dropdown-link-hover-bg: $gray-600;
-$dropdown-link-hover-color: white;
+$input-bg:                  $body-bg;
+$dropdown-bg:               $body-bg;
+$dropdown-color:            $body-color;
+$dropdown-link-color:       $body-color;
+$dropdown-link-hover-bg:    $gray-600;
+$dropdown-link-hover-color: $white;
 
 //list group
 $list-group-color:                  $body-color;
