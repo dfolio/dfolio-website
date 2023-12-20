@@ -5,7 +5,7 @@ order: 2
 title: "Magnetic properties"
 keywords: [dfolio, microrobotics, research, activities]
 description: >
-  Discussion by David FOLIO about magnetic properties of microrobotics.
+  Discussion by David FOLIO about magnetic properties in microrobotics.
 #toc: false
 images: https://dfolio.fr/images/research/microrobotics-scales.webp
 bibliography: [../../references.bib,../../dfolio.bib]
@@ -18,17 +18,16 @@ categories:
   - Magnetic microrobots
 ---
 
-
-
+## Magnetization {#sec-magnetization}
 Any magnetic material will produce an $\vb{H}$-field both in the space around it
 and within its own volume. The significance of this auxiliary field relies on
-the relationship between $\vb{H}$ and its magnetization $\vb{M}$ that depends on the type of
+the relationship between $\vb{H}$ and its _magnetization_ $\vb{M}$ that depends on the type of
 material. Depending on their magnetic characteristics, materials can be
 classified as [@jiles2015introduction;@furlani2001permanent]:
 
-- Diamagnetic (Cu, C, H~2~, water...) materials that have a weak, negative susceptibility, and are lightly repelled by a magnetic field;
-- Paramagnetic (Al, Na, O~2~...) materials that have a small, positive susceptibility, and are slightly attracted by a magnetic field;
-- Ferromagnetic (Fe, Ni, Co...)  materials that have a large, positive susceptibility and exhibit a strong attraction to magnetic fields.
+- Diamagnetic (e.g., $\ce{Cu}$, $\ce{C}$, $\ce{H2}$, water...) materials that have a weak, negative susceptibility, and are lightly repelled by a magnetic field;
+- Paramagnetic (e.g., $\ce{Al}$, $\ce{Na}$, $\ce{O2}$...) materials that have a small, positive susceptibility, and are slightly attracted by a magnetic field;
+- Ferromagnetic (e.g., $\ce{Fe}$, $\ce{Ni}$, $\ce{Co}$...)  materials that have a large, positive susceptibility and exhibit a strong attraction to magnetic fields.
   
   :::{#fig-ferromagnetic}
   
@@ -36,7 +35,6 @@ classified as [@jiles2015introduction;@furlani2001permanent]:
   
   Magnetization curves of ferromagnetic and superparamagnetic material: ${M}_{r}$ is the remanent magnetization at $\vb{H}=0$, $H_{c}$ is the intrinsic coercivity, and  ${M}_{s}$  is the saturation magnetization. The right inset depicts the internal magnetic moment: when an external field $\vb{H}$ is applied all $\vb{M}$ are aligned in the same direction of $\vb{H}$. When $\vb{H}=0$ only ferromagnetic material hold a remanent magnetization  ${M}_{r}$.
   :::
-
 
 For diamagnetic and paramagnetic materials, a relatively large applied field is required to produce
 changes in magnetization; and there is no remanent magnetization if the applied
@@ -56,7 +54,10 @@ on the shape of the sample.
 The internal field $\vb{H}_i$ is a function of the applied field $\vb{H}$, as well as a demagnetizing field produced by the
 magnetization distribution of the sample itself:
 $$\vb{H}_{i} = \vb{H} + \vb{H}_d$$
-The relation between the magnetic field $\vb{B}$, the auxiliary field $\vb{H}$ and
+
+## Magnetic field {#sec-magnetic-field}
+
+The relation between the _magnetic field_ $\vb{B}$, the auxiliary field $\vb{H}$ and
 the magnetization $\vb{M}$ of the medium can be then expressed as:
 $$\vb{B}= \mu \vb{H}  = \mu_0 (1+\chi) \vb{H}$$
 

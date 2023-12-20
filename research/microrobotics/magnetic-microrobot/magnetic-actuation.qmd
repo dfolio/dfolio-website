@@ -1,12 +1,11 @@
 ---
-#aliases:  [/research/microrobotics/]
 date: 2023-04-18 17:26:02 +0100
 aliases:  
-  - /research/microrobotics/magnetic-microrobot/magnetic-microrobot.html
-  - /research/microrobotics/magnetic-microrobot.html
-canonical: https://dfolio.fr/research/microrobotics/magnetic-microrobot/index.html
+  - /research/microrobotics/magnetic-microrobot/magnetic-actuation/index.html
+  - /research/microrobotics/magnetic-actuation.html
+canonical: https://dfolio.fr/research/microrobotics/magnetic-microrobot/magnetic-actuation.html
 order: 3
-title: "Magnetic microrobots"
+title: "Magnetic Actuation"
 keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about magnetic microrobots
@@ -22,13 +21,13 @@ categories:
   - Magnetic microrobots
 ---
 
-Commonly, the choice of the microrobots depends on the considered
-procedure, as well as the targeted environments (networks: vascular, urinary,
+Commonly, the choice of the [microrobots](../index.qmd) depends on the considered
+procedure, as well as the targeted environments (networks: [vascular](../biomedical/microrobot-vessel.qmd), urinary,
 nervous, or cavities: brain, eye, bladder, etc.). 
 One most basic principle of
-magnetic actuation relies on the use of the magnetic force, commonly referred as
+magnetic actuation relies on the use of the [magnetic forces](magnetic-actuation.qmd#sec-magnetic-manipulation), commonly referred as
 _bead pulling_. 
-Different shapes of microrobots exhibit various modes of operations when magnetic fields and
+Different shapes of microrobots exhibit various modes of operations when [magnetic fields](magnetic-properties.qmd#sec-magnetic-field) and
 gradients are applied [@abbott2020magnetic], as illustrated in @fig-magnetic-actuation. 
 
 :::{#fig-magnetic-actuation layout-ncol=3}
@@ -43,14 +42,14 @@ Schematic representation of basic magnetic swimming principle: (a) bead pulling 
 
 [^dB]: The arrow that represents $\grad{\vb{B}}$ is there for the sake of clarity only. In no case $\grad{\vb{B}}$ is a 2D or 3D vector: it can indeed have up to 9 components...
 
-##  Magnetic manipulation 
+##  Magnetic manipulation {#sec-magnetic-manipulation}
  
 The basic principle of magnetic actuation is to manipulate microrobots with the
 use of electromagnetic fields to induce forces and/or torques on it. Basically,
-any magnetized objects can be subjected to forces and torques with an
+any [magnetized objects](magnetic-properties.qmd#sec-magnetization) can be subjected to forces and torques with an
 externally-imposed electromagnetic field. The magnetic forces and torques
 developed on a magnetized object are usually expressed as follows
-[@jiles2015introduction;@griffiths2017introduction;@abbott2020magnetic]:
+[@jiles2015introduction;@griffiths2017introduction;@abbott2020magnetic;@folio2021hdr]:
 \begin{align}
 \vb{f}_m &=V_m \ \left(\vb{M} \cdot \grad\right) \vb{B} \label{eq-Fm}\\ 
 \vb{t}_m &=V_m \ \vb{M} \times  \vb{B} \label{eq-Tm}
@@ -58,7 +57,7 @@ developed on a magnetized object are usually expressed as follows
 where $V_m=\tau_m V$ is the volume of magnetic materials, with $V$ the total volume and $\tau_m$ the magnetization rate of the microrobot.
 \
 The magnetization $\vb{M}$ ([A/m]{.unit}) denotes the magnetic moment per unit volume 
-due to any individual magnetic moments $\vb{m}$ existing in the material, that is:
+due to any individual _magnetic moments_ $\vb{m}$ existing in the material, that is:
 $$
 \vb{M} = \frac{1}{V_m}\sum_{V_m} \vb{m}
 $$
@@ -80,11 +79,11 @@ the auxiliary field[^magnetic-field] $\vb{H}$ ([A/m]{.unit}) as:
 In free space $\vb{M}=0$, that is outside a magnetic material $\vb{B}$ and $\vb{H}$ are almost identical, both fields point in the
 same direction but differ in size by the factor $\mu$ which is the permeability for
 the specific medium.
-Inside any magnetic materials, there exists a relationship between $\vb{H}$ and $\vb{M}$, which depends on the [magnetic properties](magnetic-properties.qmd) of the material.
+Inside any magnetic materials, there exists a relationship between $\vb{H}$ and $\vb{M}$, which depends on the [magnetic properties](magnetic-properties.qmd) of the material (see also [this figure](magnetic-properties.qmd#fig-ferromagnetic)).
 
 To actuate a microrobot, the magnetic field must either vary spatially (e.g. for bead pulling), or temporally (e.g. using a rotating or oscillating field), as illustrated in @fig-magnetic-actuation.
 Bead pulling commonly used a strong magnetic gradient $\grad{\vb{B}}$ to steer magnetic microrobots.
-Helical or flagellated microswimmers use a time varying magnetic field to control the propulsion torque \eqref{eq-Tm}.
+Helical or flagellated microswimmers use a time varying [magnetic fields](magnetic-properties.qmd#sec-magnetic-field) to control the propulsion torque \eqref{eq-Tm}.
 It has been shown that helical microswimmers are
 mainly efficient in arterioles or capillaries where the
 Reynolds number ($\mathrm{R}_e<1$) remains small [@abbott2010how; @arcese2012endovascular;@peyer2013bioinspired].
@@ -93,4 +92,3 @@ In contrast,  bead pulling remains a more appropriate propulsion scheme in the a
 To maximize either the magnetic pulling
 force \eqref{eq-Fm} or the torque \eqref{eq-Tm}, the microrobot should possess
 strong magnetization $\vb{M}$, which depends on its [magnetic properties](magnetic-properties.qmd).
-

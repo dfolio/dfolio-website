@@ -182,9 +182,8 @@ website:
           - section: "Magnetic Microrobotics"
             href: research/microrobotics/magnetic-microrobot/index.qmd
             contents:
-            - text: "Magnetic Actuation"
-              href: research/microrobotics/magnetic-microrobot/index.qmd
             - research/microrobotics/magnetic-microrobot/magnetic-properties.qmd
+            - research/microrobotics/magnetic-microrobot/magnetic-actuation.qmd
           - text: "Ethics"
             href: research/microrobotics/ethics.qmd
         - section: Bibliography
@@ -199,7 +198,7 @@ format:
     highlight: null
     mathjax: null
     html-math-method: plain
-    theme: #scss/common.scss
+    theme:
       light: [scss/common.scss,scss/light.scss]
       dark: [scss/common.scss,scss/dark.scss]
 
