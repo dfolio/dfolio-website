@@ -46,7 +46,7 @@ Since 2008
     :   {{< var INSA-CVL >}}, University of Orléans, 
         {{< var PRISME-Laboratory >}} EA4229, Bourges, France.
 
-    Teaching:
+    [Teaching](/teaching/index.qmd):
     :   Member of the teaching team of the Industrial Risk Control 
         (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>), 
         of the Energy, Risks, and Environment 
@@ -54,7 +54,7 @@ Since 2008
         of the Sciences and Techniques for Engineers 
         (<abbr lang="fr" title="Science et Technique pour l’Ingénieur">STPI</abbr>) departments on the Bourges campus of {{< var INSA-CVL >}}.
 
-    Research:
+    [Research](/research/index.qmd):
     :   Member of the Robotics team of the  Images, Robotics, Automatic control 
         and Signal (<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>)
         unit of the {{< var PRISME-Laboratory >}}.
@@ -66,7 +66,7 @@ Since 2020
 :    Elected member of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department Council.
 
 Dec. 2021
-:    Dr. Habil ("[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR)
+:    [Dr. Habil](/publications/thesis/folio2021hdr.qmd) ("[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR)
 
 Since 2022
 :     
@@ -175,7 +175,7 @@ and since November 2020 I am an elected member of the council department of Indu
 (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>).
 Since may 2023, I am an elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
 
-Furthermore, I carry out my research activities with the {{< var PRISME-Laboratory >}}[^PRISME]
+Furthermore, I carry out my [research activity](/research/index.qmd) with the {{< var PRISME-Laboratory >}}[^PRISME]
 in the Robotics team belonging to the Images, Robotics, Automatic control and Signal 
 (<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>) department. 
 Since I have been an associate professor, my

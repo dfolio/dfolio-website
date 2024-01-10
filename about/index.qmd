@@ -33,10 +33,10 @@ You can also have a look to the notice on the [license](/about/license.qmd) and 
 
 ## Goals
 
-The [dfolio]' website aims to:
+This [dfolio]' website aims to:
 
 - share my activities as associate professor, that is [research](/research/index.qmd) and [teaching](/teaching//index.qmd) activities;
-- be a place to centralize new scientific, technological,  development topics and miscellaneous stuff that I found/discovered.
+- be a place to centralize new scientific, technological, development topics and miscellaneous stuff that I found/discovered.
 
 ## Langage
 
