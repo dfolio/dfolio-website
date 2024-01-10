@@ -23,6 +23,7 @@ project:
     - "26debdd5c70948148dc25915bd7777ae.txt"
     - "yandex_6973f7dbef8d9fa8.html"
 
+
 website:
   title: &title "dfolio' website"
   description: &description "D. Folio is an associate professor (Dr. Habil) at INSA Centre Val de Loire, researching in microrobotics."
@@ -103,6 +104,7 @@ website:
 #      - aria-label: "Website"
 #        icon: link-45deg
 #        href:  http://dfolio.free.fr
+#      idref: 124024785
 
   navbar:
     pinned: false
@@ -185,11 +187,16 @@ website:
             - research/microrobotics/magnetic-microrobot/magnetic-properties.qmd
             - research/microrobotics/magnetic-microrobot/magnetic-actuation.qmd
           - text: "Ethics"
-            href: research/microrobotics/ethics.qmd
+            href: research/microrobotics/ethics.qmd            
         - section: Bibliography
           contents:
             - research/references.qmd
             - publications/index.qmd
+        - section: "61st CNU"
+          href: research/cnu61/index.qmd
+          contents:
+          - text: "Qualification (fr)"
+            href: research/cnu61/qualification.qmd
 format:
   html:
     minimal: true

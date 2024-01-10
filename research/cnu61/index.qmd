@@ -1,0 +1,22 @@
+---
+aliases:  [/research/cnu61/cnu61.html]
+canonical: https://dfolio.fr/research/cnu61/index.html
+order: 1
+date: 2024-01-09 16:00:21.1704812421 +0100
+title: "The 61st CNU section"
+subtitle: Computer Engineering, Control and Signal Processing
+keywords: [dfolio, microrobotics, research, activities]
+description: >
+  Discussion by David FOLIO about the 61st CNU section
+#toc: false
+author-block: true
+---
+
+The [Conseil national des universités]{.fr lang=fr} (<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>) is a French advisory and decision-making body responsible at national level for individual decisions on the [qualification](qualification.qmd), recruitment and career development of teacher-researchers (university professors and lecturers).\
+Further and **official** information can be found on the [61^st^ CNU section] website.
+
+To a better understanding about the [qualification](qualification.qmd) for the  [61^st^ CNU section], the interested reader may read [this page](qualification.qmd) (in French).
+
+
+[61^st^ CNU section]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270> "61^st^ section CNU"
+
