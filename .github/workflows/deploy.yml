@@ -58,6 +58,8 @@ jobs:
         with:
           publish-dir: './_site'
           production-deploy: true
+          deploy-message: |
+            Deploy from GHA
           
         
 #      - name: Publish to NETLIFY

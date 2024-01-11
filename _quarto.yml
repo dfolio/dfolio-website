@@ -232,7 +232,7 @@ format:
 
 #page-layout: full
 #bibliography: [research/references.bib]
-csl: /research/Thesis-ieee-style.csl
+csl: research/Thesis-ieee-style.csl
 #csl: /research/nature-no-et-al.csl
 #biblio-style: ieee
 #biblatex: true
