@@ -46,25 +46,11 @@ jobs:
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          to: html
-
-
-      - name: Deploy Preview to Netlify as preview
-        id: netlify-deploy
-        uses: nwtgck/actions-netlify@v2
-        env:
-          NETLIFY_SITE_ID: 95286b11-d57b-4e5b-89d2-ec4ed92cdd84
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        with:
-          publish-dir: './_site'
-          production-deploy: true
-          deploy-message: |
-            Deploy from GHA
-          
+          to: html          
         
-#      - name: Publish to NETLIFY
-#        uses: quarto-dev/quarto-actions/publish@v2
-#        with:
-#          target: netlify
-#          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      - name: Publish to NETLIFY
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: netlify
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           
