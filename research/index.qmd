@@ -36,7 +36,7 @@ School (<abbr lang="fr" title='École Nationale Supérieur d’Ingénieurs'>ENSI
 involved in the life of the Institute.
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
-![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){#fig-INSA-CVL fig-alt="INSA-CVL"}
+![](/images/INSA_CVL.svg  "Logo of INSA Centre Val de Loire"){fig-alt="INSA-CVL"}
 :::
 :::
 [^1]: {{< var INSA-CVL >}} (INSA CVL) was created in 2014 by the merge of 
@@ -53,7 +53,7 @@ mainly deal with the modeling and control for nano and micro-robotics in
 a biomedical context. 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
-![](/images/PRISME.svg "Logo of PRISME Laboratory"){#fig-PRISME fig-alt="PRISME"}
+![](/images/PRISME.svg "Logo of PRISME Laboratory"){fig-alt="PRISME"}
 :::
 :::
 
@@ -87,18 +87,19 @@ systems at the microscale to propose novel solutions to successfully
 perform advanced and reliable microrobotic tasks, mainly devoted to
 biomedical applications. In particular, a significant lack of knowledge
 emerge on the appropriate understanding of the behaviors of 
-[microrobots in a biomedical](/research/microrobotics/index.qmd) situation. It is in this
-context that most of my scientific contributions have been made, since
+[microrobots](/research/microrobotics/index.qmd)  in a [biomedical situation](/research/microrobotics/biomedical/index.qmd).
+ It is in this context that most of my scientific contributions have been made, since
 my tenure as associate professor. 
-Specifically, I have chosen to focus my research activities on **magnetic medical microrobots** for targeted
-therapy. On the basis of my research works carried out in this field, it
+Specifically, I have chosen to focus my research activities on **[magnetic microrobots](/research/microrobotics/magnetic-microrobot/index.qmd)** for [biomedical applications](/research/microrobotics/biomedical/index.qmd). 
+On the basis of my research works carried out in this field, it
 appears three main themes that define my relevant contributions:
 
--   Topics #1: Modeling of magnetic microrobotic systems for biomedical
-    applications;
--   Topics #2: Simulation and advanced navigation strategies;
--   Topics #3: Evaluation and development of proof-of-concept of
-    magnetic microrobotic systems.
+- Topics #1: Modeling of[magnetic microrobotic](/research/microrobotics/magnetic-microrobot/index.qmd) systems for  [biomedical applications](/research/microrobotics/biomedical/index.qmd);
+- Topics #2: Simulation and advanced navigation strategies;
+- Topics #3: Evaluation and development of proof-of-concept of
+  magnetic microrobotic systems.
+
+These research activities were validated by my [Dr. Habil](/publications/thesis/folio2021hdr.qmd) in December 2021.
 
 ## Prior research activities: doctorate degree and post-doctorate {#sec:career:PhD}
 
@@ -112,7 +113,7 @@ dealt with the design of multi-sensor based control strategies allowing a mobile
 vision-based tasks amidst possibly occluding obstacles.
 
 :::{#fig-mobile-robot layout=[30,-10,60]}
-![](/images/research/super-scout.webp "Super scout"){#fig-scout width=30% fig-alt="Super scout"}
+![](/images/research/super-scout.webp "Super scout"){#fig-scout fig-alt="Super scout"}
 
 ![](/images/research/bertin.webp "Bertin Unmanned Aerial Vehicles"){#fig-aerial fig-alt="bertin"}
 
