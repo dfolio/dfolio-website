@@ -34,7 +34,6 @@ Je recommande également de préciser:
   - Pour les projets: le nombre d'étudiants.
   - Pour les stages et les thèses: l'encadrant/directeur principal.
 
-
 :::{.callout-important}
 Le CV demandé ne se résume pas à juste 2 ou 3 pages se contentant de lister les informations! \
 Un minimum d'information doit être fourni sur les éléments indiqués et **doivent être vérifiable facilement**.

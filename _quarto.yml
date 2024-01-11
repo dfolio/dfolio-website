@@ -150,7 +150,7 @@ website:
     - id: teaching
       title: "Teaching"
       contents:
-        - /teaching/index.qmd
+        - teaching/index.qmd
         - teaching/SFEN.qmd
         - teaching/ELAN.qmd
         - teaching/composants-electroniques.qmd
@@ -232,8 +232,8 @@ format:
 
 #page-layout: full
 #bibliography: [research/references.bib]
-csl: research/Thesis-ieee-style.csl
-#csl: research/nature-no-et-al.csl
+csl: /research/Thesis-ieee-style.csl
+#csl: /research/nature-no-et-al.csl
 #biblio-style: ieee
 #biblatex: true
 

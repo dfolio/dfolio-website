@@ -145,4 +145,3 @@ sensor self-calibration based on the sensor/robot interaction links.
 [^8]: From French [Agence Nationale de la Recherche]{.fr lang="fr"}
     (ANR), which is the French National Agency for Research.
     <http://www.agence-nationale-recherche.fr>
-
