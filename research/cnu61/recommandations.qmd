@@ -1,0 +1,43 @@
+---
+canonical: https://dfolio.fr/research/cnu61/recommandations.html
+order: 1
+date: 2024-01-17 16:27:56.1705505276 +0100
+title: "General Recommandations"
+keywords: [dfolio, research, activities]
+description: >
+  Discussion by David FOLIO about some recommandations related with the 61st CNU section
+#toc: false
+author-block: true
+---
+
+To successfully apply for a qualification, promotion, or anything from the [61^st^ CNU section], it is **MANDATORY** to adhere to the instructions and recommendations provided by the section.
+All the necessary information  are avalaible on the [61^st^ CNU section] website.
+
+:::{.callout-important}
+- **All your information must be verifiable**, without the need for reviewers to carry out complicated research by themselves.
+- When presenting information, it is important to provide context and explain the relevance of the information. 
+  Simply listing information without explanation is meaningless.
+  Therefore, it is recommended to add a few additional words to clarify what is being done or what it is related to.
+:::
+
+[61^st^ CNU section]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270> "61^st^ section CNU"
+
+# About your publications
+
+## For journals
+
+For each journal, you need to specify whether it is JCR-indexed or not.
+To check if a journal is JCR-indexed, you have to check if it can be found on [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://mjl.clarivate.com/home).\
+Moreover, feel free to give some indicators (metrics) for each journal, in particular its **quartile** (i.e. Q1, Q2...).
+To find a journal quartile you must use [Scimagojr](https://www.scimagojr.com/).
+Notice that the impact factor alone is meaningless because it can be artificially inflated.
+If you want to give it, as different databases can be used, you should prefer the one from the <abbrv title="Web of Science">WoS</abbrv> database (available from [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://clarivate.com/)).
+
+On the other hand, it is important to be cautious of the issues related to certain journals.
+The credibility of some articles, journals, and publishers may be questionable.
+It may be helpful to refer to <https://predatoryreports.org>, even if this source is not entirely reliable.
+
+## For conferences
+
+Reviewers will only consider conference articles from young researchers who meet the minimum standards of a good peer-reviewed conference.
+To determine a conference's ranking, consult  <http://www.conferenceranks.com/> or <https://www.resurchify.com/>.

@@ -1,6 +1,5 @@
 ---
 lang: fr_FR
-aliases:  [/research/cnu61/cnu61.html]
 canonical: https://dfolio.fr/research/cnu61/qualification.html
 order: 1
 date: 2024-01-09 16:14:21.1704812421 +0100
@@ -17,7 +16,7 @@ il est **IMPORTANT** de bien respecter les consignes et recommandations formuler
 Ceux-ci sont disponible au bas de la page [61^ème^ section CNU] sur l'onglet "Qualification".
 
 Je me permet de rappeler ci-après les principaux conseils.
-Avant tout, toute information contenue dans un dossier de qualification **doit être vérifiable** sans que les rapporteurs aient besoin de faire par eux-mêmes des recherches compliquées. Ainsi:
+Avant tout, il est impératif que toute information contenue dans un dossier de qualification **doit être vérifiable** sans que les rapporteurs aient besoin de faire par eux-mêmes des recherches compliquées. Ainsi:
 
 - L‘expérience d‘enseignement **doit être attestée** par un ou des documents et il doit être préciser:
   le nombre d‘heures effectuées, la nature des enseignements (CM, TD, TP...), le public concerné (L1, L2...), et éventuellement l'effectif.
@@ -32,14 +31,18 @@ Je recommande également de préciser:
 - La date de début de la thèse et éventuellement la durée en mois.
 - Concernant la participation à des encadrements:
   - Pour les projets: le nombre d'étudiants.
-  - Pour les stages et les thèses: l'encadrant/directeur principal.
+  - Pour les stages et les thèses: l'encadrant/directeur principal et le pourcentage d'encadrements.
 
 :::{.callout-important}
 Le CV demandé ne se résume pas à juste 2 ou 3 pages se contentant de lister les informations! \
-Un minimum d'information doit être fourni sur les éléments indiqués et **doivent être vérifiable facilement**.
+Un minimum d'information doit être fourni sur les éléments indiqués et ils **doivent être vérifiable facilement**.
 Par exemple, il ne suffit pas de mentionner "participation à l'organisation de l'événement XXX", 
 il faut aussi donner une brève description de ce qui a été fait et ajouter un document ou un référent qui peut l'attester.
 :::
 
+D'autres [recommandations](recommandations.qmd) sont formuler [ici](recommandations.qmd) .
+
 [61^ème^ section CNU]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270>
 [DOI]: <https://doi.org>
+
+Pour chaque revue, n'hésitez pas à indiquer des métriques, avec en particulier son quartile.
