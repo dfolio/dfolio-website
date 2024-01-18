@@ -79,6 +79,6 @@ Ces pré-requis comprennent, entre autre:
 
 Vous avez ci-dessous les supports des cours et TD de composants électroniques  au format {{< fa file-pdf >}}:
 
--   Support de [cours de composants électroniques](/pdf/teaching/compElect-book.pdf "Click to download"){.download-link download="compElect-book.pdf"} {{< fa file-pdf >}}
--   Support de [TD de composants électroniques](/pdf/teaching/compElect-TD.pdf "Click to download"){.download-link download="compElect-TD.pdf"} {{< fa file-pdf >}}
+-   Support de [cours de composants électroniques](/pdf/teaching/compElect-book.pdf "Click to download"){rel="nofollow" .download-link download="compElect-book.pdf"} {{< fa file-pdf >}}
+-   Support de [TD de composants électroniques](/pdf/teaching/compElect-TD.pdf "Click to download"){rel="nofollow" .download-link download="compElect-TD.pdf"} {{< fa file-pdf >}}
 -   Ces supports sont également disponible sur Célène: <https://celene.insa-cvl.fr/course/view.php?id=203>

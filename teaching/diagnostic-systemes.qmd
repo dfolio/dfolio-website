@@ -72,4 +72,4 @@ d'état**" (4A-S8) sont également exploités.
 
 ## Supports {#sec-support}
 
-Le [support cours](/pdf/teaching/diagSys-book.pdf "Click to download"){.download-link download="diagSys-book.pdf"}  de diagnostic des systèmes industriels est accessible [ici](/pdf/teaching/diagSys-book.pdf "Click to download"){.download-link download="diagSys-book.pdf"} au format {{< fa file-pdf >}}.
+Le [support cours](/pdf/teaching/diagSys-book.pdf "Click to download"){rel="nofollow" .download-link download="diagSys-book.pdf"}  de diagnostic des systèmes industriels est accessible [ici](/pdf/teaching/diagSys-book.pdf "Click to download"){rel="nofollow" .download-link download="diagSys-book.pdf"} au format {{< fa file-pdf >}}.

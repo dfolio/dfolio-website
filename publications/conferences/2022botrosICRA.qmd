@@ -77,7 +77,7 @@ categories:
 
 
 
-[![](/images/publications/2022botrosICRA.webp)](/pdf/publications/2022botrosICRA-slides.pdf "Click to download PDF slides"){.download-link download="2022botrosICRA-slides.pdf"} 
+[![](/images/publications/2022botrosICRA.webp)](/pdf/publications/2022botrosICRA-slides.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2022botrosICRA-slides.pdf"} 
 
 ## Funding
 This work was supported by the Region Centre Val de Loire Fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.

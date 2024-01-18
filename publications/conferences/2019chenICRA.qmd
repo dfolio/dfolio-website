@@ -78,6 +78,6 @@ categories:
 image: /images/publications/2019chenICRA.webp
 ---
 
-[![](/images/publications/2019chenICRA.webp){width=90%}](/pdf/publications/2019chenICRA-slides.pdf "Click to download PDF slides"){.download-link download="2019chenICRA-slides.pdf"} 
+[![](/images/publications/2019chenICRA.webp){width=90%}](/pdf/publications/2019chenICRA-slides.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2019chenICRA-slides.pdf"} 
 
 {{< include ../_footer.qmd >}}

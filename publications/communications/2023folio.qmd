@@ -29,6 +29,6 @@ categories:
 image: /images/publications/2023folio.webp
 ---
 
-[![](/images/publications/2023folio.webp)](/pdf/publications/2023folio.pdf "Click to download PDF slides"){.download-link download="2023folio.pdf"} 
+[![](/images/publications/2023folio.webp)](/pdf/publications/2023folio.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2023folio.pdf"} 
 
 {{< include ../_footer.qmd >}}

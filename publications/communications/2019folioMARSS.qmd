@@ -30,6 +30,6 @@ categories:
 image: /images/publications/2019folioMARSS-slides.webp
 ---
 
-[![](/images/publications/2019folioMARSS-slides.webp)](/pdf/publications/2019folioMARSS-slides.pdf "Click to download PDF slides"){.download-link download="2019folioMARSS-slides.pdf"} 
+[![](/images/publications/2019folioMARSS-slides.webp)](/pdf/publications/2019folioMARSS-slides.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2019folioMARSS-slides.pdf"} 
 
 {{< include ../_footer.qmd >}}

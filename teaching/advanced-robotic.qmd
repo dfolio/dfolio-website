@@ -65,7 +65,7 @@ In a second part, the navigation and control of an autonomous mobile robot will 
 
 ## Supports {#sec-support}
 
-The course [handout material](/pdf/teaching/AdvancedRobotics.pdf "Click to download"){.download-link download="AdvancedRobotics.pdf"} of "**Advanced Robotic**" is available [here](/pdf/teaching/AdvancedRobotics.pdf "Click to download"){.download-link download="AdvancedRobotics.pdf"}, and the [tutorial materials](/pdf/teaching/AdvancedRobotics-TD.pdf "Click to download"){.download-link download="AdvancedRobotics-TD.pdf"} (TD) is available [here](/pdf/teaching/AdvancedRobotics-TD.pdf "Click to download"){.download-link download="AdvancedRobotics-TD.pdf"} {{< fa file-pdf >}}.
+The course [handout material](/pdf/teaching/AdvancedRobotics.pdf "Click to download"){rel="nofollow" .download-link download="AdvancedRobotics.pdf"} of "**Advanced Robotic**" is available [here](/pdf/teaching/AdvancedRobotics.pdf "Click to download"){rel="nofollow" .download-link download="AdvancedRobotics.pdf"}, and the [tutorial materials](/pdf/teaching/AdvancedRobotics-TD.pdf "Click to download"){rel="nofollow" .download-link download="AdvancedRobotics-TD.pdf"} (TD) is available [here](/pdf/teaching/AdvancedRobotics-TD.pdf "Click to download"){rel="nofollow" .download-link download="AdvancedRobotics-TD.pdf"} {{< fa file-pdf >}}.
 
 
 
