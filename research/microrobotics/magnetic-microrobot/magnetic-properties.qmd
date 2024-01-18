@@ -1,5 +1,4 @@
 ---
-#aliases:  [/research/microrobotics/]
 date: 2023-04-19 09:58:35 +0100
 order: 2
 title: "Magnetic properties"
