@@ -13,17 +13,18 @@ author-block: true
 
 Quand un candidat souhaite candidater pour obtenir la qualification de la [61^ème^ section CNU], 
 il est **IMPORTANT** de bien respecter les consignes et recommandations formuler par la section.
-Ceux-ci sont disponible au bas de la page [61^ème^ section CNU] sur l'onglet "Qualification".
+Ceux-ci sont disponible au bas de la page [61^ème^ section CNU] dans la rubrique "Qualification".
+Notamment, une [check list](https://conseil-national-des-universites.fr/data/document/4278/2960/Public/Documents/Check%20list%20qualifs.pdf%20(1)) est disponible dans la rubrique "Rapports d'activité et documents/Documents".
 
 Je me permet de rappeler ci-après les principaux conseils.
 Avant tout, il est impératif que toute information contenue dans un dossier de qualification **doit être vérifiable** sans que les rapporteurs aient besoin de faire par eux-mêmes des recherches compliquées. Ainsi:
 
-- L‘expérience d‘enseignement **doit être attestée** par un ou des documents et il doit être préciser:
-  le nombre d‘heures effectuées, la nature des enseignements (CM, TD, TP...), le public concerné (L1, L2...), et éventuellement l'effectif.
+- L'expérience d'enseignement **doit être attestée** par un ou des documents et il doit être préciser:
+  le nombre d'heures effectuées, la nature des enseignements (CM, TD, TP...), le public concerné (L1, L2...), et éventuellement l'effectif.
 - Les références de la production scientifique doivent être précises (n'hésitez pas à indiquer le [DOI] quand c'est possible)  
   - La liste de publications doit être ordonnée par type (e.g. revues, conférences...) et par date dans chaque type. 
-  - Pour chaque revue, préciser si elle est indexée JCR ou non, et n'hésitez pas à indiquer des métriques (e.g. impact factor, quartile...)
-- Il est également demandé de préciser le **statut** et la **section** (CNU ou CNRS) d‘appartenance des membres du jury de thèse (ou HDR).
+  - Pour chaque revue, préciser si elle est indexée JCR ou non, et n'hésitez pas à indiquer des métriques (e.g. impact factor, **quartile**...)
+- Il est également demandé de préciser le **statut** et la **section** (CNU ou CNRS) d'appartenance des membres du jury de thèse (ou HDR).
 - Les candidats dont les travaux relèvent de l'interdisciplinarité doivent motiver leur candidature en 61^ème^ section 
 
 Je recommande également de préciser:
@@ -34,15 +35,14 @@ Je recommande également de préciser:
   - Pour les stages et les thèses: l'encadrant/directeur principal et le pourcentage d'encadrements.
 
 :::{.callout-important}
-Le CV demandé ne se résume pas à juste 2 ou 3 pages se contentant de lister les informations! \
+Le CV demandé ne se résume donc pas à juste 2 ou 3 pages se contentant de lister les informations! \
 Un minimum d'information doit être fourni sur les éléments indiqués et ils **doivent être vérifiable facilement**.
 Par exemple, il ne suffit pas de mentionner "participation à l'organisation de l'événement XXX", 
 il faut aussi donner une brève description de ce qui a été fait et ajouter un document ou un référent qui peut l'attester.
 :::
 
-D'autres [recommandations](recommandations.qmd) sont formuler [ici](recommandations.qmd) .
+D'autres [recommandations](recommandations.qmd) sont formulées [ici](recommandations.qmd) .
 
 [61^ème^ section CNU]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270>
 [DOI]: <https://doi.org>
 
-Pour chaque revue, n'hésitez pas à indiquer des métriques, avec en particulier son quartile.

@@ -197,7 +197,7 @@ website:
           contents:
           - text: "Qualification (fr)"
             href: research/cnu61/qualification.qmd
-          - text: "Recommandations"
+          - text: "Recommandations (fr)"
             href: research/cnu61/recommandations.qmd
             
 format:
