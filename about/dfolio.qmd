@@ -83,13 +83,13 @@ Since 2023
 
 Further details about me:
 
-- [English version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2023_dfolio_en.pdf "Click to download"){.download-link download="2023_dfolio_en.pdf"} 
-  of [D. Folio' CV](/pdf/2023_dfolio_en.pdf "Click to download"){.download-link download="2023_dfolio_en.pdf"}  [(issued 2023)]{.text-muted}
-- [Chinese version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} 
-  of [D. Folio' CV](/pdf/2018_dfolio_CN.pdf "Click to download"){.download-link download="2018_dfolio_CN.pdf"} [(issued 2018)]{.text-muted} [Thx Ruipeng]
+- [English version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2023_dfolio_en.pdf "Click to download"){rel="nofollow" .download-link download="2023_dfolio_en.pdf"} 
+  of [D. Folio' CV](/pdf/2023_dfolio_en.pdf "Click to download"){rel="nofollow" .download-link download="2023_dfolio_en.pdf"}  [(issued 2023)]{.text-muted}
+- [Chinese version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2018_dfolio_CN.pdf "Click to download"){rel="nofollow" .download-link download="2018_dfolio_CN.pdf"} 
+  of [D. Folio' CV](/pdf/2018_dfolio_CN.pdf "Click to download"){rel="nofollow" .download-link download="2018_dfolio_CN.pdf"} [(issued 2018)]{.text-muted} [Thx Ruipeng]
 - See also my 
   - [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer" .url} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer" .url}
-  - [rapport d'activité  [fr]{.badge .rounded-pill .bg-primary}](/pdf/2022_rapport-activite.pdf){.download-link .fr lang="fr" download="2022_rapport-activite_dfolio.pdf"}  [(issued 2022)]{.text-muted}
+  - [rapport d'activité  [fr]{.badge .rounded-pill .bg-primary}](/pdf/2022_rapport-activite.pdf){rel="nofollow" .download-link .fr lang="fr" download="2022_rapport-activite_dfolio.pdf"}  [(issued 2022)]{.text-muted}
 
 ## Background and Career Overview {#chap-resume-career}
 
