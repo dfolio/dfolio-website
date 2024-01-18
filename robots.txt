@@ -1,6 +1,6 @@
-Sitemap: https://dfolio.quarto.pub/sitemap.xml
 User-agent:*
 Allow: /
 Disallow: /pdf/
 User-Agent: W3C-checklink
 Disallow:
+Sitemap: https://dfolio.fr/sitemap.xml
