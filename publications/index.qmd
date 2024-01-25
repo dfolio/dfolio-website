@@ -22,19 +22,19 @@ listing:
     feed: true
   
   - id: conferences-list
-    contents: conferences/*.qmd
+    contents: conferences/20*.qmd
     template: publications.ejs
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
   - id: communications-list
-    contents: communications/*.qmd
+    contents: communications/20*.qmd
     template: publications.ejs
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
   - id: thesis-list
-    contents: thesis/*.qmd
+    contents: thesis/folio*.qmd
     template: publications.ejs
     sort: 'date desc'
     sort-ui: [date, author]
@@ -56,6 +56,8 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
  
 ## Journal articles (ACL) {#ACL}
+[Show only articles](articles/index.qmd)
+
 :::{.collapsable #collapse-parent-ACL}
 :::{.collapse-head}
 <a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACL" aria-expanded="true" aria-controls="collapse-ACL" title="Click to expand/contract">
@@ -70,6 +72,8 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 
 ## Conferences papers (ACT) {#ACT}
+[Show only conferences papers](conferences/index.qmd)
+
 :::{.collapsable #collapse-parent-ACT}
 :::{.collapse-head}
 <a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-ACT" aria-expanded="false" aria-controls="collapse-ACT" title="Click to expand/contract">
@@ -84,6 +88,8 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 
 ## Oral communications (COM) {#COM}
+[Show only communications](communications/index.qmd)
+
 :::{.collapsable #collapse-parent-COM}
 :::{.collapse-head}
 <a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-COM" aria-expanded="false" aria-controls="collapse-COM" title="Click to expand/contract">
@@ -97,7 +103,9 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 :::
 
-## Thesis {#thesis}
+## Theses {#thesis}
+[Show only theses](thesis/index.qmd)
+
 :::{.collapsable #collapse-parent-thesis}
 :::{.collapse-head}
 <a class="btn btn-outline-primary float-end" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-thesis" aria-expanded="true" aria-controls="collapse-thesis" title="Click to expand/contract">

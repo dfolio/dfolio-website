@@ -37,13 +37,14 @@ breadcrumb:
     item: "https://dfolio.fr/publications/articles/"
 ---
 
-:::{.callout-note}
-A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).\
-See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
-:::
- 
+
 ## Journal articles (ACL) {#ACL}
 
 ::: {#articles-list }
 :::
 
+:::{.callout-note}
+A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).\
+See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
+:::
+ 

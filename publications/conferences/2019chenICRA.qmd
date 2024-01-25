@@ -51,7 +51,7 @@ links:
     href: /pdf/publications/2019chenICRA-slides.pdf
 citation: 
   issued: 2019-08-12
-  container-title: International Conference on Robotics and Automation (ICRA'2019)
+  container-title: "International Conference on Robotics and Automation (ICRA'2019)"
   publisher: IEEE
   type: paper-conference
   event-date: 2019-05-20/2019-05-24
@@ -78,6 +78,14 @@ categories:
 image: /images/publications/2019chenICRA.webp
 ---
 
-[![](/images/publications/2019chenICRA.webp){width=90%}](/pdf/publications/2019chenICRA-slides.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2019chenICRA-slides.pdf"} 
+```{=html}
+<object title="Slides of the talk" data="/pdf/publications/2019chenICRA-slides.pdf" type="application/pdf" width="100%" height="480" aria-labelledby="Talk PDF slides">
+```
+[![](/images/publications/2019chenICRA.webp)](/pdf/publications/2019chenICRA-slides.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2019chenICRA-slides.pdf"}
+```{=html}
+</object>
+```
+
+If you cannot see the PDF above, please [download it](/pdf/publications/2019chenICRA-slides.pdf "Click to download the PDF slides"){rel="nofollow" .download-link download="2019chenICRA-slides.pdf"} instead.
 
 {{< include ../_footer.qmd >}}

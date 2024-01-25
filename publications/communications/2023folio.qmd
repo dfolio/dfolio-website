@@ -3,7 +3,7 @@ type: speech
 date: 2023-07-04
 title: La microbotique et leurs applications biomédicales
 description: | 
-  In this conference, D. Folio discussed magnetic microrobotics and their biomedical applications to a general audience.
+  In this talk, D. Folio discussed magnetic microrobotics and their biomedical applications to a general audience.
 author:
   - name: David Folio
     orcid: 0000-0001-9430-6091
@@ -11,6 +11,9 @@ author:
     url: https://dfolio.fr
     attributes:
       corresponding: true
+    image: "/images/david-folio.webp"
+    affiliations:
+      - ref: PRISME
 links:
   - name: "PDF"
     aria-label: "PDF"
@@ -19,7 +22,7 @@ links:
     href: /pdf/publications/2023folio.pdf
 citation: 
   issued: 2023-07-04
-  container-title: Journée de cohésion de l'INSA Centre Val de Loire
+  container-title: "Journée de cohésion de l'INSA Centre Val de Loire"
   event-date: 2023-07-04
   event-place: Bourges, France
   keyword: magnetic microrobot, biomedical applications
@@ -29,6 +32,13 @@ categories:
 image: /images/publications/2023folio.webp
 ---
 
-[![](/images/publications/2023folio.webp)](/pdf/publications/2023folio.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2023folio.pdf"} 
+
+```{=html}
+<object title="Slides of the talk" data="/pdf/publications/2023folio.pdf" type="application/pdf" width="100%" height="480" aria-labelledby="Talk PDF slides">
+```
+[![](/images/publications/2023folio.webp)](/pdf/publications/2023folio.pdf.pdf "Click to download PDF slides"){rel="nofollow" .download-link download="2023folio-slides.pdf"}
+```{=html}
+</object>
+```
 
 {{< include ../_footer.qmd >}}
