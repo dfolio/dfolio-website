@@ -1,0 +1,50 @@
+---
+aliases:
+  - /research/publications/thesis/thesis.html
+  - /publications/thesis.html
+canonical: https://dfolio.fr/publications/thesis/index.html
+order: 3
+date: 2023-12-19 
+title: "David Folio's  theses."
+description: |
+  The list of David Folio's  theses.
+comments: false
+toc-title: Publication type
+listing:
+  - id: thesis-list
+    contents: ./folio*.qmd
+    template: ../publications.ejs
+    sort: 'date desc'
+    categories: cloud
+    sort-ui: [date, author]
+    date-format: "YYYY"
+    feed: true
+date-format: "MMMM D, YYYY"
+title-block: true
+title-block-meta: false
+css: publications.css
+image: /images/logo-df.webp
+image-alt: "D. F. logo"
+image-width: 80%
+image-height: 80%
+categories: [dfolio, research, bibliography]
+breadcrumb: 
+  - name: "Publications"
+    position: 1
+    item: "https://dfolio.fr/publications/"
+  - name: "Thesis"
+    position: 2
+    item: "https://dfolio.fr/publications/thesis/"
+---
+
+ 
+##  Theses  {#thesis}
+
+::: {#thesis-list }
+:::
+
+
+:::{.callout-note}
+A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).\
+See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
+:::

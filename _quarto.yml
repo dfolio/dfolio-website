@@ -191,8 +191,18 @@ website:
         - section: Bibliography
           contents:
             - research/references.qmd
-            - publications/index.qmd
-        - section: "61st CNU"
+            - section: "Publications"
+              href: publications/index.qmd
+              contents:
+              - text: "Articles"
+                href: publications/articles/index.qmd
+              - text: "Conferences"
+                href: publications/conferences/index.qmd
+              - text: "Communications"
+                href: publications/communications/index.qmd
+              - text: "Theses"
+                href: publications/thesis/index.qmd
+        - section: "CNU61"
           href: research/cnu61/index.qmd
           contents:
           - text: "Qualification (fr)"
