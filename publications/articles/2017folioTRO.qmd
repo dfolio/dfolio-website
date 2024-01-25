@@ -111,3 +111,8 @@ breadcrumb:
 The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/7829399/media#media)
 
 {{< video ../../media/2017folioTRO.webm >}}
+
+The video  showcases the successful two-dimensional magnetic resonance navigations of a magnetic microrobot through a complex fluidic vascular-like network inside the bore of a clinical resonance imaging (MRI) scanner. For successful magnetic resonance navigation (MRN) of a microrobot along consecutive channels, an autonomous navigation strategy is required. In particular, this strategy must take into account major MRI technological constraints and physiological perturbations, such as non-negligible pulsatile flow, limitations on the magnetic gradient amplitude, MRI overheating, susceptibility artifacts uncertainties, and more. To this end, we use a navigation planning framework based on _Pareto optimality_ to effectively address this multi-objective problem.
+
+
+
