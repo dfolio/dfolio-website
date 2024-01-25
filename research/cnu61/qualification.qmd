@@ -16,13 +16,13 @@ il est **IMPORTANT** de bien respecter les consignes et recommandations formuler
 Ceux-ci sont disponible au bas de la page [61^ème^ section CNU] dans la rubrique "Qualification".
 Notamment, une [check list](https://conseil-national-des-universites.fr/data/document/4278/2960/Public/Documents/Check%20list%20qualifs.pdf%20(1)) est disponible dans la rubrique "Rapports d'activité et documents/Documents".
 
-Je me permet de rappeler ci-après les principaux conseils.
-Avant tout, il est impératif que toute information contenue dans un dossier de qualification **doit être vérifiable** sans que les rapporteurs aient besoin de faire par eux-mêmes des recherches compliquées. Ainsi:
+Je voudrais rappeler les principaux conseils ci-après.
+Tout d'abord, il est impératif que toute information contenue dans un dossier de qualification **soit vérifiable** sans que les rapporteurs aient eux-mêmes besoin de faire des recherches compliquées. Ainsi:
 
-- L'expérience d'enseignement **doit être attestée** par un ou des documents et il doit être préciser:
+- L'expérience d'enseignement **doit être attestée** (sauf si fonction statutaire) par un ou des documents et il doit être préciser:
   le nombre d'heures effectuées, la nature des enseignements (CM, TD, TP...), le public concerné (L1, L2...), et éventuellement l'effectif.
-- Les références de la production scientifique doivent être précises (n'hésitez pas à indiquer le [DOI] quand c'est possible)  
-  - La liste de publications doit être ordonnée par type (e.g. revues, conférences...) et par date dans chaque type. 
+- Les références de la production scientifique doivent être précises (n'hésitez pas à indiquer le [DOI] quand il est disponible)  
+  - La liste des publications doit être ordonnée par type (e.g. revues, conférences...) et par date dans chaque type. 
   - Pour chaque revue, préciser si elle est indexée JCR ou non, et n'hésitez pas à indiquer des métriques (e.g. impact factor, **quartile**...)
 - Il est également demandé de préciser le **statut** et la **section** (CNU ou CNRS) d'appartenance des membres du jury de thèse (ou HDR).
 - Les candidats dont les travaux relèvent de l'interdisciplinarité doivent motiver leur candidature en 61^ème^ section 
@@ -31,7 +31,7 @@ Je recommande également de préciser:
 
 - La date de début de la thèse et éventuellement la durée en mois.
 - Concernant la participation à des encadrements:
-  - Pour les projets: le nombre d'étudiants.
+  - Pour les projets: le nombre et le niveau des étudiants.
   - Pour les stages et les thèses: l'encadrant/directeur principal et le pourcentage d'encadrements.
 
 :::{.callout-important}

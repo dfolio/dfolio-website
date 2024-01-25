@@ -18,7 +18,7 @@ Toutes les informations nécessaires sont disponibles sur le site de la [61^ème
 :::{.callout-important}
 - Dans tous les cas, **toutes vos informations doivent être vérifiables**, sans que les rapporteurs n'aient à effectuer eux-mêmes des recherches compliquées.
 - Lorsque l'on présente des informations, il est important de les replacer dans leur contexte et d'en expliquer la pertinence. 
-  Une simple énumération d'informations sans plus explication ne permet d'en évaluer la pertinence. 
+  Une simple énumération d'informations sans plus explication ne permet pas d'en évaluer la pertinence. 
   Il est donc recommandé d'ajouter quelques mots complémentaires pour clarifier ce qui est fait ou ce à quoi elle se rapporte.
 :::
 
@@ -30,13 +30,13 @@ Toutes les informations nécessaires sont disponibles sur le site de la [61^ème
 
 Pour chaque article (ACL), vous devez **préciser si il est indexée JCR ou non**. 
 Pour vérifier si une revue est indexée JCR, vous devez vérifier si elle peut être trouvée sur [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://mjl.clarivate.com/home).\
-Par ailleurs, n'hésitez pas à donner quelques indicateurs (métriques) pour chaque revue, en particulier son quartile (i.e. Q1, Q2...). Pour trouver le quartile d'une revue, vous devez utiliser [Scimagojr](https://www.scimagojr.com/). 
+Par ailleurs, n'hésitez pas à donner quelques indicateurs (métriques) pour chaque revue, en particulier son **quartile** (i.e. Q1, Q2...). Pour trouver le quartile d'une revue, vous devez utiliser [Scimagojr](https://www.scimagojr.com/). 
 Notez que le facteur d'impact seul n'a pas de sens car il peut être parfois controversé (i.e. il peut être influencé par le domaine d'étude, la fréquence des publications, les autocitations...). 
 Si vous voulez le donner, comme différentes bases de données peuvent être utilisées, vous devriez préférer celui issue de la base de données  <abbr title="Web of Science">WoS</abbr> (entre autre disponible auprès de [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://clarivate.com/)).
 
 D'autre part, il est important de se méfier des problématiques liées à certaines revues.
 La crédibilité de certains articles, revues et éditeurs peut être parfois mise en doute.
-Il peut être utile de se référer à <https://predatoryreports.org>, même si cette source n'est pas entièrement fiable.
+Il peut être utile de se référer à <https://predatoryreports.org>, même si cette source ne fait encore consensus.
 
 ### Pour les conférences
 Les évaluateurs ne prendront en considération que les articles de conférence émanant de jeunes chercheurs qui répondent aux normes minimales d'une bonne conférence évaluée par des pairs. 
@@ -45,20 +45,16 @@ Il est recommandé, dans la mesure du possible, de fournir le taux de sélectivi
 
 ## Votre activité pédagogique
 
-Il est important de bien préciser
-**le nombre d'heures effectuées** (préférablement en heure équivalent TD), **la nature des enseignements** (CM, TD, TP...) et **le public concerné** (L1, L2...). 
-Vous devez également décrire brièvement ce que vous avez fait dans les matières. 
-Faites ainsi d'abord un résumé de vos enseignements (e.g. sous forme de tableau), puis une description plus détaillée.
+Il est important de préciser le **nombre d'heures effectuées** (de préférence en équivalent heures de cours), **la nature de l'enseignement** (CM, TD, TP, etc.), le **public concerné** (L1, L2, etc.) et, le cas échéant, le nombre d'étudiants. Vous devez également décrire brièvement ce que vous avez fait dans vos matières. Dans un premier temps, donnez un résumé de votre enseignement (par exemple sous la forme d'un tableau), suivi d'une description plus détaillée.
 
 
 ## Votre activité  scientifique
 
 Présentez vos activités de recherche de _manière synthétique_: 
 les principaux axes de recherche et la ou les contribution(s) au(x) domaine(s) concerné(s).
-Il ne s'agit pas ici d'entrer dans les détails, mais de se référer aux articles pertinents.
-N'hésitez pas à mentionner les personnes qui ont également contribué à votre recherche (en particulier les jeunes chercheurs).
-De même, lorsque c'est le cas, précisez les sources de financement de vos travaux.
-
+Il ne s'agit pas ici d'entrer dans les détails, mais de se référer à vos articles pertinents.
+N'hésitez pas à mentionner les personnes qui ont également contribué à vos recherches (en particulier les jeunes chercheurs).
+Précisez également, le cas échéant, les sources de financement de vos travaux.
 
 ## Les responsabilités collectives ou administratives
 
