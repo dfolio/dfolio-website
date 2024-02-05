@@ -80,4 +80,4 @@ affiliations:
     city: Paris
     country: FR
 
-rss: /publications/publications.xml
+rss: index.xml

@@ -1,15 +1,14 @@
 ---
 aliases:
   - /research/publications/thesis/thesis.html
-  - /publications/thesis.html
 canonical: https://dfolio.fr/publications/thesis/index.html
 order: 3
 date: 2023-12-19 
-title: "David Folio's  theses."
+title: "David Folio's theses."
 description: |
-  The list of David Folio's  theses.
+  The list of David Folio's theses.
 comments: false
-toc-title: Publication type
+toc: false
 listing:
   - id: thesis-list
     contents: ./folio*.qmd
