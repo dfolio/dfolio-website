@@ -63,8 +63,7 @@ $if(links)$
 <div class="quarto-title-links">
   <ul class="list-group list-group-horizontal fs-7">
 $for(links)$
-  <li class="list-group-item px-1"><a href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">
-    $if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a></li>
+  <li class="list-group-item px-1"><a rel="nofollow noopener noreferrer" href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">$if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a></li>
 $endfor$
 </ul>
 $if(scite-badge)$$if(doi)$
@@ -81,8 +80,6 @@ $elseif(doi)$
   </div>
 </div>
 $endif$
-
-
 $if(hide-abstract)$
 $elseif(abstract)$
 <div>
