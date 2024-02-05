@@ -38,12 +38,19 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-01446482
+  - name: "PDF"
+    aria-label: "pdf"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-success btn-sm"
+    href: "/pdf/publications/2017folioTRO.pdf"
   - name: "Materials"
     aria-label: "materials"
     icon: "fa fa-file-video"
     class: "btn btn-light"
     href: https://ieeexplore.ieee.org/document/7829399/media#media
 citation: 
+  url: https://ieeexplore.ieee.org/document/7829399
+  pdf-url: /pdf/publications/2017folioTRO.pdf
   citation-key: 2017folioTRO
   type: article-journal
   genre: ACL
@@ -56,24 +63,24 @@ citation:
   number: 3
   keyword: Microrobotics, Magnetic Resonance Imaging, Magnetic Resonance Navigation, Multi-ojective planning
   abstract: |
-    This paper introduces a two-dimensional autonomous
-    navigation strategy of a 750 µm steel microrobot along complex
-    fluidic vascular network inside the bore of a clinical 3.0 T
+    This paper introduces a 2D autonomous
+    navigation strategy of a microrobot along complex
+    fluidic vascular network inside the bore of a clinical 
     magnetic resonance imaging (MRI) scanner. To ensure successful
     magnetic resonance navigation (MRN) of a microrobot along
     consecutive channels, the design of autonoumous navigation strategy
     is needed taking into account the major MRI technological
     constraints and physiological perturbations, e.g. non-negligible
     pulsatile flow, limitations on the magnetic gradient amplitude, MRI
-    overheating, susceptibility artifacts uncertainties, and so on. An
+    overheating, susceptibility artifacts uncertainties... An
     optimal navigation planning framework based on Pareto optimality is
-    proposed in order to deal with this multiple-objective problem.
-    Based on these optimal conditions, a dedicated control architecture
+    proposed to deal with this multiple-objective problem.
+    Based on these optimal conditions, a control architecture
     has been implemented in an interventional medical platform for
-    real-time propulsion, control and imaging experiments. The reported
+    real-time propulsion, control and imaging experiments. The 
     experiments suggest that the likelihood of controlling autonomously
-    untethered 750 $\mu$m magnetic microrobots is rendered possible in a
-    complex two-dimensional centimeter-sized vascular phantom. The
+    untethered magnetic microrobots is rendered possible in a
+    complex 2D centimeter-sized vascular phantom. The
     magnetic microrobot traveled intricate paths at a mean velocity of
     about 4 mm/s with average tracking errors below 800 µm with
     limited magnetic gradients ±15 mT/m compatible with clinical MRI
@@ -82,6 +89,8 @@ citation:
     conventional MRI scanner with only a software upgrade.
 impact-factor: "6.835"
 quartile: "Q1"
+copyright: 
+  statement: "© 2017 IEEE. Personal use of this material is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works."
 categories: 
   - Magnetic microrobots
   - MRN
@@ -108,11 +117,11 @@ breadcrumb:
 ---
 
 ## Media
-The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/7829399/media#media)
 
 {{< video ../../media/2017folioTRO.webm >}}
 
 The video  showcases the successful two-dimensional magnetic resonance navigations of a magnetic microrobot through a complex fluidic vascular-like network inside the bore of a clinical resonance imaging (MRI) scanner. For successful magnetic resonance navigation (MRN) of a microrobot along consecutive channels, an autonomous navigation strategy is required. In particular, this strategy must take into account major MRI technological constraints and physiological perturbations, such as non-negligible pulsatile flow, limitations on the magnetic gradient amplitude, MRI overheating, susceptibility artifacts uncertainties, and more. To this end, we use a navigation planning framework based on _Pareto optimality_ to effectively address this multi-objective problem.
 
 
+The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/7829399/media#media)
 

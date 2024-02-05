@@ -38,7 +38,7 @@ links:
     aria-label: "DOI"
     icon: "ai ai-doi"
     class: "btn btn-success btn-sm"
-    href: "https://doi.org/10.1109/10.1109/LRA.2023.3264746"
+    href: "https://doi.org/10.1109/LRA.2023.3264746"
   - name: "IEEE"
     aria-label: "IEEE"
     icon: "ai ai-ieee"
@@ -63,6 +63,7 @@ citation:
   publisher: IEEE
   container-title: IEEE Robotics and Automation Letters
   container-title-short: Robot. Autom. Lett.
+  eissn: 2377-3766
   number: 6
   volume: 8
   page: 3254-3261
@@ -70,6 +71,8 @@ citation:
     Microscale robots introduce great perspectives into many medical applications such as drug delivery, minimally invasive surgery, and localized biometric diagnostics. Fully automatic microrobots' real-time detection and tracking using medical imagers are actually investigated for future clinical translation. Ultrasound (US) B-mode imaging has been employed to monitor single agents and collective swarms of microrobots in vitro and ex vivo in controlled experimental conditions. However, low contrast and spatial resolution still limit the effective employment of such a method in a medical microrobotic scenario due to uncertainties associated with the position of microrobots. The positioning error arises due to the inaccuracy of the US-based visual feedback, which is provided by the detection and tracking algorithms. The application of deep learning networks is a promising solution to detect and track real-time microrobots in noisy ultrasonic images. However, what is most striking is the performance gap among state-of-the-art microrobots deep learning detection and tracking research. A key factor of that is the unavailability of large-scale datasets and benchmarks. In this paper, we present the first publicly available B-mode ultrasound dataset for microrobots ($USmicroMagSet$) with accurate annotations which contains more than 40000 samples of magnetic microrobots. In addition, for analyzing the performance of microrobots included in the proposed benchmark dataset, 4 deep learning detectors and 4 deep learning trackers are used.
 impact-factor: "4.321"
 quartile: "Q1"
+copyright: 
+  statement: "© 2023 IEEE. Personal use of this material is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works."
 categories: 
   - US imaging
   - Tracking
@@ -94,3 +97,4 @@ The [USMicroMagset](https://gitlab.com/insa-cvl2/USMicroMagSet/) dataset is avai
 ## Funding 
 
 This work was supported by the [Region Centre Val de Loire]{.fr lang="fr"} fund with the [BUBBLEBOT](/research/projects/BUBBLEBOT.qmd) project.
+

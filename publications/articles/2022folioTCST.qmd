@@ -39,7 +39,8 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03523208
-citation: 
+citation:
+  url: https://ieeexplore.ieee.org/document/9678101
   citation-key: 2022folioTCST
   language: en-US
   type: article-journal
@@ -69,6 +70,8 @@ citation:
     variations.
 impact-factor: "5.485"
 quartile: "Q1"
+copyright: 
+  statement: "© 2022 IEEE. Personal use of this material is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works."
 categories: 
   - Magnetic microrobots
   - Modeling

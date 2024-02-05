@@ -53,7 +53,14 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03416758
+  - name: "PDF"
+    aria-label: "pdf"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-success btn-sm"
+    href: "/pdf/publications/2021mellalRAL.pdf"
 citation: 
+  url: https://ieeexplore.ieee.org/document/9521741
+  pdf-url: /pdf/publications/2021mellalRAL.pdf
   citation-key: 2021mellalRAL
   language: en-US
   type: article-journal
@@ -86,6 +93,8 @@ quartile: "Q1"
 categories: 
   - Modeling
   - Magnetic microrobots
+copyright: 
+  statement: "© 2021 IEEE. Personal use of this material is permitted.  Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works."  
 image: /images/research/2021mellalRAL.webp
 video:
   name: *title
@@ -107,8 +116,9 @@ breadcrumb:
 
 ## Media
 
-The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/9521741/media#media)
 {{< video ../../media/2021mellalRAL.webm title="Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy" >}}
+
+The supplementary files is available on the [publisher site](https://ieeexplore.ieee.org/document/9521741/media#media)
 
 ## Funding 
 This work was supported by the French National Institute

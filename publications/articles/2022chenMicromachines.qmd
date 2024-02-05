@@ -26,7 +26,6 @@ author:
     attributes:
       equal-contributor: true
 doi: 10.3390/mi14010091
-url: https://www.mdpi.com/2072-666X/14/1/91
 links:
   - name: "DOI"
     aria-label: "DOI"
@@ -49,6 +48,8 @@ links:
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03919809
 citation: 
+  url: https://www.mdpi.com/2072-666X/14/1/91
+  pdf-url: https://www.mdpi.com/2072-666X/14/1/91/pdf?version=1672311269
   citation-key: chen2022optimal
   language: en-US
   type: article-journal
