@@ -39,8 +39,7 @@ comments:
 :::
 
 Since 2008
-:   **Associate Professor** [(maître de conférences)]{.text-muted .french lang=fr}, 61^st^ 
-    <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr> section
+:   **Associate Professor** [(maître de conférences)]{.text-muted .french lang=fr}, {{< var CNU61 >}}
 
     Affiliation:
     :   {{< var INSA-CVL >}}, University of Orléans, 
@@ -48,25 +47,24 @@ Since 2008
 
     [Teaching](/teaching/index.qmd):
     :   Member of the teaching team of the Industrial Risk Control 
-        (<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>), 
+        ({{< var MRI >}}), 
         of the Energy, Risks, and Environment 
-        (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>), and 
+        ({{< var ERE >}}), and 
         of the Sciences and Techniques for Engineers 
-        (<abbr lang="fr" title="Science et Technique pour l’Ingénieur">STPI</abbr>) departments on the Bourges campus of {{< var INSA-CVL >}}.
+        ({{< var STPI >}}) departments on the Bourges campus of {{< var INSA-CVL >}}.
 
     [Research](/research/index.qmd):
     :   Member of the Robotics team of the  Images, Robotics, Automatic control 
-        and Signal (<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>)
-        unit of the {{< var PRISME-Laboratory >}}.
+        and Signal ({{< var IRAuS >}}) departement of the {{< var PRISME-Laboratory >}}.
     
 Since 2014
-:    In charge of the [Nuclear Energy option](/teaching/SFEN.qmd) of the 5^th^ year of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department.
+:    In charge of the [Nuclear Energy option](/teaching/SFEN.qmd) of the 5^th^ year of the {{< var MRI >}} department.
     
 Since 2020
-:    Elected member of the <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> department Council.
+:    Elected member of the {{< var MRI >}} department Council.
 
 Dec. 2021
-:    [Dr. Habil](/publications/thesis/folio2021hdr.qmd) ("[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR)
+:    [Dr. Habil](/publications/thesis/folio2021hdr.qmd) ("[Habilitation à Diriger la Recherche](/publications/thesis/folio2021hdr.qmd){lang="fr" .fr}" -- HDR)
 
 Since 2022
 :     
@@ -78,7 +76,14 @@ Since 2023
 :    
     
     - Elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
-    - Full member appointed to [61^st^ section <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){lang=fr}
+    - Full member appointed to {{< var CNU61 >}}
+
+Since 2024
+:    
+    
+    - Head of the {{< var PRISME-Laboratory >}} {{< var axe-robotique>}}.
+    - Member of the {{< var PRISME-Laboratory >}} Scientific Council
+
 
 
 Further details about me:
@@ -148,17 +153,16 @@ online sensor self-calibration based on the sensor/robot interaction links [@ke
 
 [^CNU]: From French ["Conseil National des Université"]{.french lang="fr" custom-style="French"} ([CNU](#glos-CNU)), comprises 57 sections covering different scientific disciplines. The 61^st^ section involves IT engineering, automation and signal processing. \linebreak <https://www.conseil-national-des-universites.fr>
 
-In 2008, I was recruited as Associate Professor for the 61^st^ 
-<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr> section[^CNU] at the
+In 2008, I was recruited as Associate Professor for the {{< var CNU61 >}} at the
 Graduate Engineering School
 (<abbr lang="fr" title="École Nationale Supérieur d'Ingénieurs">ENSI</abbr>)
-of Bourges, which is since 2014 the {{< var INSA-CVL >}}.
-Since my tenure, I have been regularly involved in the life of the Institute. I contribute at a local
-level to the scientific animations (e.g. organization of laboratory visits),
-transfer and training-research relationship. For instance, I regularly attend the
-international relations division by accompanying the different
-delegations of schools and universities partners during their visits. In March
-2017, the direction of the {{< var INSA-CVL >}} given to me the mission of referent _racism and antisemitism_.
+of Bourges, which has been the {{< var INSA-CVL >}} since 2014.
+Since my tenure, I have been regularly involved in the life of the Institute. At the local level, I contribute 
+to the scientific animation (e.g. organising laboratory visits),
+the relationship beteween education and research. For instance, I regularly participate in the
+international relations departement by accompanying the various
+delegations of school and university partners during their visits. In March
+2017, the direction of the {{< var INSA-CVL >}} gave me the mission of referent on _racism and antisemitism_.
 
 As a [lecturer](/teaching/index.qmd), I am involved, among others, in the development of
 electronics and electrical sciences teaching activities within the Institute. 
@@ -168,29 +172,27 @@ Similarly, various responsibilities entrusted to me have also influenced my teac
 Since September 2014, I am in
 charge of the option entitled [_Nuclear Energy_](/teaching/SFEN.qmd) of the 5^th^ year (engineer's
 degree, M2) of the Industrial Risk Control 
-(<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>) department. 
+({{< var MRI >}}) department. 
 Between  2017 and 2020, I have been elected as member of the council department of the Energy, Risks and
-Environment (<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>);
+Environment ({{< var ERE >}});
 and since November 2020 I am an elected member of the council department of Industrial Risk Control
-(<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>).
+({{< var MRI >}}).
 Since may 2023, I am an elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
 
 Furthermore, I carry out my [research activity](/research/index.qmd) with the {{< var PRISME-Laboratory >}}[^PRISME]
-in the Robotics team belonging to the Images, Robotics, Automatic control and Signal 
-(<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>) department. 
+in the {{< var axe-robotique >}} belonging to the Images, Robotics, Automatic control and Signal 
+({{< var IRAuS >}}) department. 
 Since I have been an associate professor, my
 field of scientific research mainly focused on the 
 _modeling and control for [nano and micro-robots](/research/microrobotics/index.qmd) in a 
 [biomedical](/research/microrobotics/biomedical/index.qmd) context_. 
-Globally, my main contributions focus on the study of **magnetic medical microrobots** for targeted therapies.
+Globally, my main contributions focus on the study of [**magnetic microrobots**](/research/microrobotics/magnetic-microrobot.qmd) for [medical applications](/research/microrobotics/biomedical.qmd).
 \
 Meanwhile, I have also contributed to the development of
 micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase].
 
-On December 3, 2021, I defended [my Habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche]{lang="fr" .fr}" -- HDR), entitled 
+On December 3, 2021, I defended [my Habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche](/publications/thesis/folio2021hdr.qmd){lang="fr" .fr}" -- HDR), entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](/publications/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
-
-Since March 2022, I am an elected member of the  {{< var PRISME-Laboratory >}} Council.
 
 Since November 2023, I am a full member appointed to the [61^st^ Section of the <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){lang=fr}
 
