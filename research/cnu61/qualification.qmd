@@ -11,19 +11,29 @@ description: >
 author-block: true
 ---
 
-Quand un candidat souhaite candidater pour obtenir la qualification de la [61^ème^ section CNU], 
+Quand un candidat souhaite candidater pour obtenir la qualification de la {{< var CNU61fr >}}, 
 il est **IMPORTANT** de bien respecter les consignes et recommandations formuler par la section.
-Ceux-ci sont disponible au bas de la page [61^ème^ section CNU] dans la rubrique "Qualification".
+Ceux-ci sont disponible au bas de la page {{< var CNU61fr >}} dans la rubrique "Qualification".
 Notamment, une [check list](https://conseil-national-des-universites.fr/data/document/4278/2960/Public/Documents/Check%20list%20qualifs.pdf%20(1)) est disponible dans la rubrique "Rapports d'activité et documents/Documents".
+
+:::{.callout-important}
+N'oubliez pas de joindre **tous les documents obligatoires** et demandés par la section.
+Chaque année, environ 10 % des  dossiers (même très bons) sont rejetées en raison de documents manquants.
+:::
 
 Je voudrais rappeler les principaux conseils ci-après.
 Tout d'abord, il est impératif que toute information contenue dans un dossier de qualification **soit vérifiable** sans que les rapporteurs aient eux-mêmes besoin de faire des recherches compliquées. Ainsi:
 
 - L'expérience d'enseignement **doit être attestée** (sauf si fonction statutaire) par un ou des documents et il doit être préciser:
-  le nombre d'heures effectuées, la nature des enseignements (CM, TD, TP...), le public concerné (L1, L2...), et éventuellement l'effectif.
+  le nombre d'heures effectuées, la nature des enseignements (CM, TD, TP...), le public concerné (L1, L2...), et, éventuellement, l'effectif.
 - Les références de la production scientifique doivent être précises (n'hésitez pas à indiquer le [DOI] quand il est disponible)  
   - La liste des publications doit être ordonnée par type (e.g. revues, conférences...) et par date dans chaque type. 
-  - Pour chaque revue, préciser si elle est indexée JCR ou non, et n'hésitez pas à indiquer des métriques (e.g. impact factor, **quartile**...)
+  - Pour chaque revue, préciser si elle est indexée <abbr title="Journal Citation Reports" lang="en">JCR</abbr> ou non, et n'hésitez pas à indiquer des métriques (e.g. impact factor, **quartile**...)
+    
+    :::{.callout-important}
+    Il est important de noter que seules les revues référencées  <abbr title="Journal Citation Reports" lang="en">JCR</abbr> sont prises en compte par la section.
+    :::
+  
 - Il est également demandé de préciser le **statut** et la **section** (CNU ou CNRS) d'appartenance des membres du jury de thèse (ou HDR).
 - Les candidats dont les travaux relèvent de l'interdisciplinarité doivent motiver leur candidature en 61^ème^ section 
 
@@ -36,13 +46,12 @@ Je recommande également de préciser:
 
 :::{.callout-important}
 Le CV demandé ne se résume donc pas à juste 2 ou 3 pages se contentant de lister les informations! \
-Un minimum d'information doit être fourni sur les éléments indiqués et ils **doivent être vérifiable facilement**.
+Un minimum d'information doit être fourni sur les éléments indiqués et ils **doivent être vérifiable facilement** (_faciliter le travail des rapporteurs_).
 Par exemple, il ne suffit pas de mentionner "participation à l'organisation de l'événement XXX", 
 il faut aussi donner une brève description de ce qui a été fait et ajouter un document ou un référent qui peut l'attester.
 :::
 
 D'autres [recommandations](recommandations.qmd) sont formulées [ici](recommandations.qmd) .
 
-[61^ème^ section CNU]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270>
 [DOI]: <https://doi.org>
 

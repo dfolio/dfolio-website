@@ -1,6 +1,6 @@
 ---
 lang: fr_FR
-canonical: https://dfolio.fr/research/cnu61/recommandations.html
+canonical: https://dfolio.fr/research/CNU61/recommandations.html
 order: 2
 date: 2024-01-17 16:27:56.1705505276 +0100
 title: "Recommandations génerales"
@@ -11,32 +11,40 @@ description: >
 author-block: true
 ---
 
-Pour postuler avec succès à une qualification, à une promotion ou à quoi que ce soit qui sollicite la [61^ème^ section du CNU], il est **IMPORTANT** de bien respecter les instructions et les recommandations fournies par la section. 
-Toutes les informations nécessaires sont disponibles sur le site de la [61^ème^ section du CNU].
-
+Pour postuler avec succès à une qualification, à une promotion ou à quoi que ce soit qui sollicite la {{< var CNU61fr >}}, il est **IMPORTANT** de bien respecter les instructions et les recommandations fournies par la section. 
+Toutes les informations nécessaires sont disponibles sur le site de la {{< var CNU61fr >}}.
 
 :::{.callout-important}
-- Dans tous les cas, **toutes vos informations doivent être vérifiables**, sans que les rapporteurs n'aient à effectuer eux-mêmes des recherches compliquées.
+- Dans tous les cas, **toutes vos informations doivent être vérifiables**, sans que les rapporteurs n'aient à effectuer eux-mêmes des recherches compliquées:
+  _faciliter le travail des rapporteurs_.
 - Lorsque l'on présente des informations, il est important de les replacer dans leur contexte et d'en expliquer la pertinence. 
   Une simple énumération d'informations sans plus explication ne permet pas d'en évaluer la pertinence. 
-  Il est donc recommandé d'ajouter quelques mots complémentaires pour clarifier ce qui est fait ou ce à quoi elle se rapporte.
+  Il est donc recommandé d'ajouter quelques mots complémentaires pour clarifier ce qui est fait ou ce à quoi elle se rapporte.  
 :::
-
-[61^ème^ section du CNU]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270> "61^ème^ section du CNU"
 
 ## Votre liste de publications
 
 ### Pour vos articles
 
-Pour chaque article (ACL), vous devez **préciser si il est indexée JCR ou non**. 
-Pour vérifier si une revue est indexée JCR, vous devez vérifier si elle peut être trouvée sur [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://mjl.clarivate.com/home).\
+:::{.callout-important}
+Il est important de noter que seules les revues référencées  <abbr title="Journal Citation Reports" lang="en">JCR</abbr> sont prises en compte par la section.
+:::
+
+Pour chaque article (ACL), vous devez **préciser si il est indexé <abbr title="Journal Citation Reports" lang="en">JCR</abbr> ou non**. 
+Pour vérifier si une revue est référencée <abbr title="Journal Citation Reports" lang="en">JCR</abbr>, vous devez vérifier si elle peut être trouvée sur [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://mjl.clarivate.com/home).
+
+:::{.callout-warning}
+Il est important de bien prêter attention au nom de la revue!
+Certains éditeurs peu scrupuleux peuvent utiliser des noms similaires à ceux de revues réputées afin de tromper les auteurs.
+:::
+
 Par ailleurs, n'hésitez pas à donner quelques indicateurs (métriques) pour chaque revue, en particulier son **quartile** (i.e. Q1, Q2...). Pour trouver le quartile d'une revue, vous devez utiliser [Scimagojr](https://www.scimagojr.com/). 
 Notez que le facteur d'impact seul n'a pas de sens car il peut être parfois controversé (i.e. il peut être influencé par le domaine d'étude, la fréquence des publications, les autocitations...). 
-Si vous voulez le donner, comme différentes bases de données peuvent être utilisées, vous devriez préférer celui issue de la base de données  <abbr title="Web of Science">WoS</abbr> (entre autre disponible auprès de [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://clarivate.com/)).
+Si vous voulez le donner, comme différentes bases de données peuvent être utilisées, vous devriez préférer celui issue de la base de données  <abbr title="Web of Science" lang="en">WoS</abbr> (entre autre disponible auprès de [{{< ai clarivate title='Explore JCR-indexed' >}} Clarivate](https://clarivate.com/)).
 
 D'autre part, il est important de se méfier des problématiques liées à certaines revues.
 La crédibilité de certains articles, revues et éditeurs peut être parfois mise en doute.
-Il peut être utile de se référer à <https://predatoryreports.org>, même si cette source ne fait encore consensus.
+Il peut être utile de se référer à <https://predatoryreports.org>, même si cette source ne fait pas encore consensus.
 
 ### Pour les conférences
 Les évaluateurs ne prendront en considération que les articles de conférence émanant de jeunes chercheurs qui répondent aux normes minimales d'une bonne conférence évaluée par des pairs. 
@@ -45,7 +53,7 @@ Il est recommandé, dans la mesure du possible, de fournir le taux de sélectivi
 
 ## Votre activité pédagogique
 
-Il est important de préciser le **nombre d'heures effectuées** (de préférence en équivalent heures de cours), **la nature de l'enseignement** (CM, TD, TP, etc.), le **public concerné** (L1, L2, etc.) et, le cas échéant, le nombre d'étudiants. Vous devez également décrire brièvement ce que vous avez fait dans vos matières. Dans un premier temps, donnez un résumé de votre enseignement (par exemple sous la forme d'un tableau), suivi d'une description plus détaillée.
+Il est important de préciser le **nombre d'heures effectuées** (de préférence en équivalent heures de TD), **la nature de l'enseignement** (CM, TD, TP, etc.), le **public concerné** (L1, L2, etc.) et, si possible, le nombre d'étudiants. Vous devez également décrire brièvement ce que vous avez fait dans vos matières, en particulier si vous avez introduit des méthodes d'enseignement innovantes. Donnez un résumé de vos enseignements (par exemple sous la forme d'un tableau), suivi d'une description plus détaillée.
 
 
 ## Votre activité  scientifique

@@ -12,11 +12,10 @@ description: >
 author-block: true
 ---
 
-The [Conseil national des universités]{.fr lang=fr} (<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>) is a French advisory and decision-making body responsible at national level for individual decisions on the [qualification](qualification.qmd), recruitment and career development of teacher-researchers (university professors and lecturers).\
-Further and **official** information can be found on the [61^st^ CNU section] website.
+The [Conseil national des universités]{.fr lang=fr} (<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>) is a French advisory and decision-making body responsible at national level for individual decisions on the [qualification](qualification.qmd), recruitment and career development of teacher-researchers (university professors and lecturers).
+Specifically the  {{< var CNU61 >}} areas of expertise are in **computer engineering** (e.g. real-time systems, computer architecture and networks); **control** (including robotics and production engineering); and **signal processing** (including image and vision). \
+Further and **official** information can be found on the {{< var CNU61 >}} website.
 
-To a better understanding about the [qualification](qualification.qmd) for the  [61^st^ CNU section], the interested reader may read [this page](qualification.qmd) (in French).
+To a better understanding about the [qualification](qualification.qmd) for the  {{< var CNU61 >}}, the interested reader may read [this page](qualification.qmd) (in French).
 
-
-[61^st^ CNU section]: <https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270> "61^st^ section CNU"
 
