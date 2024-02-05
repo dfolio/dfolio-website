@@ -48,9 +48,9 @@ involved in the life of the Institute.
 :::{#PRISME .d-none .d-md-block .g-col-md-8 }
 I perform my research activities with the {{< var PRISME-Laboratory >}}[^2] in the
 Robotics team of the Images, Robotics, Automatic control and Signal
-(<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>) unit. Since I am an Associate Professor, my research interests
-mainly deal with the modeling and control for nano and micro-robotics in
-a biomedical context. 
+({{< var IRAuS >}}) departement. Since I am an Associate Professor, my research interests
+mainly deal with the modeling and control for [nano and micro-robotics](/research/microrobotics/index.qmd) in
+a [biomedical context](/research/microrobotics/biomedical.qmd). 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
 ![](/images/PRISME.svg "Logo of PRISME Laboratory"){fig-alt="PRISME"}
