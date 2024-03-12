@@ -1,7 +1,7 @@
 ---
 date: 2018-04-07 18:21:40.1523118100 +0200
 aliases: [/about/dfolio/]
-keywords: [dfolio, about]
+keywords: [dfolio, David Folio, about]
 title: "About David Folio"
 description: Some information on the author of this site, that is on D.Folio.
 bibliography: [../research/dfolio.bib,../research/references.bib]
@@ -39,7 +39,7 @@ comments:
 :::
 
 Since 2008
-:   **Associate Professor** [(maître de conférences)]{.text-muted .french lang=fr}, {{< var CNU61 >}}
+:   **Associate Professor** [(maître de conférences)]{.text-muted .french lang=fr}, {{< var CNU61 >}}[^CNU]
 
     Affiliation:
     :   {{< var INSA-CVL >}}, University of Orléans, 
@@ -54,14 +54,14 @@ Since 2008
         ({{< var STPI >}}) departments on the Bourges campus of {{< var INSA-CVL >}}.
 
     [Research](/research/index.qmd):
-    :   Member of the Robotics team of the  Images, Robotics, Automatic control 
-        and Signal ({{< var IRAuS >}}) departement of the {{< var PRISME-Laboratory >}}.
+    :   Member of the {{< var axe-robotique >}} of the  [Images, Robotics, Automatic control 
+        and Signal](https://www.univ-orleans.fr/fr/prisme/la-recherche/departement-iraus) ({{< var IRAuS >}}) departement of the {{< var PRISME-Laboratory >}}.
     
 Since 2014
 :    In charge of the [Nuclear Energy option](/teaching/SFEN.qmd) of the 5^th^ year of the {{< var MRI >}} department.
     
 Since 2020
-:    Elected member of the {{< var MRI >}} department Council.
+:    Elected member of the {{< var MRI >}} Department Council.
 
 Dec. 2021
 :    [Dr. Habil](/publications/thesis/folio2021hdr.qmd) ("[Habilitation à Diriger la Recherche](/publications/thesis/folio2021hdr.qmd){lang="fr" .fr}" -- HDR)
@@ -76,7 +76,7 @@ Since 2023
 :    
     
     - Elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
-    - Full member appointed to {{< var CNU61 >}}
+    - Full member appointed to {{< var CNU61 >}}.
 
 Since 2024
 :    
@@ -123,14 +123,12 @@ both for the Paul Sabatier University of Toulouse. These global teaching
 experiences have led to a total volume of 308 hETD[^hETD].
 
 
-Between 2007 and 2008, I joined the Lagadic team at Inria[^Inria]
+Between 2007 and 2008, I joined the Lagadic team at [<abbr lang="en" title="Institut national de recherche en informatique et en automatique">Inria</abbr>](https://www.inria.fr/centre/rennes)[^Inria]
 Rennes-Bretagne Atlantique as a post-doctoral fellow on sensory control
 for unmanned aerial vehicles. My postdoctoral fellow has been supported
 by _Sensory Control for Unmanned Aerial Vehicles_
-(<abbr lang="en" title="Sensory Control for Unmanned Aerial Vehicles">SCUAV</abbr>)
-<abbr lang='fr' title='Agence Nationale de la Recherche'>ANR</abbr>
-project[^ANR]. The main objective was to improve multi-sensor-based
-servoing tasks for unmanned aerial vehicles. The idea was to design
+(<abbr lang="en" title="Sensory Control for Unmanned Aerial Vehicles">SCUAV</abbr>) {{< var ANR >}} project[^ANR].
+The main objective was to improve multi-sensor-based servoing tasks for unmanned aerial vehicles. The idea was to design
 robust control law that combine different sensory data directly at the
 control level. Especially, I have contributed to the design of a new
 online sensor self-calibration based on the sensor/robot interaction links [@kermorgant2010icra].
@@ -138,62 +136,56 @@ online sensor self-calibration based on the sensor/robot interaction links [@ke
 
 ### Tenured as associate professor {#resume-career-tenure}
 
-[^laas]: LAAS is a laboratory depending on the CNRS, <http://www.laas.fr>
+[^laas]: <abbr lang="en" title="Laboratory for Analysis and Architecture of Systems">LAAS</abbr> is a laboratory depending on the <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr>, <http://www.laas.fr>
 
-[^cnrs]: CNRS is the French National Center for Scientific Research, <http://www.cnrs.fr>
+[^cnrs]: <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr> is the French National Center for Scientific Research. <http://www.cnrs.fr>
 
-[^hETD]: Equivalent TD hours that is in French  [heures équivalentes TD]{.french lang="fr" custom-style="French"}
-         (hETD), are the reference hours to calculate the teaching duties. 
+[^hETD]: Equivalent TD hours,  or [heures équivalentes TD]{.french lang="fr" custom-style="French"}
+         (hETD) in French, are the reference hours used to calculate the teaching duties. 
 
-<!-- (see also the [index of terms and notations](#glossary))-->
+[^Inria]: From French: [Institut national de recherche en informatique et en automatique]{.french lang="fr" custom-style="French"}. <https://www.inria.fr/centre/rennes>
 
-[^Inria]: From French: [Institut national de recherche en informatique et en automatique]{.french lang="fr" custom-style="French"}. \linebreak    <https://www.inria.fr/centre/rennes>
+[^ANR]: From French ["Agence Nationale de la Recherche"]{.french lang="fr" custom-style="French"} ({{< var ANR >}}), which is the French National Research Agency. <http://www.agence-nationale-recherche.fr>
 
-[^ANR]: From French ["Agence Nationale de la Recherche"]{.french lang="fr" custom-style="French"} ([ANR](#glos-ANR)), which is the French National Research Agency, <http://www.agence-nationale-recherche.fr>
+[^CNU]: From French ["Conseil National des Université"]{.french lang="fr" custom-style="French"} ({{< var CNU >}}), comprises 57 sections covering different scientific disciplines. The 61^st^ section involves automation, IT engineering, robotics and signal processing. <https://www.conseil-national-des-universites.fr>
 
-[^CNU]: From French ["Conseil National des Université"]{.french lang="fr" custom-style="French"} ([CNU](#glos-CNU)), comprises 57 sections covering different scientific disciplines. The 61^st^ section involves IT engineering, automation and signal processing. \linebreak <https://www.conseil-national-des-universites.fr>
-
-In 2008, I was recruited as Associate Professor for the {{< var CNU61 >}} at the
-Graduate Engineering School
+In 2008, I was hired as Associate Professor for the {{< var CNU61 >}} at the
 (<abbr lang="fr" title="École Nationale Supérieur d'Ingénieurs">ENSI</abbr>)
 of Bourges, which has been the {{< var INSA-CVL >}} since 2014.
-Since my tenure, I have been regularly involved in the life of the Institute. At the local level, I contribute 
-to the scientific animation (e.g. organising laboratory visits),
-the relationship beteween education and research. For instance, I regularly participate in the
-international relations departement by accompanying the various
+Since my  appointment, I have been regularly involved in the life of the Institute. At the local level, I contribute 
+to the scientific animation (e.g. organizing laboratory visits) and 
+the relationship between education and research. For instance, I regularly participate in the
+International Relations Division by accompanying the various
 delegations of school and university partners during their visits. In March
 2017, the direction of the {{< var INSA-CVL >}} gave me the mission of referent on _racism and antisemitism_.
 
-As a [lecturer](/teaching/index.qmd), I am involved, among others, in the development of
-electronics and electrical sciences teaching activities within the Institute. 
-Since tenured as associate professor, my average teaching load is about 270 hETD per year.
-<!-- Figure \@ref(fig:chapI-teach-load) presents the evolution  of my teaching duty since 2008. -->
-Similarly, various responsibilities entrusted to me have also influenced my teaching duties.
-Since September 2014, I am in
-charge of the option entitled [_Nuclear Energy_](/teaching/SFEN.qmd) of the 5^th^ year (engineer's
-degree, M2) of the Industrial Risk Control 
-({{< var MRI >}}) department. 
-Between  2017 and 2020, I have been elected as member of the council department of the Energy, Risks and
-Environment ({{< var ERE >}});
-and since November 2020 I am an elected member of the council department of Industrial Risk Control
-({{< var MRI >}}).
-Since may 2023, I am an elected member of the {{< var INSA-CVL >}} Graduate Studies Council.
+As a [lecturer](/teaching/index.qmd), I am involved, among others, in developing of
+electronics and electrical sciences [teaching activities](/teaching/index.qmd) within the Institute. 
+Since becoming an associate professor, my average teaching load has been about 270 hETD per year. \
+In addition, I have been entrusted with various responsibilities that have influenced my teaching duties. 
+Since September 2014, I have been in charge of the [_Nuclear Energy_](/teaching/SFEN.qmd) option for the 5^th^ year  (engineer's degree, M2) of the Industrial Risk Control 
+({{< var MRI >}}) Department. 
+Between  2017 and 2020, I was elected member of the Department Council of the Energy, Risks and
+Environment ({{< var ERE >}}).
+Since November 2020, I have been an elected member of the Department Council of the Industrial Risk Control
+({{< var MRI >}}), and was re-elected in November 2023.
+Additionally, since May 2023, I am an elected member of the Graduate Studies Council of the{{< var INSA-CVL >}.
 
 Furthermore, I carry out my [research activity](/research/index.qmd) with the {{< var PRISME-Laboratory >}}[^PRISME]
 in the {{< var axe-robotique >}} belonging to the Images, Robotics, Automatic control and Signal 
-({{< var IRAuS >}}) department. 
+({{< var IRAuS >}}) Department. 
 Since I have been an associate professor, my
 field of scientific research mainly focused on the 
 _modeling and control for [nano and micro-robots](/research/microrobotics/index.qmd) in a 
 [biomedical](/research/microrobotics/biomedical/index.qmd) context_. 
-Globally, my main contributions focus on the study of [**magnetic microrobots**](/research/microrobotics/magnetic-microrobot.qmd) for [medical applications](/research/microrobotics/biomedical.qmd).
+Globally, my main contributions focus on the study of [**magnetic microrobots**](/research/microrobotics/magnetic-microrobot/index.qmd) for [medical applications](/research/microrobotics/biomedical/index.qmd).
 \
 Meanwhile, I have also contributed to the development of
 micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase].
 
-On December 3, 2021, I defended [my Habilitation](/publications/thesis/folio2021hdr.qmd) (namely in French "[Habilitation à Diriger la Recherche](/publications/thesis/folio2021hdr.qmd){lang="fr" .fr}" -- HDR), entitled 
+On December 3, 2021, I defended [my Habilitation](/publications/thesis/folio2021hdr.qmd) (in French "[Habilitation à Diriger la Recherche](/publications/thesis/folio2021hdr.qmd){lang="fr" .fr}" -- HDR), entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](/publications/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
 
-Since November 2023, I am a full member appointed to the [61^st^ Section of the <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){lang=fr}
+Since November 2023, I am a full member appointed to the [61^st^ Section of the <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](/research/cnu61/index.qmd){lang=fr}
 
-[^PRISME]: PRISME laboratory is from University of Orléans and from {{< var INSA-CVL >}} (EA 4229). <http://www.univ-orleans.fr/PRISME>
+[^PRISME]: {{< var PRISME >}} laboratory is from University of Orléans and from {{< var INSA-CVL >}} (EA 4229). <http://www.univ-orleans.fr/PRISME>
