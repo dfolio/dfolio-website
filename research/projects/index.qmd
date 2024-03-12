@@ -1,25 +1,19 @@
 ---
 aliases:  [/research/projects/projects.html]
-canonical: https://dfolio.fr/research/projects/index.html
 date: 2018-03-30 06:57:45.1522385865 +0200
 title: "List of D. FOLIO's projects"
-keywords: [dfolio, projects, research, activities]
+keywords: [dfolio, david folio, projects, research, activities]
 description: >
   David FOLIO's research activities regularly lead him to collaborate in various scientific
   projects that is listed here.
 toc: true
 ---
 
-Scientific projects aim to obtain funds to either recruit students, to
-design or improve experimental testbeds, as well as to help some
-scientific cooperation. The different projects in which I have been
-involved are listed below, specifying my role and the obtained funding.
-Let us notice that all of these projects have been subject to a process
-with a deep scientific reviews.
+Scientific projects aim to obtain funding for recruiting students, designing or improving experimental testbeds, and promoting scientific collaborations. Below is a list of the projects I have been involved in, including my role and the funding obtained. It is important to note that all of these projects have undergone a rigorous scientific review process.
 
 ## Current Projets {#sec-project-current}
 
--   [[**BUBBLEBOT**](BUBBLEBOT)]{#BUBBLEBOT}: Magnetic microbubbles for the targeted
+-   [[**BUBBLEBOT**](BUBBLEBOT.qmd)]{#BUBBLEBOT}: Magnetic microbubbles for the targeted
     delivery of therapeutic agent in the brain
 
     Date
@@ -38,12 +32,7 @@ with a deep scientific reviews.
 
     Role
 
-    :   **Principal Investigator** (PI).
-
-[^1]: from French: [Institut national de la santé et de la recherche médicale]{.french lang="fr"} (INSERM), <https://www.inserm.fr>
-
-[^2]: NeuroFilament Light subunit that is binding Tubulin (NFL peptide)
-    is capable to penetrate in GBM, block and inhibit cell division.
+    :   **Principal Investigator** (PI), and  co-supervision of the PhD thesis of [Karim Botros](../supervisions.qmd#Karim-Botros).
 
 ## Old projects {#sec-project-old}
 
@@ -58,18 +47,18 @@ with a deep scientific reviews.
     Funding
 
     :   511.4k€, supported by French National Institute of Health and
-        Medical Research[^1] (<abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>)
+        Medical Research[^1] ([<abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>](https://www.inserm.fr))
 
     Summary
 
-    :   The [MTG](MTG.qmd) project is an <abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>,
+    :   The [MTG](MTG.qmd) project is an [<abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>](https://www.inserm.fr),
         "plan cancer" project. The
         objective is to functionalize magnetic microrobot with NFL
         peptide[^2] to target glioblastoma (<abbr title="glioblastoma">GBM</abbr>).
 
     Role
 
-    :   co-responsible of the workpackage WP3: "*in vitro* and *in vivo*
+    :   Co-responsible of the workpackage WP3: "*in vitro* and *in vivo*
         distribution and tracking studies using IVIS imaging system to
         test the capacity of  [MTG](MTG.qmd) to target glioblastoma cells versus
         healthy cells of the nervous system".
@@ -90,13 +79,13 @@ with a deep scientific reviews.
     :   The PIANHO project is an {{< var ANR >}}[^3] P3N (2009) project. <br/> The
         motivation of this project is to create a nanomanipulation
         platform capable of pick, hold and place nano-objects in the
-        synchrotron radiation beam of the ESRF (Grenoble, France) via
+        synchrotron radiation beam of the [<abbr title="European Synchrotron Radiation Facility">ESRF</abbr>](https://esrf.fr/) (Grenoble, France) via
         customizable tool-object interaction.
 
     Role
 
-    :   co-responsible of the workpackage: "Control of a Two-Fingered
-        AFM-based Nano-manipulation System".
+    :   Co-responsible of the workpackage: "Control of a Two-Fingered
+        AFM-based Nano-manipulation System", and co-supervision of the PhD thesis of [Nabil Amari](../supervisions.qmd#Nabil-Amari).
   
 -   [**PROTEUS**]{#PROTEUS}: Robotic Platform to facilitate transfer
     between industries
@@ -123,7 +112,7 @@ with a deep scientific reviews.
 
     Role
 
-    :   co-responsible of the workpackage: "Young Challenge".
+    :   Co-responsible of the workpackage: "Young Challenge".
 
 -   [**PROSIT**]{#PROSIT} : Robotic Platform for an Interactive
     Tele-echographic Systems
@@ -140,7 +129,7 @@ with a deep scientific reviews.
 
     :   The PROSIT project is an {{< var ANR >}} Contint program (2008) project,
         coordinated by Professor Pierre Vieyres, University of Orléans,
-        PRISME Laboratory.\
+        {{< var PRISME-Laboratory >}}.\
         The goal is to develop an interactive and complex master-slave
         robotic platform for a medical diagnosis application (i.e.,
         tele-echography) based on a well-defined modular control
@@ -148,7 +137,7 @@ with a deep scientific reviews.
 
     Role
 
-    :   co-responsible of the workpackage WP5: "Visual Servoing".
+    :   Co-responsible of the workpackage WP5: "Visual Servoing".
 
 -   [**NANOMA**]{#NANOMA} : Nano-Actuators and Nano-Sensors for Medical
     Applications
@@ -165,15 +154,20 @@ with a deep scientific reviews.
 
     :   The NANOMA project is an European project funded under FP7 ICT
         2007.3.6, Micro/nanosystems, coordinated by Professor Antoine
-        Ferreira, University of Orléans, PRISME Laboratory. The NANOMA
+        Ferreira, University of Orléans, {{< var PRISME-Laboratory >}}. The NANOMA
         project aims at proposing novel controlled nanorobotic delivery
         systems which will be designed to improve the administration of
         drugs in the treatment and diagnosis of breast cancer.
 
     Role
 
-    :   co-responsible of the workpackage WP4: "Object Tracking,
+    :   Co-responsible of the workpackage WP4: "Object Tracking,
         Planning and Control in MRI".
+
+[^1]: From French: [Institut national de la santé et de la recherche médicale]{.french lang="fr"} (INSERM), <https://www.inserm.fr>
+
+[^2]: NeuroFilament Light subunit that is binding Tubulin (NFL peptide)
+    is capable to penetrate in GBM, block and inhibit cell division.
 
 [^3]: From French "Agence Nationale de la Recherche" ({{< var ANR >}}), which is the
     French National Agency for Research.
@@ -182,8 +176,7 @@ with a deep scientific reviews.
 
 ### Partnership
 
--   <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr>[^5] cooperation program [**PROCORE**]{#PROCORE} between France
-    and Hong-Kong
+-   [<abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr>](https://www.campusfrance.org/en/phc)[^5] cooperation program [**PROCORE**]{#PROCORE} between France and Hong-Kong
 
     Date
 
@@ -195,12 +188,11 @@ with a deep scientific reviews.
     
     Partnership
     
-    :   Cooperative research work with Prof. Li Zhang of the [Department
+    :   Cooperative research work with Prof. [Li Zhang](https://www4.mae.cuhk.edu.hk/peoples/zhang-li/) of the [Department
         of Mechanical and Automation Engineering](http://www.mae.cuhk.edu.hk) (MAE) du Chinese
         University of Hong Kong (CUHK), Hong-Kong
 
--   <abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr> cooperation program [**PROCOPE**]{#PROCOPE} between France
-    and Germany
+-   [<abbr title="Partenariats Hubert Curien" lang="fr">PHC</abbr>](https://www.campusfrance.org/en/phc) cooperation program [**PROCOPE**]{#PROCOPE} between France and Germany
 
     Date
 
@@ -212,7 +204,7 @@ with a deep scientific reviews.
     
     Partnership
     
-    :   Cooperative research work with Prof. Dr.-Ing. Sergej Fatikov of
+    :   Cooperative research work with Prof. Dr.-Ing. [Sergej Fatikov](https://uol.de/en/computingscience/amir/people/prof-dr-ing-habil-sergej-fatikow) of
         the [Division Microrobotics and Control
         Engineering](http://www.amir.uni-oldenburg.de) (AMiR[^7]) of the
         University of Oldenburg, Germany
@@ -228,27 +220,24 @@ with a deep scientific reviews.
 
 ### Local Project
 
--   [Nano-IRM]{#Nano-IRM}:
+-   US-Probe: High Definition Echograph
 
     Date
 
-    :   09/2009 -- 08/2012
+    :   03/2017 -- 03/2018
 
     Funding
 
-    :   110k€, supported by Région Centre-Val de Loire, the Cher (18)
-        departmental councils and the agglomeration comity of Bourges.
+    :   50k€, supported by [Région Centre Val de Loire]{lang=fr}
 
     Summary
 
-    :   Supervision and Control of an Improved Platform for Targeted
-        Administration of Therapeutic Nanorobots. This project supports
-        the above project [NANOMA](#NANOMA), by providing the funding
-        for the PhD thesis of Karim Belharet.
+    :   Design of novel microrobotic platform with ultrasound probe
+        vision.
 
     Role
 
-    :   co-supervision of the PhD thesis of Karim Belharet.
+    :   **Principal Investigator** (PI).
 
 -   MicroRob:
 
@@ -268,23 +257,26 @@ with a deep scientific reviews.
 
     Role
 
-    :   co-supervision of the PhD thesis of Lyes Mellal.
+    :   Co-supervision of the PhD thesis of [Lyes Mellal](../supervisions.qmd#Lyes-Mellal).
 
--   US-Probe: High Definition Echograph
+-   [Nano-IRM]{#Nano-IRM}:
 
     Date
 
-    :   03/2017 -- 03/2018
+    :   09/2009 -- 08/2012
 
     Funding
 
-    :   50k€, supported by Région Centre Val de Loire
+    :   110k€, supported by Région Centre-Val de Loire, the Cher (18)
+        departmental councils and the agglomeration comity of Bourges.
 
     Summary
 
-    :   Design of novel microrobotic platform with ultrasound probe
-        vision.
+    :   Supervision and Control of an Improved Platform for Targeted
+        Administration of Therapeutic Nanorobots. This project supports
+        the above project [NANOMA](#NANOMA), by providing the funding
+        for the PhD thesis of [Karim Belharet](../supervisions.qmd#Karim-Belharet).
 
     Role
 
-    :   **Principal Investigator** (PI).
+    :   Co-supervision of the PhD thesis of [Karim Belharet](../supervisions.qmd#Karim-Belharet).

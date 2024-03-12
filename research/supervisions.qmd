@@ -29,7 +29,7 @@ These different students are listed hereafter, as well as the joint publications
 
 ## On going {#sec-supervisions-ongoing}
 
-Karim Botros {#Karim-Botros}
+[Karim Botros]{#Karim-Botros}
 
 :    
 
@@ -46,11 +46,11 @@ Karim Botros {#Karim-Botros}
 
     :   [@2022botrosICRA; @2023BotrosRAL]
     
-### Previous supervisions {#sec-supervisions-old}
+## Previous supervisions {#sec-supervisions-old}
 
 ### Doctoral students {#sec-research-PhD}
 
-Ruipeng Chen {#Ruipeng-Chen}
+[Ruipeng Chen]{#Ruipeng-Chen}
 
 :    
 
@@ -98,7 +98,7 @@ Ruipeng Chen {#Ruipeng-Chen}
 
     Situation
 
-    :   Associate Professor at {{< var INSA-CVL >}}, France
+    :   Associate Professor {{< var INSA-CVL >}}, France
 
 [Nabil Amari]{#Nabil-Amari}
 
@@ -150,7 +150,7 @@ Ruipeng Chen {#Ruipeng-Chen}
 
     :   Associate Professor HEI, Châteauroux, France
 
-Tao Li
+[Tao Li]{#Tao-Li}
 
 :    
 

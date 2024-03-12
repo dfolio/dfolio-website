@@ -1,20 +1,20 @@
 ---
 dateCreated: 2021-03-02 12:19:25.1614683965 +0100
-aliases: [/research/projects/bubblebot/]
+aliases: 
+  - /research/projects/bubblebot/
+  - /research/bubblebot.html 
 title: BUBBLEBOT
 pagetitle: Magnetic microbubbles for the targeted delivery of therapeutic agent in the brain
 subtitle: '{{< meta pagetitle >}}'
 keywords: [dfolio, projects, research, activities, microrobot]
 description: >
-  Design of magnetic microbubble (the "bubblebot") for targeted drug delivery
+  Design of magnetic microbubbles (the "bubblebot") for targeted drug delivery
 toc: false
 images: https://dfolio.fr/images/research/bubblebot.webp 
 ---
-
 # Bubblebots to kill Glioblastoma 
 
-The originality of the BUBBLEBOT project is to combine the progress made in microrobotics with those linked to the original microbubbles (MBs) developed in order to improve the therapeutic targeting of glioblastoma (GBM). To do this, these MBs encapsulating magnetic materials (that is the bubblebots) will be developed to be able to control their movements, their locations, and thus target the tumor area in a safe and efficient manner. 
-This innovative interdisciplinary project brings together unique know-how in the production and magnetic guidance of bubblebots for therapeutic targeting. 
+The BUBBLEBOT project is innovative in its combination of advancements in microrobotics with those related to microbubbles (MBs) to enhance the therapeutic targeting of glioblastoma (GBM). The project aims to develop MBs encapsulating magnetic materials, termed as _bubblebots_, which can be controlled to target the tumor area safely and efficiently. \
+This interdisciplinary project brings together expertise in producing and magnetically guiding bubblebots for therapeutic targeting. 
 
 ![](/images/research/bubblebot.webp "BUBBLEBOT project"){width="80%"}
-
