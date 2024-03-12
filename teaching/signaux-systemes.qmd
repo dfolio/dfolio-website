@@ -1,10 +1,14 @@
 ---
 date: 2018-03-30 14:19:07.1522412347 +0200
+canonical-url:  https://dfolio.fr//teaching/signaux-systemes.html
 aliases:
   - /teaching/signaux-systemes/
+  - /teaching/signals-systems/
+  - /teach/signaux-systemes/
+  - /teach/signals-systems/
 lang: fr
 title: Signaux et systemes
-keywords: Signaux et systèmes, traitement signal, filtrage, électronique, cours, david folio, INSA
+keywords: [Signaux et systèmes, traitement signal, filtrage, oscillateur, PLL, boucle à verrouillage de phase, électronique, cours, david folio, INSA]
 course: true
 datePublished: 2014-09-01
 skills: ["signal and system","analog filter","oscillator","phase locked loop"]
@@ -22,7 +26,6 @@ description: >
   l'information à travers l'étude de la génération des signaux et des composants de
   base pour leurs traitements élémentaires.
 images: https://dfolio.fr/images/teaching/signaux-system.webp
-canonical: https://dfolio.fr/teaching/signaux-systemes.html
 ---
 
 :::{.grid}

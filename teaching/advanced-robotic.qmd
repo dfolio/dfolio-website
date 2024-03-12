@@ -2,6 +2,8 @@
 date: 2019-11-02 07:43:20.1572677000 +0100
 aliases: 
   - /teaching/advanced-robotic/
+  - /teach/advanced-robotic/
+  - /teaching/robotique-avancee/
 lang: en-US
 title: Advanced Robotic
 keywords: [robotic, mobile robot, control, systems, teach, activities]

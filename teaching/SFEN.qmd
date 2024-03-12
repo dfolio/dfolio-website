@@ -4,7 +4,7 @@ aliases:
   - /teaching/SFEN/
   - /teach/SFEN/
 lang: fr 
-title: L'option SFEN
+title: "L'option SFEN"
 subtitle: Sûreté et Fonctionnement en Énergie Nucléaire (SFEN)
 keywords: [énergie nucléaire, formation, David Folio, INSA]
 description: >
@@ -16,18 +16,16 @@ image: /images/logo-teach.webp
 
 ## Présentation
 
-Je suis le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire ([SFEN]) de la 5^ème^ année du département <abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr> de l'{{< var INSA-CVL >}}.
-L'option [SFEN] à pour ambition de:
+Je suis le responsable de l'option Sûreté de Fonctionnement en Énergie Nucléaire ({{< var SFEN >}}) de la 5^ème^ année du département {{< var MRI >}} de l'{{< var INSA-CVL >}}.
+L'option {{< var SFEN >}} à pour ambition de:
 
--   Mettre en œuvre les outils de la maîtrise des [risques nucléaires](#RN) au niveau des réacteurs, des installations nucléaires et du transport de matières radioactives.
+-   Mettre en œuvre les outils de la maîtrise des [risques nucléaires](#sec-RN) au niveau des réacteurs, des installations nucléaires et du transport de matières radioactives.
 -   Définir et mettre en place des mesures de radioprotection.
 -   Appréhender et gérer les situations d'accidents et de crises suivant les méthodologies référencées.
 -   Déployer et utiliser les outils de contrôle et d'évaluation de sûreté des installations nucléaires.
 -   Evaluer la fiabilité mécanique de structures industrielles contre les risques majeurs.
 
-[SFEN]: /teaching/SFEN.qmd  "Sûreté de Fonctionnement en Énergie Nucléaire"
-
-## Le risque nucléaire {#RN}
+## Le risque nucléaire {#sec-RN}
 
 La sécurité nucléaire
 :  ensemble des dispositions permettant d'assurer la protection des personnes et des biens contre les dangers et nuisances qui seraient la conséquence du fonctionnement d'installations nucléaires ou de manipulation de substances radioactives.
@@ -37,19 +35,19 @@ La sûreté nucléaire
 
 ## Les enseignements spécifiques
 
-Les enseignements spécifiques de l'option [SFEN] s'articulent autour de 2 modules pédagogiques
+Les enseignements spécifiques de l'option {{< var SFEN >}} s'articulent autour de 2 modules pédagogiques
 
-1. Structure: **comportement [(mécanique)]{.smaller} non linéaire et physique nucléaire** (5xUE: 110h)
+1. Structure: **comportement [(mécanique)]{.smaller} non linéaire et physique nucléaire** (5xUC: 118h40)
    - Enseignement de mécanique orienté vers les applications d’études de structures dans toutes les phases de leurs comportements, jusqu’à leurs destructions totales. (en commun avec l’option RAI)
    - Développer les connaissances de base sur l'énergie nucléaire, l'étude du cycle du combustible, et des modes de fonctionnement normaux ou accidentels des centrales.
 
-2. **Sécurité, sûreté et environnement**
+2. **Sécurité, sûreté et environnement** (5xUC: 110h30)
    - Thèmes: radioprotection, crise et gestion, traitement des situations radiologiques anormales, de sûreté des matières nucléaires dans les domaines du transport et dans l'amont du cycle, retraitement/recyclage, démentellement…
 
 Possibilité de double diplômes:
 
-- MASTER Mécanique (Univ. Orléans, Univ. Tours)
-- Ingénieur spécialisé en Génie Atomique avec l’INSTN
+- MASTER Mécanique ([Univ. Orléans](https://www.univ-orleans.fr/), [Univ. Tours](https://www.univ-tours.fr/))
+- Ingénieur spécialisé en Génie Atomique avec l’[INSTN](https://instn.cea.fr/)
 
 
 ## Insertion professionnelle

@@ -2,12 +2,15 @@
 date: 2018-03-30 15:10:21.1522415421 +0200
 aliases: 
   - /teaching/diagnostic-systemes/
+  - /teaching/diagnostic-systemes-industriel/
+  - /teach/diagnostic-systemes/
+  - /teaching/systemes-diagnostic/
 lang: fr
-title: Diagnostic des systèmes industriels
+title: Diagnostic des systèmes industriel
 course: true
 datePublished: 2015-09-01
 skills: ["analyser les propriétés d'un procédé","identifier les modes de fonctionnement normaux et anormaux des procédés", "concevoir	un système de diagnostic"]
-coursePrerequisites: ["automatique", "Modélisation et commande dans l'espace d'état"]
+coursePrerequisites: ["automatique", "modélisation et commande dans l'espace d'état"]
 courseWorkload: "PT21H20M"
 breadcrumb: 
   - name: "Teaching"
@@ -20,7 +23,6 @@ description: >
   Cet enseignement a pour but d'appréhender les méthodes de diagnostic basées
   modèles pour l'amélioration de la fiabilité des processus technologiques.
 images: https://dfolio.fr/images/teaching/commande-diagnostic.webp
-canonical: https://dfolio.fr/teaching/diagnostic-systemes.html
 ---
 
 
