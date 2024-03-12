@@ -3,7 +3,7 @@ date: 2023-04-18 17:26:02 +0100
 aliases:  
   - /research/microrobotics/magnetic-microrobot/magnetic-actuation/index.html
   - /research/microrobotics/magnetic-actuation.html
-canonical: https://dfolio.fr/research/microrobotics/magnetic-microrobot/magnetic-actuation.html
+canonical-url: https://dfolio.fr/research/microrobotics/magnetic-microrobot/magnetic-actuation.html
 order: 3
 title: "Magnetic Actuation"
 keywords: [dfolio, microrobotics, research, activities]

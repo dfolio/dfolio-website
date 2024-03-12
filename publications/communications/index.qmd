@@ -1,7 +1,8 @@
 ---
 aliases:
-  - /research/publications/communications/communications.html
-canonical: https://dfolio.fr/publications/communications/index.html
+  - /publications/communications/communications.html
+  - /research/communications.html
+canonical-url: https://dfolio.fr/publications/communications/index.html
 order: 3
 date: 2023-12-19 
 title: "Selected oral communications"

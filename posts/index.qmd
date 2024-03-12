@@ -32,7 +32,7 @@ listing:
 aliases: 
   - /posts/posts.html
   - /articles/index.html
-canonical: https://dfolio.fr/posts/index.html
+canonical-url: https://dfolio.fr/posts/index.html
 ---
 
 ### 2023

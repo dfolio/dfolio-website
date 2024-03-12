@@ -1,6 +1,6 @@
 ---
 aliases:  [/research/cnu61/cnu61.html]
-canonical: https://dfolio.fr/research/cnu61/index.html
+canonical-url: https://dfolio.fr/research/cnu61/index.html
 order: 1
 date: 2024-01-09 16:00:21.1704812421 +0100
 title: "The 61st CNU section"

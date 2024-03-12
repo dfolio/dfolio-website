@@ -2,7 +2,7 @@
 date: 2023-02-24 13:35:12.1522179552 +0200
 aliases: 
   - /home/
-canonical: https://dfolio.fr/index.html
+canonical-url: https://dfolio.fr/index.html
 pagetitle: "dfolio' website homepage"
 description: 'dfolio website is for sharing my projects, activities and others...'
 keywords: [dfolio, D. David, Folio FOLIO, dfolio website]

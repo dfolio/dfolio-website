@@ -1,6 +1,6 @@
 ---
 lang: fr_FR
-canonical: https://dfolio.fr/research/cnu61/qualification.html
+canonical-url: https://dfolio.fr/research/cnu61/qualification.html
 order: 1
 date: 2024-01-09 16:14:21.1704812421 +0100
 title: "A propos de la qualification à la 61ème section du CNU"

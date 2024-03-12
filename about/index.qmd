@@ -4,7 +4,7 @@ title: "About this website"
 description: Learn more about D.Folio and the contents of its personal webpage.
 aliases: 
   - /about/about.html
-canonical: https://dfolio.fr/about/index.html
+canonical-url: https://dfolio.fr/about/index.html
 link-external-icon: true
 ---
 

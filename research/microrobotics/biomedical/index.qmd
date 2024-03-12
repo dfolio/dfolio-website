@@ -1,7 +1,7 @@
 ---
 date: 2022-01-04 16:05:33 +0100
 aliases: [/research/microrobotics/biomedical/biomedical.html]
-canonical: https://dfolio.fr/research/microrobotics/biomedical/index.html
+canonical-url: https://dfolio.fr/research/microrobotics/biomedical/index.html
 order: 2
 title: Microrobotics for biomedical applications
 pagetitle: "About biomedical applications of microrobots"

@@ -1,6 +1,6 @@
 ---
 lang: fr_FR
-canonical: https://dfolio.fr/research/CNU61/recommandations.html
+canonical-url: https://dfolio.fr/research/CNU61/recommandations.html
 order: 2
 date: 2024-01-17 16:27:56.1705505276 +0100
 title: "Recommandations génerales"

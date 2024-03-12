@@ -3,7 +3,7 @@ type: journal
 date: 2021-10
 aliases: 
   - /publications/articles/2022mellalRAL.html
-canonical: https://dfolio.fr/publications/articles/2021mellalRAL.html  
+canonical-url: https://dfolio.fr/publications/articles/2021mellalRAL.html  
 title:  &title "Modeling and Characterization of Deformable Soft Magnetic Microrobot for Targeted Therapy"
 description: | 
   This letter discusses of the modeling and the characterization of
@@ -74,7 +74,7 @@ citation:
   abstract: |
     Magnetic nanoparticles (MNPs) are very attractive components
     in many biomedical applications, particularly as therapeutic
-    magnetic microcarriers (TMMC) for targeted therapy. Although MNPs
+    magnetic microcarriers (TMMC). Although MNPs
     can be effectively gathered and transported using external magnetic
     fields, the optimal delivery is yet to be fully investigated. In
     this letter, we discuss the modeling and the characterization of
@@ -83,11 +83,7 @@ citation:
     iron oxide (SPIO) immersed in different carrier fluids, and the
     behavior of which has been characterized experimentally under weak
     magnetic fields. The experimental results clearly show that the
-    observations properly follow the model prediction. Soft magnetic
-    microrobots with controllable shape deformation have great potential
-    for targeted drug delivery due to the adaptability of their
-    characteristics to environmental conditions (e.g. vessel size,
-    velocity, shear stress).
+    observations properly follow the model prediction.
 impact-factor: "4.321"
 quartile: "Q1"
 categories: 

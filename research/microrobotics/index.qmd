@@ -1,6 +1,6 @@
 ---
 aliases:  [/research/microrobotics/microrobotics.html]
-canonical: https://dfolio.fr/research/microrobotics/index.html
+canonical-url: https://dfolio.fr/research/microrobotics/index.html
 order: 1
 date: 2021-12-07 14:05:22 +0100
 title: "About microrobotics"

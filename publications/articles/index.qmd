@@ -1,7 +1,8 @@
 ---
 aliases:
-  - /research/publications/articles/articles.html
-canonical: https://dfolio.fr/publications/articles/index.html
+  - /publications/articles/articles.html
+  - /research/articles.html
+canonical-url: https://dfolio.fr/publications/articles/index.html
 order: 3
 date: 2023-12-19 
 title: "Selected journal articles"

@@ -1,8 +1,8 @@
 ---
 aliases:
-  - /research/publications/index.html
+  - /research/publications.html
   - /publications/publications.html
-canonical: https://dfolio.fr/publications/index.html
+canonical-url: https://dfolio.fr/publications/index.html
 order: 3
 date: 2023-03-14 
 title: "Selected publications"
@@ -33,7 +33,7 @@ listing:
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
-  - id: thesis-list
+  - id: theses-list
     contents: thesis/folio*.qmd
     template: publications.ejs
     sort: 'date desc'
@@ -103,7 +103,7 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 :::
 
-## Theses {#thesis}
+## Theses {#theses}
 [Show only theses](thesis/index.qmd)
 
 :::{.collapsable #collapse-parent-thesis}
@@ -114,7 +114,7 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 </a>
 :::
 :::{.collapse .show  #collapse-thesis}
-::: {#thesis-list }
+::: {#theses-list }
 :::
 :::
 :::

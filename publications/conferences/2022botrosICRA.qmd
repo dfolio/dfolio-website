@@ -1,7 +1,7 @@
 ---
 type: conference
 date: 2022-07-12
-title: Fully Automatic and Real-Time Microrobot Detection and Tracking based on Ultrasound Imaging using Deep Learning
+title: &title "Fully Automatic and Real-Time Microrobot Detection and Tracking based on Ultrasound Imaging using Deep Learning"
 description: | 
   This article discusses the use of an ultrasound imaging system to detect and track the real-time motion of spherical microrobots of varying lengths navigating through microfluidic channels with viscous biofluid.
 author:
@@ -54,8 +54,7 @@ citation:
   publisher: IEEE 
   event-date: "2022-05-23 2022-05-27"
   event-place: "Philadelphia, United States"
-  keyword: bubble recoil propulsion,catalytic swimmers,directionality
-    control,magnetic Janus particles,real-time trajectory prediction
+  keyword: Deep learning, Ultrasonic imaging, Targeted drug delivery, Target tracking, Navigation, Perturbation methods, Object detection
   abstract: |
     Micro-scale robots introduce great prospective into many
     different medical applications such as targeted drug delivery,
@@ -77,9 +76,18 @@ categories:
   - US imaging
   - Tracking
 image: images/publications/2022botrosICRA.webp
+video:
+  name: *title
+  uploadDate: "2024-02-29 15:36:59.1709217419 +0100"
+  duration: "PT17S"
+  url: https://dfolio.fr/media/2021mellalRAL.webm
 ---
 
+## Media
 
+{{< video ../../media/2022botrosICRA.webm title="Real-Time Microrobot Detection and Tracking based on Ultrasound Imaging using Deep Learning" >}}
+
+## Slides
 
 ```{=html}
 <object title="Slides of the talk" data="/pdf/publications/2022botrosICRA-slides.pdf" type="application/pdf" width="100%" height="480" aria-labelledby="Talk PDF slides">

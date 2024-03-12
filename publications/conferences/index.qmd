@@ -1,7 +1,8 @@
 ---
 aliases:
-  - /research/publications/conferences/conferences.html
-canonical: https://dfolio.fr/publications/conferences/index.html
+  - /publications/conferences/conferences.html
+  - /research/conferences.html
+canonical-url: https://dfolio.fr/publications/conferences/index.html
 order: 3
 date: 2023-12-19 
 title: "Selected conference papers"
