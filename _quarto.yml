@@ -1,3 +1,4 @@
+
 project:
   type: website
   preview:
@@ -187,7 +188,7 @@ website:
             - research/microrobotics/magnetic-microrobot/magnetic-properties.qmd
             - research/microrobotics/magnetic-microrobot/magnetic-actuation.qmd
           - text: "Ethics"
-            href: research/microrobotics/ethics.qmd            
+            href: research/microrobotics/ethics.qmd
         - section: Bibliography
           contents:
             - research/references.qmd
@@ -209,7 +210,11 @@ website:
             href: research/cnu61/qualification.qmd
           - text: "Recommandations (fr)"
             href: research/cnu61/recommandations.qmd
-            
+
+# Metadata stuff
+title-prefix: *title
+author-meta: "D. FOLIO"
+
 format:
   html:
     minimal: true
@@ -217,7 +222,21 @@ format:
     date-modified: last-modified
     highlight: null
     mathjax: null
+    canonical-url: true
     html-math-method: plain
+    default-image-extension: webp
+    toc: true
+    anchor-sections: true
+    code-copy: true
+    citations-hover: true
+    link-citations: true
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/dfolio.(?:quarto.pub|free.fr|fr)'
+    crossrefs-hover: true
+    footnotes-hover: true
+    reference-location: document
+    strip-comments: true
+    smooth-scroll: true
     theme:
       light: [scss/common.scss,scss/light.scss]
       dark: [scss/common.scss,scss/dark.scss]
@@ -229,19 +248,9 @@ format:
       - html/metadata.html
       - html/title-block.html
       - html/title-metadata.html
+      - html/title-metadata-author.html
       - html/after-body.html
       - html/json-author.html
-    toc: true
-    anchor-sections: true
-    code-copy: true
-    citations-hover: true
-    link-citations: true
-    link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/dfolio.(?:quarto.pub|free.fr|fr)'
-    footnotes-hover: true
-    reference-location: document
-    strip-comments: true
-    smooth-scroll: true
 
 #page-layout: full
 #bibliography: [research/references.bib]
@@ -260,9 +269,6 @@ crossref:
   eq-title: Eq       # (default is "Equation")
   #tbl-title: Tbl     # (default is "Table")
 
-# Metadata stuff
-title-prefix: *title
-author-meta: "D. FOLIO"
 
 google-site-verification: "2LKsKZuNGSvXTnIpJyX2dJKhpug9PmKo88MIFWhdOTo"
 optimize: true
