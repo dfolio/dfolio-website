@@ -1,3 +1,4 @@
+title-block-banner: true
 title-block: true
 title-block-meta: true
 scite-badge: true
@@ -14,6 +15,7 @@ affiliations:
     region: "Centre Val de Loire"
     city: Bourges
     country: FR
+    ror: 00sbth994
   - id: LAAS
     name: "LAAS-CNRS, Université de Toulouse"
     affiliation-url: https://www.laas.fr
@@ -81,3 +83,10 @@ affiliations:
     country: FR
 
 rss: index.xml
+
+
+copyright:
+  year: [2008, 2024]
+  holder: David FOLIO
+  #statement: "© 2024, D. Folio"
+license: "CC BY"

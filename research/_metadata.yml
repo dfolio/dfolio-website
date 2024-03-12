@@ -20,3 +20,10 @@ affiliations:
     postal-code: 18000
     city: Bourges
     country: France
+    ror: 00sbth994
+
+copyright:
+  year: [2008, 2024]
+  holder: David FOLIO
+  #statement: "© 2024, D. Folio"
+license: "CC BY"

@@ -17,6 +17,7 @@ author:
     corresponding: true
     equal-contributor: true
   affiliations:
+    - ref: INSA-CVL
     - ref: PRISME
   roles:
     - Write: 71
@@ -30,6 +31,7 @@ affiliations:
     city: Bourges
     region: "Centre Val de Loire"
     country: FR
+    ror: 00sbth994
   - id: INSA-CVL
     name: "INSA Centre Val de Loire"
     url: "https://www.insa-centrevaldeloire.fr"
@@ -37,3 +39,11 @@ affiliations:
     postal-code: "F-18000"
     city: Bourges
     country: FR
+    isni: 0000000446850174
+    ror: 03y0qc033
+
+copyright:
+  year: [2004, 2024]
+  holder: David FOLIO
+  #statement: "© 2024, D. Folio"
+license: "CC BY"

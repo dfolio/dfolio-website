@@ -4,3 +4,20 @@ google-scholar: true
 comments:
     giscus:
       repo: dfolio/dfolio
+date-format: "YYYY"
+affiliations:
+  - id: PRISME
+    name: "INSA Centre Val de Loire, Univ. Orléans, PRISME EA4229"
+    affiliation-url: https://www.univ-orleans.fr/fr/prisme
+    address: "88 Boulevard Lahitolle"
+    postal-code: 18000
+    region: "Centre Val de Loire"
+    city: Bourges
+    country: FR
+    ror: 00sbth994
+
+copyright:
+  year: [2008, 2024]
+  holder: David FOLIO
+  #statement: "© 2024, D. Folio"
+license: "CC BY"
