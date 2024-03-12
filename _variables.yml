@@ -1,6 +1,7 @@
-ANR: '[ANR](http://www.agence-nationale-recherche.fr "Agence Nationale de la Recherche"){.url rel="noopener noreferrer" lang="fr"}'
-CNU61: '[61^st^ <abbr lang="fr" title="Conseil National des Universités">CNU</abbr> section](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){.url rel="noopener noreferrer" lang=fr}'
-CNU61fr: '[61^ème^ section <abbr lang="fr" title="Conseil National des Universités">CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270){.url rel="noopener noreferrer" lang=fr}'
+ANR: '[<abbr lang="fr" title="Agence Nationale de la Recherche">ANR</abbr>](http://www.agence-nationale-recherche.fr "Agence Nationale de la Recherche"){.url rel="noopener noreferrer" lang="fr"}'
+CNU: '[<abbr lang="fr" title="Conseil National des Universités">CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270 "Conseil National des Universités"){.url rel="noopener noreferrer" lang=fr}'
+CNU61: '[61^st^ <abbr lang="fr" title="Conseil National des Universités">CNU</abbr> section](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270 "Conseil National des Universités"){.url rel="noopener noreferrer" lang=fr}'
+CNU61fr: '[61^ème^ section <abbr lang="fr" title="Conseil National des Universités">CNU</abbr>](https://conseil-national-des-universites.fr/cnu/#/entite/entiteName/CNU/idChild/33/idNode/4243-4270 "Conseil National des Universités"){.url rel="noopener noreferrer" lang=fr}'
 
 INSA: '[INSA](https://www.groupe-insa.fr "Institut National des Sciences Appliquée"){.url rel="noopener noreferrer" lang="fr"}'
 INSA-CVL: '[INSA [Centre Val de Loire]{.fr lang="fr"}](https://www.insa-centrevaldeloire.fr/ "Institut National des Sciences Appliquée Centre Val de Loire"){.url rel="noopener noreferrer" lang="fr"}'
@@ -8,7 +9,8 @@ PRISME-Laboratory: '[PRISME Laboratory](https://www.univ-orleans.fr/fr/prisme> "
 IRAuS: '[<abbr lang="fr" title="Images, Robotics, Automatic control and Signal">IRAuS</abbr>](https://www.univ-orleans.fr/fr/prisme/la-recherche/departement-iraus){.url rel="noopener noreferrer" lang="fr"}'
 axe-robotique: '[Robotic team](https://www.univ-orleans.fr/fr/prisme/la-recherche/axe-robotique){.url rel="noopener noreferrer" lang="fr"}'
 
+SFEN: '[<abbr lang="fr" title="Sûreté de Fonctionnement en Énergie Nucléaire">SFEN</abbr>](https://www.insa-centrevaldeloire.fr/en/training/industrial-risk-control "Sûreté de Fonctionnement en Énergie Nucléaire"){.url rel="noopener noreferrer" lang="fr"}'
 ERE: '[<abbr lang="en" title="Energy, Risks and Environment">ERE</abbr>](https://www.insa-centrevaldeloire.fr/en/training/energy-risks-and%E2%88%92the-environment){.url rel="noopener noreferrer" lang="fr"}'
-MRI: '[<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>](https://www.insa-centrevaldeloire.fr/en/training/industrial-risk-control){.url rel="noopener noreferrer" lang="fr"}'
+MRI: '[<abbr lang="fr" title="Maîtrise des Risques Industriels">MRI</abbr>](https://www.insa-centrevaldeloire.fr/en/training/industrial-risk-control "Maîtrise des Risques Industriels"){.url rel="noopener noreferrer" lang="fr"}'
 STPI: '[<abbr lang="fr" title="Science et Technique pour l Ingénieur">STPI</abbr>](https://www.insa-centrevaldeloire.fr/en/training/engineering-science-and-technology>){.url rel="noopener noreferrer" lang="fr"}'
 
