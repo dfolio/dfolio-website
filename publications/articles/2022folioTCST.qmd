@@ -78,7 +78,7 @@ categories:
   - Motion analysis
   - Optimization
   - Janus particles 
-image: /images/research/2022folioTCST.webp
+image: /images/publications/2022folioTCST.webp
 breadcrumb: 
   - name: "Publications"
     position: 1
