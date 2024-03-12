@@ -1,16 +1,18 @@
 ---
 date: 2007-07-11
+canonical-url: https://dfolio.fr/publication/thesis/folio2007thesis.html
+aliases: 
+  - /research/thesis.html
+  - /publications/thesis.html
+  - /publications/theses/thesis.html
 type: thesis
 #lang: fr-FR
-title: Stratégies de commande référencées multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile
+title: "Stratégies de commande référencées multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile"
 pagetitle: D. Folio PhD. Thesis
 keywords: [dfolio, PhD, thesis, visual servoing, sensor based control]
-description: >
+description: |
   Some informations on the doctorate degree of David FOLIO
 bibliography: [../../research/references.bib, ../../research/dfolio.bib]
-aliases: 
-  - /research/thesis/
-  - /publications/thesis/
 
 author:
   - name: David Folio

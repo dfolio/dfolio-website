@@ -1,7 +1,10 @@
 ---
 aliases:
-  - /research/publications/thesis/thesis.html
-canonical: https://dfolio.fr/publications/thesis/index.html
+  - /publications/thesis/theses.html
+  - /publications/theses/theses.html
+  - /publications/theses/index.html
+  - /research/theses.html
+canonical-url: https://dfolio.fr/publications/thesis/index.html
 order: 3
 date: 2023-12-19 
 title: "David Folio's theses."
@@ -10,7 +13,7 @@ description: |
 comments: false
 toc: false
 listing:
-  - id: thesis-list
+  - id: theses-list
     contents: ./folio*.qmd
     template: ../publications.ejs
     sort: 'date desc'
@@ -31,15 +34,15 @@ breadcrumb:
   - name: "Publications"
     position: 1
     item: "https://dfolio.fr/publications/"
-  - name: "Thesis"
+  - name: "Theses"
     position: 2
     item: "https://dfolio.fr/publications/thesis/"
 ---
 
  
-##  Theses  {#thesis}
+##  Theses  {#theses}
 
-::: {#thesis-list }
+::: {#theses-list}
 :::
 
 

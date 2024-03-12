@@ -1,6 +1,11 @@
 ---
 type: thesis
 date: 2021-12-03
+canonical-url: https://dfolio.fr/publication/thesis/folio2021hdr.html
+aliases: 
+  - /research/hdr.html
+  - /publications/hdr.html
+  - /publications/theses/hdr.html
 title: Magnetic Microrobotics for Biomedical Applications
 subtitle: Modeling, Simulation, Control and Validations
 pagetitle: D. Folio Habilitation
@@ -8,9 +13,6 @@ keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
 description: >
   Some information on the Habilitation of David FOLIO where a summary of his teaching and research activities since his recruitment as a lecturer in 2008 is provided.
 bibliography: [../../research/dfolio.bib]
-aliases: 
-  - /research/hdr/
-  - /publications/hdr/
 author:
   - name: David Folio
     orcid: 0000-0001-9430-6091
