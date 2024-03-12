@@ -3,7 +3,7 @@ aliases:
   - /research/research.html
   - /research/research-activities.html
   - /research/activities.html
-canonical: https://dfolio.fr/research/index.html
+canonical-url: https://dfolio.fr/research/index.html
 order: 2
 date: 2018-03-27 15:17:09 +0200
 title: "Research activities"
@@ -50,7 +50,7 @@ I perform my research activities with the {{< var PRISME-Laboratory >}}[^2] in t
 Robotics team of the Images, Robotics, Automatic control and Signal
 ({{< var IRAuS >}}) departement. Since I am an Associate Professor, my research interests
 mainly deal with the modeling and control for [nano and micro-robotics](/research/microrobotics/index.qmd) in
-a [biomedical context](/research/microrobotics/biomedical.qmd). 
+a [biomedical context](/research/microrobotics/biomedical/index.qmd). 
 :::
 :::{.d-none .d-md-block .g-col-md-4 }
 ![](/images/PRISME.svg "Logo of PRISME Laboratory"){fig-alt="PRISME"}
