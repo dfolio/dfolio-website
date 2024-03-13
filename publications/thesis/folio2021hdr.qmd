@@ -37,7 +37,7 @@ links:
     aria-label: "PDF"
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
-    href: /pdf/folio2021hdr.pdf
+    href: https://dfolio.fr/pdf/folio2021hdr.pdf
 citation: 
   citation-key: folio2021hdr
   type: thesis
@@ -137,11 +137,11 @@ I obtained my Habilitation in Robots Control from University of Orleans (France)
 
 Manuscript
 :   [D. Folio](/about/dfolio.qmd)' [Habilitation thesis](/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
-    ([view](/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
+    ([view](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
     
 Slides
 :   [D. Folio](/about/dfolio.qmd)' [Habilitation defense slides](/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
-    ([view](/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
+    ([view](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
 
 Defended
 : the 3^rd^ December 2021
