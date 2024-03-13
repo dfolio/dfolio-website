@@ -1,4 +1,5 @@
 ---
+canonical-url: https://dfolio.fr/research/projects/index.html
 aliases:  [/research/projects/projects.html]
 date: 2018-03-30 06:57:45.1522385865 +0200
 title: "List of D. FOLIO's projects"
