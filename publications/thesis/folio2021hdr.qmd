@@ -18,16 +18,16 @@ author:
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: /about/dfolio.html
-    image: "/images/david-folio.webp"
+    image: "https://dfolio.fr/images/david-folio.webp"
     affiliations:
       - ref: PRISME
-url: /publications/thesis/folio2021hdr.qmd
+url: https://dfolio.fr/publications/thesis/folio2021hdr.html
 links:
   - name: "URL"
     aria-label: "URL"
     icon: "bi bi-link-45deg"
     class: "btn btn-success btn-sm"
-    href: "/publications/thesis/folio2021hdr.qmd"
+    href: "https://dfolio.fr/publications/thesis/folio2021hdr.html"
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
@@ -92,28 +92,23 @@ images: https://dfolio.fr/images/research/microrobotic_biomedical.webp
 
 ## Habilitation degree 
  
-I have defended my Habilitation (in French "[Habilitation à diriger des recherches]{.fr lang="fr"}" -- HDR) in microrobotics in December 2021, which was entitled 
-["_Magnetic Microrobotics for Biomedical Applications_"](#sec-details) [@folio2021hdr].
-In this work, I have provided a summary of my [teaching](/teaching//index.qmd) and [research](/research/index.qmd) activities since my recruitment as associate professor in 2008.
+In December 2021,I defended my Habilitation (in French "[Habilitation à diriger des recherches]{.fr lang="fr"}" -- HDR) in microrobotics. 
+The title of my research work was ["_Magnetic Microrobotics for Biomedical Applications_"](#sec-details) [@folio2021hdr].
+This manuscript summarizes my [teaching](https://dfolio.fr/teaching/) and [research](https://dfolio.fr/research/) activities since my recruitment as an associate professor in 2008.
 \
-To resume thirteen years of hard work is a very interesting exercise. 
-This allows to take a step back and try to isolate the common thread that has motivated my activities through personal initiatives or opportunities that have arisen.
-It is important to remember that all these activities are the result of collective work, either with my colleagues and co-authors, or with [students](/research/supervision/)  I [supervised](/research/supervision/).
-Nevertheless, it is difficult to  account for all that has been achieved so far and some choices had to be made to write my dissertation.
-Not that the other works have less appeal, but I have tried to maintain consistency on what is reported in the manuscript.
-In particular, in the second part, I chose to focus on my main scientific contributions regarding **magnetic microrobots** that have to _navigate through the cardiovascular system for targeted therapy_.
+Summarizing thirteen years of hard work is a valuable exercise. It provides an opportunity to reflect and identify the common thread that has motivated my personal and professional pursuits. It is important to acknowledge that these endeavors were the result of collaborative efforts, whether with colleagues, co-authors, or [students](https://dfolio.fr/research/supervision/)  under my  [supervision](https://dfolio.fr/research/supervision/). However, it is challenging to account for all the achievements so far, and I had to make some choices while writing my dissertation. Although other works are equally appealing, I aimed to maintain consistency in the manuscript. Specifically, in the second part, I focused on my primary scientific contributions concerning [**magnetic microrobots**](https://dfolio.fr/research/microrobotics/magnetic-microrobot/) that _[navigate through the cardiovascular system](https://dfolio.fr/research/microrobotics/biomedical/) for [biomedical applications](https://dfolio.fr/research/microrobotics/biomedical/)_.
+
 
 
 ![Representation of the navigation of a magnetic microrobot (TMMC) navigating in a cardio‐vascular system. Microrobots are injected via a catheter into the arterial network to reach deep location.](/images/research/targeting.webp){width=80% #fig-targeting}
 
-My research has led me to mainly study modeling and control of microrobotic systems in a biomedical context, as illustrated in @fig-targeting.
-Different research groups aim to design appropriate solutions that could be applied to the human body.
-So far, the use of magnetic actuation appears to be the most convenient approach for such realizations [@folio2012iros; @2015mellalIROS; @2022chenApplied].
-This original theme is a field still in progress with the ambition to modernize current therapies by seeking to improve therapeutic targeting while enhancing patient comfort.
-To achieve this goal, a good understanding of the microrobots evolving in the human body is an important step [@2010belharetIROS; @folio2012iros].
-We have thus studied the theoretical foundation and the physical laws allowing to describe the various phenomena which act on magnetic microrobots in vascular-like environment [ @2015sarkisICRA;@2016jangACS; @2018sarkisJMEMS; @2013belharetISOT; @2022folioTCST; @2016mellalTNB; @2018mellalEncyclopedia; @2022mellalRAL; @2022wuAIS].
-We have developed a methodology allowing us to deal with multiphysics approaches combining different sources of uncertainties and hypotheses [@2013belharetTBME].
-Great care has been taken in their validations through experiments when it is possible, otherwise with numerical analysis.
+My research focus on modeling and controlling of microrobotic systems in a[biomedical context](https://dfolio.fr/research/microrobotics/biomedical/), as illustrated in @fig-targeting.
+Different research groups are working to develop solutions that can be applied to the human body.
+So far, magnetic actuation  has emerged as the most suitable approach for these applications [@folio2012iros; @2015mellalIROS; @2022chenApplied].
+The field of this original theme is still in progress with the ambition of modernizing current therapies by improving therapeutic targeting while enhancing patient comfort. To achieve this goal, it is important to have a good understanding of the microrobots that evolve in the human body [@2010belharetIROS; @folio2012iros].
+The theoretical foundation and physical laws governing magnetic microrobots in vascular-like environments were studied [ @2015sarkisICRA;@2016jangACS; @2018sarkisJMEMS; @2013belharetISOT; @2022folioTCST; @2016mellalTNB; @2018mellalEncyclopedia; @2022mellalRAL; @2022wuAIS].
+A methodology was developed to handle multiphysics approaches that combine different sources of uncertainties and hypotheses [@2013belharetTBME].
+The validations were carefully conducted through experiments or numerical analysis when necessary.
 This help us  to better understand the overriding dynamics, as well as the predominant parameters in the description of magnetic microrobots in a vascular-like environment.
 This makes  possible to fully characterize their behaviors in  a viscous flow  and their responses to magnetic fields.
 \
@@ -136,11 +131,11 @@ This knowledge allowed us to build the OctoRob platform.
 I obtained my Habilitation in Robots Control from University of Orleans (France) on December 3, 2021, which was entitled: “_Magnetic Microrobotics for Biomedical Applications: Modeling, Simulation, Control and Validations_" [@folio2021hdr].
 
 Manuscript
-:   [D. Folio](/about/dfolio.qmd)' [Habilitation thesis](/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
+:   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation thesis](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
     ([view](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
     
 Slides
-:   [D. Folio](/about/dfolio.qmd)' [Habilitation defense slides](/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
+:   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation defense slides](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
     ([view](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
 
 Defended
