@@ -1,6 +1,9 @@
 ---
 date: 2018-04-07 18:21:40.1523118100 +0200
-aliases: [/about/dfolio/]
+canonical-url: https://dfolio.fr/about/dfolio.html
+aliases: 
+  - /about/dfolio/
+  - /dfolio.html
 keywords: [dfolio, David Folio, about]
 title: "About David Folio"
 description: Some information on the author of this site, that is on D.Folio.
