@@ -10,7 +10,7 @@ author:
     orcid: 0000-0001-9430-6091
     email: david.folio@insa-cvl.fr
     url: https://dfolio.fr
-    image: "/images/david-folio.webp"
+    image: "https://dfolio.fr/images/david-folio.webp"
     attributes:
       corresponding: true
       equal-contributor: true
@@ -78,7 +78,7 @@ categories:
   - Motion analysis
   - Optimization
   - Janus particles 
-image: /images/publications/2022folioTCST.webp
+image: https://dfolio.fr/images/publications/2022folioTCST.webp
 breadcrumb: 
   - name: "Publications"
     position: 1
@@ -91,7 +91,8 @@ breadcrumb:
     item: "https://dfolio.fr/publications/articles/2022folioTCST.html"
 ---
 
+![](/images/research/2022folioTCST.webp)
+
 ## Funding 
 This work was supported by the French National Institute
-of Health and Medical Research (Inserm) “Plan Cancer” 2014–2019
-program, Project: Microrobots Targeting Glioblastoma (MTG).
+of Health and Medical Research ([<abbr lang=fr title="Institut national de la santé et de la recherche médicale">Inserm</abbr>](https://www.inserm.fr)) "Plan Cancer" 2014–2019 program, Project: Microrobots Targeting Glioblastoma (MTG).
