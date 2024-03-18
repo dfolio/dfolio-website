@@ -63,7 +63,7 @@ and health monitoring...
 Before that, a good understanding of the considered small scale and its specificity is essential.
 
 :::{#fig-scales}
-![](/images/research/microrobotics-scales.webp "microrobotics scales"){width=80% fig-alt="microrobotics scales"}
+![](/images/research/microrobotics-scales.webp "microrobotics scales"){width=80%  .lightbox fig-alt="microrobotics scales"}
 
 Representation of the scaling importance towards the microworld. The last rows report the relevant
 imaging modalities.

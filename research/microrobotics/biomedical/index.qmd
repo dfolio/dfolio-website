@@ -69,7 +69,7 @@ retention capabilities.
 
 
 :::{#fig-challenge}
-![](/images/research/microrobotic_biomedical.webp "Challenges and opportunities of medical microrobots"){width=80%}
+![](/images/research/microrobotic_biomedical.webp "Challenges and opportunities of medical microrobots"){width=80% .lightbox fig-alt="Challenges and opportunities of medical microrobots"}
 
 Challenges and opportunities of medical microrobots.
 :::

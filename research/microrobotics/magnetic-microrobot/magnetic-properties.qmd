@@ -30,7 +30,7 @@ classified as [@jiles2015introduction;@furlani2001permanent]:
   
   :::{#fig-ferromagnetic}
   
-  ![](/images/research/ferromagnetic.webp "Magnetization curves of ferromagnetic and superparamagnetic material"){fig-alt="Magnetization curves" width=90%}
+  ![](/images/research/ferromagnetic.webp "Magnetization curves of ferromagnetic and superparamagnetic material"){fig-alt="Magnetization curves" width=80% .lightbox}
   
   Magnetization curves of ferromagnetic and superparamagnetic material: ${M}_{r}$ is the remanent magnetization at $\vb{H}=0$, $H_{c}$ is the intrinsic coercivity, and  ${M}_{s}$  is the saturation magnetization. The right inset depicts the internal magnetic moment: when an external field $\vb{H}$ is applied all $\vb{M}$ are aligned in the same direction of $\vb{H}$. When $\vb{H}=0$ only ferromagnetic material hold a remanent magnetization  ${M}_{r}$.
   :::

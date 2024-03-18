@@ -31,11 +31,11 @@ Different shapes of microrobots exhibit various modes of operations when [magnet
 gradients are applied [@abbott2020magnetic], as illustrated in @fig-magnetic-actuation. 
 
 :::{#fig-magnetic-actuation layout-ncol=3}
-![](/images/research/magnetic-actuation-a.webp "bead pulling"){#fig-magnetic-actuation-a fig-alt="bead pulling"}
+![](/images/research/magnetic-actuation-a.webp "bead pulling"){#fig-magnetic-actuation-a fig-alt="bead pulling" .lightbox group="magnetic-actuation"}
 
-![](/images/research/magnetic-actuation-b.webp "rotating magnetic"){#fig-magnetic-actuation-b fig-alt="rotating magnetic"}
+![](/images/research/magnetic-actuation-b.webp "rotating magnetic"){#fig-magnetic-actuation-b fig-alt="rotating magnetic" .lightbox group="magnetic-actuation"}
 
-![](/images/research/magnetic-actuation-c.webp "oscillating magnetic"){#fig-magnetic-actuation-c fig-alt="oscillating magnetic"}
+![](/images/research/magnetic-actuation-c.webp "oscillating magnetic"){#fig-magnetic-actuation-c fig-alt="oscillating magnetic" .lightbox group="magnetic-actuation"}
 
 Schematic representation of basic magnetic swimming principle: (a) bead pulling with[^dB] $\grad{\vb{B}}$, (b) rotating magnetic field on helical microswimmer, and (c) oscillating magnetic field can be used to induce a traveling waves on flagella.
 :::
