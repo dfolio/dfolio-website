@@ -145,10 +145,16 @@ of Toulouse (France), that was entitled: "*Multi-sensor-based control
 strategies and visual signal loss management for mobile robots
 navigation*" [@folio2007thesis].
 
+::: {.content-visible when-profile="quarto-pub"}
 Manuscript
 :   [D. Folio](https://dfolio.fr/about/dfolio.html) [PhD thesis](https://dfolio.fr/pdf/folio2007thesis.pdf "Click to download"){rel="nofollow" .download-link download="folio2007thesis.pdf"} {{< fa file-pdf >}}
     ([view](https://dfolio.fr/pdf/folio2007thesis.pdf "Click to view"){rel="nofollow" .download-link})
-
+:::
+::: {.content-hidden when-profile="quarto-pub"}
+Manuscript
+:   [D. Folio](/about/dfolio.qmd) [PhD thesis](/pdf/folio2007thesis.pdf "Click to download"){rel="nofollow" .download-link download="folio2007thesis.pdf"} {{< fa file-pdf >}}
+    ([view](/pdf/folio2007thesis.pdf "Click to view"){rel="nofollow" .download-link})
+:::
 Defended
 :   the 11^th^ July 2007
 
