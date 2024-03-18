@@ -3,4 +3,20 @@
 # dfolio website
 [dfolio](https://dfolio.fr)' personal website build with [Quarto](https://quarto.org/).
 
+# Tools
 
+## quarto-pub
+
+To publish on quarto-pub
+
+```{terminal}
+quarto publish quarto-pub  --profile quarto-pub
+```
+
+## Watermark
+
+To add a watermark to a batch of images:
+
+```{terminal}
+magick mogrify  -path m -background transparent -fill grey -font Calibri -size 140x80 -pointsize 14 -gravity southeast -annotate +0+0 '© 2024, D. Folio, https://dfolio.fr' *.webp
+```
