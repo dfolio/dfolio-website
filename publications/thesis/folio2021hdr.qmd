@@ -3,15 +3,16 @@ type: thesis
 date: 2021-12-03
 canonical-url: https://dfolio.fr/publication/thesis/folio2021hdr.html
 aliases: 
-  - /research/hdr.html
-  - /publications/hdr.html
-  - /publications/theses/hdr.html
+  - /hdr/
+  - /research/hdr/
+  - /publications/hdr/
+  - /publications/theses/hdr/
 title: Magnetic Microrobotics for Biomedical Applications
 subtitle: Modeling, Simulation, Control and Validations
 pagetitle: D. Folio Habilitation
 keywords: [dfolio, HDR, Habilitation,  microrobot, microrobotics]
 description: >
-  Some information on the Habilitation of David FOLIO where a summary of his teaching and research activities since his recruitment as a lecturer in 2008 is provided.
+  Some information on the Habilitation of David FOLIO where a summary of his teaching and research activities since his recruitment as a associate professor in 2008 is provided.
 bibliography: [../../research/dfolio.bib]
 author:
   - name: David Folio
@@ -90,7 +91,7 @@ categories:
 images: https://dfolio.fr/images/research/microrobotic_biomedical.webp
 ---
 
-## Habilitation degree 
+## Habilitation overview
  
 In December 2021,I defended my Habilitation (in French "[Habilitation à diriger des recherches]{.fr lang="fr"}" -- HDR) in microrobotics. 
 The title of my research work was ["_Magnetic Microrobotics for Biomedical Applications_"](#sec-details) [@folio2021hdr].
@@ -100,9 +101,9 @@ Summarizing thirteen years of hard work is a valuable exercise. It provides an o
 
 
 
-![Representation of the navigation of a magnetic microrobot (TMMC) navigating in a cardio‐vascular system. Microrobots are injected via a catheter into the arterial network to reach deep location.](/images/research/targeting.webp){width=80% #fig-targeting}
+![Representation of the navigation of a magnetic microrobot (TMMC) navigating in a cardio‐vascular system. Microrobots are injected via a catheter into the arterial network to reach deep location.](/images/research/targeting.webp){width=80% #fig-targeting .lightbox fig-alt="magnetic microrobot for targeted therapy"}
 
-My research focus on modeling and controlling of microrobotic systems in a[biomedical context](https://dfolio.fr/research/microrobotics/biomedical/), as illustrated in @fig-targeting.
+My research focus on modeling and controlling of microrobotic systems in a [biomedical context](https://dfolio.fr/research/microrobotics/biomedical/), as one illustrated in @fig-targeting.
 Different research groups are working to develop solutions that can be applied to the human body.
 So far, magnetic actuation  has emerged as the most suitable approach for these applications [@folio2012iros; @2015mellalIROS; @2022chenApplied].
 The field of this original theme is still in progress with the ambition of modernizing current therapies by improving therapeutic targeting while enhancing patient comfort. To achieve this goal, it is important to have a good understanding of the microrobots that evolve in the human body [@2010belharetIROS; @folio2012iros].
@@ -130,14 +131,24 @@ This knowledge allowed us to build the OctoRob platform.
 
 I obtained my Habilitation in Robots Control from University of Orleans (France) on December 3, 2021, which was entitled: “_Magnetic Microrobotics for Biomedical Applications: Modeling, Simulation, Control and Validations_" [@folio2021hdr].
 
-Manuscript
+::: {.content-visible when-profile="quarto-pub"}
+Manuscript (on quarto-pub)
 :   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation thesis](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
     ([view](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
     
 Slides
 :   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation defense slides](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
     ([view](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
-
+:::
+::: {.content-hidden when-profile="quarto-pub"}
+Manuscript
+:   [D. Folio](/about/dfolio.qmd)' [Habilitation thesis](/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
+    ([view](/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
+    
+Slides
+:   [D. Folio](/about/dfolio.qmd)' [Habilitation defense slides](/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
+    ([view](/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
+:::
 Defended
 : the 3^rd^ December 2021
  
