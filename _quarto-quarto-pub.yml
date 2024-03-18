@@ -1,0 +1,4 @@
+project:
+  title: "dfolio's (quarto-pub) website"
+  output-dir: _site-quarto-pub
+
