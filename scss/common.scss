@@ -470,3 +470,17 @@ img.zoom{
     transform:scale(1.5);
   }
 }
+
+
+@media print {
+  #quarto-header,
+  #footer-block,
+  .page-navigaton,
+  .giscus,
+  .nav-footer{  
+    display: none;
+  }
+  
+  dt{@include make-col(2);}
+  dd{@include make-col(10);}
+}
