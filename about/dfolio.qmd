@@ -2,8 +2,9 @@
 date: 2018-04-07 18:21:40.1523118100 +0200
 canonical-url: https://dfolio.fr/about/dfolio.html
 aliases: 
-  - /about/dfolio/
-  - /dfolio.html
+  - /dfolio/
+  - /research/dfolio/
+  - /teaching/dfolio/
 keywords: [dfolio, David Folio, about]
 title: "About David Folio"
 description: Some information on the author of this site, that is on D.Folio.
@@ -87,17 +88,17 @@ Since 2024
     - Head of the {{< var PRISME-Laboratory >}} {{< var axe-robotique>}}.
     - Member of the {{< var PRISME-Laboratory >}} Scientific Council
 
-
-
 Further details about me:
 
-- [English version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2023_dfolio_en.pdf "Click to download"){rel="nofollow" .download-link download="2023_dfolio_en.pdf"} 
-  of [D. Folio' CV](/pdf/2023_dfolio_en.pdf "Click to download"){rel="nofollow" .download-link download="2023_dfolio_en.pdf"}  [(issued 2023)]{.text-muted}
+- [English version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2024_CV-dfolio-en.pdf "Click to download"){rel="nofollow" .download-link download="2024_CV-dfolio-en.pdf"} 
+  of [D. Folio' CV](/pdf/2024_CV-dfolio-en.pdf "Click to download"){rel="nofollow" .download-link download="2024_CV-dfolio-en.pdf"}  [(issued 2023)]{.text-muted}
 - [Chinese version [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/2018_dfolio_CN.pdf "Click to download"){rel="nofollow" .download-link download="2018_dfolio_CN.pdf"} 
   of [D. Folio' CV](/pdf/2018_dfolio_CN.pdf "Click to download"){rel="nofollow" .download-link download="2018_dfolio_CN.pdf"} [(issued 2018)]{.text-muted} [Thx Ruipeng]
 - See also my 
   - [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer" .url} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://cv.hal.science/david-folio){rel="noopener noreferrer" .url}
-  - [rapport d'activité  [fr]{.badge .rounded-pill .bg-primary}](/pdf/2022_rapport-activite.pdf){rel="nofollow" .download-link .fr lang="fr" download="2022_rapport-activite_dfolio.pdf"}  [(issued 2022)]{.text-muted}
+  - [Rapport d'activité  [fr]{.badge .rounded-pill .bg-primary}](/pdf/2022_rapport-activite_dfolio-en.pdf){rel="nofollow" .download-link .fr lang="fr" download="2022_rapport-activite_dfolio-en.pdf"}  [(issued 2022)]{.text-muted}
+  - [Full list of publications](/research/references.qmd) or a prettier [selection of publications](/publications/index.qmd)
+
 
 ## Background and Career Overview {#chap-resume-career}
 
@@ -116,7 +117,7 @@ My thesis subject was to design multi-sensor-based control strategies allowing a
 robot to perform vision-based tasks amidst possibly occluding obstacles. Indeed,
 the improvement of sensors gave rise to the sensor-based control which allows
 defining the robotic task in the sensor space rather than in the configuration
-space. 
+space.
 \
 In addition, during my doctorate degree, I also had the opportunity to perform
 teaching activities, first as temporary teacher (3 years), and then as teaching
@@ -124,7 +125,6 @@ assistant, specifically in French as ["Attaché Temporaire d'Enseignement et de 
 (<abbr lang="fr" title="Attaché Temporaire d'Enseignement de Recherche">ATER</abbr>, 1 year),
 both for the Paul Sabatier University of Toulouse. These global teaching
 experiences have led to a total volume of 308 hETD[^hETD].
-
 
 Between 2007 and 2008, I joined the Lagadic team at [<abbr lang="en" title="Institut national de recherche en informatique et en automatique">Inria</abbr>](https://www.inria.fr/centre/rennes)[^Inria]
 Rennes-Bretagne Atlantique as a post-doctoral fellow on sensory control
@@ -139,18 +139,6 @@ online sensor self-calibration based on the sensor/robot interaction links [@ke
 
 ### Tenured as associate professor {#resume-career-tenure}
 
-[^laas]: <abbr lang="en" title="Laboratory for Analysis and Architecture of Systems">LAAS</abbr> is a laboratory depending on the <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr>, <http://www.laas.fr>
-
-[^cnrs]: <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr> is the French National Center for Scientific Research. <http://www.cnrs.fr>
-
-[^hETD]: Equivalent TD hours,  or [heures équivalentes TD]{.french lang="fr" custom-style="French"}
-         (hETD) in French, are the reference hours used to calculate the teaching duties. 
-
-[^Inria]: From French: [Institut national de recherche en informatique et en automatique]{.french lang="fr" custom-style="French"}. <https://www.inria.fr/centre/rennes>
-
-[^ANR]: From French ["Agence Nationale de la Recherche"]{.french lang="fr" custom-style="French"} ({{< var ANR >}}), which is the French National Research Agency. <http://www.agence-nationale-recherche.fr>
-
-[^CNU]: From French ["Conseil National des Université"]{.french lang="fr" custom-style="French"} ({{< var CNU >}}), comprises 57 sections covering different scientific disciplines. The 61^st^ section involves automation, IT engineering, robotics and signal processing. <https://www.conseil-national-des-universites.fr>
 
 In 2008, I was hired as Associate Professor for the {{< var CNU61 >}} at the
 (<abbr lang="fr" title="École Nationale Supérieur d'Ingénieurs">ENSI</abbr>)
@@ -166,13 +154,10 @@ As a [lecturer](/teaching/index.qmd), I am involved, among others, in developing
 electronics and electrical sciences [teaching activities](/teaching/index.qmd) within the Institute. 
 Since becoming an associate professor, my average teaching load has been about 270 hETD per year. \
 In addition, I have been entrusted with various responsibilities that have influenced my teaching duties. 
-Since September 2014, I have been in charge of the [_Nuclear Energy_](/teaching/SFEN.qmd) option for the 5^th^ year  (engineer's degree, M2) of the Industrial Risk Control 
-({{< var MRI >}}) Department. 
-Between  2017 and 2020, I was elected member of the Department Council of the Energy, Risks and
-Environment ({{< var ERE >}}).
-Since November 2020, I have been an elected member of the Department Council of the Industrial Risk Control
-({{< var MRI >}}), and was re-elected in November 2023.
-Additionally, since May 2023, I am an elected member of the Graduate Studies Council of the{{< var INSA-CVL >}.
+Since September 2014, I have been in charge of the [_Nuclear Energy_](/teaching/SFEN.qmd) option for the 5^th^ year  (engineer's degree, M2) of the {{< var MRI >}} Department. 
+Between  2017 and 2020, I was elected member of the Council of the {{< var ERE >}} Department.
+Since November 2020, I have been an elected member of the Department Council of the {{< var MRI >}}, and was re-elected in November 2023.
+Additionally, since May 2023, I am an elected member of the Graduate Studies Council of the {{< var INSA-CVL >}}.
 
 Furthermore, I carry out my [research activity](/research/index.qmd) with the {{< var PRISME-Laboratory >}}[^PRISME]
 in the {{< var axe-robotique >}} belonging to the Images, Robotics, Automatic control and Signal 
@@ -184,11 +169,35 @@ _modeling and control for [nano and micro-robots](/research/microrobotics/index.
 Globally, my main contributions focus on the study of [**magnetic microrobots**](/research/microrobotics/magnetic-microrobot/index.qmd) for [medical applications](/research/microrobotics/biomedical/index.qmd).
 \
 Meanwhile, I have also contributed to the development of
-micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase].
+micromanipulation activities of the laboratory [@kim2011icra; @kim2012tase; @2013amariISOT;@2013amariIROS;@2014amariECC; @2014amariIJO; @2016amariEnclyclopedia].
 
 On December 3, 2021, I defended [my Habilitation](/publications/thesis/folio2021hdr.qmd) (in French "[Habilitation à Diriger la Recherche](/publications/thesis/folio2021hdr.qmd){lang="fr" .fr}" -- HDR), entitled 
 ["_Magnetic Microrobotics for Biomedical Applications_"](/publications/thesis/folio2021hdr.qmd#sec-details) [@folio2021hdr].
 
 Since November 2023, I am a full member appointed to the [61^st^ Section of the <abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>](/research/cnu61/index.qmd){lang=fr}
 
-[^PRISME]: {{< var PRISME >}} laboratory is from University of Orléans and from {{< var INSA-CVL >}} (EA 4229). <http://www.univ-orleans.fr/PRISME>
+[^laas]: <abbr lang="en" title="Laboratory for Analysis and Architecture of Systems">LAAS</abbr> is a laboratory depending on the <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr>, <http://www.laas.fr>
+
+[^cnrs]: <abbr lang="fr" title="Centre National de la Recherche Scientifique">CNRS</abbr> is the French National Center for Scientific Research. <http://www.cnrs.fr>
+
+[^hETD]: Equivalent TD hours,  or [heures équivalentes TD]{.french lang="fr" custom-style="French"}
+         (hETD) in French, are the reference hours used to calculate the teaching duties. 
+
+[^Inria]: From French: [Institut national de recherche en informatique et en automatique]{.french lang="fr" custom-style="French"}. <https://www.inria.fr/centre/rennes>
+
+[^ANR]: From French ["Agence Nationale de la Recherche"]{.french lang="fr" custom-style="French"} ({{< var ANR >}}), which is the French National Research Agency. <http://www.agence-nationale-recherche.fr>
+
+[^CNU]: From French ["Conseil National des Université"]{.french lang="fr" custom-style="French"} ({{< var CNU >}}), comprises 57 sections covering different scientific disciplines. The 61^st^ section involves automation, IT engineering, robotics and signal processing. <https://www.conseil-national-des-universites.fr>
+
+[^PRISME]: {{< var PRISME-Laboratory >}} is from University of Orléans and from {{< var INSA-CVL >}} (EA 4229). <http://www.univ-orleans.fr/prisme>
+
+## References
+
+:::{.callout-note}
+A complete list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).
+You may also be interested in the [publications page](publications/index.qmd) where some of the documents are shared.\
+See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
+:::
+
+::: {#refs}
+:::

@@ -67,6 +67,8 @@ website:
     left: |
         [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/index.qmd).]{.copyright aria-label="copyright"}
         [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License"){fig-alt="CC by 4.0"}](/about/license.qmd "Site licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.d-none .d-lg-inline}
+#      © 2004–2023, <i class="fa-solid fa-at" title="at" aria-label="at"></i> <a href="https://dfolio.fr/about/index.html">Folio David</a>.
+#      <span class="d-none d-lg-inline"><a href="../about/license.html" title="Site licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)"><img src="https://i.creativecommons.org/l/by/4.0/80x15.png" title="Creative Commons License" alt="CC by 4.0"></a></span>
 
     right: &links
       - aria-label: "GitHub"

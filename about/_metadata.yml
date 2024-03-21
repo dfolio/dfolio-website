@@ -1,4 +1,3 @@
-
 sidebar: about
 #comments: true
 #
@@ -45,5 +44,5 @@ affiliations:
 copyright:
   year: [2004, 2024]
   holder: David FOLIO
-  #statement: "© 2024, D. Folio"
+# statement: "© 2024, D. Folio"
 license: "CC BY"
