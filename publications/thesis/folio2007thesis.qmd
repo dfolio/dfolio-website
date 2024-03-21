@@ -2,8 +2,10 @@
 date: 2007-07-11
 canonical-url: https://dfolio.fr/publication/thesis/folio2007thesis.html
 aliases: 
-  - /research/thesis.html
-  - /publications/theses/thesis.html
+  - /thesis/
+  - /research/thesis/
+  - /publications/hdr/
+  - /publications/theses/thesis/
 type: thesis
 #lang: fr-FR
 title: "Stratégies de commande référencées multi-capteurs et gestion de la perte du signal visuel pour la navigation d'un robot mobile"

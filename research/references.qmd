@@ -8,7 +8,7 @@ description: >
 bibliography: dfolio.bib
 #biblio-style: authoryear
 aliases: 
-  - /research/references/
+  - /references/
   - /publications/references/
 link-external-icon: true
 categories: [dfolio, bibliography, research]
