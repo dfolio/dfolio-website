@@ -133,21 +133,21 @@ I obtained my Habilitation in Robots Control from University of Orleans (France)
 
 ::: {.content-visible when-profile="quarto-pub"}
 Manuscript (on quarto-pub)
-:   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation thesis](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
+:   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation thesis [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"}
     ([view](https://dfolio.fr/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
     
 Slides
-:   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation defense slides](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
+:   [D. Folio](https://dfolio.fr/about/dfolio.html)' [Habilitation defense slides [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} 
     ([view](https://dfolio.fr/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
 :::
 ::: {.content-hidden when-profile="quarto-pub"}
 Manuscript
-:   [D. Folio](/about/dfolio.qmd)' [Habilitation thesis](/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"} {{< fa file-pdf >}}
-    ([view](/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
+:   [D. Folio](/about/dfolio.qmd)' [Habilitation thesis  [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/folio2021hdr.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr.pdf"}
+    ([view  {{< fa display title="view the slides" >}}](/pdf/folio2021hdr.pdf "Click to view"){rel="nofollow" .download-link})
     
 Slides
-:   [D. Folio](/about/dfolio.qmd)' [Habilitation defense slides](/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"} {{< fa file-pdf >}}
-    ([view](/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
+:   [D. Folio](/about/dfolio.qmd)' [Habilitation defense slides [{{< fa file-pdf title="download the PDF" >}}]{.text-danger}](/pdf/folio2021hdr-slides.pdf "Click to download"){rel="nofollow" .download-link download="folio2021hdr-slides.pdf"}
+    ([view {{< fa display title="view the slides" >}}](/pdf/folio2021hdr-slides.pdf "Click to view"){rel="nofollow" .download-link})
 :::
 Defended
 : the 3^rd^ December 2021
