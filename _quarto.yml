@@ -208,9 +208,9 @@ website:
         - section: "CNU61"
           href: research/cnu61/index.qmd
           contents:
-          - text: "Qualification (fr)"
+          - text: "Qualification^[fr]{.badge .rounded-pill .bg-primary}^"
             href: research/cnu61/qualification.qmd
-          - text: "Recommandations (fr)"
+          - text: "Recommandations^[fr]{.badge .rounded-pill .bg-primary}^"
             href: research/cnu61/recommandations.qmd
 
 # Metadata stuff
@@ -236,12 +236,12 @@ format:
     toc: true
     anchor-sections: true
     code-copy: true
+    crossrefs-hover: true
+    footnotes-hover: true
     citations-hover: true
     link-citations: true
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/dfolio.(?:quarto.pub|free.fr|fr)'
-    crossrefs-hover: true
-    footnotes-hover: true
     reference-location: document
     strip-comments: true
     smooth-scroll: true
