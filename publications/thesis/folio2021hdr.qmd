@@ -24,9 +24,9 @@ author:
       - ref: PRISME
 url: https://dfolio.fr/publications/thesis/folio2021hdr.html
 links:
-  - name: "URL"
-    aria-label: "URL"
-    icon: "bi bi-link-45deg"
+  - name: "Open access"
+    aria-label: "Open access"
+    icon: "ai ai-open-access"
     class: "btn btn-success btn-sm"
     href: "https://dfolio.fr/publications/thesis/folio2021hdr.html"
   - name: "HAL"

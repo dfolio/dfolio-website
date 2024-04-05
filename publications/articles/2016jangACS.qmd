@@ -64,11 +64,16 @@ links:
     icon: "ai ai-doi"
     class: "btn btn-success btn-sm"
     href: https://doi.org/10.1021/acsnano.6b04224
-  - name: "URL"
-    aria-label: "URL"
-    icon: "bi bi-link-45deg"
+  - name: "Wiley"
+    aria-label: "wiley"
+    icon: "ai ai-wiley"
     class: "btn btn-success btn-sm"
     href: "https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200192"
+  - name: "Pubmed"
+    aria-label: "Pubmed"
+    icon: "ai ai-pubmed"
+    class: "btn btn-primary btn-sm"
+    href: https://pubmed.ncbi.nlm.nih.gov/27754654
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
@@ -81,6 +86,7 @@ links:
     href: https://doi.org/10.1021/acsnano.6b04224#notes-1
       
 citation: 
+  PMID: "27754654"
   citation-key: jang2016catalytic
   container-title: ACS Nano
   type: article-journal

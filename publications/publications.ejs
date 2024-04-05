@@ -36,7 +36,7 @@
       <li class="list-group-item flex-fill px-1"><a href="<%- item.path %>" class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a></li>
         <% if (item.links) { %>
           <% for (const link of item.links) { %>
-          <li class="list-group-item flex-fill px-1"><a href="<%= link.href %>" target="_blank" rel="noopener noreferrer" class="<%- link.class %>"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a></li>
+          <li class="list-group-item flex-fill px-1"><a href="<%= link.href %>" target="_blank" rel="noopener noreferrer" class="<%- link.class %>" title="<%- link.name %> link"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a></li>
           <% } %>
            <% if (item.doi) { %>
           <li class="d-none d-md-block flex-fill">

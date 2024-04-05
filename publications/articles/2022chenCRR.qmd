@@ -29,9 +29,9 @@ links:
     icon: "ai ai-doi"
     class: "btn btn-success btn-sm"
     href: "https://doi.org/10.1007/s43154-022-00081-w"
-  - name: "URL"
-    aria-label: "URL"
-    icon: "bi bi-link-45deg"
+  - name: "Springer"
+    aria-label: "Springer"
+    icon: "ai ai-springer"
     class: "btn btn-success btn-sm"
     href: https://link.springer.com/article/10.1007/s43154-022-00081-w
   - name: "HAL"
@@ -39,6 +39,11 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03758932
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/2022chenCRR.pdf
 citation: 
   citation-key: 2022chenMicromachines
   language: en-US

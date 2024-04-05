@@ -32,22 +32,28 @@ links:
     icon: "ai ai-doi"
     class: "btn btn-success btn-sm"
     href: https://doi.org/10.3390/mi14010091
-  - name: "URL"
-    aria-label: "URL"
-    icon: "bi bi-link-45deg"
+  - name: "Open access"
+    aria-label: "Open access"
+    icon: "ai ai-open-access"
     class: "btn btn-success btn-sm"
     href: https://www.mdpi.com/2072-666X/14/1/91
-  - name: "PDF"
-    aria-label: "pdf"
-    icon: "bi bi-file-pdf"
-    class: "btn btn-success btn-sm"
-    href: https://www.mdpi.com/2072-666X/14/1/91/pdf?version=1672311269
+  - name: "Pubmed"
+    aria-label: "Pubmed"
+    icon: "ai ai-pubmed"
+    class: "btn btn-primary btn-sm"
+    href: https://pubmed.ncbi.nlm.nih.gov/36677152
   - name: "HAL"
     aria-label: "HAL"
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03919809
+  - name: "PDF"
+    aria-label: "pdf"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: https://www.mdpi.com/2072-666X/14/1/91/pdf?version=1672311269
 citation: 
+  pmid: "36677152"
   url: https://www.mdpi.com/2072-666X/14/1/91
   pdf-url: https://www.mdpi.com/2072-666X/14/1/91/pdf?version=1672311269
   citation-key: chen2022optimal

@@ -27,6 +27,7 @@ listing:
     sort: 'date desc'
     sort-ui: [date, author]
     date-format: "YYYY"
+    feed: true
   - id: communications-list
     contents: communications/20*.qmd
     template: publications.ejs

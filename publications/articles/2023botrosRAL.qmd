@@ -51,7 +51,7 @@ links:
     href: https://hal.archives-ouvertes.fr/hal-04060583
   - name: "Materials"
     aria-label: "materials"
-    icon: "bi bi-file-earmark-plus"
+    icon: "bi bi-file-earmark-bar-graph-fill"
     class: "btn btn-light"
     href: https://gitlab.com/insa-cvl2/USMicroMagSet/
 citation: 

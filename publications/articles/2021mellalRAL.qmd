@@ -56,7 +56,7 @@ links:
   - name: "PDF"
     aria-label: "pdf"
     icon: "bi bi-file-pdf"
-    class: "btn btn-success btn-sm"
+    class: "btn btn-danger btn-sm"
     href: "/pdf/publications/2021mellalRAL.pdf"
 citation: 
   url: https://ieeexplore.ieee.org/document/9521741

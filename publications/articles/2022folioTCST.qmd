@@ -39,6 +39,11 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03523208
+  - name: "PDF"
+    aria-label: "PDF"
+    icon: "bi bi-file-pdf"
+    class: "btn btn-danger btn-sm"
+    href: /pdf/publications/2022folioTCST.pdf
 citation:
   url: https://ieeexplore.ieee.org/document/9678101
   citation-key: 2022folioTCST
