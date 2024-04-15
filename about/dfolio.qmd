@@ -195,7 +195,7 @@ Since November 2023, I am a full member appointed to the [61^st^ Section of the 
 
 :::{.callout-note}
 A complete list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).
-You may also be interested in the [publications page](publications/index.qmd) where some of the documents are shared.\
+You may also be interested in the [publications page](/publications/index.qmd) where some of the documents are shared.\
 See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
 :::
 
