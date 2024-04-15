@@ -41,18 +41,18 @@ website:
       repo: dfolio/dfolio
       loading: lazy
 
-  cookie-consent:
-    style: simple
-    type: implied
-    palette: dark
-    policy-url: /about/privacy.qmd
+#  cookie-consent:
+#    style: simple
+#    type: implied
+#    palette: dark
+#    policy-url: https://dfolio.fr/about/privacy.html
 
-#  google-analytics:
+  google-analytics:
 #    #tracking-id: 'G-P49B92C60B'
 #    #tracking-id: 'G-TVHK4RZ89K'
-#    tracking-id: G-XQNLKMV9YH
+    tracking-id: G-XQNLKMV9YH
 #    version: 4
-#    anonymize-ip: true
+    anonymize-ip: true
 
   open-graph:
     locale: en_US
