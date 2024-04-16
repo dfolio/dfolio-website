@@ -112,13 +112,16 @@ $if(breadcrumb)$<script type="application/ld+json">{
 $if(ads.pub)$<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-$ads.pub$" crossorigin="anonymous"></script>
 $if(ads.amp)$<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js" data-cookie-consent="targeting"></script>$endif$
 $endif$
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQNLKMV9YH"></script>
+$if(google-analytics.tracking-id)$
+<script async src="https://www.googletagmanager.com/gtag/js?id=$google-analytics.tracking-id$"></script>
 <script type="text/plain" cookie-consent="tracking">
 gtag('js', new Date());
 gtag('config', 'G-XQNLKMV9YH', { 'anonymize_ip': true});
+gtag('config', '$google-analytics.tracking-id$', { 'anonymize_ip': true});
 gtag('set','user_data',{'sha256_email_address': "7edfb721cba3efa892eeec9a170e82cee022de82f20c30a2f548f756263c086f",
 'address': {"first_name": "David", "last_name": "FOLIO","country": "FR"}})
 </script>
+$endif$
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
