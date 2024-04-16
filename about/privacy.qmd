@@ -15,12 +15,30 @@ This policy is subject to change at any time and without notice.
 
 ## About privacy
 
-The privacy of my visitors is extremely important.
-This privacy policy outlines the types of personal information that is received and collected and how it is used.
-\
-First and foremost, I will [**never share your email address or any other personal information**]{.text-danger} to anyone.
+At this [dfolio]' website, we value your privacy and understand the importance of protecting your information. This Privacy Policy (the "Policy") describes our privacy practices for the activities described below.  In accordance with your rights, we inform you about how we collect, store, access, and otherwise process information about individuals. In this Policy, personal data ("Personal Data") refers to any information that on its own, or in combination with other available information, can identify an individual.
 
-If you are visiting this site from the European Union (EU), please check your [Cookie Preferences](#){id="open_preferences_center"} for this site. 
+This [dfolio]' website is committed to protecting your privacy to the highest level of privacy regulation. As such, we comply with the obligations of the following regulations:
+
+- Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and the applicable provincial legislations
+- Quebec Law 25
+- the EU's General Data Protection Regulation (GDPR)
+- Brazil’s Data Protection Legislation (LGPD)
+- California's Consumer Privacy Act (CCPA) / California Privacy Rights Act (CPRA) and California Online Privacy Protection Act (CalOPPA)
+- Colorado Privacy Act (CPA)
+- Utah Consumer Privacy Act (UCPA)
+- Connecticut Data Privacy Act (CTDPA)
+- Virginia Consumer Data Protection Act (VCDPA)
+- South Africa’s Protection of Personal Information Act (POPIA)
+
+In any case you can check your [Cookie Preferences](#manage_cookies){#manage_cookies} for this site. 
+
+[dfolio]: <http://dfolio.fr> "D. Folio new website"
+
+### Scope
+This policy applies to this [dfolio]' websites, domains, applications, services, and products.
+
+This Policy does not apply to third-party applications, websites, products, services or platforms accessed through links provided by non-[dfolio]' websites.. These sites are owned and operated independently from us, and they have their own separate privacy and data collection practices. Any Personal Data that you provide to these websites will be governed by the third-party's privacy policy. We are not liable for the actions or policies of independent sites and do not take responsibility for their content or privacy practices.
+
 
 ## Cookie {#cookie}
 
@@ -28,7 +46,7 @@ The "_[Privacy and Electronic Communications Directive](https://eur-lex.europa.e
 is an European Union (EU) directive  on data protection and privacy.
 This EU Directive applies to all use of _[HTTP cookie][HTTP_cookie]_ usage.
 
-## What are cookie?
+### What are cookie?
 
 > An HTTP cookie (also called web cookie, Internet cookie, browser cookie, or
 > simply cookie) is a small piece of data sent from a website and stored on the

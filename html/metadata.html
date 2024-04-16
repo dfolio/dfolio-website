@@ -1,3 +1,19 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'functionality_storage': 'denied',
+  'personalization_storage': 'denied',
+  'security_storage': 'denied',
+  'wait_for_update': 500,
+});
+dataLayer.push({'gtm.start': new Date().getTime(), 'event': 'gtm.js'});
+</script>
+<script src="https://app.enzuzo.com/apps/enzuzo/static/js/__enzuzo-cookiebar.js?uuid=d1882dd0-fb2a-11ee-b3a5-177b1f5f1eb3"></script>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="True">
@@ -23,48 +39,10 @@ $if(rss)$<link rel="alternate" type="application/rss+xml" title="$title-prefix$"
 <meta name="color-scheme" content="light dark" />
 $if(google-site-verification)$<meta rel="google-site-verification" content="$google-site-verification$" />$endif$
 $if(msvalidate)$<meta rel="msvalidate.01" content="$msvalidate$" />$endif$
-$if(scite-badge)$
-<link rel="preload" href="https://cdn.scite.ai/assets/fonts/scite-icons/scite-icons.woff?v=5" as="font" type="font/woff2" crossorigin>
-$endif$
-$if(website)$<script type="application/ld+json">{
-  "@context" : "https://schema.org",
-  "@type" : "WebSite",
-  "name" : "dfolio' website",
-  "alternateName" : ["Website of David FOLIO","dfolio", "David FOLIO"],
-  "url" : "https://dfolio.fr/"
-}</script>$endif$
-$if(profile)$<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "dateCreated": "$date$",
-  "dateModified": "$date-modified$",
-  "mainEntity": $json-author.html()$
-}</script>$endif$
-$if(citation)$<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "author":  [$json-author.html()$],
-  "dateCreated": "$date$",
-  "dateModified": "$date-modified$",
-  "headline": "$title$",
-  $if(image)$"image": [$for(image)$"$image$"$sep$, $endfor$], $endif$
-  $if(abstract)$"abstract": "$abstract$", $endif$
-  $if(links)$"archivedAt": [$for(links)$"$links.href$"$sep$, $endfor$], $endif$
-  "hasPart": [{
-    "@id": "$citation.citation-key$",
-    "@type": "PublicationIssue",
-    "name": "$title$",
-    "datePublished": "$date$"
-    $if(citation.number)$, "issueNumber": "$citation.number$"$endif$
-    $if(citation.container-title)$, "isPartOf": {
-      "@type": "PublicationVolume",
-      "name": "$citation.container-title$"
-      $if(citation.issn)$, "issn": "$citation.issn$"$endif$
-      $if(citation.volume)$, "volumeNumber": "$citation.volume$"$endif$
-      $if(citation.publisher)$, "publisher": "$citation.publisher$"$endif$
-    }$endif$
-  }]
-}</script>$endif$
+$if(scite-badge)$<link rel="preload" href="https://cdn.scite.ai/assets/fonts/scite-icons/scite-icons.woff?v=5" as="font" type="font/woff2" crossorigin>$endif$
+$if(website)$<script type="application/ld+json">{"@context" : "https://schema.org",  "@type" : "WebSite", "name" : "dfolio' website", "alternateName" : ["Website of David FOLIO","dfolio", "David FOLIO"], "url" : "https://dfolio.fr/" }</script>$endif$
+$if(profile)$<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfilePage", "dateCreated": "$date$", "dateModified": "$date-modified$", "mainEntity": $json-author.html()$ }</script>$endif$
+$if(citation)$<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "author":  [$json-author.html()$], "dateCreated": "$date$", "dateModified": "$date-modified$", "headline": "$title$", $if(image)$"image": [$for(image)$"$image$"$sep$, $endfor$], $endif$ $if(abstract)$"abstract": "$abstract$", $endif$$if(links)$"archivedAt": [$for(links)$"$links.href$"$sep$, $endfor$], $endif$"hasPart": [{"@id": "$citation.citation-key$", "@type": "PublicationIssue", "name": "$title$", "datePublished": "$date$" $if(citation.number)$, "issueNumber": "$citation.number$"$endif$$if(citation.container-title)$, "isPartOf": {"@type": "PublicationVolume", "name": "$citation.container-title$"$if(citation.issn)$, "issn": "$citation.issn$"$endif$$if(citation.volume)$, "volumeNumber": "$citation.volume$"$endif$$if(citation.publisher)$, "publisher": "$citation.publisher$"$endif$}$endif$}]}</script>$endif$
 $if(post)$<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -98,8 +76,7 @@ $if(course)$<script type="application/ld+json">{
   $else$$if(date)$"datePublished": "$date$",$endif$$endif$
   $if(educationalLevel)$"educationalLevel": "$educationalLevel$", $endif$
   $if(image)$"image": [$for(image)$"$image$"$sep$, $endfor$], $endif$
-  "hasCourseInstance": [
-    {
+  "hasCourseInstance": [{
       "@type": "CourseInstance",
       "courseMode": "Onsite",
       $if(courseWorkload)$"courseWorkload": "$courseWorkload$",$endif$
@@ -132,25 +109,11 @@ $if(breadcrumb)$<script type="application/ld+json">{
   }$sep$, $endfor$]
 }</script>$endif$
 <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){
-  dataLayer.push(arguments);
-}
-gtag('consent', 'default', {
-  'ad_storage': 'denied',
-  'ad_user_data': 'denied',
-  'ad_personalization': 'denied',
-  'analytics_storage': 'denied'
-});
-</script>
 $if(ads.pub)$<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-$ads.pub$" crossorigin="anonymous"></script>
-$if(ads.amp)$<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"> </script>$endif$
+$if(ads.amp)$<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js" data-cookie-consent="targeting"></script>$endif$
 $endif$
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XQNLKMV9YH"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQNLKMV9YH"></script>
 <script type="text/plain" cookie-consent="tracking">
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-XQNLKMV9YH', { 'anonymize_ip': true});
 gtag('set','user_data',{'sha256_email_address': "7edfb721cba3efa892eeec9a170e82cee022de82f20c30a2f548f756263c086f",
@@ -163,34 +126,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-MWQGCQ6');</script>
 <!-- End Google Tag Manager -->
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"simple",
-  "consent_type":"implied",
-  "palette":"dark",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary", "functionality","tracking","targeting"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":"dfolio.fr",
-  "website_privacy_policy_url":"https://dfolio.fr/about/privacy.html",
-  "callbacks": {
-  "scripts_specific_loaded": (level) => {
-    switch(level) {
-      case 'targeting':
-        gtag('consent', 'update', {
-          'ad_storage': 'granted',
-          'ad_user_data': 'granted',
-          'ad_personalization': 'granted',
-          'analytics_storage': 'granted'
-        });
-        break;
-    }}},
-  "callbacks_force": true
-  });
-});
-</script> 
-
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
