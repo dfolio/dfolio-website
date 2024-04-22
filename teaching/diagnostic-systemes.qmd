@@ -22,7 +22,7 @@ breadcrumb:
 description: >
   Cet enseignement a pour but d'appréhender les méthodes de diagnostic basées
   modèles pour l'amélioration de la fiabilité des processus technologiques.
-images: https://dfolio.fr/images/teaching/commande-diagnostic.webp
+image: https://dfolio.fr/images/teaching/commande-diagnostic.webp
 ---
 
 

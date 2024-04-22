@@ -4,7 +4,6 @@ canonical-url: https://dfolio.fr/publication/thesis/folio2007thesis.html
 aliases: 
   - /thesis/
   - /research/thesis/
-  - /publications/hdr/
   - /publications/theses/thesis/
 type: thesis
 #lang: fr-FR
