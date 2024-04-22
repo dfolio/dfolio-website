@@ -10,6 +10,7 @@ description: >
   Discussion by David FOLIO about the 61st CNU section
 #toc: false
 author-block: true
+categories: [CNU, research]
 ---
 
 The [Conseil national des universités]{.fr lang=fr} (<abbr lang="fr" title='Conseil National des Universités'>CNU</abbr>) is a French advisory and decision-making body responsible at national level for individual decisions on the [qualification](qualification.qmd), recruitment and career development of teacher-researchers (university professors and lecturers).

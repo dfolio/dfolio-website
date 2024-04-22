@@ -8,11 +8,12 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about magnetic microrobotics
 #toc: false
-images: https://dfolio.fr/images/research/microrobotics-scales.webp
+image: https://dfolio.fr/images/research/magnetic-actuation-a.webp
 bibliography: [../../references.bib,../../dfolio.bib]
 author-block: true
 categories: 
   - Magnetic microrobots
+  - Microrobotics
 ---
 
 Magnetic [microrobotics](../index.qmd) refers to the field of research and development focused on creating and controlling tiny robotic devices that can navigate and perform tasks using [magnetic fields](magnetic-properties.qmd#sec-magnetic-field) [@nelson2008micro; @abbott2020magnetic; @folio2021hdr]. 

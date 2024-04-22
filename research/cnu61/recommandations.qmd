@@ -9,6 +9,7 @@ description: >
   Discussion de David FOLIO sur les recommandations à suivre pour la 61ème section CNU.
 #toc: false
 author-block: true
+categories: [CNU, research]
 ---
 
 Pour postuler avec succès à une qualification, à une promotion ou à quoi que ce soit qui sollicite la {{< var CNU61fr >}}, il est **IMPORTANT** de bien respecter les instructions et les recommandations fournies par la section. 

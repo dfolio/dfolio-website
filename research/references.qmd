@@ -2,7 +2,7 @@
 order: 3
 date: 2018-03-30 06:55:35.1522385735 +0200
 title: References
-keywords: [dfolio, bibliography, references, research, activities]
+keywords: [dfolio, bibliography, references, research]
 description: >
   D. Folio's research activities have given rise to scientific publications which are listed on this bibliographical references page.
 bibliography: dfolio.bib
@@ -11,7 +11,7 @@ aliases:
   - /references/
   - /publications/references/
 link-external-icon: true
-categories: [dfolio, bibliography, research]
+categories: [bibliography, research]
 image: /images/logo-df.webp
 image-alt: "references logo"
 image-width: 80%

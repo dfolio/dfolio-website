@@ -5,7 +5,6 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about ethical issues in microrobotics
 #toc: false
-images: https://dfolio.fr/images/research/microrobotics-scales.webp
 bibliography: [../references.bib]
 author-block: true
 categories: 

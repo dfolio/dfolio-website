@@ -10,7 +10,7 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about magnetic microrobots
 #toc: false
-images: https://dfolio.fr/images/research/microrobotics-scales.webp
+image: https://dfolio.fr/images/research/magnetic-actuation-a.webp
 bibliography: [../../references.bib,../../dfolio.bib]
 format:
   html:
@@ -19,6 +19,7 @@ format:
 author-block: true
 categories: 
   - Magnetic microrobots
+  - Microrobotics
 ---
 
 Commonly, the choice of the [microrobots](../index.qmd) depends on the considered
@@ -37,10 +38,13 @@ gradients are applied [@abbott2020magnetic], as illustrated in @fig-magnetic-act
 
 ![](/images/research/magnetic-actuation-c.webp "oscillating magnetic"){#fig-magnetic-actuation-c fig-alt="oscillating magnetic" .lightbox group="magnetic-actuation"}
 
-Schematic representation of basic magnetic swimming principle: (a) bead pulling with[^dB] $\grad{\vb{B}}$, (b) rotating magnetic field on helical microswimmer, and (c) oscillating magnetic field can be used to induce a traveling waves on flagella.
+Schematic representation of basic magnetic swimming principle: (a) bead pulling with $\grad{\vb{B}}$, (b) rotating magnetic field on helical microswimmer, and (c) oscillating magnetic field can be used to induce a traveling waves on flagella.
 :::
 
-[^dB]: The arrow that represents $\grad{\vb{B}}$ is there for the sake of clarity only. In no case $\grad{\vb{B}}$ is a 2D or 3D vector: it can indeed have up to 9 components...
+:::{.callout-warning}
+The arrow that represents $\grad{\vb{B}}$ in @fig-magnetic-actuation-a is there for the sake of clarity only. 
+In no case $\grad{\vb{B}}$ is a 2D or 3D vector. As $\vb{B}$ is a vector with up to 3 components,  $\grad{\vb{B}}$ is then a Jacobian matrix.
+:::
 
 ##  Magnetic manipulation {#sec-magnetic-manipulation}
  

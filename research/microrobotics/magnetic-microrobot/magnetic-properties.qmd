@@ -6,7 +6,7 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about magnetic properties in microrobotics.
 #toc: false
-images: https://dfolio.fr/images/research/microrobotics-scales.webp
+image: https://dfolio.fr/images/research/ferromagnetic.webp
 bibliography: [../../references.bib,../../dfolio.bib]
 format:
   html:
@@ -18,10 +18,10 @@ categories:
 ---
 
 ## Magnetization {#sec-magnetization}
-Any magnetic material will produce an $\vb{H}$-field both in the space around it
-and within its own volume. The significance of this auxiliary field relies on
-the relationship between $\vb{H}$ and its _magnetization_ $\vb{M}$ that depends on the type of
-material. Depending on their magnetic characteristics, materials can be
+Any magnetic material will produce an auxiliary field[^magnetic-field] $\vb{H}$-field both in the space around it and within its own volume $V_m$.
+The significance of this auxiliary field relies on
+the relationship between$\vb{H}$ and its _magnetization_ $\vb{M}$ that depends on the type of
+material (see also [magnetic manipulation](magnetic-actuation.qmd#sec-magnetic-manipulation)). Depending on their magnetic characteristics, materials can be
 classified as [@jiles2015introduction;@furlani2001permanent]:
 
 - Diamagnetic (e.g., $\ce{Cu}$, $\ce{C}$, $\ce{H2}$, water...) materials that have a weak, negative susceptibility, and are lightly repelled by a magnetic field;
@@ -34,6 +34,9 @@ classified as [@jiles2015introduction;@furlani2001permanent]:
   
   Magnetization curves of ferromagnetic and superparamagnetic material: ${M}_{r}$ is the remanent magnetization at $\vb{H}=0$, $H_{c}$ is the intrinsic coercivity, and  ${M}_{s}$  is the saturation magnetization. The right inset depicts the internal magnetic moment: when an external field $\vb{H}$ is applied all $\vb{M}$ are aligned in the same direction of $\vb{H}$. When $\vb{H}=0$ only ferromagnetic material hold a remanent magnetization  ${M}_{r}$.
   :::
+
+
+[^magnetic-field]: Some authors call $\vb{H}$ the magnetic field.  In fact, Sommerfeld [@sommerfeld1964electrodynamics, p45] opines that "The unhappy term 'magnetic field' for $\vb{H}$ should be avoided as far as possible" [@griffiths2017introduction].
 
 For diamagnetic and paramagnetic materials, a relatively large applied field is required to produce
 changes in magnetization; and there is no remanent magnetization if the applied
@@ -61,7 +64,7 @@ the magnetization $\vb{M}$ of the medium can be then expressed as:
 $$\vb{B}= \mu \vb{H}  = \mu_0 (1+\chi) \vb{H}$$
 
 Furthermore, according to their coercivity[^Hc] $H_c$, ferromagnetic materials can be divided in two
-groups: _soft_ and _hard_ magnets. 
+groups: _soft_ and _hard_ magnets (see @fig-ferromagnetic). 
 Hard magnets, or permanent magnets, provide high coercivity, lower permeability and high hysteresis loop. 
 While soft magnetic materials are easier to demagnetize after the saturation
 state, the $H_c$ value is low and  $\chi$ value is high.

@@ -8,6 +8,7 @@ description: >
   David FOLIO's research activities regularly lead him to collaborate in various scientific
   projects that is listed here.
 toc: true
+categories: [projects, research]
 ---
 
 Scientific projects aim to obtain funding for recruiting students, designing or improving experimental testbeds, and promoting scientific collaborations. Below is a list of the projects I have been involved in, including my role and the funding obtained. It is important to note that all of these projects have undergone a rigorous scientific review process.

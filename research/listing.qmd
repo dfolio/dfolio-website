@@ -1,0 +1,26 @@
+---
+title: "List of research articles"
+#subtitle: "A few brief notes along the way"
+description: "List of research articles"
+#date-format: "MMMM D, YYYY" 
+code-tools: false
+comments: false
+title-block-meta: false
+page-layout: full
+toc-title: Year
+listing: 
+  - id: research
+    contents:  
+    - "/!(listing)*.qmd"
+    - "*/*.qmd"
+    sort: "date desc"
+    fields: [image, date, title, reading-time, categories, description]
+    type: default
+    categories: cloud
+    feed: true
+aliases: 
+  - /posts/research.html
+canonical-url: https://dfolio.fr/research/listing.html
+---
+:::{#research}
+:::

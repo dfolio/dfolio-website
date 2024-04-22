@@ -7,13 +7,16 @@ keywords: [dfolio, microrobotics, research, activities]
 description: >
   Discussion by David FOLIO about microrobots in vascular like environment.
 #toc: false
-images: https://dfolio.fr/images/research/microrobotics-scales.webp
+image: https://dfolio.fr/images/research/model-vessel.webp
 bibliography: [../../references.bib,../../dfolio.bib]
 format:
   html:
     include-in-header: ../../../html/mathjax.html
     html-math-method: mathjax
 author-block: true
+categories: 
+  - Biomedical
+  - Microrobotics
 ---
 
 To develop reliable and efficient navigation strategies for magnetic  microrobots evolving in a vascular-like network 

@@ -9,6 +9,7 @@ description: >
   Discussion de David FOLIO sur la façon de se qualifier pour la 61ème section du CNU.
 #toc: false
 author-block: true
+categories: [CNU, research]
 ---
 
 Quand un candidat souhaite candidater pour obtenir la qualification de la {{< var CNU61fr >}}, 

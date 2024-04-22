@@ -1,3 +1,16 @@
+---
+date: 2023-04-18 17:26:02 +
+title: "Microbubbles"
+keywords: [dfolio, microrobotics, research, activities]
+description: >
+  Discussion by David FOLIO about microbubbles
+#toc: false
+author-block: true
+categories: 
+  - Magnetic microrobots
+  - draft
+---
+
 The dynamic model of microbubbles refers to the mathematical representation or description of the behavior and characteristics of microbubbles in various fluid environments. Microbubbles are tiny gas-filled spheres, typically with diameters ranging from a few micrometers to a few millimeters, and they exhibit unique physical properties due to their small size and gas-liquid interface.
 
 The dynamic behavior of microbubbles is influenced by several factors, including the surrounding fluid, bubble size, gas content, surface tension, and external forces. The mathematical models aim to capture these dynamics and predict the behavior of microbubbles under different conditions.

@@ -9,6 +9,10 @@ keywords: [dfolio, projects, research, activities, microrobot,biomedical applica
 description: >
   David Folio discuss here the challenges and opportunities of microrobots for biomedical applications.
 bibliography: [../../references.bib,../../dfolio.bib]
+image: /images/research/microrobotic_biomedical.webp
+categories: 
+  - Biomedical
+  - Microrobotics
 ---
 
 Since the 1980s with the first surgical guidance robots, the use of robotic

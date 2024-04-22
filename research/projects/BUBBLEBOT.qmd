@@ -1,16 +1,17 @@
 ---
-dateCreated: 2021-03-02 12:19:25.1614683965 +0100
+date: 2021-03-02 12:19:25.1614683965 +0100
 aliases: 
   - /research/projects/bubblebot/
   - /research/bubblebot.html 
 title: BUBBLEBOT
 pagetitle: Magnetic microbubbles for the targeted delivery of therapeutic agent in the brain
-subtitle: '{{< meta pagetitle >}}'
+subtitle: 'Magnetic microbubbles for the targeted delivery of therapeutic agent in the brain'
 keywords: [dfolio, projects, research, activities, microrobot]
 description: >
   Design of magnetic microbubbles (the "bubblebot") for targeted drug delivery
 toc: false
-images: https://dfolio.fr/images/research/bubblebot.webp 
+image: /images/research/bubblebot.webp 
+categories: [projects, research]
 ---
 # Bubblebots to kill Glioblastoma 
 

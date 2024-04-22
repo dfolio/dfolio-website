@@ -3,12 +3,13 @@ date: 2019-12-03 10:06:23.1575363983 +0100
 aliases: [/research/projects/MTG/]
 title: MTG
 pagetitle: Microrobots Targeting Glioblastoma (MTG)
-subtitle:  '{{< meta pagetitle >}}'
+subtitle:  ' Microrobots Targeting Glioblastoma (MTG)'
 keywords: [dfolio, projects, research, activities, microrobot]
 description: >
   Understand the Glioblastoma, to allow its destruction with magnetic microbots loaded with NFL peptide...
 toc: false
 bibliography: [../references.bib]
+categories: [projects, research]
 ---
 
 # Microbots to kill Glioblastoma 
