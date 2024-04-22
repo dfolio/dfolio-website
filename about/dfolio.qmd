@@ -47,7 +47,7 @@ Since 2008
 
     Affiliation:
     :   {{< var INSA-CVL >}}, University of Orléans, 
-        {{< var PRISME-Laboratory >}} EA4229, Bourges, France.
+        {{< var PRISME-Laboratory >}} UR 4229, Bourges, France.
 
     [Teaching](/teaching/index.qmd):
     :   Member of the teaching team of the Industrial Risk Control 
