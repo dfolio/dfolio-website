@@ -239,16 +239,15 @@ $font-sizes: (
 );
 // scss-docs-end font-sizes
 // border colors
-$border-color: lighten($body-color, 30%) !default;
-$table-border-color: $border-color !default;
-$border-width: 2px;
-$border-radius: 4px !default;
+$border-color:        lighten($body-color, 30%) !default;
+$table-border-color:  $border-color !default;
+$border-width:        2px;
+$border-radius:       4px !default;
 
 // Buttons
-$input-btn-padding-y:         .25rem ;
-$input-btn-padding-x:         .5rem ;
-$input-btn-line-height:       $line-height-base * 0.66;
-
+$input-btn-padding-y:   .25rem ;
+$input-btn-padding-x:   .5rem ;
+$input-btn-line-height: $line-height-base * 0.66;
 
 // Figures
 $caption-font-size:    $font-size-sm;
@@ -257,10 +256,10 @@ $list-group-item-padding-y: $spacer * 0.25 !default;
 
 /* Callout customization */
 // Formatting
-$callout-border-width: 5px !default;
-$callout-border-scale: 0% !default;
-$callout-icon-scale: 10% !default;
-$callout-margin-top: 1.25rem !default;
+$callout-border-width:  5px !default;
+$callout-border-scale:  0% !default;
+$callout-icon-scale:    10% !default;
+$callout-margin-top:    1.25rem !default;
 $callout-margin-bottom: 1.25rem !default;
 
 // Navbar
@@ -272,7 +271,6 @@ $navbar-default: if(
 
 
 /*-- scss:mixins --*/
-
 
 @mixin text-shadow-sm($color) {
   text-shadow: 0 0 1px rgba($color, .3), 0 0 2px rgba($color, .3), 0 0 5px rgba($color, .2);
@@ -470,6 +468,11 @@ img.zoom{
     transform:scale(1.5);
   }
 }
+.figure,
+.gslside-media, 
+.gslide-image{
+  background-color: $white;
+}
 
 
 @media print {
@@ -480,7 +483,6 @@ img.zoom{
   .nav-footer{  
     display: none;
   }
-  
   dt{@include make-col(2);}
   dd{@include make-col(10);}
 }
