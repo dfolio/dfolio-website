@@ -11,7 +11,7 @@ description: >
 bibliography: [../../references.bib,../../dfolio.bib]
 image: /images/research/microrobotic_biomedical.webp
 categories: 
-  - Biomedical
+  - Biomedical application
   - Microrobotics
 ---
 

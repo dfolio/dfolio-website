@@ -14,7 +14,7 @@ author-block: true
 categories: 
   - Microrobotics
   - Magnetic microrobots
-  - Biomedical
+  - Biomedical application
 ---
 
 **Microbotics** is commonly referred to the branch of robotics, which
