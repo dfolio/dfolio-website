@@ -75,7 +75,7 @@ copyright:
 categories: 
   - US imaging
   - Tracking
-image: images/publications/2022botrosICRA.webp
+image: /images/publications/2022botrosICRA.webp
 video:
   name: *title
   uploadDate: "2024-02-29 15:36:59.1709217419 +0100"
