@@ -1,5 +1,5 @@
 ---
-title: "List of research articles"
+title: "Research articles"
 #subtitle: "A few brief notes along the way"
 description: "List of research articles"
 #date-format: "MMMM D, YYYY" 
@@ -13,6 +13,7 @@ listing:
     contents:  
     - "/!(listing)*.qmd"
     - "*/*.qmd"
+    - "../publications/*/*.qmd"
     sort: "date desc"
     fields: [image, date, title, reading-time, categories, description]
     type: default
