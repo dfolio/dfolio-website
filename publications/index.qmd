@@ -48,7 +48,7 @@ image: /images/logo-df.webp
 image-alt: "D. F. logo"
 image-width: 80%
 image-height: 80%
-categories: [dfolio, research, bibliography]
+categories: [research, bibliography]
 ---
 
 :::{.callout-note}
