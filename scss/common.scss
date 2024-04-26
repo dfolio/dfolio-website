@@ -288,9 +288,8 @@ $navbar-default: if(
 }
 
 main.content{
-  .url, .download-link{
+  .url, .download-link, .external{
     color: $link-color;
-    text-decoration: none;
     font-weight: $font-weight-medium;
     &:hover{
       text-decoration: $link-decoration;
@@ -469,18 +468,34 @@ img.zoom{
   }
 }
 .figure,
-.gslside-media, 
+.gslside-media,
 .gslide-image{
   background-color: $white;
 }
+/*biblio*/
+.bib-title,
+.bib-inbooktitle{}
 
-
+.bib-journal,
+.bib-booktitle,
+.bib-collectiontitle,
+.bib-proceedingtitle{
+  font-style: italic;
+}
+.bib-date{
+  font-weight: $font-weight-bold;
+}
+.bib-note{
+  color: $text-muted;
+  font-size: $font-size-sm;
+}
+/*print*/
 @media print {
   #quarto-header,
   #footer-block,
   .page-navigaton,
   .giscus,
-  .nav-footer{  
+  .nav-footer{
     display: none;
   }
   dt{@include make-col(2);}
