@@ -27,13 +27,20 @@ self.addEventListener('install', (event) => {
     ])
   );
 });
-
+self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (event) => {
+  self.clients.matchAll({ type: 'window' }).then(windowClients => {
+    for (let windowClient of windowClients) {
+      // Force open pages to refresh, so that they have a chance to load the
+      // fresh navigation response from the local dev server.
+      windowClient.navigate(windowClient.url);
+    }
+  });
   event.waitUntil(enableNavigationPreload());
 });
 
 self.addEventListener("fetch", (e) => {
-  if (!(e.request.url.startsWith('http'))) return;
+  if (!(e.request.url.startsWith('http')) || (e.request.url.startsWith('http://localhost'))) return;
   e.respondWith(
     (async () => {
       const r = await caches.match(e.request);
