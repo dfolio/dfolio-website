@@ -74,17 +74,16 @@ But without guarantees that it will be up-to-date as mush as it will be on <http
 :::
 
 ::: column-page
-# Welcome to dfolio' personal website ?
+# Welcome to dfolio' personal website
 ::: {.content-visible unless-profile="free"}
-This is the new version of my  personal webpage.
+This is the new version of my personal webpage.
 :::
-You can find on this site an overview of my activities as Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
-These activities include my [researches](/research/index.qmd) and [teaching](/teaching//index.qmd).
-
-You may also find some more personal (public) stuff that I would share on a regular basis.
+This website provides an overview of my activities as an Associate Professor ([Dr. Habil](publications/thesis/folio2021hdr.qmd)) at [INSA Centre Val de Loire](http://www.insa-centrevaldeloire.fr/en){.url rel="noopener noreferrer" lang="fr"}.
+These activities include my [research](/research/index.qmd) and [teaching](/teaching//index.qmd).
+\
+Additionally, one may also find some [more personal](posts/index.qmd) content that I want to share to a global audience, justifying the fact that my website is primarily in English, despite my French nationality.
 :::
 
 ::: {#index-links .column-screen-inset-right}
 
-              
 :::
