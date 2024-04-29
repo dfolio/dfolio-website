@@ -121,3 +121,4 @@ Nevertheless, it remains that the management of plural forms is not yet possible
 In my opinion, the only way that may allow such functionality is to define some specific (`R`) function (or a specific package?).
 
 > **Edit**: I found recently this package <https://github.com/yonicd/glossaries> (but not curently tested)
+
