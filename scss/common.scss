@@ -167,34 +167,33 @@ $spacer: 1rem !default;
 $sidebar-width:         500px !default;
 //$grid-body-width:       900px !default;
 
-
 // Body
 $body-text-align:           null !default;
-$body-color:                $gray-900 !default;
+$body-color:                $gray-900;
 $body-bg:                   $white !default;
-
-$body-secondary-color:      rgba($body-color, .75) !default;
+$body-secondary-color:      rgba($body-color, .8);
 $body-secondary-bg:         $gray-200 !default;
-
-$body-tertiary-color:       rgba($body-color, .5) !default;
+$body-tertiary-color:       rgba($body-color, .6) !default;
 $body-tertiary-bg:          $gray-100 !default;
-
-$body-emphasis-color:       $black !default;
-
-$text-muted: lighten($body-color, 30%) !default;
+$body-emphasis-color:       $dark;
+$text-muted:                lighten($body-color, 30%) !default;
 //title-block
-$title-banner-color: $primary-text-emphasis;
-$title-banner-bg: $body-bg;
+$title-banner-color:        $primary-text-emphasis;
+$title-banner-bg:           $body-bg;
 //link
 $link-decoration:           underline;
-$link-color: if(
-  $link-color == $primary,
-  theme-override-value($theme-name, "link-color", $link-color),
-  $link-color
-);
-$link-shade-percentage:                   20% !default;
-$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
-$link-hover-decoration:                   null !default;
+$link-color: if($link-color == $primary,
+                theme-override-value($theme-name, "link-color", $link-color),
+                $link-color);
+$link-shade-percentage:     20% !default;
+$link-hover-color:          shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:     null !default;
+// Inline code Formatting
+$code-inline-bg:            rgba($body-secondary-bg,.8);
+$code-bg:                   rgba($body-emphasis-color,.4);
+$code-color:                rgba($body-emphasis-color,.8);
+$pre-bg:                    $code-bg;
+$pre-color:                 $code-color;
 
 // Fonts
 // stylelint-disable value-keyword-case
@@ -331,6 +330,14 @@ main.content{
     text-align:  $spacer;
     padding-right: $spacer;
   }
+  p code:not(.sourceCode),
+  li code:not(.sourceCode),
+  td code:not(.sourceCode) {
+  @if variable-exists(mono-background-color) {
+    background-color: $mono-background-color;
+  } @else if variable-exists(code-bg) {
+    background-color: $code-inline-bg;
+  }}
 }
 
 #title-block-header{

@@ -9,17 +9,21 @@ title-block-banner: true
 title-block-meta: true
 # Default for table of contents
 toc: true
-toc-title: Contents
+#toc-title: Contents
 toc-location: left
 
+minimal: false
+highlight-style: github
+#highlight-style: pygments
+code-copy: true
 code-fold: show
 #code-summary: "Toggle the code"
-code-tools: false
+code-tools: true
 #code-line-numbers: true
-#code-link: true
+code-link: true
 #code-overflow: wrap
-
-
+code-block-background: true
+code-block-border-left: true
 # Default knitr options
 execute:
   freeze: true
@@ -28,7 +32,7 @@ execute:
 author:
   name: David Folio
   orcid: 0000-0001-9430-6091
-  email: david.folio@insa-cvl.fr
+  #email: david.folio@insa-cvl.fr
   url:  https://dfolio.fr/about/dfolio.html
   alternate: ["dfolio", "David Folio"]
   jobTitle: "Senior associate professor"

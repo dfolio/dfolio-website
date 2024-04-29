@@ -83,14 +83,10 @@ $sidebar-hl:      rgba($body-color, .6);
 // Footer
 $footer-bg:       if(variable-exists(navbar-bg), $navbar-bg, rgba($body-color,.8));
 $footer-fg:       if(variable-exists(navbar-fg), $navbar-fg, rgba($body-bg,.8));
-
-
-// Set a default body emphasis color
-$code-bg: rgba($body-emphasis-color,.4);
 // Footnotes
-$footnotes-rule: 2px solid $dark;
-$caption-color:        $dark;
-$text-shadow: 0 1px 0 rgba($body-color, .6) !default;
+$footnotes-rule:  2px solid $dark;
+$caption-color:   $dark;
+$text-shadow:     0 1px 0 rgba($body-color, .6) !default;
 //
 /*-- scss:mixins --*/
 
