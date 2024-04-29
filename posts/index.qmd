@@ -24,6 +24,10 @@ listing:
     contents:  "2023/*"
     sort: "date desc"
     fields: [image, date, title, reading-time, categories, description]
+  - id: posts-2024
+    contents:  "2024/*"
+    sort: "date desc"
+    fields: [image, date, title, reading-time, categories, description]
     
   - id: posts-2018
     contents:  "2018/*"
@@ -35,7 +39,13 @@ aliases:
 canonical-url: https://dfolio.fr/posts/index.html
 ---
 
-### 2023
+### 2024
+
+:::{#posts-2024}
+:::
+
+
+### 2024
 
 :::{#posts-2023}
 :::
