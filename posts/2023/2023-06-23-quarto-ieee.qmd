@@ -49,6 +49,10 @@ format:
   ieee-pdf: default
 ```
 
+:::{.callout-note}
+It is my hope that [quarto-ieee] will prove useful in the creation of your own IEEE article. Should this be the case, I would be grateful if you would share your feedback in the comments section below.
+:::
+
 
 [quarto-journal]: https://github.com/quarto-journals/
 [quarto-ieee]: https://github.com/dfolio/quarto-ieee/

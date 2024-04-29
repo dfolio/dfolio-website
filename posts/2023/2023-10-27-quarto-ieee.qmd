@@ -26,6 +26,10 @@ This release also support both ![Quarto-1.3](https://img.shields.io/badge/quarto
 
 You can access a local evaluation of the [`quarto-ieee`] template [in PDF](https://github.com/dfolio/quarto-ieee/blob/main/template.pdf) as well as  [in HTML](https://htmlpreview.github.io/?https://github.com/dfolio/quarto-ieee/blob/master/template.html).
 
+:::{.callout-note}
+It is my hope that [quarto-ieee] will prove useful in the creation of your own IEEE article. Should this be the case, I would be grateful if you would share your feedback in the comments section below.
+:::
+
 [quarto-listing]: https://quarto.org/docs/extensions/listing-journals.html
 [quarto-extensions]: https://quarto.org/docs/extensions/
 [quarto-journal]: https://github.com/quarto-journals/
