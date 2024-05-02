@@ -338,6 +338,11 @@ main.content{
   } @else if variable-exists(code-bg) {
     background-color: $code-inline-bg;
   }}
+
+  .code-annotation-anchor{
+    border-radius: 50%;
+    font-size: 50%;
+  }
 }
 
 #title-block-header{
@@ -480,6 +485,13 @@ img.zoom{
   background-color: $white;
 }
 /*biblio*/
+.bib-me{
+  font-weight: $font-weight-bolder;
+}
+.bib-supervised{
+  font-weight: $font-weight-semibold;
+  text-decoration: underline;
+}
 .bib-title,
 .bib-inbooktitle{}
 
@@ -490,7 +502,7 @@ img.zoom{
   font-style: italic;
 }
 .bib-date{
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-bolder;
 }
 .bib-note{
   color: $text-muted;
