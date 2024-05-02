@@ -133,3 +133,8 @@ print(ieee_style$setIndex(bib[entrysubtype="COM"]))# .opts = list(check.entries 
 #| echo: false
 print(ieee_style$setIndex(bib[bibtype="thesis"]))
 ```
+
+# Acknowledgments {.appendix}
+:::{.callout-note}
+This page references was generated using the [RefManageR](https://docs.ropensci.org/RefManageR/  "RefManageR package") package with a custom bibliography style. Some information is published in the [post issued 2024/04/29](../posts/2024/2024-04-29_refmanager.qmd).
+:::

@@ -17,8 +17,8 @@ supervised <- data.frame(person=c(person("Karim", "Belharet", role=c("aut", "dgs
                                   person("Bruno", "Sarkis", role=c("aut", "dgs")),
                                   person("Jiaen", "Wu", role=c("aut", "dgs")),
                                   person("Ruipeng", "Chen", role=c("aut", "dgs")),
-                                  person("Karim", "Botros", role=c("aut", "dgs"))))
-                         #end  =c("2014", "2015", "2013", "2022", "2030")),
+                                  person("Karim", "Botros", role=c("aut", "dgs"))),
+                         end  =c("2014", "2017", "2013", "2017", "2017", "2017",  "2022", "2019", "2023", "2023", "2030"))
 
 
 
@@ -95,10 +95,22 @@ with(ieee_style,
            if (length(x[[i]]$author)>1){
              me_idx<-match(dfolio$family,x[[i]]$author$family)
              x[[i]]$author[me_idx] <- dfolio
+
+             aut_idx<-Reduce(`|`, lapply(supervised$person$family, grepl, x =x[[i]]$author$family)) &
+               Reduce(`|`, lapply(supervised$person$given, grepl, x =x[[i]]$author$given))
+
+             if (length(x[[i]]$author$family[aut_idx])){
+               sup_idx2<-Reduce(`|`, lapply(x[[i]]$author$family[aut_idx], grepl, x =supervised$person$family))
+               sup_idx3<- sup_idx2 & supervised$end > x[[i]]$date
+               sup<-supervised
+               sup$person[!sup_idx3]$role <- c("aut")
+               sup<-sup$person[sup_idx2]
+               # cat("[",i,"]idx1: ", aut_idx, "(",length(x[[i]]$author$family[aut_idx]),")",
+               #     "; dx2: ", sup_idx2, "\n" )
+               if (length(sup))
+                x[[i]]$author[aut_idx]<-rev(sup)
+             }
            }
-           sup_idx1<-Reduce(`|`, lapply(supervised$person$family, grepl, x =x[[i]]$author$family)) & Reduce(`|`, lapply(supervised$person$given, grepl, x =x[[i]]$author$given))
-           sup_idx2<-Reduce(`|`, lapply(x[[i]]$author$family[sup_idx1], grepl, x =supervised$person$family))
-           x[[i]]$author[sup_idx1]<-rev(supervised$person[sup_idx2])
            authors <- paste0(vapply(x[[i]]$author, shortNameLF, ""), collapse = '')
          }
          if (authors == ''){

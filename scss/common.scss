@@ -197,19 +197,19 @@ $pre-color:                 $code-color;
 
 // Fonts
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",  system-ui, -apple-system;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-family-serif:     MJXZERO, MJXTEX, "Noto Serif","Times New Roman",Times, serif;
 // stylelint-enable value-keyword-case
 $font-family-base:            $font-family-sans-serif !default;
 $font-family-code:            $font-family-monospace !default;
 // stylelint-enable value-keyword-case
-$font-size-base:        1rem !default; // Assumes the browser default, typically `16px`
-$font-size-sm:          $font-size-base * .875 !default;
-$font-size-min:         0.75rem;
-$font-size-foot:        max(($font-size-base * .875), $font-size-min);
-$font-size-footnote:    max(($font-size-base * .75), $font-size-min);
-$line-height-base:      1.5 !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-min:               0.75rem;
+$font-size-foot:              max(($font-size-base * .875), $font-size-min);
+$font-size-footnote:          max(($font-size-base * .75), $font-size-min);
+$line-height-base:            1.5 !default;
 
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
@@ -490,7 +490,7 @@ img.zoom{
 }
 .bib-supervised{
   font-weight: $font-weight-semibold;
-  text-decoration: underline;
+  text-decoration: $green wavy underline;
 }
 .bib-title,
 .bib-inbooktitle{}
