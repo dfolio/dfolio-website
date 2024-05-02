@@ -285,21 +285,31 @@ $navbar-default: if(
     url(https://cdn.scite.ai/assets/fonts/scite-icons/scite-icons.woff2?v=5)
     format('woff2');
 }
+%ahover {
+  text-decoration: $link-decoration!important;
+}
+
+.url, .download-link, .external{
+  color: $link-color;
+  //font-weight: $font-weight-medium;
+  text-decoration: inherit;
+  &:hover{
+    color: inherit;
+    @extend %ahover;
+  }
+}
+a:not([class]),
+.internal {
+  //color: inherit;
+  text-decoration: none!important;
+  &, &:hover{
+    @extend %ahover;
+  }
+}
+
+a.orcid{ i {color: $success;}}
 
 main.content{
-  .url, .download-link, .external{
-    color: $link-color;
-    font-weight: $font-weight-medium;
-    &:hover{
-      text-decoration: $link-decoration;
-    }
-  }
-  a {
-    text-decoration: none;
-    &:not([href]), &:not([class]){
-      @extend .url;
-    }
-  }
   dl {
     @include make-container();
     @include make-row();
@@ -344,7 +354,6 @@ main.content{
     font-size: 50%;
   }
 }
-
 #title-block-header{
   .quarto-title-banner{
     margin-bottom: $spacer/4;
@@ -358,21 +367,29 @@ main.content{
       padding-bottom: $spacer/4;
     }
   }
-  .quarto-title-author-orcid {
-    i{color: $success;}
-  }
   .quarto-title-links{
     margin-top: $spacer;
     .btn{font-weight: $font-weight-bold;}
   }
-  .keywords{
-    margin-top: $spacer;
-    opacity: 0.8;
-    .keywords-title{
-      text-transform: uppercase;
-      font-size: 0.8em;
+  .abstract-block{
+    border-left: 1px solid $primary;
+    padding-left: $spacer;
+    .abstract{
+      font-size: 0.9em;
+      .abstract{
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+      }
+    }
+    .keywords{
+      margin-top: $spacer;
       opacity: 0.8;
-      font-weight: $font-weight-bold;
+      .keywords-title{
+        text-transform: uppercase;
+        font-size: 0.8em;
+        opacity: 0.8;
+        font-weight: $font-weight-bold;
+      }
     }
   }
   .list-group-horizontal{
@@ -381,7 +398,15 @@ main.content{
       text-wrap: nowrap;
     }
   }
-
+  a.url {
+    text-decoration: inherit;
+    &:hover {
+       @extend %ahover;
+    }
+  }
+  .date {
+    font-weight: $font-weight-bolder;
+  }
 }
 #footer-block{
   @include media-breakpoint-up(sm) {
@@ -412,6 +437,9 @@ main.content{
   .quarto-footer-meta-contents {
     a {
       color: $body-color;
+      &:hover {
+       @extend %ahover;
+      }
     }
   }
   .quarto-footer-meta-author {
@@ -460,7 +488,7 @@ h1.title {
   margin-top: 0;
 }
 .supervised{
-  text-decoration: underline;
+  text-decoration: wavy underline;
 }
 .references{
   font-size: $font-size-sm;
