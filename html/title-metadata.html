@@ -12,7 +12,7 @@ $if(by-affiliation/first)$
   <div class="quarto-title-meta-contents">
     $for(by-author.affiliations)$
     <p class="affiliation">
-      $if(it.url)$<a href="$it.url$" class="url" rel="noopener noreferrer">$endif$$it.name$$if(it.url)$</a>$endif$
+      $if(it.url)$<a href="$it.url$" class="url external" rel="noopener noreferrer">$endif$$it.name$$if(it.url)$</a>$endif$
     </p>
     $endfor$
   </div>
@@ -20,7 +20,6 @@ $if(by-affiliation/first)$
   $endfor$
 </div>
 $endif$
-
 $if(by-affiliation)$
 $elseif(by-author)$
 <div class="quarto-title-meta by-author">
@@ -34,7 +33,6 @@ $elseif(by-author)$
   </div>
 </div>
 $endif$
-
 <div class="quarto-title-meta date">
 $if(date)$
   <div class="quarto-title-meta-heading">$labels.published$</div>
@@ -56,12 +54,11 @@ $if(date-modified)$
   -->
 $endif$
 </div>
-
 $if(links)$
 <div class="quarto-title-links">
   <ul class="list-group list-group-horizontal fs-7">
 $for(links)$
-  <li class="list-group-item px-1"><a rel="nofollow noopener noreferrer" href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">$if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a></li>
+  <li class="list-group-item px-1"><a rel="$if(links.rel)$$links.rel$$else$nofollow noopener noreferrer$endif$" href="$links.href$"$if(links.class)$ class="$links.class$"$endif$ title="$if(links.title)$$links.title$$else$Access the $links.name$$endif$">$if(links.icon)$<i class="$links.icon$" rel="img"$if(links.aria-label)$ aria-label="$links.aria-label$"$endif$></i>$endif$ $links.name$</a></li>
 $endfor$
 </ul>
 $if(scite-badge)$$if(doi)$
@@ -73,14 +70,14 @@ $elseif(doi)$
   <div class="quarto-title-meta-heading">$labels.doi$</div>
   <div class="quarto-title-meta-contents">
     <p class="doi">
-      <a href="https://doi.org/$doi$">$doi$</a>
+      <a href="https://doi.org/$doi$" rel="noopener noreferrer">$doi$</a>
     </p>
   </div>
 </div>
 $endif$
 $if(hide-abstract)$
 $elseif(abstract)$
-<div>
+<div class="abstract-block">
   <div class="abstract">
     <div class="abstract-title">$labels.abstract$</div>
     $abstract$
@@ -88,11 +85,15 @@ $elseif(abstract)$
   $if(keywords)$<div class="keywords"><span class="keywords-title">Keywords:</span> $for(keyword)$$keyword$$sep$, $endfor$</div>$endif$
 </div>
 $elseif(citation.abstract)$
-<div>
+<div class="abstract-block">
   <div class="abstract">
     <div class="abstract-title">$labels.abstract$</div>
     $citation.abstract$
   </div>
   $if(citation.keyword)$<div class="keywords"><span class="keywords-title">Keywords:</span> $citation.keyword$</div>$endif$
+</div>
+$elseif(keywords)$
+<div class="abstract-block">
+  $if(keywords)$<div class="keywords"><span class="keywords-title">Keywords:</span> $for(keyword)$$keyword$$sep$, $endfor$</div>$endif$
 </div>
 $endif$

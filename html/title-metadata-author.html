@@ -1,7 +1,1 @@
-$if(it.url)$<a href="$it.url$">$endif$$it.name.literal$$if(it.degrees)$, $for(it.degrees)$$it$$sep$, $endfor$$endif$$if(it.url)$</a>$endif$$if(it.email)$ <a href="mailto:$it.email$" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a>$endif$ $if(it.orcid)$<a href="https://orcid.org/$it.orcid$" class="quarto-title-author-orcid"> <i class="ai ai-orcid" aria-label="orcid"></i></a>$endif$$if(by-author.attributes.corresponding)$<i class="bi bi-person-gear" aria-label="corresponding author"></i>$endif$
-
-<!--
-    $if(by-author.url)$<a href="$by-author.url$">$endif$$if(by-author.name.literal)$$by-author.name.literal$$endif$$if(by-author.url)$</a>$endif$
-    $if(by-author.orcid)$<a href="https://orcid.org/$by-author.orcid$" class="quarto-title-author-orcid"> <i class="ai ai-orcid" aria-label="orcid"></i></a>$endif$
-    $if(by-author.attributes.corresponding)$<i class="bi bi-person-gear" aria-label="corresponding author"></i>$endif$
--->
+$if(it.url)$<a href="$it.url$" rel="noopener noreferrer" class="url">$endif$$it.name.literal$$if(it.degrees)$, $for(it.degrees)$$it$$sep$, $endfor$$endif$$if(it.url)$</a>$endif$$if(it.orcid)$<a href="https://orcid.org/$it.orcid$" rel="noopener noreferrer" class="url orcid"> <i class="ai ai-orcid" aria-label="orcid"></i></a>$endif$$if(by-author.attributes.corresponding)$<i class="bi bi-person-gear" aria-label="corresponding author"></i>$endif$
