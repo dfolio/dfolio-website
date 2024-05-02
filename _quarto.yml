@@ -138,7 +138,10 @@ website:
     #         url:  "#"
       - icon: github
         href: https://github.com/dfolio
-        text: Dfolio GitHub
+        text: "Visit D. Folio GitHub profile"
+      - icon: bookmark-heart
+        href: https://github.com/sponsors/dfolio
+        text: "Sponsor D. Folio"
   sidebar:
     - id: about
       #collapse-level: 1
