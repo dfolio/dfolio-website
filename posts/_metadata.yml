@@ -16,11 +16,11 @@ minimal: false
 highlight-style: github
 #highlight-style: pygments
 code-copy: true
-code-fold: show
+#code-fold: show
 #code-summary: "Toggle the code"
-code-tools: true
+#code-tools: true
 #code-line-numbers: true
-code-link: true
+#code-link: true
 #code-overflow: wrap
 code-block-background: true
 code-block-border-left: true
@@ -28,6 +28,7 @@ code-block-border-left: true
 execute:
   freeze: true
 
+engine: knitr
 # Default author
 author:
   name: David Folio
