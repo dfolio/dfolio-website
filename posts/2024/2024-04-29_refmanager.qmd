@@ -22,7 +22,7 @@ code-annotations: select
 
 # Introduction
 
-As mentioned in a [previous post](2024-04-05_publications.qmd), it is important for an academic researcher or scientist to have an online presence and especially to share their research works and achievements with global audience.
+As mentioned in a [previous post](../2023/2023-08-17_publications.qmd), it is important for an academic researcher or scientist to have an online presence and especially to share their research works and achievements with global audience.
 On simple solution is to use academic social networks and scholarly literature databases, such as [{{< ai orcid title='orcid' >}} Orcid](https://orcid.org/0000-0001-9430-6091){.url rel="noopener noreferrer"}, [{{< ai clarivate title='clarivate' >}} Clarivate](https://www.webofscience.com/wos/author/record/D-5808-2013){.url rel="noopener noreferrer"} [(web-of-science)]{.smaller}, [{{< ai google-scholar title='google scholar' >}} Google Scholar](https://scholar.google.fr/citations?user=XQVc6JMAAAAJ){.url rel="noopener noreferrer"}, [{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=15924858900){.url rel="noopener noreferrer"}, [{{< ai academia >}} Academia](https://insa-centrevaldeloire.academia.edu/DavidFolio){.url rel="noopener noreferrer"}, [{{< ai researchgate title='researchgate' >}} ResearchGate](https://www.researchgate.net/profile/David_Folio){.url rel="noopener noreferrer"}...
 However, it may be preferable to share one's contributions on one's own website.
 \
@@ -30,7 +30,7 @@ I create [my website](http://dfolio.fr/) using [Quarto](https://quarto.org/) (se
 If you don't have a [Quarto website](https://quarto.org/docs/websites/), you can find many blogs that explain how to create a blog or personal website with [Quarto](https://quarto.org/).
 This guide is for anyone interested in learning how to create a [references page](../../research/references.qmd) like mine.
 
-A [previous post](2024-04-05_publications.qmd) shows how to use  [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings") to create a [publication list](../../publications/index.qmd "My publication page").
+A [previous post](../2023/2023-08-17_publications.qmd) shows how to use  [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings") to create a [publication list](../../publications/index.qmd "My publication page").
 This method is "_quite_" simple, but may be tedious if you have a lot of publications.
 
 Another simple solution, is to use [Pandoc] to render citations with [citeproc](https://pandoc.org/MANUAL.html#citations)[^citeproc].
