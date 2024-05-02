@@ -23,7 +23,7 @@ comments:
 :::{.grid}
 :::{#INSA-CVL .g-col-12 .d-md-block .g-col-md-6}
 
-##### **David Folio** {-}
+##### **David Folio** [{{< fa key title="gpg public key" >}}](/DavidFOLIO.asc){rel="nofollow" .download-link download="DavidFOLIO.asc"} {-}
 
 > - Born September 17, 1979
 > - French nationality
