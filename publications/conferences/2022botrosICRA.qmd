@@ -45,6 +45,7 @@ links:
     icon: "ai ai-hal"
     class: "btn btn-primary btn-sm"
     href: https://hal.archives-ouvertes.fr/hal-03758955
+    rel: noopener nofollow
 citation: 
   citation-key: 2022botrossICRA
   language: en-US

@@ -44,6 +44,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: /pdf/publications/2022folioTCST.pdf
+    rel: noopener nofollow
 citation:
   url: https://ieeexplore.ieee.org/document/9678101
   citation-key: 2022folioTCST

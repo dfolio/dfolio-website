@@ -14,5 +14,5 @@ holder.
 
 # Acknowledgments {.appendix}
 :::{.callout-note}
-This publication page was generated using [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings")  with a custom [EJS template](https://ejs.co/). Some information is published in the [post issued 2023-08-17](../posts/2023/2023-08-17_publications.qmd).
+This publication page was generated using [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings")  with a custom [EJS template](https://ejs.co/). Some information is published in the [post issued 2023-08-17](/posts/2023/2023-08-17_publications.qmd).
 :::

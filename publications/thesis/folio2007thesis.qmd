@@ -42,6 +42,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: https://dfolio.fr/pdf/folio2007thesis.pdf
+    rel: noopener nofollow
     
 citation: 
   citation-key: folio2007thesis

@@ -48,6 +48,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: /pdf/publications/2020chenRAS.pdf
+    rel: noopener nofollow
     
 citation:
   citation-key: 2020chenRAS

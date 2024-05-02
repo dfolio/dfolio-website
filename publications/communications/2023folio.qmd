@@ -20,6 +20,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-primary btn-sm"
     href: /pdf/publications/2023folio.pdf
+    rel: noopener nofollow
 citation: 
   issued: 2023-07-04
   container-title: "Journée de cohésion de l'INSA Centre Val de Loire"

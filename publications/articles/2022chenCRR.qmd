@@ -44,6 +44,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: /pdf/publications/2022chenCRR.pdf
+    rel: noopener nofollow
 citation: 
   citation-key: 2022chenMicromachines
   language: en-US

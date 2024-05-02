@@ -58,6 +58,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: "/pdf/publications/2021mellalRAL.pdf"
+    rel: noopener nofollow
 citation: 
   url: https://ieeexplore.ieee.org/document/9521741
   pdf-url: /pdf/publications/2021mellalRAL.pdf

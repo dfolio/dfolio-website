@@ -5,8 +5,7 @@
       <div class="publication-info">
       <span class="listing-date">(<%= item.date %>)</span>
       <span class="listing-author"><%= item.author %></span>:
-      <a href="<%- item.path %>"><span class="listing-title title fw-bold"><%= item.title %></span><% if (item.subtitle) { %>: <span class="listing-subtitle subtitle"><%= item.subtitle %></span><% } %></a>.
-
+      <a href="<%- item.path %>" class="internal"><span class="listing-title title fw-bold"><%= item.title %></span><% if (item.subtitle) { %>: <span class="listing-subtitle subtitle"><%= item.subtitle %></span><% } %></a>.
       <% if (item["container-title-short"]) { %>
           <span class="listing-publication fst-italic"><%= item["container-title-short"] %></span>.
       <% } else if (item.citation["container-title-short"]) { %>
@@ -33,44 +32,17 @@
       </div>
       <div class="publication-btn btn-toolbar" role="toolbar" aria-label="Links to publication">
       <ul class="list-group list-group-horizontal-md fs-7 mb-2">
-      <li class="list-group-item flex-fill px-1"><a href="<%- item.path %>" class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a></li>
-        <% if (item.links) { %>
-          <% for (const link of item.links) { %>
-          <li class="list-group-item flex-fill px-1"><a href="<%= link.href %>" target="_blank" rel="noopener noreferrer" class="<%- link.class %>" title="<%- link.name %> link"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a></li>
-          <% } %>
-           <% if (item.doi) { %>
-          <li class="d-none d-md-block flex-fill">
-            <div class="scite-badge" data-doi="<%= item.doi %>" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
-          </li>
-          <% } %>
-        <% } else { %>
-          <% if (item.doi) { %>
-            <a href="https://doi.org/<%= item.doi %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer"><i class="ai ai-doi"></i>&nbsp;DOI</a>
-          <% } %>
-          <% if (item.url) { %>
-            <a href="<%- item.url %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-link-45deg"></i>&nbsp;URL</a>
-          <% } %>
-          <% if (item.ieeexplore) { %>
-            <a href="https://ieeexplore.ieee.org/document/<%- item.ieeexplore %>" class="btn btn-success btn-sm" target="_blank" rel="noopener noreferrer" title="See document on ieeexplore"><i class="ai ai-ieee"></i>&nbsp;IEEE</a>
-          <% } %>
-          <% if (item.arxiv) { %><a href="https://arxiv.org/abs/<%- item.arxiv %>" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv"></i>&nbsp;arXiv</a>
-          <% } %>
-          <% if (item.hal_id) { %>
-            <a href="https://hal.archives-ouvertes.fr/<%- item.hal_id %>" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" title="See document on HAL"><i class="ai ai-hal"></i>&nbsp;HAL</a>
-          <% } %>
-          <% if (item.github) { %>
-            <a href="https://github.com/<%= item.github %>" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i>&nbsp;Code</a>
-          <% } %>
-          <% if (item.preprint) { %>
-            <a href="<%- item.preprint %>" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i>&nbsp;preprint</a>
-          <% } %>
-          <% if (item.pdf) { %>
-            <a href="<%- item.pdf %>" class="btn btn-danger btn-sm" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-pdf"></i>&nbsp;PDF</a>
-          <% } %>
-           <% if (item.materials) { %>
-            <a href="<%- item.materials %>" class="btn btn-light" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-zip"></i>&nbsp;Materials</a>
-          <% } %>
+        <li class="list-group-item flex-fill px-1"><a href="<%- item.path %>" class="btn btn-info btn-sm"><i class="bi bi-file-earmark-text"></i>&nbsp;Details</a></li>
+      <% if (item.links) { %>
+        <% for (const link of item.links) { %>
+        <li class="list-group-item flex-fill px-1"><a href="<%= link.href %>" target="_blank" rel="<% if (link.rel) { %><%- link.rel %><% } else { %>noopener noreferrer<% } %>" class="<%- link.class %>" title="<%- link.name %> link"><i class="<%- link.icon %>" rel="img" aria-label="<%- link['aria-label'] %>"></i>&nbsp;<%= link.name %></a></li>
         <% } %>
+         <% if (item.doi) { %>
+        <li class="d-none d-md-block flex-fill">
+          <div class="scite-badge" data-doi="<%= item.doi %>" data-layout="horizontal" data-tooltip-placement="right" data-show-zero="false" data-small="true" data-show-labels="false" data-tally-show="true"></div>
+        </li>
+        <% } %>
+      <% } %>
       </ul>
       </div>
     </li>

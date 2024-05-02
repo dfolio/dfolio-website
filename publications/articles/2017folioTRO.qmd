@@ -42,7 +42,8 @@ links:
     aria-label: "pdf"
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
-    href: "/pdf/publications/2017folioTRO.pdf"
+    href: "/pdf/publications/2017folioTRO.pdf"    
+    rel: noopener nofollow
   - name: "Materials"
     aria-label: "materials"
     icon: "fa fa-file-video"

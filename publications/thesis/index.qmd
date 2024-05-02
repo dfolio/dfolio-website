@@ -24,7 +24,7 @@ listing:
 date-format: "MMMM D, YYYY"
 title-block: true
 title-block-meta: false
-css: publications.css
+css: ../publications.css
 image: /images/logo-df.webp
 image-alt: "D. F. logo"
 image-width: 80%
@@ -37,16 +37,15 @@ breadcrumb:
   - name: "Theses"
     position: 2
     item: "https://dfolio.fr/publications/thesis/"
----
-
- 
+--- 
 ##  Theses  {#theses}
 
 ::: {#theses-list}
 :::
 
-
 :::{.callout-note}
 A more complete and formal list of [D. Folio](/about/dfolio.qmd "About David FOLIO") publications is available on the [references page](/research/references.qmd).\
 See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} from [{{< ai hal title='HAL archive ouverte' >}} HAL](https://hal.science/ "HAL open science"){rel="noopener noreferrer"}
+
 :::
+{{< include ../_footer.qmd >}}

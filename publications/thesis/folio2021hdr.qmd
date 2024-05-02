@@ -39,6 +39,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: https://dfolio.fr/pdf/folio2021hdr.pdf
+    rel: noopener nofollow
 citation: 
   citation-key: folio2021hdr
   type: thesis

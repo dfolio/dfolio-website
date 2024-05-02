@@ -49,6 +49,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: /pdf/publications/2019chenICRA-slides.pdf
+    rel: noopener nofollow
 citation: 
   issued: 2019-08-12
   container-title: "International Conference on Robotics and Automation (ICRA'2019)"
