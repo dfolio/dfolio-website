@@ -1,0 +1,261 @@
+---
+title: "Manage your references with RefManageR"
+description: "How to use RefManageR to manage your references, and how to adjust the bib-style."
+date: "2024-04-29 10:16:25.1687527239 +0200"
+image: https://docs.ropensci.org/RefManageR/logo.png
+image-alt: RefManageR logo
+categories: [article, bibliography, quarto] 
+links: 
+  - name: "References"
+    aria-label: "References"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-primary btn-sm"
+    href: ../../research/references.qmd
+  - name: "RefManageR"
+    aria-label: "RefManageR"
+    icon: "bi bi-box-arrow-up-right"
+    class: "btn btn-success btn-sm"
+    href: https://docs.ropensci.org/RefManageR/
+#highlight-style: pygments    
+code-annotations: select
+---
+
+# Introduction
+
+As mentioned in a [previous post](2024-04-05_publications.qmd), it is important for an academic researcher or scientist to have an online presence and especially to share their research works and achievements with global audience.
+On simple solution is to use academic social networks and scholarly literature databases, such as [{{< ai orcid title='orcid' >}} Orcid](https://orcid.org/0000-0001-9430-6091){.url rel="noopener noreferrer"}, [{{< ai clarivate title='clarivate' >}} Clarivate](https://www.webofscience.com/wos/author/record/D-5808-2013){.url rel="noopener noreferrer"} [(web-of-science)]{.smaller}, [{{< ai google-scholar title='google scholar' >}} Google Scholar](https://scholar.google.fr/citations?user=XQVc6JMAAAAJ){.url rel="noopener noreferrer"}, [{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=15924858900){.url rel="noopener noreferrer"}, [{{< ai academia >}} Academia](https://insa-centrevaldeloire.academia.edu/DavidFolio){.url rel="noopener noreferrer"}, [{{< ai researchgate title='researchgate' >}} ResearchGate](https://www.researchgate.net/profile/David_Folio){.url rel="noopener noreferrer"}...
+However, it may be preferable to share one's contributions on one's own website.
+\
+I create [my website](http://dfolio.fr/) using [Quarto](https://quarto.org/) (see the [history page](https://dfolio.fr/about/history.html#since-2023)).
+If you don't have a [Quarto website](https://quarto.org/docs/websites/), you can find many blogs that explain how to create a blog or personal website with [Quarto](https://quarto.org/).
+This guide is for anyone interested in learning how to create a [references page](../../research/references.qmd) like mine.
+
+A [previous post](2024-04-05_publications.qmd) shows how to use  [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings") to create a [publication list](../../publications/index.qmd "My publication page").
+This method is "_quite_" simple, but may be tedious if you have a lot of publications.
+
+Another simple solution, is to use [Pandoc] to render citations with [citeproc](https://pandoc.org/MANUAL.html#citations)[^citeproc].
+Put all references in a bibliographic data file (e.g., a `.bib` file), and to include `nocite` in the metadata front end,
+and add [div block with id `refs`](https://pandoc.org/MANUAL.html#placement-of-the-bibliography) in your references documents.\
+One disadvantage of this approach is that the references are not clearly distinguished or organized.
+
+:::{.callout-important title="Problem statement"}
+- Most editors only support [BibTeX] (regretfully), but I want the reference manager to support [BibLaTeX].
+- I want to organize the references in different categories.
+- Render formatted references in Markdown or in HTML (body only).
+- Manage the bibliography entries style and rendering.
+:::
+
+There are other methods for managing bibliography references, particularly if you already use [BibLaTeX] or [BibTeX].
+In particular, [Quarto] is a multi-language program that can use [Knitr](https://yihui.org/knitr/) to run [R code](https://quarto.org/docs/computations/r.html) (such as with [R-markdown](https://rmarkdown.rstudio.com/)) and also supports [Python](https://quarto.org/docs/computations/python.html), [Juia](https://quarto.org/docs/computations/julia.html) and [Observable JS](https://quarto.org/docs/computations/ojs.html) code blocks.
+I initially used [R-markdown](https://rmarkdown.rstudio.com/) when writing my [HDR], so I sought a solution with R code and discovered the [RefManageR] package.
+With this package, I manage my [references page](../../research/references.qmd).
+
+[^citeproc]: [CiteProc](https://en.wikipedia.org/wiki/CiteProc) is the generic name for programs that produce formatted bibliographies and citations based on the metadata of the cited objects and the formatting instructions provided by Citation Style Language (CSL) styles (from [Wikipedia](https://en.wikipedia.org/wiki/CiteProc)).
+
+
+:::{.callout-note}
+[Quarto] supports [Python code blocks](https://quarto.org/docs/computations/python.html), and there are many [BibTeX] Python parsers out there.
+I will investigate this solution later. For more information, see the blog of [Marcel Bollmann](https://marcel.bollmann.me/blog/turning-bibtex-into-bibliographies-with-python/).
+:::
+
+# Parsing Bib(La)TeX with RefManageR
+
+
+[RefManageR] provides tools for importing and working with bibliographic references.
+It can load [BibTeX] and [BibLaTeX] `.bib` files, and even connect to [NCBI](https://www.ncbi.nlm.nih.gov/), [CrossRef](https://www.crossref.org/), and [Zotero](https://www.zotero.org/) to import references.
+
+Once a `.bib` file is create or imported, it is then straightforward to import them in a R code:
+
+```r
+if(!require(RefManageR))
+  remotes::install_github("ropensci/RefManageR") 
+
+RefManageR::BibOptions(check.entries = FALSE, 
+                       style = "markdown",                            #<1>
+                       bib.style = "numeric",                         #<2>
+                       sorting = "ydnt",                              #<3>
+                       max.names=99)
+bib <- RefManageR::ReadBib("references.bib", .Encoding = "UTF-8", 
+                           check = 'warn')
+```
+1. The printing style here set to markdown.
+2. Specifying [BibLaTeX] style to use for formatting references.
+2. Set references sorting.
+
+
+`bib` contains all entries of the `.bib` files, and with a `print(bib)` all entries are printed (here in markdown style <button class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" aria-expanded="true">1</button>).
+It is quite easy to separate the bibliography entries, for example:
+
+```r
+# All Article entries type
+bibArticle <- bib[bibtype="Article"] 
+# All InProceeding entries of the year 2022
+bibInProceeding2022 <- bib[c(bibtype="InProceeding", year=2022)]
+```
+
+and the include `print(bibArticle)`,  `print(bibInProceeding2022)` properly in your references document, such as:
+
+````markdown
+## Articles
+
+```{{r bibArticle}}
+#| results: asis
+#| echo: false
+print(bibArticle)
+```
+````
+
+::::{.callout-tip}
+It is worth noting that it is possible to update certain statistical data on references in a dynamic manner.
+
+:::{#exm-length-bib}
+To illustrate, the following sentence will be updated dynamically (i.e. each time you update your `.bib` files and render your website) 
+
+```` markdown
+My scientific activities have led to  `{r} length(bib)` publications
+including `{r} length(bibArticle)` articles.
+````
+:::
+::::
+
+# Bibliography style
+
+[RefManager] offers five natives bibliography styles <button class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" aria-expanded="true">2</button>: `numeric`, `authoryear`, `authortitle`, `alphabetic` and `draft`.
+These options may be suitable for those seeking a basic bibliography style. 
+However, if a specific style is desired, it may be somewhat cumbersome to get it with [RefManager].
+
+## Custom bibliography style
+To create a custom bibliography style, with [RefManager], use the `bibstyle` function from the `tools` package (native in R).
+This function uses an environment to hold the functions implementing the style.
+[RefManager] has the `MakeBibLaTeX` and `MakeAuthorYear` (internal) functions that manage its native bibliography styles:
+
+```r
+my_style <- RefManageR:::MakeBibLaTeX()
+#
+# <<Put here your customization>>
+#
+tools::bibstyle("my", my_style)
+```
+
+## Add link to journal article's title using URL
+
+To manage journall article's title [RefManageR] use the `fmtJTitle` function.
+Just modify it according your taste, such as:
+
+```r
+refs$fmtJTitle=my_style$fmtJTitle
+with(my_style,
+     my_style$fmtJTitle <- function(t, st=NULL, url=NULL, class="title", quote=TRUE) {
+       if (length(t)){
+         res <- cleanupLatex(t)
+         if (length(st))
+           res <- paste0(addColon(res), (cleanupLatex(st)), collapse =' ')
+         if (quote)
+           res<-refs$fmtJTitle(res)
+         else
+           res<-addPeriod(res)
+         if (length(url))
+           fmtURI(label=res, uri=url, class=class)
+         else
+           fmtSetClass(res,class)
+       }
+     })
+```
+
+Next, [RefManageR] use the `formatArticle` function to render article entries:
+
+```r
+with(my_style,
+     my_style$formatArticle <- function(paper){
+       collapse(c(fmtPrefix(paper), fmtBAuthor(paper), 
+                  fmtJTitle(paper$title, paper$subtitle, url=paper$url),        #<1>
+                  fmtAddOn(paper$titleaddon), fmtLanguage(paper$language),
+                  fmtTranslator(paper), fmtCommentator(paper$commentator),
+                  fmtAnnotator(paper$annotator), fmtVersion(paper$version),
+                  sentenceP(paste0(c(fmtJournal(paper), fmtSeries(paper$series),
+                                     fmtVolume(paper$volume, paper$number),
+                                     fmtPages(paper$pages, paper$pagination),
+                                     fmtEditor(paper, suffix = NULL, prefix = '. ')),
+                                   collapse =' ', sep = ', '),
+                            fmtJournDate(paper),
+                            fmtBTitle(paper$issuetitle, paper$issuesubtitle, paper$url),
+                            fmtEditor(paper, suffix = NULL, prefix = '. '),
+                            sep = ''),
+                  fmtISSN(paper$issn), fmtDOI(paper$doi), fmtEprint(paper),
+                  fmtURL(paper), 
+                  fmtHAL(paper$hal_id),                                         #<2>
+                  fmtAddendum(paper$addendum), fmtNote(paper$note),
+                  fmtPubstate(paper$pubstate)
+                  ))
+     })
+```     
+1. Adapt `fmtJTitle` to use url field.
+2. The non-original Bib(La)TeX fields can be maintained and handled.
+
+It should be noted that any function  `fmtXXXX` can be tailored to suit specific requirements. 
+Moreover, a careful observer may notice that the order of the fields in the above `my_style$formatArticle` function differes from that proposed by [RefManageR].
+Oviously, it is possible to rearrange the order of the fields to align with the desired bibliography style.
+It is also possible to add or remove fields that are deemed unnecessary.
+
+:::{.callout-warning}
+If one really want to define a fully tailored bibliography style, it is then necessary to customize each entry, including
+`formatBook`, `formatInBook`, `formatInCollection`, `formatInProceedings`, and so on. 
+This process can be somewhat tedious.
+:::
+
+
+## Make DOI a link
+[RefManageR] renders <i class='ai ai-doi'></i> <abbr title="Digital object identifier">DOI</abbr> field as a simple string.
+To create a link, customize the `fmtDOI` function, for example, by adding the following code:
+
+```r
+with(my_style,
+     my_style$fmtDOI <- function(doi){
+       if (length(doi)){
+         enc.doi <- gsub("%", "\\\\%", URLencode(doi, reserved = TRUE))
+         fmtURI(label=doi, uri=paste0("https://doi.org/", enc.doi), 
+                prefix="\\{\\{< ai doi >\\}\\} ", class="doi")
+       }
+     })
+```
+
+:::{.callout-note}
+In the example above the {{< ai doi >}} icon from [Academicons](https://jpswalsh.github.io/academicons/) is used.
+Then, the [Academicons Extension for Quarto](https://github.com/schochastics/academicons) is here needed.
+:::
+
+## Auxilliary functions
+Here some functions which are not part of [RefManageR] and may be useful.
+
+```r
+addColon <- function(s){
+  if (!.is_not_nonempty_text(s) && grepl("([^.?!])$", s, useBytes = FALSE))
+    paste0(s, ":")
+  else
+    s
+}
+# Span a class arround a string
+fmtSetClass <- function(s, class, prefix="bib-"){
+  if (length(s))
+    paste0("[", s, "]\\{.",prefix, class,"\\}")
+}
+# Format an URI 
+fmtURI <- function(label, uri, prefix="", uri_prefix="", class="uri"){
+  if (length(uri))
+    fmtSetClass(paste0("[", prefix, label, "](",uri, ")\\{rel='noopener noreferrer'\\}."),class)
+}
+```
+
+:::{.callout-note}
+It is my hope that this simple tutorial will prove useful in the creation of your own references page.
+Should this be the case, I would be grateful if you would share your feedback in the comments section below.
+
+Additionally, the above tutorial is a simplified version of the one used on my website.
+If you would like to have supplementary tips, ask below.
+:::
+
+[RefManageR]:https://docs.ropensci.org/RefManageR/  "RefManageR package"
+[BibLaTeX]: https://ctan.org/pkg/biblatex "BibLaTeX package"
+[BibTeX]: https://ctan.org/pkg/bibtex "BibLaTeX package"
+
+{{< include ../_links.qmd >}}

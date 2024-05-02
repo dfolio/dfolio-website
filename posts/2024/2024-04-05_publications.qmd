@@ -1,0 +1,239 @@
+---
+title: "How to create a publication listing with Quarto"
+description: "The following instructions will guide the reader through the process of creating a publication listing in Quarto."
+date: "2024-04-05 10:16:25.1687527239 +0200"
+image: https://quarto.org/quarto.png
+image-alt: Quarto logo
+categories: [article, bibliography, quarto] 
+links: 
+  - name: "Publications"
+    aria-label: "publications"
+    icon: "bi bi-link-45deg"
+    class: "btn btn-primary btn-sm"
+    href: ../../publications/index.qmd
+  - name: "Quarto listing"
+    aria-label: "URL"
+    icon: "bi bi-box-arrow-up-right"
+    class: "btn btn-success btn-sm"
+    href: https://quarto.org/docs/websites/website-listings.html
+#highlight-style: pygments    
+---
+
+# Introduction
+
+As an academic researcher or scientist, it is important to have an online presence.
+With the advent of the internet, having a personal website has become more crucial than ever.
+A personal website serves as a platform to showcase research one's work and achievements to a global audience.
+It is possible to use academic social networks and scholarly literature databases, such as [{{< ai orcid title='orcid' >}} Orcid](https://orcid.org/0000-0001-9430-6091){.url rel="noopener noreferrer"}, [{{< ai clarivate title='clarivate' >}} Clarivate](https://www.webofscience.com/wos/author/record/D-5808-2013){.url rel="noopener noreferrer"} [(web-of-science)]{.smaller}, [{{< ai google-scholar title='google scholar' >}} Google Scholar](https://scholar.google.fr/citations?user=XQVc6JMAAAAJ){.url rel="noopener noreferrer"}, [{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=15924858900){.url rel="noopener noreferrer"}, [{{< ai academia >}} Academia](https://insa-centrevaldeloire.academia.edu/DavidFolio){.url rel="noopener noreferrer"}, [{{< ai researchgate title='researchgate' >}} ResearchGate](https://www.researchgate.net/profile/David_Folio){.url rel="noopener noreferrer"}...
+However, it may be preferable to share one's contributions on one's own website.
+
+The creation of [my website](http://dfolio.fr/) was based on [Quarto](https://quarto.org/) (see also the [history page](https://dfolio.fr/about/history.html#since-2023)).
+Should you not yet possess a [Quarto website](https://quarto.org/docs/websites/), you can find easily numerous blogs that provide instructions on how to create a blog or personal website with [Quarto](https://quarto.org/).
+Regardless of whether you are an experienced researcher or a novice, this guide is designed to provide some guidance to those interested in learning how to construct a [publication page](../../publications/index.qmd "My publication page") like mine.
+
+# Setting up your publication list with Quarto listing
+
+To generate my [publication page](../../publications/index.qmd "My publication page"), I utilize the [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings") functionality.
+Following [Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings"), you first have to define what documents are included in your publication listing by using the `contents` option.
+Hence, metadata in the front matter of the page listing you would write:
+
+``` {#lst-publication-front-matter .yaml}
+title: "My publications listing"
+listing:
+  - id: articles-list
+    contents: articles/20*.qmd
+    template: publications.ejs
+    [...]
+  - id: conferences-list
+    contents: conferences/20*.qmd
+    template: publications.ejs
+```
+
+::: callout-note
+I have chosen to organize my publications by category, i.e articles, conferences, communications, theses...
+Some may prefer to classify their publications by year.
+It's up to you.
+:::
+
+In the corresponding folder, create a [citeable Quarto document](https://quarto.org/docs/authoring/create-citeable-articles.html).
+Even if a classic [Quarto HTML document](https://quarto.org/docs/output-formats/html-basics.html) can be used, the use of a [citeable Quarto document](https://quarto.org/docs/authoring/create-citeable-articles.html) facilitates the citation of one's work by others.\
+This method implies to create a [citeable Quarto document](https://quarto.org/docs/authoring/create-citeable-articles.html) for each publication one's want to share and to be appeared in the publication listing.
+A young researcher with a limited number of publications may find this publication listing method to be relatively straightforward.
+However, for a senior researcher with a substantial number of publications, this method may appear somewhat cumbersome.
+In such cases, the publication list can be narrowed to a select number of publications.
+
+# Create/Use a template
+
+[Quarto listing](https://quarto.org/docs/websites/website-listings.html "Documentation about document Listings") use [EJS template](https://ejs.co/) to create [custom listing](https://quarto.org/docs/websites/website-listings-custom.html).
+A simple template for outputting a list of publication might look like:
+
+``` {.html filename="publications.ejs"}
+<ol class="list publication-list" reversed>
+<% for (const item of items) { %>
+  <li <%=metadataAttrs(item) %>>
+    <div class="publication-info">
+      <span class="listing-date">(<%= item.date %>)</span>
+      <span class="listing-author"><%= item.author %></span>.
+      <a href="<%- item.path %>">
+        <span class="listing-title"><%= item.title %></span>
+        <% if (item.subtitle) { %>: <span class="listing-subtitle subtitle"><%= item.subtitle %></span><% } %>
+      </a>.
+      <% if (item["container-title-short"]) { %>
+        <span class="listing-publication fst-italic"><%= item["container-title-short"] %></span>.
+      <% } else if (item.citation["container-title-short"]) { %>
+        <span class="listing-publication fst-italic"><%= item.citation["container-title-short"] %></span>.
+      <% } else if (item["container-title"]) { %>
+        <span class="listing-publication fst-italic"><%= item["container-title"] %></span>.
+      <% } else if (item.citation["container-title"]) { %>
+        <span class="listing-publication fst-italic"><%= item.citation["container-title"] %></span>.
+      <% } %>
+    </div>
+  </li>
+<% } %>
+</ol>
+```
+
+This basic publication template requires the presence of `date`, `author` and `title` (with eventually a `subtitle`) is the metadata front matter of each [citeable Quarto document](https://quarto.org/docs/authoring/create-citeable-articles.html).
+
+
+# Creating Content
+
+::: {#exm-publication-1}
+Below an example of metadata front matter of one of my publication.
+
+``` yaml
+type: journal
+date: 2022-11
+title: "Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs"
+description: | 
+  This paper theoretically investigates the modeling of  spherical catalytic 
+  self-phoretic magnetic Janus microrobot (MJR) evolving in uniform viscous flow.
+author:
+  - name: David Folio
+    orcid: 0000-0001-9430-6091
+    url: https://dfolio.fr
+    image: "https://dfolio.fr/images/david-folio.webp"
+    attributes:
+      corresponding: true
+      equal-contributor: true
+    affiliations:
+      - ref: PRISME
+  - name: Antoine Ferreira
+    url: https://www.researchgate.net/profile/Antoine-Ferreira
+    affiliations:
+      - ref: PRISME
+    attributes:
+      equal-contributor: true
+citation:
+  url: https://ieeexplore.ieee.org/document/9678101
+  citation-key: 2022folioTCST
+  type: article-journal
+  publisher: "IEEE"
+  container-title: "IEEE Transactions on Control Systems Technology"
+  container-title-short: "IEEE Trans. Cont. Syst. Technol."
+  issn: 1558-0865
+  number: 6
+  page: 2681-2688
+  volume: 30
+  keyword: Dual Kalman filtering, estimation, Janus particle, Kalman filters, magnetic microrobot, mathematical
+    models, modeling, propulsion, state-space representation
+  abstract: |      
+    The abstract go there
+```
+
+Depending on the CSS style, the output will be like
+
+```{=html}
+<ol class="list publication-list" reversed>
+<li data-index="2" data-categories="Magnetic microrobots,Modeling,Motion analysis,Optimization,Janus particles" data-listing-date-sort="1667257200000" data-listing-file-modified-sort="1712306684000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+      <div class="publication-info">
+      <span class="listing-date">(2022)</span>
+      <span class="listing-author">David Folio, Antoine Ferreira</span>:
+      <a href="https://dfolio.fr/publications/articles/2022folioTCST.html"><span class="listing-title title fw-bold">Modeling and Estimation of Self-Phoretic Magnetic Janus Microrobot With Uncontrollable Inputs</span></a>.
+          <span class="listing-publication fst-italic">IEEE Trans. Cont. Syst. Technol.</span>.
+      </div>
+    </li>
+</ol>
+```
+:::
+
+Finally, the [citeable Quarto document](https://quarto.org/docs/authoring/create-citeable-articles.html) body can include any information about the article.
+The basic content is to include the abstract, authors affiliation, acknowledgment, funding...
+If any of this information is included in metadata front end, its rendering can be automated using a proper [template](https://quarto.org/docs/journals/templates.html) or [partial](https://quarto.org/docs/journals/templates.html#html-partials).
+In my case, I have modified  the `title-block.html` partial, such that it displays, by default, only the title on each page of my website, and includes the metadata only on selected page where `title-block-meta` metadata is true:
+
+```{.html filename=title-block.html}
+<header id="title-block-header">
+<div class="quarto-title-banner">
+  <h1 class="title" itemprop="headline">$title$</h1>
+  $if(subtitle)$<p class="subtitle lead">$subtitle$</p>$endif$
+</div>
+$if(title-block-meta)$
+$title-metadata.html()$
+$endif$
+</header>
+```
+The `title-block-metadata.html` partial have then to handle the said metadata:
+
+```{.html filename=title-block.html}
+$if(by-affiliation/first)$
+<div class="quarto-title-meta-author by-affiliation">
+  <div class="quarto-title-meta-heading">$labels.authors$</div>
+  <div class="quarto-title-meta-heading">$labels.affiliations$</div>
+  $for(by-author)$
+  <div class="quarto-title-meta-contents">
+    <p class="author$if(by-author.attributes.supervised)$ supervised$endif$">
+    $title-metadata-author.html()$
+    </p>
+  </div>
+  $if(by-author.affiliations)$
+  <div class="quarto-title-meta-contents">
+    $for(by-author.affiliations)$
+    <p class="affiliation">
+      $if(it.url)$<a href="$it.url$" class="url" rel="noopener noreferrer">$endif$$it.name$$if(it.url)$</a>$endif$
+    </p>
+    $endfor$
+  </div>
+  $endif$
+  $endfor$
+</div>
+$endif$
+
+$if(by-affiliation)$
+$elseif(by-author)$
+<div class="quarto-title-meta by-author">
+  <div>
+    <div class="quarto-title-meta-heading">$labels.authors$</div>
+    <div class="quarto-title-meta-contents">
+      $for(by-author)$<p class="author$if(by-author.attributes.supervised)$ supervised$endif$">
+      $title-metadata-author.html()$
+      </p>$endfor$
+    </div>
+  </div>
+</div>
+$endif$
+
+$if(abstract)$
+<div>
+  <div class="abstract">
+    <div class="abstract-title">$labels.abstract$</div>
+    $abstract$
+  </div>
+  $if(keywords)$<div class="keywords"><span class="keywords-title">Keywords:</span> $for(keyword)$$keyword$$sep$, $endfor$</div>$endif$
+</div>
+$endif$
+```
+:::{.callout-tip}
+[Quarto] allows to define the metadata at different level: `_quarto.yml`, `_metadata.yml`, and document-level YAML options which are [merged together](https://quarto.org/docs/projects/quarto-projects.html#metadata-merging).
+Hence, for documents that share the same metadata, put them in `dir/_metadata.yml`.
+:::
+
+:::{.callout-note}
+It is my hope that this simple tutorial will prove useful in the creation of your own publication list.
+Should this be the case, I would be grateful if you would share your feedback in the comments section below.
+
+Additionally, the above  [EJS template](https://ejs.co/) is a simplified version of the one used on my website.
+If you would like to have supplementary tips, ask below.
+:::
+
+{{< include ../_links.qmd >}}
