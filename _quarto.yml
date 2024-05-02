@@ -10,6 +10,7 @@ project:
     - CNAME
     - netlify.toml
     - "ads.txt"
+    - "DavidFOLIO.asc"
     - "favicon.svg"
     - "images/favicons/*"
     - "images/index.html"
@@ -65,7 +66,7 @@ website:
   page-footer:
     border: false
     left: |
-        [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/index.qmd).]{.copyright aria-label="copyright"}
+        [&copy; 2004&ndash;2023, {{< fa at title="at" >}} [Folio David](/about/index.qmd) [{{< fa key title="gpg public key" >}}](/DavidFOLIO.asc).]{.copyright aria-label="copyright"}
         [[![](https://i.creativecommons.org/l/by/4.0/80x15.png "Creative Commons License"){fig-alt="CC by 4.0"}](/about/license.qmd "Site licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)")]{.d-none .d-lg-inline}
 #      © 2004–2023, <i class="fa-solid fa-at" title="at" aria-label="at"></i> <a href="https://dfolio.fr/about/index.html">Folio David</a>.
 #      <span class="d-none d-lg-inline"><a href="../about/license.html" title="Site licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)"><img src="https://i.creativecommons.org/l/by/4.0/80x15.png" title="Creative Commons License" alt="CC by 4.0"></a></span>
@@ -229,14 +230,13 @@ format:
     minimal: true
     from: markdown+emoji
     date-modified: last-modified
-    highlight: null
+    #highlight: null
     mathjax: null
     canonical-url: true
     html-math-method: plain
     default-image-extension: webp
     toc: true
     anchor-sections: true
-    code-copy: true
     crossrefs-hover: true
     footnotes-hover: true
     citations-hover: true
