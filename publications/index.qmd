@@ -120,4 +120,6 @@ See also my [CV](https://cv.hal.science/david-folio){rel="noopener noreferrer"} 
 :::
 :::
 
+
+
 {{< include _footer.qmd >}}

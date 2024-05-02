@@ -1,7 +1,7 @@
 ---
 title: "How to create a publication listing with Quarto"
 description: "The following instructions will guide the reader through the process of creating a publication listing in Quarto."
-date: "2024-04-05 10:16:25.1687527239 +0200"
+date: "2023-08-17 10:16:25.1687527239 +0200"
 image: https://quarto.org/quarto.png
 image-alt: Quarto logo
 categories: [article, bibliography, quarto] 
