@@ -18,11 +18,9 @@ image-width: 80%
 image-height: 80%
 ---
 
-
 ```{r bib-data}
 #| output: false
 source(file = "ieee_style.R")
-
 bibACL <- ieee_style$setIndex(bib[c(bibtype="Article",entrysubtype="!ACLN")])
 bibDO  <- ieee_style$setIndex(bib[entrysubtype="DO"])
 bibOS  <- ieee_style$setIndex(bib[entrysubtype="OS"])

@@ -579,4 +579,4 @@ with(ieee_style,
 
 tools::bibstyle("ieee", ieee_style)
 RefManageR::BibOptions(check.entries = FALSE, style = "markdown", sorting = "ydnt", max.names=99, bib.style = "ieee")
-bib <- RefManageR::ReadBib("/home/dfolio/Documents/WWW/dfolio-website/research/dfolio-md.bib", .Encoding = "UTF-8", check = 'warn')
+bib <- RefManageR::ReadBib("./dfolio-md.bib", .Encoding = "UTF-8", check = 'warn')
