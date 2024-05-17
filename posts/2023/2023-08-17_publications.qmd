@@ -4,7 +4,7 @@ description: "The following instructions will guide the reader through the proce
 date: "2023-08-17 10:16:25.1687527239 +0200"
 image: https://quarto.org/quarto.png
 image-alt: Quarto logo
-categories: [article, bibliography, quarto] 
+categories: [article, bibliography, quarto, Q&A] 
 links: 
   - name: "Publications"
     aria-label: "publications"

@@ -1,10 +1,10 @@
 ---
-title: "Manage your references with RefManageR"
+title: "Manage your references with RefManageR and Quarto"
 description: "How to use RefManageR to manage your references, and how to adjust the bib-style."
 date: "2024-04-29 10:16:25.1687527239 +0200"
 image: https://docs.ropensci.org/RefManageR/logo.png
-image-alt: RefManageR logo
-categories: [article, bibliography, quarto] 
+image-alt: "RefManageR logo"
+categories: [article, bibliography, quarto, Q&A] 
 links: 
   - name: "References"
     aria-label: "References"
@@ -16,10 +16,8 @@ links:
     icon: "bi bi-box-arrow-up-right"
     class: "btn btn-success btn-sm"
     href: https://docs.ropensci.org/RefManageR/
-#highlight-style: pygments    
 code-annotations: select
 ---
-
 # Introduction
 
 As mentioned in a [previous post](../2023/2023-08-17_publications.qmd), it is important for an academic researcher or scientist to have an online presence and especially to share their research works and achievements with global audience.
@@ -45,7 +43,7 @@ One disadvantage of this approach is that the references are not clearly disting
 - Manage the bibliography entries style and rendering.
 :::
 
-There are other methods for managing bibliography references, particularly if you already use [BibLaTeX] or [BibTeX].
+There are many methods for managing bibliography references, particularly if you already use [BibLaTeX] or [BibTeX].
 In particular, [Quarto] is a multi-language program that can use [Knitr](https://yihui.org/knitr/) to run [R code](https://quarto.org/docs/computations/r.html) (such as with [R-markdown](https://rmarkdown.rstudio.com/)) and also supports [Python](https://quarto.org/docs/computations/python.html), [Juia](https://quarto.org/docs/computations/julia.html) and [Observable JS](https://quarto.org/docs/computations/ojs.html) code blocks.
 I initially used [R-markdown](https://rmarkdown.rstudio.com/) when writing my [HDR], so I sought a solution with R code and discovered the [RefManageR] package.
 With this package, I manage my [references page](../../research/references.qmd).
@@ -202,7 +200,6 @@ If one really want to define a fully tailored bibliography style, it is then nec
 `formatBook`, `formatInBook`, `formatInCollection`, `formatInProceedings`, and so on. 
 This process can be somewhat tedious.
 :::
-
 
 ## Make DOI a link
 [RefManageR] renders <i class='ai ai-doi'></i> <abbr title="Digital object identifier">DOI</abbr> field as a simple string.
