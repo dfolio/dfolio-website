@@ -11,70 +11,159 @@ $theme: "dfolio-light" !default;
 
 // Color system
 
+// scss-docs-start gray-color-variables
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
+$gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+// scss-docs-end gray-color-variables
+/// INSA color
+$gray-INSA               : #5F5F61;
+$red-INSA                : #E32518;
+$blue-INSA               : #004C6F;
+$magenta-INSA            : #9B0D45;
+$cyan-INSA               : #208896;
+$tan-INSA                : #846B5C;
+$yellow-INSA             : #E29200;
 
-$blue:    #033c73 !default;
+// scss-docs-start color-variables
+$blue:    $blue-INSA;
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #c71c22 !default;
+$purple:  $magenta-INSA;
+$pink:    #d63384 !default;
+$red:     $red-INSA;
 $orange:  #fd7e14 !default;
-$yellow:  #dd5600 !default;
-$green:   #73a839 !default;
+$yellow:  $yellow-INSA ;
+$green:   #198754 !default;
 $teal:    #20c997 !default;
-$cyan:    #2fa4e7 !default;
+$cyan:    $cyan-INSA ;
+// scss-docs-end color-variables
 
-$primary:       $cyan !default;
-$secondary:     $gray-200 !default;
-$success:       $green !default;
-$info:          rgba($teal,0.8);
-$warning:       $orange !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+// scss-docs-start theme-color-variables
+$primary:       $blue;
+$secondary:     $gray-600;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+// scss-docs-end theme-color-variables
+// default color for $default since that's closer to bootstrap 3's default
+$default: if(variable-exists("secondary"), $secondary, $gray-300);
+// scss-docs-start theme-colors-map
 
-$min-contrast-ratio:   2.75 !default;
+// scss-docs-start theme-text-variables
+$primary-text-emphasis:   shade-color($primary, 20%);
+$secondary-text-emphasis: shade-color($secondary, 20%);
+$success-text-emphasis:   shade-color($success, 20%);
+$info-text-emphasis:      shade-color($info, 20%);
+$warning-text-emphasis:   shade-color($orange, 5%);
+$danger-text-emphasis:    shade-color($danger, 20%);
+$light-text-emphasis:     $gray-700 !default;
+$dark-text-emphasis:      $gray-700 !default;
+// scss-docs-end theme-text-variables
 
+// scss-docs-start theme-bg-subtle-variables
+$primary-bg-subtle:       tint-color($primary, 80%) !default;
+$secondary-bg-subtle:     tint-color($secondary, 80%) !default;
+$success-bg-subtle:       tint-color($success, 80%) !default;
+$info-bg-subtle:          tint-color($info, 80%) !default;
+$warning-bg-subtle:       tint-color($warning, 80%) !default;
+$danger-bg-subtle:        tint-color($danger, 80%) !default;
+$light-bg-subtle:         mix($gray-100, $white) !default;
+$dark-bg-subtle:          $gray-400 !default;
+// scss-docs-end theme-bg-subtle-variables
+
+// scss-docs-start theme-border-subtle-variables
+$primary-border-subtle:   tint-color($primary, 60%) !default;
+$secondary-border-subtle: tint-color($secondary, 60%) !default;
+$success-border-subtle:   tint-color($success, 60%) !default;
+$info-border-subtle:      tint-color($info, 60%) !default;
+$warning-border-subtle:   tint-color($warning, 60%) !default;
+$danger-border-subtle:    tint-color($danger, 60%) !default;
+$light-border-subtle:     $gray-200 !default;
+$dark-border-subtle:      $gray-500 !default;
+// scss-docs-end theme-border-subtle-variables
+// Gradient
+// scss-docs-start variable-gradient
+$gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
+// scss-docs-end variable-gradient
+$min-contrast-ratio:        2.75 !default;
 // Body
-$body-bg:               $light;
-$body-color:            $dark;
-$body-emphasis-color:   $gray-500;
+$body-color:                $dark;
+$body-bg:                   $light;
+$body-secondary-color:      shift-color(mix($secondary-text-emphasis,$primary),-10%);
+$body-secondary-bg:         shift-color($body-color, -60%);
+$body-tertiary-color:       shift-color($body-secondary-color, 20%);
+$body-tertiary-bg:          shift-color($body-secondary-bg, -40%);
+$body-emphasis-color:       shift-color($tan-INSA, 40%);
+$text-muted:                lighten($body-color, 30%);
+//title-block
+$title-banner-color:        $primary-text-emphasis;
+$title-banner-bg:           $body-bg;
+// Inline code Formatting
+$code-inline-bg:            rgba($body-secondary-bg,.2);
+$code-bg:                   $code-inline-bg;
+$code-color:                rgba($code-inline-bg,.9);
+$pre-bg:                    $code-bg;
+$pre-color:                 $code-color;
+$mono-background-color:     $code-bg;
+//link
+$link-decoration:           underline;
+$link-color:                $primary;
+$link-color: if($link-color == $primary,
+                theme-override-value($theme-name, "link-color", $link-color),
+                $link-color);
+$link-shade-percentage:     20% !default;
+$link-hover-color:          shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:     null !default;
+$link-transition:       color 0.5s;
+
+// List group
+$list-group-color: $gray-900 !default;
+$list-group-border-color: rgba($gray-600, 0.2);
+
+// border colors
+$border-color:        lighten($body-color, 30%) !default;
+$table-border-color:  $border-color !default;
 // Fonts
 // stylelint-enable value-keyword-case
 $headings-color:        darken($primary,25%);
 
-// Links
-// Style anchor elements.
-$link-color:            rgba(darken($primary,20%), .9);
-$link-decoration:       none;
-$link-shade-percentage: 30% !default;
-$link-hover-color:      shift-color($link-color, $link-shade-percentage) !default;
-//$link-hover-color:      darken($link-color, 15%) !default;
-$link-transition:       color 0.5s;
-
 // Dropdowns
 $dropdown-link-color:           $body-color !default;
-$dropdown-link-hover-color:     $white !default;
+$dropdown-link-hover-color:     $body-bg !default;
 $dropdown-link-hover-bg:        $primary !default;
 
 // Navbar
-$navbar-fg:      rgba($white, .8);
-$navbar-hl:      rgba($white, .9);
+$navbar-fg:                     rgba($body-bg, .9);
+$navbar-hl:                     rgba($body-bg, .9);
+$navbar-default: if(
+  variable-exists(theme),
+  if(variable-exists(primary), $primary, #517699), #517699);
+$navbar-light-bg:                   $primary !default;
+$navbar-light-color:                $navbar-fg;
+$navbar-light-hover-color:          rgba($navbar-fg, .8);
+$navbar-light-active-color:         rgba($navbar-fg, .6);
+$navbar-light-toggler-border-color: rgba($navbar-fg, .1);
+$navbar-light-brand-color:          $white !default;
+$navbar-light-brand-hover-color:    $navbar-light-brand-color !default;
 
+$navbar-dark-color:                 $body-color;
+$navbar-dark-hover-color:           rgba($body-color, .8);
+$navbar-dark-active-color:          rgba($body-color, .6);
+$navbar-dark-brand-color:           $white !default;
+$navbar-dark-brand-hover-color:     $navbar-dark-brand-color !default;
 // List group
-$list-group-color: $gray-900 !default;
-$list-group-bg: rgba($white, .6);
-$list-group-border-color: rgba($gray-600, 0.2);
+$list-group-bg: rgba($body-bg, .6);
 
 // Sidebar
 $sidebar-fg:      rgba($body-color, .8);
@@ -84,33 +173,21 @@ $sidebar-hl:      rgba($body-color, .6);
 $footer-bg:       if(variable-exists(navbar-bg), $navbar-bg, rgba($body-color,.8));
 $footer-fg:       if(variable-exists(navbar-fg), $navbar-fg, rgba($body-bg,.8));
 // Footnotes
-$footnotes-rule:  2px solid $dark;
-$caption-color:   $dark;
+$footnotes-rule:  2px solid $body-color;
+$caption-color:   $body-color;
 $text-shadow:     0 1px 0 rgba($body-color, .6) !default;
-//
+
+// Default values for callout colors
+$callout-color-note: $blue !default;
+$callout-color-tip: $green !default;
+$callout-color-important: $red !default;
+$callout-color-caution: $orange !default;
+$callout-color-warning: $yellow !default;
 /*-- scss:mixins --*/
 
-@mixin text-shadow($color) {
-  text-shadow: 0 0 1px rgba($color, .6), 0 0 3px rgba($color, .5), 0 0 .5rem rgba($color, .3), 0 0 2rem rgba($color, .2);
-}
 
 /*-- scss:rules --*/
-
 
 .light-mode { display: block; }
 .dark-mode { display: none; }
 
-// Buttons
-.btn {
-  text-shadow: $text-shadow;
-}
-
-.btn-secondary,
-.btn-outline-secondary {
-  color: $gray-700;
-}
-
-// Typography
-.text-secondary {
-  color: $gray-500 !important;
-}

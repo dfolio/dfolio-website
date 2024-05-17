@@ -1,5 +1,5 @@
 sidebar: about
-#comments: true
+comments: false
 #
 date-format: YYYY-MM-DDTHH:mm:ssZ
 author:

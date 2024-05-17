@@ -13,11 +13,13 @@ image: /images/david-folio.webp
 image-alt: "Photo of David FOLIO"
 profile: true
 rss: /posts/posts.xml 
-comments:
+include-in-header: 
+  - text: '<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>'
+comments: 
   giscus:
     repo: dfolio/dfolio
+    loading: lazy
 ---
-
 ## Overview
 
 :::{.grid}
