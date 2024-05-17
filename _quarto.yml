@@ -8,7 +8,8 @@ project:
     #navigate: true
   resources:
     - CNAME
-    - netlify.toml
+    #- "netlify.toml"
+    - "_headers"
     - "ads.txt"
     - "DavidFOLIO.asc"
     - "favicon.svg"
@@ -21,9 +22,13 @@ project:
     # Things that need to be at the site root
     - "browserconfig.xml"
     - "keybase.txt"
-    - "sw.js"
     - "26debdd5c70948148dc25915bd7777ae.txt"
     - "yandex_6973f7dbef8d9fa8.html"
+    #- "sw.js"
+    #- "sw.js.map"
+    #- "workbox-6e69b5da.js"
+    #- "workbox-6e69b5da.js.map"
+    - "injectManifest.js"
 
 
 website:
@@ -234,7 +239,7 @@ format:
     from: markdown+emoji
     date-modified: last-modified
     #highlight: null
-    mathjax: null
+    #mathjax: null
     canonical-url: true
     html-math-method: plain
     default-image-extension: webp
@@ -250,8 +255,10 @@ format:
     strip-comments: true
     smooth-scroll: true
     theme:
-      light: [scss/common.scss,scss/light.scss]
       dark: [scss/common.scss,scss/dark.scss]
+      light: [scss/common.scss,scss/light.scss]
+      #light: flatly
+      #dark: darkly
 
     #css: styles.css
 
