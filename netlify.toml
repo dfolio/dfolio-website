@@ -6,9 +6,3 @@
   to = "/teaching"
   status = 301
   query = {path = ":path"}
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control= "max-age=31536000, immutable"
-    Set-Cookie = "cross-site-cookie=whatever; SameSite=Strict; Secure"

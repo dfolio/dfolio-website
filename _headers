@@ -1,0 +1,9 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS
+  Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization
+  Cache-Control: private, max-age=3600, stale-while-revalidate=3600
+  Set-Cookie: cross-site-cookie=whatever; SameSite=Strict; Secure
+  x-content-type-options: nosniff
+  X-Frame-Options: DENY
+  x-xss-protection: 0
