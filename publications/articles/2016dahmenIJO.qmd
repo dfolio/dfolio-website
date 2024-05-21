@@ -58,6 +58,7 @@ links:
     icon: "bi bi-file-pdf"
     class: "btn btn-danger btn-sm"
     href: /pdf/publications/2016dahmenIJO.pdf
+    rel: noopener nofollow
 citation: 
   citation-key: 2016dahmenIJO
   type: article-journal
