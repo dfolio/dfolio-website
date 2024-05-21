@@ -27,8 +27,8 @@ author:
       - ref: LAAS
 url: https://dfolio.fr/publications/thesis/folio2007thesis.html
 links:
-  - name: "Open access"
-    aria-label: "Open access"
+  - name: "URL"
+    aria-label: "URL"
     icon: "ai ai-open-access"
     class: "btn btn-success btn-sm"
     href: "/publications/thesis/folio2021hdr.qmd"
@@ -175,7 +175,7 @@ Committee
     +-----------+-----------------------------------------------------+
     | Director  | Viviane Cadenat (MdC Université de Toulouse)        |
     +-----------+-----------------------------------------------------+
-    | Guess     | Philippe Souères (Prof. Universités de Toulouse)    |
+    | Guest     | Philippe Souères (Prof. Universités de Toulouse)    |
     +-----------+-----------------------------------------------------+
 
 ## References
