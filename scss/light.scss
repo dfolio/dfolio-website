@@ -100,19 +100,20 @@ $min-contrast-ratio:        2.75 !default;
 // Body
 $body-color:                $dark;
 $body-bg:                   $light;
-$body-secondary-color:      shift-color(mix($secondary-text-emphasis,$primary),-10%);
-$body-secondary-bg:         shift-color($body-color, -60%);
+$body-secondary-color:      shift-color(mix($secondary-text-emphasis,$primary),-20%);
+$body-secondary-bg:         shift-color($body-bg, -40%);
 $body-tertiary-color:       shift-color($body-secondary-color, 20%);
 $body-tertiary-bg:          shift-color($body-secondary-bg, -40%);
 $body-emphasis-color:       shift-color($tan-INSA, 40%);
-$text-muted:                lighten($body-color, 30%);
+$text-muted:                lighten($body-color, 20%);
 //title-block
 $title-banner-color:        $primary-text-emphasis;
 $title-banner-bg:           $body-bg;
 // Inline code Formatting
-$code-inline-bg:            rgba($body-secondary-bg,.2);
+$code-inline-bg:            rgba($body-secondary-bg,.6);
 $code-bg:                   $code-inline-bg;
-$code-color:                rgba($code-inline-bg,.9);
+$code-color:                rgba(shift-color($code-inline-bg,60%),.9);
+//$code-color:                rgba($code-inline-bg,.9);
 $pre-bg:                    $code-bg;
 $pre-color:                 $code-color;
 $mono-background-color:     $code-bg;

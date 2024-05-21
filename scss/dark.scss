@@ -66,14 +66,6 @@ $danger:        lighten($red, 5%);
 $light:         $gray-100;
 $dark:          $gray-900;
 // scss-docs-end theme-color-variables
-
-$body-secondary-color:      rgba($secondary, .8);
-$body-secondary-bg:         rgba($body-bg, .8);
-$body-tertiary-color:       rgba($body-color, .6);
-$body-tertiary-bg:          rgba($body-bg, .6);
-$body-emphasis-color:       $gray-500;
-$text-muted:                lighten($body-color, 30%) !default;
-$title-banner-bg:           $body-bg;
 // default color for $default since that's closer to bootstrap 3's default
 $default: if(variable-exists("secondary"), $secondary, $gray-300);
 
@@ -84,8 +76,8 @@ $success-text-emphasis:   shade-color($success, 20%);
 $info-text-emphasis:      shade-color($info, 20%);
 $warning-text-emphasis:   shade-color($warning, 20%);
 $danger-text-emphasis:    shade-color($danger, 20%);
-$light-text-emphasis:     $gray-700 !default;
-$dark-text-emphasis:      $gray-700 !default;
+$light-text-emphasis:     $gray-400 !default;
+$dark-text-emphasis:      $gray-400 !default;
 // scss-docs-end theme-text-variables
 
 // scss-docs-start theme-bg-subtle-variables
@@ -114,15 +106,17 @@ $dark-border-subtle:      $gray-500 !default;
 $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 // scss-docs-end variable-gradient
 $min-contrast-ratio:   1.9 !default;
-
-// The main body
-$sidebar-width: 500px !default;
-$grid-body-width: 900px !default;
-
+$body-secondary-color:      shift-color(mix($secondary-text-emphasis,$primary),10%);
+$body-secondary-bg:         shift-color($body-bg, 60%);
+$body-tertiary-color:       shift-color($body-secondary-color, -20%);
+$body-tertiary-bg:          shift-color($body-secondary-bg, 40%);
+$body-emphasis-color:       shift-color($tan-INSA, -20%);
+$text-muted:                darken($body-color, 20%) !default;
+$title-banner-bg:           $body-bg;
 // Inline code Formatting
-$code-inline-bg:            rgba($gray-700,.8);
-$code-bg:                   rgba($gray-600,.6);
-$code-color:                rgba($code-inline-bg,.8);
+$code-inline-bg:            rgba($body-secondary-bg,.6);
+$code-bg:                   $code-inline-bg;
+$code-color:                rgba(shift-color($code-inline-bg,-60%),.9);
 $pre-bg:                    $code-bg;
 $pre-color:                 $code-color;
 $mono-background-color:     $code-bg;
