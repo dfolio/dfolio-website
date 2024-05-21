@@ -1,0 +1,260 @@
+---
+date: "2024-05-13 11:38:22.1715593102 +0200"
+
+title: "Template page"
+subtitle: "Template subtitle"
+description: "A template page to show the theme style"
+author:
+  name: David Folio
+  orcid: 0000-0001-9430-6091
+  email: david.folio@insa-cvl.fr
+  url:  https://dfolio.fr/about/dfolio.html
+  alternate: ["dfolio", "David Folio"]
+  jobTitle: "Senior associate professor"
+  image: "https://dfolio.fr/images/david-folio.webp"
+toc: true
+minimal: false
+adsense: true
+format:
+  html:
+    include-in-header: html/mathjax.html
+    html-math-method: mathjax
+---
+
+# Markdown Basics
+
+1Illinois
+
+## Text Formatting
+
+*italics*, **bold**, ***bold italics***, 
+superscript^2^ / subscript~2~, ~~strike through~~, `verbatim code`
+
+To print, press {{< kbd Shift-Ctrl-P >}}. 
+
+### Bootstrap colors
+
+:::: {.columns}
+::: {.column width="50%"}
+- [.text-primary]{.text-primary}
+- [.text-secondary]{.text-secondary}
+- [.text-success]{.text-success}
+- [.text-danger]{.text-danger}
+- [.text-warning]{.text-warning}
+- [.text-info]{.text-info}
+:::
+::: {.column width="50%"}
+- [.text-primary-emphasis]{.text-primary-emphasis}
+- [.text-secondary-emphasis]{.text-secondary-emphasis}
+- [.text-success-emphasis]{.text-success-emphasis}
+- [.text-danger-emphasis]{.text-danger-emphasis}
+- [.text-warning-emphasis]{.text-warnin-emphasisg}
+- [.text-info-emphasis]{.text-info-emphasis}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="33%"}
+- [.text-light]{.text-light .bg-dark}
+- [.text-dark]{.text-dark .bg-light}
+- [.text-body]{.text-body}
+- [.text-body-secondary]{.text-body-secondary}
+- [.text-body-tertiary]{.text-body-tertiary}
+:::
+::: {.column width="33%"}
+- [.text-light-emphasis]{.text-light-emphasis .bg-dark}
+- [.text-dark-emphasis]{.text-dark-emphasis .bg-light}
+- [.text-body-emphasis]{.text-body-emphasis}
+:::
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+- [.text-muted]{.text-muted}
+- [.text-white]{.text-white .bg-dark}
+- [.text-black]{.text-black .bg-light}
+:::
+::: {.column width="50%"}
+- [.text-black-50]{.text-black-50 .bg-light}
+- [.text-white-50]{.text-white-50 .bg-dark}
+:::
+::::
+
+### Bootstrap font weight and italics
+
+:::: {.columns}
+::: {.column width="50%"}
+- [.fw-bold]{.fw-bold}
+- [.fw-bolder]{.fw-bolder} vs [[.fw-bold.fw-bolder]{.fw-bold}]{.fw-bolder}
+- [.fw-semibold]{.fw-semibold}
+- [.fw-medium]{.fw-medium}
+- [.fw-light]{.fw-light}
+- [.fw-lighter]{.fw-lighter}
+:::
+::: {.column width="50%"}
+- [.fst-italic]{.fst-italic}
+- [.fst-normal]{.fst-normal}
+:::
+::::
+
+## Links & Images
+
+- Links: <https://quarto.org>, [Quarto](https://quarto.org), 
+- Images: ![Caption](images/logo-df.webp){fig-alt="A line drawing of an elephant."}
+- Image+link: [![Caption](images/logo-df.webp){fig-alt="A line drawing of an elephant."}](https://dfolio.fr)
+
+
+## Lists
+
+* unordered list
+  + sub-item 1
+  + sub-item 2
+    - sub-sub-item 1
+
+1. ordered list
+2. item 2
+   i) sub-item 1
+      A.  sub-sub-item 1
+
+term
+: definition
+
+## Blockquotes
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+> Integer posuere erat a ante.
+>
+> --- Someone famous in  <cite>[Source Title](https://dfolio.fr)</cite>
+  
+  
+## Table
+
+Type        Column heading   Column heading   Column heading
+----------- ---------------- ---------------- ----------------
+Active      Column content   Column content   Column content
+Default     Column content   Column content   Column content
+Primary     Column content   Column content   Column content
+Secondary   Column content   Column content   Column content
+Success     Column content   Column content   Column content
+Danger      Column content   Column content   Column content
+Warning     Column content   Column content   Column content
+Info        Column content   Column content   Column content
+Light       Column content   Column content   Column content
+Dark        Column content   Column content   Column content
+
+: A table {#tbl-example}
+  
+## Source Code
+
+::: panel-tabset
+
+#### Python
+```python
+a=1 + 1
+for i in range(1,10):
+# The code block within the loop will execute once for each iteration 
+# This line prints the result of i raised to the power of 2 using the ** operator
+  print(i ** 2)
+```
+
+#### R
+```R
+a=1 + 1
+for (i in 1:10) { 
+# The code block within the loop will execute once for each iteration 
+# This line prints the result of i raised to the power of 2 using the ** operator
+  print(i ** 2)
+}
+```
+:::
+
+## Equations
+
+inline math: $E = mc^{2}$
+
+display math:
+$$E = mc^{2}$$
+Some advanced equations:
+
+$$\begin{aligned}
+\div{\vb{v}} &=0 \\
+\rho\pdv{\vb{v}}{t}+\rho\vb{v}\cdot\grad{\vb{v}}&=-\grad{p}+\eta\laplacian{\vb{v}}+\rho\vb{f}
+\end{aligned}$$ {#eq-NS}
+
+@eq-NS is the _Navier-Stokes equations of viscous incompressible fluids with uniform density_.
+
+## Theorems and Proofs
+
+::: {#thm-line}
+
+## Line
+
+The equation of any straight line, called a linear equation, can be written as:
+
+$$
+y = mx + b
+$$
+:::
+
+See @thm-line.
+
+::: {.proof}
+By induction.
+:::
+
+::: {#def-line}
+Adipiscing facilisis vivamus tristique ligula venenatis porttitor a. 
+Fames dui mi donec parturient sodales aenean porttitor eros lectus.
+:::
+::: {#exm-line collapse=true}
+Adipiscing facilisis vivamus tristique ligula venenatis porttitor a. 
+Fames dui mi donec parturient sodales aenean porttitor eros lectus.
+:::
+::: {#exr-line}
+Adipiscing facilisis vivamus tristique ligula venenatis porttitor a. 
+Fames dui mi donec parturient sodales aenean porttitor eros lectus.
+:::
+::: {#sol-line}
+Adipiscing facilisis vivamus tristique ligula venenatis porttitor a. 
+Fames dui mi donec parturient sodales aenean porttitor eros lectus.
+:::
+::: {#rem-line}
+Adipiscing facilisis vivamus tristique ligula venenatis porttitor a. 
+Fames dui mi donec parturient sodales aenean porttitor eros lectus.
+:::
+
+## Callouts
+
+See @tip-example...
+
+:::{.callout-note collapse=true}
+Proin eget vehicula neque. Duis elementum nisl risus, et mollis metus fringilla vel. Cras at sem diam. Maecenas pulvinar lectus nec elit lobortis, nec molestie augue lobortis. Vivamus pellentesque massa massa, quis tempus magna congue sed. Integer non eros a elit scelerisque consectetur nec vitae diam. Nunc pellentesque ullamcorper elit eget mattis.
+:::
+:::{.callout-tip #tip-example}
+Proin eget vehicula neque. Duis elementum nisl risus, et mollis metus fringilla vel. Cras at sem diam. Maecenas pulvinar lectus nec elit lobortis, nec molestie augue lobortis. Vivamus pellentesque massa massa, quis tempus magna congue sed. Integer non eros a elit scelerisque consectetur nec vitae diam. Nunc pellentesque ullamcorper elit eget mattis.
+:::
+:::{.callout-important}
+Proin eget vehicula neque. Duis elementum nisl risus, et mollis metus fringilla vel. Cras at sem diam. Maecenas pulvinar lectus nec elit lobortis, nec molestie augue lobortis. Vivamus pellentesque massa massa, quis tempus magna congue sed. Integer non eros a elit scelerisque consectetur nec vitae diam. Nunc pellentesque ullamcorper elit eget mattis.
+:::
+:::{.callout-warning}
+Proin eget vehicula neque. Duis elementum nisl risus, et mollis metus fringilla vel. Cras at sem diam. Maecenas pulvinar lectus nec elit lobortis, nec molestie augue lobortis. Vivamus pellentesque massa massa, quis tempus magna congue sed. Integer non eros a elit scelerisque consectetur nec vitae diam. Nunc pellentesque ullamcorper elit eget mattis.
+:::
+
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+Praesent dictum, orci nec pulvinar malesuada, lorem turpis vehicula metus, eget luctus arcu lacus quis orci. Pellentesque sit amet nisi condimentum, consectetur leo nec, sollicitudin lectus. Nunc et vestibulum arcu. Nullam vitae molestie nunc, eu finibus metus. Sed vitae mi lorem. Ut rhoncus ex eu pulvinar pellentesque. Duis ultricies est at magna malesuada venenatis sit amet at sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam in nulla sed ipsum pharetra pulvinar eget sit amet libero. Nunc iaculis a orci dapibus congue. Nullam dapibus eu lorem ac molestie. Sed posuere eros quis feugiat faucibus. Etiam facilisis ante sit amet nunc blandit placerat. Morbi venenatis justo odio, nec vehicula urna efficitur id. Morbi eu risus vitae neque ultrices dapibus. Donec risus velit, semper non nisi non, facilisis gravida sapien.
+
+Nam scelerisque varius diam, at scelerisque eros feugiat vel. Morbi vitae suscipit nisl. Suspendisse et mi orci. Proin purus arcu, varius mollis lectus vitae, euismod tempor tortor. Etiam nisl tortor, fermentum quis urna nec, commodo rutrum felis. Phasellus dignissim est ac leo volutpat volutpat. Cras at velit diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sagittis sapien et lacinia facilisis. Nunc quis leo tellus. Nam luctus felis in ullamcorper dignissim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam tristique risus a varius ultricies. Sed quis consectetur risus. Ut ac elit pellentesque, gravida lectus ultricies, accumsan orci. Nullam posuere urna vitae quam viverra, a imperdiet elit convallis.
+
+In at imperdiet magna. Nulla laoreet leo eu magna iaculis, id dapibus quam semper. Ut velit justo, condimentum eu est non, faucibus hendrerit augue. Praesent volutpat interdum dolor id fringilla. Donec vitae molestie erat. Ut eget ex ac orci faucibus pretium. Ut eu massa ut lacus fermentum vulputate vel et risus. Morbi hendrerit condimentum lectus sed euismod. Proin a tristique est, sed suscipit massa. Quisque ut enim eu leo euismod lobortis.
+
+
+
+
