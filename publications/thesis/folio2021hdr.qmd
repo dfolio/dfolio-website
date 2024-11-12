@@ -89,7 +89,7 @@ categories:
   - Magnetic microrobots
   - EMA
   - Biomedical application
-image: https://dfolio.fr/images/research/microrobotic_biomedical.webp
+image: /images/research/microrobotic_biomedical.webp
 ---
 
 ## Habilitation overview

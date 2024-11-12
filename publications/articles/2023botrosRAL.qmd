@@ -77,7 +77,7 @@ categories:
   - US imaging
   - Tracking
   - Magnetic microrobots
-image: https://dfolio.fr/images/research/2023botrosRAL.webp
+image: /images/research/2023botrosRAL.webp
 breadcrumb: 
   - name: "Publications"
     position: 1
