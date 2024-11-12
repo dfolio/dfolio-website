@@ -6,3 +6,14 @@
   to = "/teaching"
   status = 301
   query = {path = ":path"}
+[[redirects]]
+  from = "/publication"
+  to = "/publications"
+  status = 301
+  query = {path = ":path"}
+[[headers]]
+  for = "/pdf/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Robots-Tag = "noindex, nofollow"
