@@ -66,11 +66,11 @@ d'état**" (4A-S8) sont également exploités.
 
 ## Programme du cours {#sec-prog}
 
--   Généralité:
-   -   Systèmes et Diagnostic
-   -   Surveillance et Diagnostic
--   Diagnostic basée modèle
--   Etude de cas
+-  Généralité:
+   - Systèmes et Diagnostic
+   - Surveillance et Diagnostic
+-  Diagnostic basée modèle
+-  Etude de cas
 
 ## Supports {#sec-support}
 

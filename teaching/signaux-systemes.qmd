@@ -57,17 +57,22 @@ Cet enseignement fait appel à la fois aux connaissance relatifs aux signaux (e.
 ## Programme du cours {#prog}
 
 - Rappel des principes de base sur les signaux et les systèmes
--   Le filtrage analogique:
-   -   la synthèse des filtres passifs et  actifs,
--   Les oscillateurs 
--   Boucles à verrouillage de phase (PLL)
+- Le filtrage analogique
+- Les oscillateurs 
+- Boucles à verrouillage de phase (PLL)
 
 
 ## Supports {#supports}
 
 Vous avez ci-dessous les supports des cours et TD de signaux et systèmes au format {{< fa file-pdf >}}:
 
--   Support de [cours d'électronique analogique](/pdf/teaching/sigSys-book.pdf "Click to download"){rel="nofollow" .download-link download="sigSys-book.pdf"} {{< fa file-pdf >}}
--   Support de [TD d'électronique analogique](/pdf/teaching/sigSys-TD.pdf "Click to download"){rel="nofollow" .download-link download="sigSys-TD.pdf"} {{< fa file-pdf >}}
+-   Support de [cours de signaux et systèmes](/pdf/teaching/sigSys-course.pdf "Click to download"){rel="nofollow" .download-link download="sigSys-course.pdf"} {{< fa file-pdf >}}
+-   Support de [TD de signaux et systèmes](/pdf/teaching/sigSys-tutorial.pdf "Click to download"){rel="nofollow" .download-link download="sigSys-tutorial.pdf"} {{< fa file-pdf >}}
 -   Ces supports sont également disponible sur Célène:  <https://celene.insa-cvl.fr/course/view.php?id=13>
+
+:::{.callout-note}
+Cet enseignement fait aussi partie du master  de physique fondamentale "[Physique Appliquée et Ingénierie Physique](https://www.insa-centrevaldeloire.fr/fr/formation/master)" de l'{{< var INSA-CVL >}}.
+Ce master accueil des étudiants internationnaux, les supports sont donc en langue anlaise.
+:::
+
 
