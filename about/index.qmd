@@ -9,8 +9,8 @@ link-external-icon: true
 ---
 
 :::{.callout-note}
-Here is the new version of [D. Folio](/about/dfolio.qmd) personal webpage now on [https://dfolio.fr](https://dfolio.fr/index.html) domain.
-The old <http://dfolio.free.fr> remains, but without guarantee that it will be up-to-date as mush as it will be on [https://dfolio.fr](https://dfolio.fr/index.html) 
+Here is the new version of [D. Folio](/about/dfolio.qmd) personal webpage now on [https://dfolio.fr](https://dfolio.fr/) domain.
+The old <http://dfolio.free.fr> remains, but without guarantee that it will be up-to-date as mush as it will be on [https://dfolio.fr](https://dfolio.fr/) 
 (see also the [history page](/about/history.qmd) for further information).
 :::
 
@@ -19,7 +19,7 @@ The old <http://dfolio.free.fr> remains, but without guarantee that it will be u
 Hi! Long time no see! After about 10 years [of dormancy](/about/history.qmd), [dfolio(at)free](/)
 website is up again.
 But, as you see, mainly in [English](/about/index.qmd#langage).
-As mentioned above, please visit [https://dfolio.fr](https://dfolio.fr/index.html) for more up-to-date information and contents.
+As mentioned above, please visit [https://dfolio.fr](https://dfolio.fr/) for more up-to-date information and contents.
 :::
 ::: {.content-visible unless-profile="free"}
 Hi everyone!
