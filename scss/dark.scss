@@ -111,7 +111,7 @@ $body-secondary-bg:         shift-color($body-bg, 60%);
 $body-tertiary-color:       shift-color($body-secondary-color, -20%);
 $body-tertiary-bg:          shift-color($body-secondary-bg, 40%);
 $body-emphasis-color:       shift-color($tan-INSA, -20%);
-$text-muted:                darken($body-color, 20%) !default;
+$text-muted:                color.adjust($body-color, $lightness: -20%) !default;
 $title-banner-bg:           $body-bg;
 // Inline code Formatting
 $code-inline-bg:            rgba($body-secondary-bg,.6);
@@ -167,8 +167,8 @@ $popover-bg:                $body-bg;
 $input-bg:                  $body-bg;
 $dropdown-bg:               $body-bg;
 $dropdown-color:            $body-color;
-$dropdown-border-color:             body-mix(85%) !default;
-$dropdown-divider-bg:               body-mix(85%) !default;
+$dropdown-border-color:     body-mix(85%) !default;
+$dropdown-divider-bg:       body-mix(85%) !default;
 $dropdown-link-color:       $body-color;
 $dropdown-link-hover-bg:    $primary;
 $dropdown-link-hover-color: $body-color;
@@ -181,8 +181,8 @@ $list-group-border-color:   $border-color !default;
 $caption-color:             $light;
 $text-shadow: 0 1px 0 rgba($body-color, .6) !default;
 // Tables
-$table-border-color:          body-mix(85%) !default;
-$table-bg-scale:              0% !default;
+$table-border-color:        body-mix(85%) !default;
+$table-bg-scale:            0% !default;
 
 // Default values for callout colors
 $callout-color-note: $blue !default;

@@ -118,7 +118,6 @@ $pre-bg:                    $code-bg;
 $pre-color:                 $code-color;
 $mono-background-color:     $code-bg;
 //link
-$link-decoration:           underline;
 $link-color:                $primary;
 $link-color: if($link-color == $primary,
                 theme-override-value($theme-name, "link-color", $link-color),
@@ -133,7 +132,7 @@ $list-group-color: $gray-900 !default;
 $list-group-border-color: rgba($gray-600, 0.2);
 
 // border colors
-$border-color:        lighten($body-color, 30%) !default;
+$border-color:        color.adjust($body-color, $lightness: 30%) !default;
 $table-border-color:  $border-color !default;
 // Fonts
 // stylelint-enable value-keyword-case
@@ -184,6 +183,18 @@ $callout-color-tip: $green !default;
 $callout-color-important: $red !default;
 $callout-color-caution: $orange !default;
 $callout-color-warning: $yellow !default;
+
+$theorem-colors: (
+  "theorem":      $blue,
+  "lemma":        $blue,
+  "corollary":    $blue,
+  "proposition":  $blue,
+  "conjecture":   $blue,
+  "definition":   $green,
+  "example":      $blue,
+  "exercise":     $yellow,
+  "solution":     $green,
+  "remark":       $dark) !default;
 /*-- scss:mixins --*/
 
 
